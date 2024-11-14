@@ -101,7 +101,7 @@ services:
       - .:/home/node-red
 
   # The Web Server for LD @context files (Nginx)
-  nginx:
+  context:
     image: nginx:1.25.4
     depends_on:
       - node-red
