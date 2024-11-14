@@ -1,0 +1,119 @@
+services:
+
+  # The Context Broker (Orion-LD)
+  orion:
+    image: fiware/orion-ld:1.5.1
+    depends_on:
+      - mongo   
+    command: -db orionld -logLevel DEBUG -forwarding -dbhost mongo   
+    healthcheck:
+      test: curl -sf http://localhost:1026/version
+
+  # DB for the Context Broker (MongoDB)
+  mongo:
+    image: mongo:4.4
+    command: --nojournal
+    volumes:
+      - mongo-db:/data/db
+      - ./mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+    healthcheck:
+      test: mongo --eval "db.adminCommand('ping')" --quiet
+
+  # The IdM (Keyrock)
+  keyrock:
+    image: fiware/idm:8.4.0
+    depends_on:
+      - mysql   
+    ports:
+      - "3005:3005"
+    environment:
+      - DEBUG=idm:*
+      - IDM_DB_HOST=mysql   
+      - IDM_DB_PASS=secret
+      - IDM_DB_USER=root
+      - IDM_HOST=http://localhost:3005
+      - IDM_PORT=3005
+      - IDM_HTTPS_ENABLED=false
+      - IDM_HTTPS_PORT=3443
+      - IDM_ADMIN_USER=alice
+      - IDM_ADMIN_EMAIL=alice-the-admin@test.com
+      - IDM_ADMIN_PASS=test
+      - IDM_CSP_FORM_ACTION=*
+
+  # DB for the IdM (MySQL)
+  mysql:
+    image: mysql:8.3.0
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret
+      - MYSQL_ROOT_HOST=%
+    volumes:
+      - mysql-db:/var/lib/mysql
+      - ./mysql/init:/docker-entrypoint-initdb.d/:ro
+    healthcheck:
+      test: mysqladmin ping -h localhost -uroot -psecret
+
+  # The PEP Proxy for the Context Broker (Wilma)
+  orion-proxy:
+    image: fiware/pep-proxy:8.4.0
+    depends_on:
+     - keyrock
+     - orion   
+    ports:
+      - "${CB_PORT:-1026}:1027"
+    environment:
+      - DEBUG=pep-proxy:*
+      - PEP_PROXY_DEBUG=true
+      - PEP_PROXY_APP_HOST=orion   
+      - PEP_PROXY_APP_PORT=1026
+      - PEP_PROXY_PORT=1027
+      - PEP_PROXY_IDM_HOST=keyrock
+      - PEP_PROXY_HTTPS_ENABLED=false
+      - PEP_PROXY_AUTH_ENABLED=false
+      - PEP_PROXY_IDM_SSL_ENABLED=false
+      - PEP_PROXY_IDM_PORT=3005
+      - PEP_PROXY_APP_ID=tutorial-dckr-site-0000-xpresswebapp
+      - PEP_PROXY_USERNAME=pep_proxy_00000000-0000-0000-0000-000000000000
+      - PEP_PASSWORD=test
+      - PEP_PROXY_PDP=idm
+      - PEP_PROXY_MAGIC_KEY=1234
+      - PEP_PROXY_PUBLIC_PATHS=/version,/ngsi-ld/ex/v1/version
+
+  # The Context Provider, PoC and Swagger GUI (Node.js)
+  node-red:
+    image: nodered/node-red:3.1.9-18
+  # build: node-red
+    hostname: ${HOSTNAME:-node-red}
+    depends_on:
+      - keyrock
+      - orion-proxy
+    restart: always
+    ports:
+      - "${CP_PORT:-1880}:1880"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    environment:
+      - TZ=Europe/Amsterdam
+    user: root
+    entrypoint: bash -c "cd /data; npm i --unsafe-perm --no-update-notifier --no-fund --only=production; cd /usr/src/node-red; ./entrypoint.sh"
+    volumes:
+    # - node-red-data:/data
+      - ./node-red/data:/data
+      - .:/home/node-red
+
+  # The Web Server for LD @context files (Nginx)
+  nginx:
+    image: nginx:1.25.4
+    depends_on:
+      - node-red
+    ports:
+      - "${WS_PORT:-80}:80"
+    volumes:
+      - ./public:/usr/share/nginx/html
+    healthcheck:
+      test: curl -sf http://localhost/data-models/ngsi-context.jsonld
+
+volumes:
+  ganache-db: ~
+  mongo-db: ~
+  mysql-db: ~
+# node-red-data: ~

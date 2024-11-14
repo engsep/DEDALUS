@@ -1,0 +1,267 @@
+services:
+
+  # Orion Context Broker v2
+  orion-v2:
+    image: fiware/orion #:3.11.0
+  # hostname: orion
+    container_name: orion-v2
+    depends_on:
+      - mongo-db
+    restart: always
+    expose:
+      - "1026"      # http://orion-v2:1026
+  # ports:
+  #   - "1026:1026" # http://<host.docker.internal>:1026
+    command: -dbhost mongo-db -logLevel DEBUG -noCache
+
+  # Orion Context Broker LD
+  orion-ld:
+    image: fiware/orion-ld:1.5.1
+    hostname: orion
+    container_name: orion-ld
+    depends_on:
+      - mongo-db
+    restart: always
+    expose:
+      - "1026"      # http://orion[-ld]:1026
+  # ports:
+  #   - "1027:1026" # http://<host.docker.internal>:1027
+    command: -dbhost mongo-db -db orionld -logLevel DEBUG -forwarding # -experimental
+    healthcheck:
+      test: curl -sf http://localhost:1026/version
+
+  # Mongo DB for Orion
+  mongo-db:
+    image: mongo:5 #:4.4 (for LD) #:6.0 (for v2)
+    hostname: mongo
+    container_name: db-mongo
+    restart: always
+    expose:
+      - "27017"     # http://mongo[-db]:27017
+    command: --nojournal
+    volumes:
+    # - mongo-config:/data/configdb
+      - mongo-db:/data/db
+      - ./mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+    healthcheck:
+      test: mongo --eval "db.adminCommand('ping')" --quiet
+
+  # ===============
+  # FIWARE Security
+  # ===============
+
+  # Keyrock IdM
+  keyrock:
+    image: fiware/idm #:8.4.0
+    hostname: idm
+    container_name: keyrock
+    depends_on:
+      - mysql-db
+    restart: always
+    expose:
+      - "3005"      # http://keyrock:3005
+    ports:
+      - "3005:3005" # http://<host.docker.internal>:3005
+    environment:
+      - DEBUG=idm:*
+      - IDM_DB_HOST=mysql-db
+      - IDM_DB_PASS=secret
+      - IDM_DB_USER=root
+      - IDM_HOST=http://localhost:3005
+      - IDM_PORT=3005
+      - IDM_HTTPS_ENABLED=false
+      - IDM_HTTPS_PORT=3443
+      - IDM_ADMIN_USER=alice
+      - IDM_ADMIN_EMAIL=alice-the-admin@test.com
+      - IDM_ADMIN_PASS=test
+      - IDM_CSP_FORM_ACTION=*
+
+  # MySQL DB for Keyrock
+  mysql-db:
+    image: mysql #:8.3.0
+    hostname: mysql
+    container_name: db-mysql
+    restart: always
+    expose:
+      - "3306"      # http://mysql[-db]:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret
+      - MYSQL_ROOT_HOST=%
+    volumes:
+      - mysql-db:/var/lib/mysql
+      - ./mysql/init:/docker-entrypoint-initdb.d/:ro
+    healthcheck:
+      test: mysqladmin ping -h localhost -uroot -psecret
+
+  # Wilma PEP Proxy for Orion-v2
+  orion-v2-proxy:
+    image: fiware/pep-proxy #:8.4.0
+  # hostname: orion-proxy # (disabled, default is Wilma for Orion-LD)
+    container_name: orion-v2-proxy
+    depends_on:
+     - keyrock
+     - orion-v2
+    restart: always
+    expose:
+      - "1027"      # http://orion-v2-proxy:1027
+    ports:
+      - "1026:1027" # http://<host.docker.internal>:1026
+    environment:
+      - DEBUG=pep-proxy:*
+      - PEP_PROXY_DEBUG=true
+      - PEP_PROXY_APP_HOST=orion-v2
+      - PEP_PROXY_APP_PORT=1026
+      - PEP_PROXY_PORT=1027
+      - PEP_PROXY_IDM_HOST=keyrock
+      - PEP_PROXY_HTTPS_ENABLED=false
+      - PEP_PROXY_AUTH_ENABLED=false
+      - PEP_PROXY_IDM_SSL_ENABLED=false
+      - PEP_PROXY_IDM_PORT=3005
+      - PEP_PROXY_APP_ID=tutorial-dckr-site-0000-xpresswebapp
+      - PEP_PROXY_USERNAME=pep_proxy_00000000-0000-0000-0000-000000000000
+      - PEP_PASSWORD=test
+      - PEP_PROXY_PDP=idm
+      - PEP_PROXY_MAGIC_KEY=1234
+      - PEP_PROXY_PUBLIC_PATHS=/version
+
+  # Wilma PEP Proxy for Orion-LD
+  orion-ld-proxy:
+    image: fiware/pep-proxy #:8.4.0
+    hostname: orion-proxy
+    container_name: orion-ld-proxy
+    depends_on:
+     - keyrock
+     - orion-ld
+    restart: always
+    expose:
+      - "1027"      # http://orion[-ld]-proxy:1027
+    ports:
+      - "1027:1027" # http://<host.docker.internal>:1027
+    environment:
+      - DEBUG=pep-proxy:*
+      - PEP_PROXY_DEBUG=true
+      - PEP_PROXY_APP_HOST=orion-ld
+      - PEP_PROXY_APP_PORT=1026
+      - PEP_PROXY_PORT=1027
+      - PEP_PROXY_IDM_HOST=keyrock
+      - PEP_PROXY_HTTPS_ENABLED=false
+      - PEP_PROXY_AUTH_ENABLED=false
+      - PEP_PROXY_IDM_SSL_ENABLED=false
+      - PEP_PROXY_IDM_PORT=3005
+      - PEP_PROXY_APP_ID=tutorial-dckr-site-0000-xpresswebapp
+      - PEP_PROXY_USERNAME=pep_proxy_00000000-0000-0000-0000-000000000000
+      - PEP_PASSWORD=test
+      - PEP_PROXY_PDP=idm
+      - PEP_PROXY_MAGIC_KEY=1234
+      - PEP_PROXY_PUBLIC_PATHS=/version,/ngsi-ld/ex/v1/version
+
+  # ==============
+  # Other services
+  # ==============
+
+  # Context Provider, Custom IoT Agent, Demo & Open API (Swagger)
+  node-red:
+  # image: nodered/node-red:latest-18 #:3.1.9-18
+    build: .
+    hostname: ${HOSTNAME:-context}
+    container_name: node-red
+    depends_on:
+      - keyrock
+    # - orion-v2-proxy
+      - orion-ld-proxy
+      - ganache
+    restart: always
+    networks:
+      default:
+        aliases:
+          - context
+          - ld-context
+    expose:
+      - "3000"               # http://([ld-]context|node-red):3000
+    ports:
+      - "${PORT:-3000}:3000" # http://<host.docker.internal>:3000 [:$PORT]
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    environment:
+      - TZ=Europe/Amsterdam
+  # user: root
+    entrypoint: bash -c "cd /data; npm install --unsafe-perm --no-update-notifier --no-fund --only=production; cd /usr/src/node-red; ./entrypoint.sh"
+    volumes:
+    # - node-red-data:/data
+##### - /root:/root
+      - ./node-red/data:/data
+    # - ./node-red/dist/idle:/usr/src/node-red/idle
+    # - ./node-red/dist/config.json:/usr/src/node-red/config.json
+    # - ./node-red/dist/config.json.template:/usr/src/node-red/config.json.template
+##### - .:/home/node-red
+      - ./public:/public
+
+  # NGINX Web Server for NGSI-LD @context files
+  nginx:
+    image: nginx #:1.25.4
+    hostname: web-server
+    container_name: nginx
+    depends_on:
+      - node-red
+    restart: always
+    expose:
+      - "80"    # http://(nginx|web-server)
+    ports:
+      - "80:80" # http://<host.docker.internal>[:$PORT]
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./nginx/conf:/etc/nginx/conf.d:ro
+      - ./public:/home/www/public_html/localhost/public
+    healthcheck:
+    # test: curl http://localhost/data-models/ngsi-context.jsonld 2>&1 | awk 'NR==1{print $$2}' | grep -q -e '200')
+      test: curl -sf http://localhost/data-models/ngsi-context.jsonld || exit 1
+
+  # Blockchain with deployed PoE smart contract
+  ganache:
+  # image: trufflesuite/ganache #:v7.9.2
+    image: hybuild/ganache
+    hostname: rpc
+    container_name: ganache
+    restart: always
+    expose:
+      - "7545"      # http://(ganache|rpc):7545
+    ports:
+      - "7545:7545" # http://<host.docker.internal>:7545
+  # command: --database.dbPath /db --server.host 0.0.0.0 --server.port 7545 --wallet.mnemonic "visit carpet logic blame furnace confirm rebel deliver medal mean illness error"
+    volumes:
+      - ganache-db:/db
+    healthcheck:
+      test: node -e "fetch('http://localhost:7545', { method:'POST', headers:{ 'content-type':'application/json' }, body:JSON.stringify({ id:1, jsonrpc:'2.0', method:'eth_blockNumber' }) }).then(res => res.json()).then(res => process.exit(0)).catch(err => process.exit(1));"
+
+  # MQTT Broker (MosQuiTTo)
+  mosquitto:
+    image: eclipse-mosquitto #:2.0.15
+    hostname: mqtt
+    container_name: mosquitto
+    restart: always
+    expose:
+      - "1883"      # http://(mosquitto|mqtt):1883
+      - "9001"      # http://(mosquitto|mqtt):9001
+    ports:
+      - "1883:1883" # http://<host.docker.internal>:1883
+      - "9001:9001" # http://<host.docker.internal>:9001
+    command: mosquitto -c /mosquitto-no-auth.conf
+    # volumes:
+    # - mosquitto-data:/mosquitto/data  
+    # - mosquitto-log:/mosquitto/log  
+    healthcheck:
+      test: mosquitto_sub -t '$$SYS/#' -C 1 | grep -v Error
+
+    # docker exec -it mosquitto mosquitto_sub -h mosquitto -t "/#"
+    # docker exec -it mosquitto mosquitto_pub -h mosquitto -m "Hello world!" -t "/test"
+
+
+volumes:
+  ganache-db: ~
+# mongo-config: ~
+  mongo-db: ~
+# mosquitto-data:
+# mosquitto-log:
+  mysql-db: ~
+# node-red-data:
