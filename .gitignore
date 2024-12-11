@@ -1,0 +1,4 @@
+node-red/*
+.vscode/settings.json
+.env
+*.log
