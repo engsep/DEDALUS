@@ -64,7 +64,7 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - ./realm-config.json:/opt/keycloak/data/import/realm-config.json
+      - ./configs/realm-config.json:/opt/keycloak/data/import/realm-config.json
       - keycloak_dedalus_data:/opt/keycloak/data/
     networks:
       - dedalus-net
