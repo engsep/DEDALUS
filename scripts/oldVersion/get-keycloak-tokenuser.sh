@@ -11,4 +11,3 @@ curl -X POST \
   -d "client_secret=$CLIENT_SECRET" \
   -d "username=$USERNAME" \
   -d "password=$PASSWORD" | jq {access_token}
-
