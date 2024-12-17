@@ -8,7 +8,7 @@ FIWARE stack with Security and Blockchain PoC
 - **`scripts/`**: Includes scripts for testing the project or automating tasks.
   - Example scripts:
     - **`test-curls.sh`**: Script with `curl` commands to test public and protected endpoints.
-    - **`get-keycloak-tokenuser.sh`**: Script to generate a JWT token using Keycloak.
+    - **`read.sh`**: Script to read entities with a JWT token using Keycloak.
 
 ## How to Start with Keycloak
 
@@ -26,12 +26,6 @@ FIWARE stack with Security and Blockchain PoC
    When you need to stop all services, run:
    ```bash
    docker-compose -f keycloak.compose.yaml down
-   ```
-
-2. **Generate a Token for Testing**:
-   Run the `get-keycloak-tokenuser.sh` script to get a JWT token for accessing protected endpoints:
-   ```bash
-   ./scripts/get-keycloak-tokenuser.sh
    ```
 
 ## Testing the Application
