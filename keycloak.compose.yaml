@@ -14,9 +14,9 @@ services:
       test: curl -sf http://localhost:1026/version
     environment:
       - OAUTH2_ENABLED=true
-      - OAUTH2_TOKEN_ENDPOINT=https://keycloak:8080/realms/dedalus/protocol/openid-connect/token
-      - OAUTH2_CLIENT_ID=orion
-      - OAUTH2_CLIENT_SECRET=u0uEieRqtUVrXPluUAiuvGAZ2Qk4Bco6
+      - OAUTH2_TOKEN_ENDPOINT=${KEYCLOAK_URL}/realms/${KEYCLOAK_REALM}/protocol/openid-connect/token
+      - OAUTH2_CLIENT_ID=${ORION_CLIENT_ID}
+      - OAUTH2_CLIENT_SECRET=${ORION_CLIENT_SECRET}
     networks:
       - dedalus-net
     
@@ -58,8 +58,8 @@ services:
     image: quay.io/keycloak/keycloak:23.0.6
     container_name: keycloak
     environment:
-      - KEYCLOAK_ADMIN=admin
-      - KEYCLOAK_ADMIN_PASSWORD=admin!!!
+      - KEYCLOAK_ADMIN=${KEYCLOAK_ADMIN_USERNAME}
+      - KEYCLOAK_ADMIN_PASSWORD=${KEYCLOAK_ADMIN_PASSWORD}
     command: start-dev --import-realm
     ports:
       - "8080:8080"
