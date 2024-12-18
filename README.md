@@ -86,14 +86,14 @@ For any reference to the APIs for the usage of the ICT Platform, please refer to
 ### Steps to Start
 1. **Start the Containers**:
    ```bash
-   docker-compose -f keycloak.compose.yaml up -d
+   docker-compose up -d
    ```
    This will start all the required services, including Keycloak and the application components.
 
 2. **Stop the Containers**:
    When you need to stop all services, run:
    ```bash
-   docker-compose -f keycloak.compose.yaml down
+   docker-compose down
    ```
 
 ## Testing the Application
