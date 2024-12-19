@@ -43,4 +43,5 @@ jspm_packages/
 
 .gitignore
 .token
+tunnel-for-tests.sh
 upload-to-github.sh

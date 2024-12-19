@@ -5,7 +5,7 @@ TOKEN_ENDPOINT="http://localhost:8080/realms/dedalus/protocol/openid-connect/tok
 ORION_ENDPOINT="http://localhost/orion/ngsi-ld/v1/entities/urn:ngsi-ld:TemperatureSensor:001"
 
 # Request Token and Use in Bearer Authorization
-curl -X GET \
+curl -s -X GET \
     $ORION_ENDPOINT \
     -H "Authorization: Bearer $(curl -s -X POST "$TOKEN_ENDPOINT" \
     -H "Content-Type: application/x-www-form-urlencoded" \
@@ -14,5 +14,5 @@ curl -X GET \
     -d "client_secret=${ORION_CLIENT_SECRET}" \
     -d "username=${USERNAME}" \
     -d "password=${PASSWORD}" | jq -r .access_token)" \
-    -H "Link: <http://context/data-models/ngsi-context.jsonld>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\"" \
-    -G -d "options=sysAttrs"
+    -H "Link: <https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\"" \
+    -G -d "options=sysAttrs" | jq

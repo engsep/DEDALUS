@@ -4,11 +4,6 @@ export $(grep -v '^#' .env | xargs)
 TOKEN_ENDPOINT="http://localhost:8080/realms/dedalus/protocol/openid-connect/token"
 ORION_ENDPOINT="http://localhost/orion/ngsi-ld/v1/entities"
 
-min=19
-max=32
-temperature=$((RANDOM % (max - min + 1) + min))
-echo $temperature
-
 # Request Token and Use in Bearer Authorization
 curl -iX POST \
     $ORION_ENDPOINT \
@@ -20,7 +15,7 @@ curl -iX POST \
     -d "username=${USERNAME}" \
     -d "password=${PASSWORD}" | jq -r .access_token)" \
     -H 'Content-Type: application/json' \
-    -H 'Link: <https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld>; rel="http://www.w3.org/ns/json-ld#context"; type="application/ld+json"' \
+    -H 'Link: <http://context/data-models/ngsi-context.jsonld>; rel="http://www.w3.org/ns/json-ld#context"; type="application/ld+json"' \
     --data-raw '{
         "id": "urn:ngsi-ld:TemperatureSensor:001",
         "type": "TemperatureSensor",
@@ -30,7 +25,7 @@ curl -iX POST \
         },
         "temperature": {
                 "type": "Property",
-                "value": "$temperature",
+                "value": 25,
                 "unitCode": "CEL"
         }
     }'

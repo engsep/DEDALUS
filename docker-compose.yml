@@ -3,52 +3,80 @@
 services:
 
   # The Context Broker (Orion-LD)
-  orion:
-    image: fiware/orion-ld #:1.5.1
-    container_name: orion
-  # expose:
-  #   - "1026"
+  orion-ld:
+    platform: linux/amd64
+  # image: fiware/orion-ld:1.7.1
+    image: quay.io/fiware/orion-ld:1.7.1
+    hostname: orion
+    container_name: orion-ld
+  # depends_on:
+  #   mongo:
+  #     condition: service_healthy
     depends_on:
       - mongo
+  # restart: on-failure # for Docker Compose
+  # deploy:             # for Docker Swarm
+  #   restart_policy:
+  #     condition: on-failure
+    networks:
+      - hyperride-net
+  # expose:
+  #   - "1026"
+  # ports:
+  #   - "1027:1026"
     environment:
       - OAUTH2_ENABLED=true
       - OAUTH2_TOKEN_ENDPOINT=${KEYCLOAK_URL}/realms/${KEYCLOAK_REALM}/protocol/openid-connect/token
       - OAUTH2_CLIENT_ID=${ORION_CLIENT_ID}
       - OAUTH2_CLIENT_SECRET=${ORION_CLIENT_SECRET}
-    command: -db orionld -logLevel DEBUG -forwarding -dbhost mongo   
+    command: -dbhost mongo-db -db orionld -logLevel DEBUG -forwarding -mongocOnly
     healthcheck:
-      test: curl -sf http://localhost:1026/version
-  # networks: # to be replicated in each container
-  #   - dedalus-net
-    
+      test: ["CMD", "curl -sf http://localhost:1026/version || exit 1"]
+
   # DB for the Context Broker (MongoDB)
   mongo:
-    image: mongo:5 #:4.4
+    image: mongo:6.0 #:6.0.19 (6.0) :8.0.4 (latest)
+    hostname: mongo-db
     container_name: db-mongo
-    command: --nojournal
+  # restart: always
+    networks:
+      - hyperride-net
+  # command: --nojournal
     volumes:
-      - mongo-db:/data/db
       - ./mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+      - mongo-configdb:/data/configdb
+      - mongo-db:/data/db
     healthcheck:
-      test: mongo --eval "db.adminCommand('ping')" --quiet
+    # test: ["CMD", "mongosh localhost:27017/test --quiet"]
+      test: ["CMD", "mongo --eval \"db.adminCommand('ping')\" --quiet"]
 
   # Context Provider and Swagger GUI (Node.js)
   node-red:
-    image: nodered/node-red #:3.1.9-18
+  # build: node-red
+    image: nodered/node-red #:4.0.7-20
     hostname: ${HOSTNAME:-node-red}
     container_name: node-red
+  # depends_on:
+  #   ganache:
+  #     condition: service_healthy
+  #   keycloak:
+  #     condition: service_healthy
+  #   mosquitto:
+  #     condition: service_healthy
+  # depends_on:
+  #   - ganache
+  #   - keycloak
+  #   - mosquitto
   # restart: always
+    networks:
+      - hyperride-net
     ports:
-      - "${CP_PORT:-1880}:1880"
+      - "${PORT:-1880}:1880"
     extra_hosts:
       - "host.docker.internal:host-gateway"
-    depends_on:
-      - ganache
-      - keycloak
-      - mosquitto
     environment:
       - TZ=Europe/Amsterdam
-    user: root
+    #user: root
     entrypoint: bash -c "cd /data; npm i --unsafe-perm --no-update-notifier --no-fund --only=production; cd /usr/src/node-red; ./entrypoint.sh"
     volumes:
       - ./node-red/data:/data
@@ -56,8 +84,12 @@ services:
 
   # Identity Manager (Keycloak)
   keycloak:
-    image: quay.io/keycloak/keycloak #:23.0.6
+    image: quay.io/keycloak/keycloak:23.0.6 #:26.0.7
+    hostname: idm
     container_name: keycloak
+  # restart: always
+    networks:
+      - hyperride-net
     ports:
       - "8080:8080"
     environment:
@@ -68,63 +100,110 @@ services:
       - ./configs/realm-config.json:/opt/keycloak/data/import/realm-config.json
       - keycloak-data:/opt/keycloak/data/
     healthcheck:
-      test: exec 3<>/dev/tcp/127.0.0.1/9000; echo -e 'GET /health/ready HTTP/1.1\r\nHost: localhost:9000\r\nConnection: close\r\n\r\n' >&3;cat <&3 | grep -q '\"status\": \"UP\"' && exit 0 || exit 1
+      test: ["CMD", "exec 3<>/dev/tcp/127.0.0.1/9000; echo -e 'GET /health/ready HTTP/1.1\r\nHost: localhost:9000\r\nConnection: close\r\n\r\n' >&3;cat <&3 | grep -q '\"status\": \"UP\"' && exit 0 || exit 1"]
 
   # Web Server for NGSI-LD @context files and reverse proxy (Nginx)
   nginx:
-    image: nginx #:1.25.4
+    image: nginx #:1.27.3
+    hostname: web
     container_name: nginx
-    ports:
-      - "${WS_PORT:-80}:80"
+  # depends_on:
+  #   keycloak:
+  #     condition: service_healthy
+  #   orion-ld:
+  #     condition: service_healthy
+  #   node-red:
+  #     condition: service_healthy
     depends_on:
       - keycloak
-      - orion
+      - orion-ld
       - node-red
+  # restart: always
+    networks:
+      hyperride-net:
+        aliases:
+          - context
+          - ld-context
+    ports:
+      - "80:80"
     volumes:
       - ./nginx/conf/default.conf:/etc/nginx/conf.d/default.conf:ro
       - ./public:/usr/share/nginx/html
     healthcheck:
-      test: curl -sf http://localhost/data-models/ngsi-context.jsonld
+    # test: curl -sf http://localhost/data-models/ngsi-context.jsonld
+      test: ["CMD", "(wget --server-response --spider --quiet  http://context/data-models/ngsi-context.jsonld 2>&1 | awk 'NR==1{print $$2}'|  grep -q -e \"200\") || exit 1"]
 
   # Blockchain with deployed PoE smart contract
   ganache:
   # image: trufflesuite/ganache #:v7.9.2
-    image: hybuild/ganache #:poe9 #:etk4
+    image: hybuild/ganache #:etk4
     hostname: rpc
     container_name: ganache
-  # restart: always
+    networks:
+      - hyperride-net
     ports:
       - "7545:7545"
   # command: --database.dbPath /db --server.host 0.0.0.0 --server.port 7545 --wallet.mnemonic "visit carpet logic blame furnace confirm rebel deliver medal mean illness error"
     volumes:
       - ganache-db:/db
     healthcheck:
-      test: node -e "fetch('http://localhost:7545', { method:'POST', headers:{ 'content-type':'application/json' }, body:JSON.stringify({ id:1, jsonrpc:'2.0', method:'eth_blockNumber' }) }).then(res => res.json()).then(res => process.exit(0)).catch(err => process.exit(1));"
+      test: ["CMD", "node -e \"fetch('http://localhost:7545', { method:'POST', headers:{ 'content-type':'application/json' }, body:JSON.stringify({ id:1, jsonrpc:'2.0', method:'eth_blockNumber' }) }).then(res => res.json()).then(res => process.exit(0)).catch(err => process.exit(1));\""]
 
   # MQTT Broker (MosQuiTTo)
   mosquitto:
-    image: eclipse-mosquitto #:2.0.15
+    image: eclipse-mosquitto #:2.0.20
     hostname: mqtt
     container_name: mosquitto
-  # restart: always
+    networks:
+      - hyperride-net
     ports:
       - "1883:1883"
       - "9001:9001"
     command: mosquitto -c /mosquitto-no-auth.conf
-  # volumes:
-  #   - mosquitto-data:/mosquitto/data  
-  #   - mosquitto-log:/mosquitto/log  
+    volumes:
+      - mosquitto-data:/mosquitto/data
+      - mosquitto-log:/mosquitto/log
     healthcheck:
-      test: mosquitto_sub -t '$$SYS/#' -C 1 | grep -v Error
+      test: ["CMD", "mosquitto_sub -t '$$SYS/#' -C 1 | grep -v Error"]
 
   # docker exec -it mosquitto mosquitto_sub -h mosquitto -t "/#"
   # docker exec -it mosquitto mosquitto_pub -h mosquitto -m "Hello world!" -t "/test"
 
-volumes:
-  keycloak-data: ~
-  mongo-db: ~
+  # Mongo DB front-end
+  mongo-express:
+    image: mongo-express #:1.0.2-18
+    hostname: mongo-fe
+    container_name: fe-mongo
+  # depends_on:
+  #   mongo:
+  #     condition: service_healthy
+    depends_on:
+      - mongo
+    networks:
+      - hyperride-net
+    expose:
+      - "8081"
+  # ports:
+  #   - "8081:8081"
+    environment:
+      - ME_CONFIG_BASICAUTH_USERNAME=
+      - ME_CONFIG_BASICAUTH_PASSWORD=
+      - ME_CONFIG_MONGODB_SERVER=mongo-db
+    healthcheck:
+      test: ["CMD", "wget --quiet --tries=3 --spider http://admin:pass@localhost:8081/status || exit 1"]
 
-# networks:
-#   dedalus-net:
-#     name: dedalus-net
-#     driver: bridge
+  # docker run -it --rm --net=hyperride-net --name fe-mongo -p 8081:8081 -e ME_CONFIG_BASICAUTH=true -e ME_CONFIG_MONGODB_SERVER=mongo-db mongo-express
+  # docker run -it --rm --net=hyperride-net --name ngrok-mongo -e NGROK_AUTHTOKEN=2L2kdrNlcTBcxDERiOxTW3kyEaV_3siN3rWauYmt4KLGHrHZg ngrok/ngrok:latest http 8081
+
+volumes:
+  ganache-db: ~
+  keycloak-data: ~
+  mongo-configdb: ~
+  mongo-db: ~
+  mosquitto-data: ~
+  mosquitto-log: ~
+
+networks:
+  hyperride-net:
+    name: hyperride-net
+    driver: bridge

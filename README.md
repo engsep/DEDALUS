@@ -97,9 +97,17 @@ For any reference to the APIs for the usage of the ICT Platform, please refer to
    ```
 
 ## Testing the Application
-Run the `test-curls.sh` script, which includes both a public and a protected `curl` request:
+Run the test scripts, which include both public and protected `curl` requests:
+- **Public**
 ```bash
-./scripts/test-curls.sh
+./scripts/version.sh
+./scripts/versionOrion.sh
+```
+- **Protected**
+```bash
+./scripts/write.sh
+./scripts/read.sh
+./scripts/delete.sh
 ```
 
 ## Additional Notes
