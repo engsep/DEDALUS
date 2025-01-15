@@ -38,9 +38,9 @@ jspm_packages/
 
 *.backup
 *.bak
+*.save
 .db
-# .env
-
-.gitignore
+.env
 .token
-upload-to-github.sh
+certbot
+portainer_data

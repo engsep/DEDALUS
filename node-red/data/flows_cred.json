@@ -1,32 +1,80 @@
 {
-    "15d84497.52381b": {
-        "username": "alice-the-admin@test.com",
-        "password": "test",
-        "client_id": "tutorial-dckr-site-0000-xpresswebapp",
-        "client_secret": "tutorial-dckr-site-0000-clientsecret"
-    },
-    "a46f63f7bc8183e7": {
-        "privateKey": "5f00a68d77e79e051aeafd7dec7657999dce84c045a8aa9d7995137267f91e52"
-    },
     "b4799249b6347148": {
         "authtoken": "2eCc2WUv8ElJbzGU8WE4tM9nIbU_3i7Z564CFmajxtUrUZWod"
-    },
-    "907c553d7533ec10": {
-        "username": "alice-the-admin@test.com",
-        "password": "test",
-        "clientid": "tutorial-dckr-site-0000-xpresswebapp",
-        "clientsecret": "tutorial-dckr-site-0000-clientsecret"
-    },
-    "6cf4ec1defe5e72f": {
-        "authtoken": "2e3OcV139oYcSUIwi0bCL4NLexU_554rNagEXCygsfFeNm7aA"
     },
     "63ac671491a13a4b": {
         "privatekey": "0xdbbf87459bea5ca7309d9eb990f05922ab8579f4ad42364ffc229000db2ed818"
     },
+    "c936756ac0243b92": {
+        "privateKey": "7d11bf396636d740052ba2f3cd3a78b1d146fb2f257e37f3d74828d30123341a"
+    },
+    "40b1b6f19e5fe649": {},
     "9abdcc39a40c6598": {
         "authtoken": "2fyygnIfWo7nHC90oLv9x4zzSIH_6a9gScSEMfvoa3NyDEB3Y"
     },
-    "c936756ac0243b92": {
-        "privateKey": "7d11bf396636d740052ba2f3cd3a78b1d146fb2f257e37f3d74828d30123341a"
-    }
+    "f3f177e2fcf9641a": {
+        "authtoken": "2cGxS9Kr1LpCYDaBM0CRNjL41Gw_3oNu23uDryLhG81w3dpLm"
+    },
+    "74cc3eea514f96f6": {},
+    "1a019fc553653f82": {},
+    "72ba0af2c4e83e54": {},
+    "74c06551573e4662": {},
+    "28b12979433dbfca": {},
+    "98093fe8af443a52": {},
+    "bc1b3c9abb0e3551": {},
+    "f9a7f3c639521790": {},
+    "2af83705fe06f7d8": {},
+    "92a87c5afec535ec": {},
+    "d84e03985887318e": {},
+    "183b331947680411": {},
+    "41ec28c4b14fac73": {},
+    "a399aa92f9189263": {},
+    "ae327ba8bf21067b": {},
+    "c1fd62cf0d75f476": {},
+    "6ef213c02289c5d7": {},
+    "8a6f11d8979e44b2": {},
+    "89462a3b37372cfe": {},
+    "6a33d584578d85e6": {},
+    "3b84b5c8c7282d7f": {},
+    "3a0fce7cbe9b8dfc": {},
+    "0eae1cc6fe8d700d": {},
+    "479aa658f42faf0f": {},
+    "389a92820aafecc1": {},
+    "44bb71b072ec4e6a": {},
+    "ed9f980ea73dba6b": {},
+    "efea555006cdd5ba": {},
+    "9e081de8aef532aa": {},
+    "9dcbab274605cf05": {},
+    "0460e309b8890873": {},
+    "f4f6adb6fbfdcdf2": {},
+    "db1fbe6bf0d2b274": {},
+    "764e2a90b41429d5": {},
+    "ba7add8e14e4bc81": {},
+    "a230da504150fee4": {},
+    "4366f47190be4693": {},
+    "c3abc57bcfeae9da": {},
+    "93c85f55a2c75757": {},
+    "671d9a19faee06e3": {},
+    "083cb3cf3cd83dad": {},
+    "c37216057c28e278": {},
+    "8ac30fb2cdca32ee": {},
+    "bc08bc4f5e1bcbd6": {},
+    "23f5396fbd9d03b4": {},
+    "dbfac0a048772d56": {},
+    "2d99ea2db10ee7fe": {},
+    "08325d8a9b77382c": {},
+    "901abed14d592eaa": {},
+    "34608d34c5b1cec0": {},
+    "094ad6eb3dc1d599": {},
+    "6ad2db2c86573520": {},
+    "44d6c10baac77fbc": {},
+    "362f473055ec1850": {},
+    "240437d60bc4a0f8": {},
+    "9fd5bd0aaa109ff6": {},
+    "997ea409ccc9f6ad": {},
+    "d24a951cfbde949a": {},
+    "1a150997de2d13df": {},
+    "4c419a76d2598db6": {},
+    "f71df4b68ffd88cf": {},
+    "8a6cd21af6365e5f": {}
 }
