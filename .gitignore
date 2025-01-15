@@ -43,4 +43,4 @@ jspm_packages/
 .env
 .token
 certbot
-portainer_data
+portainer-data
