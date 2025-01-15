@@ -29,4 +29,4 @@ echo Password: $(cat .token) && echo ""
 
 echo -e "\033[0;36m🟦 PUSH TO MAIN BRANCH \033[0m"
 echo git push [origin other-branch]
-git push origin https
+git push
