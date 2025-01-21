@@ -531,6 +531,7 @@
             "befa0e5b4056161a",
             "19baba2abb304f68",
             "5fe958576b13c1b9",
+            "4de54d78e6da8703",
             "c8e275aa5d5e1170",
             "e4da4764b8f51e82",
             "84d1f2ca9bf5ea6c",
@@ -552,8 +553,8 @@
             "f9a7f3c639521790",
             "5aa250aa721338da",
             "068546c2eaea02e2",
-            "6eb6308426740e46",
-            "4de54d78e6da8703"
+            "853358f3fa709f83",
+            "b7300aa89e951a67"
         ],
         "x": 14,
         "y": 19,
@@ -1021,7 +1022,6 @@
             "603e598ea13a51e0",
             "ac007c7ede70497b",
             "4490ce88321d5e9c",
-            "56f57e2c57ba890e",
             "f5c73bc08f279c29",
             "e1ed897e01070fbc",
             "563f8e710e881b2a",
@@ -1029,13 +1029,14 @@
             "a1b67dafbe7283c5",
             "9f97c2ecd1fe5672",
             "3d7528ea4c8d7877",
-            "f8f2eab73bde9a04",
             "947307fd477afc91",
             "18a7baaf8f2b61b9",
             "4ab199e28a16f0d3",
             "34efc0f1b9fbfbee",
             "d6c5ea750f28b73b",
-            "e02df3b6083a7a69"
+            "e02df3b6083a7a69",
+            "56f57e2c57ba890e",
+            "30310b6c06bf970a"
         ],
         "x": 14,
         "y": 19,
@@ -2686,36 +2687,6 @@
         ]
     },
     {
-        "id": "56f57e2c57ba890e",
-        "type": "inject",
-        "z": "87d7e0c384244738",
-        "g": "5c04dc2485ae0da2",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "false",
-        "payloadType": "bool",
-        "x": 270,
-        "y": 420,
-        "wires": [
-            [
-                "f5c73bc08f279c29"
-            ]
-        ]
-    },
-    {
         "id": "f5c73bc08f279c29",
         "type": "ui-switch",
         "z": "87d7e0c384244738",
@@ -2915,33 +2886,7 @@
         "y": 460,
         "wires": [
             [
-                "f8f2eab73bde9a04"
-            ]
-        ]
-    },
-    {
-        "id": "f8f2eab73bde9a04",
-        "type": "http request",
-        "z": "87d7e0c384244738",
-        "g": "5c04dc2485ae0da2",
-        "name": "GET keycloak /health",
-        "method": "GET",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "http://keycloak:9000/health",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 320,
-        "y": 460,
-        "wires": [
-            [
-                "34efc0f1b9fbfbee",
-                "d6c5ea750f28b73b"
+                "30310b6c06bf970a"
             ]
         ]
     },
@@ -2965,7 +2910,7 @@
         "templateScope": "local",
         "className": "",
         "x": 120,
-        "y": 380,
+        "y": 340,
         "wires": [
             []
         ]
@@ -3062,7 +3007,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "payload.status = \"UP\"",
+                "to": "payload.status = \"UP\" or statusCode < 300",
                 "tot": "jsonata"
             }
         ],
@@ -3104,6 +3049,62 @@
         "wires": []
     },
     {
+        "id": "56f57e2c57ba890e",
+        "type": "inject",
+        "z": "87d7e0c384244738",
+        "g": "5c04dc2485ae0da2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 270,
+        "y": 420,
+        "wires": [
+            [
+                "f5c73bc08f279c29"
+            ]
+        ]
+    },
+    {
+        "id": "30310b6c06bf970a",
+        "type": "http request",
+        "z": "87d7e0c384244738",
+        "g": "5c04dc2485ae0da2",
+        "name": "GET keycloak /health",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://keycloak:9000/idm/health",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 320,
+        "y": 460,
+        "wires": [
+            [
+                "d6c5ea750f28b73b",
+                "34efc0f1b9fbfbee"
+            ]
+        ]
+    },
+    {
         "id": "f85bce5ddfd72253",
         "type": "inject",
         "z": "6f835252e7b4d315",
@@ -3112,12 +3113,12 @@
         "props": [
             {
                 "p": "orion",
-                "v": "https://engsep.duckdns.com/orion",
+                "v": "https://engsep.duckdns.org/orion",
                 "vt": "str"
             },
             {
                 "p": "keycloak",
-                "v": "http://keycloak:8080",
+                "v": "http://context/idm",
                 "vt": "str"
             },
             {
@@ -3125,7 +3126,7 @@
             },
             {
                 "p": "context",
-                "v": "http://context/data-models/context.jsonld",
+                "v": "https://engsep.duckdns.org/data-models/context.jsonld",
                 "vt": "str"
             }
         ],
@@ -3350,7 +3351,7 @@
         "tls": "",
         "persist": false,
         "proxy": "",
-        "insecureHTTPParser": false,
+        "insecureHTTPParser": true,
         "authType": "",
         "senderr": false,
         "headers": [],
@@ -7668,6 +7669,36 @@
         ]
     },
     {
+        "id": "4de54d78e6da8703",
+        "type": "inject",
+        "z": "c8f2025cc62d5c75",
+        "g": "51b60370548eeedb",
+        "name": "http://context/orion (docker)",
+        "props": [
+            {
+                "p": "orion",
+                "v": "http://context/orion",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 180,
+        "y": 300,
+        "wires": [
+            [
+                "e4da4764b8f51e82"
+            ]
+        ]
+    },
+    {
         "id": "c8e275aa5d5e1170",
         "type": "inject",
         "z": "c8f2025cc62d5c75",
@@ -9044,7 +9075,8 @@
         "wires": [
             [
                 "2585c00dba283c33",
-                "d84e03985887318e"
+                "d84e03985887318e",
+                "4a427e131f437ba3"
             ]
         ]
     },
@@ -9611,45 +9643,58 @@
         ]
     },
     {
-        "id": "6eb6308426740e46",
+        "id": "853358f3fa709f83",
         "type": "inject",
         "z": "c8f2025cc62d5c75",
         "g": "51b60370548eeedb",
-        "name": "http://context/orion (docker)",
+        "name": "Docker @context",
         "props": [
             {
-                "p": "orion",
-                "v": "http://context/orion",
-                "vt": "str"
-            },
-            {
-                "p": "topic",
+                "p": "context",
+                "v": "http://context/data-models/context.jsonld",
                 "vt": "str"
             }
         ],
         "repeat": "",
         "crontab": "",
-        "once": false,
+        "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 190,
-        "y": 320,
+        "x": 170,
+        "y": 120,
         "wires": [
             [
-                "e4da4764b8f51e82"
+                "93d670671aaa966f"
             ]
         ]
     },
     {
-        "id": "4de54d78e6da8703",
+        "id": "4a427e131f437ba3",
+        "type": "debug",
+        "z": "c8f2025cc62d5c75",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "orion",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "b7300aa89e951a67",
         "type": "inject",
         "z": "c8f2025cc62d5c75",
         "g": "51b60370548eeedb",
-        "name": "https://engsep.duckdns.com/orion",
+        "name": "https://engsep.duckdns.org/orion",
         "props": [
             {
                 "p": "orion",
-                "v": "https://engsep.duckdns.com/orion",
+                "v": "https://engsep.duckdns.org/orion",
                 "vt": "str"
             },
             {
@@ -9662,8 +9707,8 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 200,
-        "y": 300,
+        "x": 220,
+        "y": 320,
         "wires": [
             [
                 "e4da4764b8f51e82"
