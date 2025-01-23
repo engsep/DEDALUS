@@ -12,20 +12,20 @@ by Alerox, 2024-2025
 <div style="background-color: rgb(240,240,240); box-shadow: 10px 10px 5px rgba(64,64,64,0.5); padding: 5px">
   <h2 style="font-family: Roboto Slab; color: #aa6767;">Terni demo</h2>
   <a href="/dashboard"><button>Dashboard</button></a>
-  <a id="keycloak"><button>Keycloak</button></a>
   <a id="node-red"><button>Node-RED</button></a>
+  <button class="button" id="popupButton">Show commands</button>
+  <a href="uploads"><button>Show files</button></a>
 </div>
 <br>
 <div style="background-color: rgb(240,240,240); box-shadow: 10px 10px 5px rgba(64,64,64,0.5); padding: 5px">
-  <h2 style="font-family: Roboto Slab; color: #6767aa;">FIWARE Stack</h2>
+  <h2 style="font-family: Roboto Slab; color: #3eadfe;">FIWARE Stack</h2>
   <a href="orion/version"><button>Orion-LD</button></a>
-  <br>
   <a href="https://github.com/smart-data-models/dataModel.Device/blob/master/DeviceMeasurement/doc/spec.md"><button>DeviceMeasurement specs</button></a>
-  <br>
   <a href="https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.8.jsonld"><button>Core @context</button></a>
   <br>
   <br>
-  NGSI-LD @context file<a href="data-models/context.jsonld"><button>Download</button></a>
+  NGSI-LD @context file <a href="data-models/context.jsonld"><button>Download</button></a>
+  Keycloak: <span style="border: 1px solid black; padding: 1px; display: inline-block;" id="keycloak"></span>
 </div>
 <br>
 <div style="background-color: rgb(240,240,240); box-shadow: 10px 10px 5px rgba(64,64,64,0.5); padding: 10px">
@@ -34,9 +34,6 @@ by Alerox, 2024-2025
   <a href="swagger/ngsi-v2"><button>NGSI-v2 Open API</button></a>
   <a href="swagger/poe-v5"><button>PoE v5 Open API</button></a>
 </div>
-<br>
-<br>
-<button class="button" id="popupButton">Show Commands</button>
 <br>
 <img src="https://www.fiware.org//wp-content/uploads/2017/12/logo14.gif" />
 <script>
@@ -49,7 +46,7 @@ by Alerox, 2024-2025
     });
     <!-- window.location = location.href = location.origin + location.pathname + "#" + location.hash + "?" + location.query -->
     <!-- location.origin = location.protocol + "//" + location.hostname + ":" + location.port -->
-    document.getElementById("keycloak").href = "http://" + location.hostname + ":8080/idm";
+    document.getElementById("keycloak").innerText = "http://" + location.hostname + "/idm/";
     document.getElementById("node-red").href = "http://" + location.hostname + ":1880/editor";
 </script>
 </body>

@@ -182,6 +182,7 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - ./certbot/conf:/etc/letsencrypt
+      - ./certbot/tmp:/var/lib/letsencrypt
       - ./certbot/www:/var/www/certbot
     entrypoint: ["/bin/sh", "-c", "trap exit TERM; while :; do certbot renew --deploy-hook 'docker exec nginx nginx -s reload'; sleep 12h & wait $${!}; done"]
   # entrypoint: ["/bin/sh", "-c", "trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done"]
@@ -320,7 +321,7 @@ services:
     expose:
       - "8000"      # portainer:8000
       - "9000"      # portainer:9000
-      - "9433"      # portainer:9443c
+      - "9443"      # portainer:9443
   # ports:
   #   - "8000:8000" # http://localhost:8000
   #   - "9000:9000" # http://localhost:9000
