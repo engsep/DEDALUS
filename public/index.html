@@ -13,6 +13,7 @@ by Alerox, 2024-2025
   <h2 style="font-family: Roboto Slab; color: #aa6767;">Terni demo</h2>
   <a href="/dashboard"><button>Dashboard</button></a>
   <a id="node-red"><button>Node-RED</button></a>
+  <a id="keycloak"><button>Keycloak</button></a>
   <button class="button" id="popupButton">Show commands</button>
   <a href="uploads"><button>Show files</button></a>
 </div>
@@ -25,7 +26,7 @@ by Alerox, 2024-2025
   <br>
   <br>
   NGSI-LD @context file <a href="data-models/context.jsonld"><button>Download</button></a>
-  Keycloak: <span style="border: 1px solid black; padding: 1px; display: inline-block;" id="keycloak"></span>
+  <!--Keycloak: <span style="border: 1px solid black; padding: 1px; display: inline-block;" id="keycloak"></span>-->
 </div>
 <br>
 <div style="background-color: rgb(240,240,240); box-shadow: 10px 10px 5px rgba(64,64,64,0.5); padding: 10px">
@@ -46,7 +47,7 @@ by Alerox, 2024-2025
     });
     <!-- window.location = location.href = location.origin + location.pathname + "#" + location.hash + "?" + location.query -->
     <!-- location.origin = location.protocol + "//" + location.hostname + ":" + location.port -->
-    document.getElementById("keycloak").innerText = "http://" + location.hostname + "/idm/";
+    document.getElementById("keycloak").href = "http://" + location.hostname + ":80/idm";
     document.getElementById("node-red").href = "http://" + location.hostname + ":1880/editor";
 </script>
 </body>

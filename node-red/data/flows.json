@@ -463,7 +463,9 @@
             "0370af94a7bee82c",
             "23b62d4913c6ff58",
             "343fe759f6025234",
-            "8d9de5f15e0ad065"
+            "8d9de5f15e0ad065",
+            "4133a2223d6a97d4",
+            "6e198b9f61dc1a78"
         ],
         "x": 14,
         "y": 19,
@@ -747,7 +749,6 @@
             "ed9a6d253eabe8ad",
             "5381f0edd89d8311",
             "function_node",
-            "5c4ab4a9122aff5a",
             "e9d43cc2cc516c15",
             "891c52c56afce0cb",
             "66272acd128d6ffd",
@@ -800,7 +801,8 @@
             "f672531589ffb6c2",
             "35e025d00861b5ef",
             "8d7235b0191a0bc0",
-            "18d4bf605a485341"
+            "18d4bf605a485341",
+            "6cc8746550d055fe"
         ],
         "x": 14,
         "y": 19,
@@ -2728,11 +2730,13 @@
         "z": "87d7e0c384244738",
         "g": "5c04dc2485ae0da2",
         "name": "down?",
-        "property": "payload.status = \"UP\" or statusCode < 300",
-        "propertyType": "jsonata",
+        "property": "payload.status",
+        "propertyType": "msg",
         "rules": [
             {
-                "t": "false"
+                "t": "neq",
+                "v": "UP",
+                "vt": "str"
             }
         ],
         "checkall": "true",
@@ -2758,7 +2762,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "$not($flowContext(\"auto\"))",
-                "tot": "str"
+                "tot": "jsonata"
             }
         ],
         "action": "",
@@ -2847,6 +2851,28 @@
             ]
         ],
         "l": true
+    },
+    {
+        "id": "6cc8746550d055fe",
+        "type": "switch",
+        "z": "87d7e0c384244738",
+        "g": "5c04dc2485ae0da2",
+        "name": "down?",
+        "property": "payload.status = \"UP\" or statusCode < 300",
+        "propertyType": "jsonata",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 390,
+        "y": 80,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "8a6f11d8979e44b2",
@@ -3052,9 +3078,8 @@
         "y": 400,
         "wires": [
             [
-                "5c4ab4a9122aff5a",
-                "eca426d29c6c3595",
-                "1abcfcf64c948ed0"
+                "1abcfcf64c948ed0",
+                "eca426d29c6c3595"
             ]
         ]
     },
@@ -3370,34 +3395,6 @@
             ]
         ],
         "icon": "node-red/bridge.svg"
-    },
-    {
-        "id": "5c4ab4a9122aff5a",
-        "type": "delay",
-        "z": "6f835252e7b4d315",
-        "d": true,
-        "g": "0d5fb5f33c555ea7",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "300",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 475,
-        "y": 400,
-        "wires": [
-            [
-                "eca426d29c6c3595"
-            ]
-        ],
-        "l": false
     },
     {
         "id": "e9d43cc2cc516c15",
@@ -6041,13 +6038,13 @@
         "props": [
             {
                 "p": "orion",
-                "v": "https://engsep.duckdns.org/orion",
-                "vt": "str"
+                "v": "https://${FULL_DOMAIN}:${HTTPS_PORT}/orion",
+                "vt": "env"
             },
             {
                 "p": "keycloak",
-                "v": "http://keycloak:8080/idm",
-                "vt": "str"
+                "v": "http://${FULL_DOMAIN}:${HTTP_PORT}/idm",
+                "vt": "env"
             },
             {
                 "p": "keycloak_mgt",
@@ -6059,8 +6056,8 @@
             },
             {
                 "p": "context",
-                "v": "https://engsep.duckdns.org/data-models/context.jsonld",
-                "vt": "str"
+                "v": "https://${FULL_DOMAIN}:${HTTPS_PORT}/data-models/context.jsonld",
+                "vt": "env"
             }
         ],
         "repeat": "60",
@@ -6068,8 +6065,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "grant_type=password&username=myuser&password=myuser&client_id=orion&client_secret=u0uEieRqtUVrXPluUAiuvGAZ2Qk4Bco6",
-        "payloadType": "str",
+        "payload": "grant_type=password&username=${USERNAME}&password=${PASSWORD}&client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}",
+        "payloadType": "env",
         "x": 130,
         "y": 80,
         "wires": [
@@ -15091,11 +15088,11 @@
         "props": [],
         "repeat": "",
         "crontab": "",
-        "once": true,
+        "once": false,
         "onceDelay": "60",
         "topic": "",
         "x": 75,
-        "y": 120,
+        "y": 140,
         "wires": [
             [
                 "9e5f95402e34f71e"
@@ -15108,7 +15105,7 @@
         "type": "change",
         "z": "012382d57316093c",
         "g": "d6241867f1b746eb",
-        "name": "host.docker.internal ¹",
+        "name": "host.docker.internal",
         "rules": [
             {
                 "t": "set",
@@ -15172,8 +15169,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 200,
-        "y": 120,
+        "x": 190,
+        "y": 140,
         "wires": [
             [
                 "03353ceef9372caf",
@@ -16916,6 +16913,104 @@
         "wires": [
             [
                 "31645bbaba56c555"
+            ]
+        ]
+    },
+    {
+        "id": "4133a2223d6a97d4",
+        "type": "inject",
+        "z": "012382d57316093c",
+        "g": "d6241867f1b746eb",
+        "name": " ",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "60",
+        "topic": "",
+        "x": 75,
+        "y": 100,
+        "wires": [
+            [
+                "6e198b9f61dc1a78"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6e198b9f61dc1a78",
+        "type": "change",
+        "z": "012382d57316093c",
+        "g": "d6241867f1b746eb",
+        "name": "engsep.duckdns.org ¹",
+        "rules": [
+            {
+                "t": "set",
+                "p": "orion",
+                "pt": "msg",
+                "to": "https://${FULL_DOMAIN}:${HTTPS_PORT}/orion",
+                "tot": "env"
+            },
+            {
+                "t": "set",
+                "p": "orion-ld",
+                "pt": "msg",
+                "to": "orion",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "keycloak",
+                "pt": "msg",
+                "to": "http://${FULL_DOMAIN}:${HTTP_PORT}/idm",
+                "tot": "env"
+            },
+            {
+                "t": "set",
+                "p": "client_id",
+                "pt": "msg",
+                "to": "CLIENT_ID",
+                "tot": "env"
+            },
+            {
+                "t": "set",
+                "p": "client_secret",
+                "pt": "msg",
+                "to": "CLIENT_SECRET",
+                "tot": "env"
+            },
+            {
+                "t": "set",
+                "p": "username",
+                "pt": "msg",
+                "to": "USERNAME",
+                "tot": "env"
+            },
+            {
+                "t": "set",
+                "p": "password",
+                "pt": "msg",
+                "to": "PASSWORD",
+                "tot": "env"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "\"grant_type=password&username=\" & username & \"&password=\" & password & \"&client_id=\" & client_id & \"&client_secret=\" & client_secret",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 200,
+        "y": 100,
+        "wires": [
+            [
+                "71e0a3bf13e8a4f6"
             ]
         ]
     },

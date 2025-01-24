@@ -1,4 +1,4 @@
-FROM nodered/node-red:latest-18
+FROM nodered/node-red:latest
 EXPOSE 1880
 USER 0
 COPY node-red/data/package*.json /data
