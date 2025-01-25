@@ -82,7 +82,7 @@ services:
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:rw
       - ./nginx/default.conf.template:/etc/nginx/templates/default.conf.template:ro
       - ./public:/home/www/public_html/localhost/public
-  # entrypoint: ["/bin/sh", "-c", "/docker-entrypoint.sh nginx & while true; do sleep 60d; nginx -s reload; done"]
+    entrypoint: ["/bin/sh", "-c", "/docker-entrypoint.sh nginx & while true; do [ -d /var/www/certbot/reload ] && nginx -s reload && rm -rf /var/www/certbot/reload; sleep 60; done"]
     healthcheck:
       test: ["CMD-SHELL", "curl -sf http://localhost || exit 1"]
 
@@ -99,7 +99,8 @@ services:
       - ./certbot/conf:/etc/letsencrypt
       - ./certbot/tmp:/var/lib/letsencrypt
       - ./certbot/www:/var/www/certbot
-    entrypoint: ["/bin/sh", "-c", "trap exit TERM; while :; do certbot renew --deploy-hook 'docker exec nginx nginx -s reload'; sleep 12h & wait $${!}; done"]
+  # entrypoint: ["/bin/sh", "-c", "trap exit TERM; while :; do certbot certonly --webroot -w /var/www/certbot/ -d ${NGINX_FULL_DOMAIN:-engsep.duckdns.org} -m test@email.com --no-eff-email --agree-tos --rsa-key-size 4096 --keep -n --deploy-hook 'mkdir /var/www/certbot/reload'; sleep 12h & wait $${!}; done"]
+    entrypoint: ["/bin/sh", "-c", "trap exit TERM; while :; do certbot certonly --webroot -w /var/www/certbot/ -d ${NGINX_FULL_DOMAIN:-engsep.duckdns.org} --register-unsafely-without-email --agree-tos --keep -n --deploy-hook 'mkdir /var/www/certbot/reload'; sleep 12h & wait $${!}; done"]
     healthcheck:
       test: ["CMD-SHELL", "find /etc/letsencrypt/live -type d -empty -exec false {} +"]
 
@@ -138,8 +139,9 @@ services:
       - HTTPS_PORT=${NGINX_HTTPS_PORT:-443}
       - CLIENT_ID=${ORION_CLIENT_ID:-orion}
       - CLIENT_SECRET=${ORION_CLIENT_SECRET:-u0uEieRqtUVrXPluUAiuvGAZ2Qk4Bco6}
-      - USERNAME=${ORION_USERNAME:-myuser}
-      - PASSWORD=${ORION_PASSWORD:-myuser}
+      - REALM=${REALM_NAME:-dedalus}
+      - USERNAME=${REALM_USERNAME:-myuser}
+      - PASSWORD=${REALM_PASSWORD:-myuser}
       - TZ=Europe/Amsterdam
     user: root
     entrypoint: bash -c "cd /data; npm i --unsafe-perm --no-update-notifier --no-fund --only=production; chown -R node-red:node-red .; cd /usr/src/node-red; su -c ./entrypoint.sh node-red"

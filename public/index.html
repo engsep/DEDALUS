@@ -13,7 +13,6 @@ by Alerox, 2024-2025
   <h2 style="font-family: Roboto Slab; color: #aa6767;">Terni demo</h2>
   <a href="/dashboard"><button>Dashboard</button></a>
   <a id="node-red"><button>Node-RED</button></a>
-  <a id="keycloak"><button>Keycloak</button></a>
   <button class="button" id="popupButton">Show commands</button>
   <a href="uploads"><button>Show files</button></a>
 </div>
@@ -47,7 +46,6 @@ by Alerox, 2024-2025
     });
     <!-- window.location = location.href = location.origin + location.pathname + "#" + location.hash + "?" + location.query -->
     <!-- location.origin = location.protocol + "//" + location.hostname + ":" + location.port -->
-    document.getElementById("keycloak").href = "http://" + location.hostname + ":80/idm";
     document.getElementById("node-red").href = "http://" + location.hostname + ":1880/editor";
 </script>
 </body>

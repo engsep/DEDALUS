@@ -39,10 +39,4 @@ jspm_packages/
 *.backup
 *.bak
 .db
-# .env
-
-.gitignore
 .token
-upload-to-github.sh
-frontends
-# etc

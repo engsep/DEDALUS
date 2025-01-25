@@ -415,15 +415,14 @@
             "0eae1cc6fe8d700d",
             "92a87c5afec535ec",
             "f9a7f3c639521790",
-            "068546c2eaea02e2",
             "b7300aa89e951a67",
-            "853358f3fa709f83",
             "befa0e5b4056161a",
-            "128a8f6749271c50",
             "19baba2abb304f68",
-            "795d13c28f3cc22e",
+            "853358f3fa709f83",
+            "068546c2eaea02e2",
             "2b877dededc78267",
-            "5aa250aa721338da"
+            "5aa250aa721338da",
+            "795d13c28f3cc22e"
         ],
         "x": 14,
         "y": 19,
@@ -2011,6 +2010,15 @@
         "groupType": "default"
     },
     {
+        "id": "c4d2ba2b3eb213ce",
+        "type": "tls-config",
+        "name": "Ignore Cert Errors",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "verifyservercert": false
+    },
+    {
         "id": "24162bb230c66c6d",
         "type": "ui-gauge",
         "z": "87d7e0c384244738",
@@ -2883,7 +2891,7 @@
         "method": "POST",
         "ret": "obj",
         "paytoqs": "ignore",
-        "url": "{{{keycloak}}}/realms/dedalus/protocol/openid-connect/token",
+        "url": "{{{keycloak}}}/realms/{{realm}}/protocol/openid-connect/token",
         "tls": "",
         "persist": false,
         "proxy": "",
@@ -6058,6 +6066,11 @@
                 "p": "context",
                 "v": "https://${FULL_DOMAIN}:${HTTPS_PORT}/data-models/context.jsonld",
                 "vt": "env"
+            },
+            {
+                "p": "realm",
+                "v": "REALM",
+                "vt": "env"
             }
         ],
         "repeat": "60",
@@ -6578,12 +6591,12 @@
                 "vt": "str"
             },
             {
-                "p": "link",
+                "p": "link-custom",
                 "v": "<http://context/data-models/ngsi-context.jsonld>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\"",
                 "vt": "str"
             },
             {
-                "p": "link-core",
+                "p": "link",
                 "v": "<https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\"",
                 "vt": "str"
             },
@@ -6725,10 +6738,10 @@
         "ret": "obj",
         "paytoqs": "ignore",
         "url": "{{{orion}}}/version",
-        "tls": "",
+        "tls": "c4d2ba2b3eb213ce",
         "persist": false,
         "proxy": "",
-        "insecureHTTPParser": false,
+        "insecureHTTPParser": true,
         "authType": "",
         "senderr": false,
         "headers": [],
@@ -7729,7 +7742,7 @@
         "onceDelay": 0.1,
         "topic": "",
         "x": 170,
-        "y": 420,
+        "y": 380,
         "wires": [
             [
                 "e4da4764b8f51e82"
@@ -7759,7 +7772,7 @@
         "onceDelay": 0.1,
         "topic": "",
         "x": 170,
-        "y": 380,
+        "y": 340,
         "wires": [
             [
                 "e4da4764b8f51e82"
@@ -7942,7 +7955,7 @@
         "type": "inject",
         "z": "c8f2025cc62d5c75",
         "g": "51b60370548eeedb",
-        "name": "test Orion-LD Broker",
+        "name": "https://smartdatamodels.org:1026",
         "props": [
             {
                 "p": "orion",
@@ -7955,8 +7968,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 150,
-        "y": 340,
+        "x": 190,
+        "y": 420,
         "wires": [
             [
                 "e4da4764b8f51e82"
@@ -8080,7 +8093,7 @@
         "ret": "obj",
         "paytoqs": "ignore",
         "url": "{{{orion}}}/ngsi-ld/v1/entities",
-        "tls": "",
+        "tls": "c4d2ba2b3eb213ce",
         "persist": false,
         "proxy": "",
         "insecureHTTPParser": false,
@@ -8208,7 +8221,7 @@
         "ret": "obj",
         "paytoqs": "ignore",
         "url": "{{{orion}}}/ngsi-ld/v1/entities/{{id}}",
-        "tls": "",
+        "tls": "c4d2ba2b3eb213ce",
         "persist": false,
         "proxy": "",
         "insecureHTTPParser": false,
@@ -8307,7 +8320,7 @@
         "ret": "obj",
         "paytoqs": "ignore",
         "url": "{{{orion}}}/ngsi-ld/v1/entityOperations/upsert",
-        "tls": "",
+        "tls": "c4d2ba2b3eb213ce",
         "persist": false,
         "proxy": "",
         "insecureHTTPParser": false,
@@ -8695,7 +8708,7 @@
         "ret": "obj",
         "paytoqs": "query",
         "url": "{{{orion}}}/ngsi-ld/v1/entities/{{id}}",
-        "tls": "",
+        "tls": "c4d2ba2b3eb213ce",
         "persist": false,
         "proxy": "",
         "insecureHTTPParser": false,
@@ -8801,7 +8814,7 @@
         "type": "debug",
         "z": "c8f2025cc62d5c75",
         "name": "orion ld",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": true,
@@ -8818,7 +8831,7 @@
         "type": "debug",
         "z": "c8f2025cc62d5c75",
         "name": "orion v2",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": true,
@@ -8894,7 +8907,7 @@
         "type": "debug",
         "z": "c8f2025cc62d5c75",
         "name": "flow.link",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": true,
@@ -8911,7 +8924,7 @@
         "type": "debug",
         "z": "c8f2025cc62d5c75",
         "name": "flow.context",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": true,
@@ -8967,7 +8980,7 @@
         "ret": "obj",
         "paytoqs": "ignore",
         "url": "{{{orion}}}/ngsi-ld/v1/entities?local=true",
-        "tls": "",
+        "tls": "c4d2ba2b3eb213ce",
         "persist": false,
         "proxy": "",
         "insecureHTTPParser": false,
@@ -9005,7 +9018,7 @@
         "ret": "obj",
         "paytoqs": "ignore",
         "url": "{{{orion}}}/v2/entities/",
-        "tls": "",
+        "tls": "c4d2ba2b3eb213ce",
         "persist": false,
         "proxy": "",
         "insecureHTTPParser": false,
@@ -9030,8 +9043,7 @@
         "wires": [
             [
                 "2585c00dba283c33",
-                "d84e03985887318e",
-                "4a427e131f437ba3"
+                "d84e03985887318e"
             ]
         ]
     },
@@ -9045,7 +9057,7 @@
         "ret": "obj",
         "paytoqs": "ignore",
         "url": "{{{orion}}}/ngsi-ld/ex/v1/version",
-        "tls": "",
+        "tls": "c4d2ba2b3eb213ce",
         "persist": false,
         "proxy": "",
         "insecureHTTPParser": false,
@@ -9071,7 +9083,7 @@
         "ret": "obj",
         "paytoqs": "ignore",
         "url": "{{{orion}}}/version",
-        "tls": "",
+        "tls": "c4d2ba2b3eb213ce",
         "persist": false,
         "proxy": "",
         "insecureHTTPParser": false,
@@ -9098,7 +9110,7 @@
         "ret": "obj",
         "paytoqs": "ignore",
         "url": "http://keycloak:8080/realms/dedalus/protocol/openid-connect/token",
-        "tls": "",
+        "tls": "c4d2ba2b3eb213ce",
         "persist": false,
         "proxy": "",
         "insecureHTTPParser": false,
@@ -9546,49 +9558,6 @@
         "l": false
     },
     {
-        "id": "068546c2eaea02e2",
-        "type": "inject",
-        "z": "c8f2025cc62d5c75",
-        "g": "51b60370548eeedb",
-        "name": "Smart Data Models @context",
-        "props": [
-            {
-                "p": "context",
-                "v": "https://smartdatamodels.org/context.jsonld",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 180,
-        "y": 160,
-        "wires": [
-            [
-                "93d670671aaa966f"
-            ]
-        ]
-    },
-    {
-        "id": "4a427e131f437ba3",
-        "type": "debug",
-        "z": "c8f2025cc62d5c75",
-        "name": "debug 8",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "orion",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 840,
-        "y": 540,
-        "wires": []
-    },
-    {
         "id": "b7300aa89e951a67",
         "type": "inject",
         "z": "c8f2025cc62d5c75",
@@ -9619,25 +9588,36 @@
         ]
     },
     {
-        "id": "853358f3fa709f83",
+        "id": "befa0e5b4056161a",
+        "type": "comment",
+        "z": "c8f2025cc62d5c75",
+        "g": "51b60370548eeedb",
+        "name": "test Orion-LD Broker (Smart Data Models)",
+        "info": "https://smartdatamodels.org/index.php/orion-ld-broker-with-examples-of-some-smart-data-models/",
+        "x": 220,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "068546c2eaea02e2",
         "type": "inject",
         "z": "c8f2025cc62d5c75",
         "g": "51b60370548eeedb",
-        "name": "engsep.duckdns.org @context",
+        "name": "Smart Data Models @context",
         "props": [
             {
                 "p": "context",
-                "v": "https://engsep.duckdns.org/data-models/context.jsonld",
+                "v": "https://smartdatamodels.org/context.jsonld",
                 "vt": "str"
             }
         ],
         "repeat": "",
         "crontab": "",
-        "once": true,
+        "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 190,
-        "y": 120,
+        "x": 260,
+        "y": 260,
         "wires": [
             [
                 "93d670671aaa966f"
@@ -9645,26 +9625,30 @@
         ]
     },
     {
-        "id": "befa0e5b4056161a",
-        "type": "comment",
+        "id": "2b877dededc78267",
+        "type": "inject",
         "z": "c8f2025cc62d5c75",
         "g": "51b60370548eeedb",
-        "name": "test Orion-LD Broker",
-        "info": "https://smartdatamodels.org/index.php/orion-ld-broker-with-examples-of-some-smart-data-models/",
-        "x": 150,
-        "y": 340,
-        "wires": []
-    },
-    {
-        "id": "128a8f6749271c50",
-        "type": "comment",
-        "z": "c8f2025cc62d5c75",
-        "g": "51b60370548eeedb",
-        "name": "Smart Data Models @context",
-        "info": "https://github.com/smart-data-models/data-models",
-        "x": 180,
-        "y": 160,
-        "wires": []
+        "name": "FIWARE Tutorial @context",
+        "props": [
+            {
+                "p": "context",
+                "v": "https://raw.githubusercontent.com/FIWARE/tutorials.IoT-Agent/NGSI-LD/data-models/ngsi-context.jsonld",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 230,
+        "y": 240,
+        "wires": [
+            [
+                "93d670671aaa966f"
+            ]
+        ]
     },
     {
         "id": "19baba2abb304f68",
@@ -9685,7 +9669,59 @@
         "onceDelay": 0.1,
         "topic": "",
         "x": 140,
-        "y": 200,
+        "y": 120,
+        "wires": [
+            [
+                "93d670671aaa966f"
+            ]
+        ]
+    },
+    {
+        "id": "5aa250aa721338da",
+        "type": "inject",
+        "z": "c8f2025cc62d5c75",
+        "g": "51b60370548eeedb",
+        "name": "dataModel.Device @context",
+        "props": [
+            {
+                "p": "context",
+                "v": "https://raw.githubusercontent.com/smart-data-models/dataModel.Device/master/context.jsonld",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 220,
+        "y": 220,
+        "wires": [
+            [
+                "93d670671aaa966f"
+            ]
+        ]
+    },
+    {
+        "id": "853358f3fa709f83",
+        "type": "inject",
+        "z": "c8f2025cc62d5c75",
+        "g": "51b60370548eeedb",
+        "name": "engsep.duckdns.org @context",
+        "props": [
+            {
+                "p": "context",
+                "v": "https://engsep.duckdns.org/data-models/context.jsonld",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 190,
+        "y": 160,
         "wires": [
             [
                 "93d670671aaa966f"
@@ -9711,59 +9747,7 @@
         "onceDelay": 0.1,
         "topic": "",
         "x": 160,
-        "y": 220,
-        "wires": [
-            [
-                "93d670671aaa966f"
-            ]
-        ]
-    },
-    {
-        "id": "2b877dededc78267",
-        "type": "inject",
-        "z": "c8f2025cc62d5c75",
-        "g": "51b60370548eeedb",
-        "name": "FIWARE Tutorial @context",
-        "props": [
-            {
-                "p": "context",
-                "v": "https://raw.githubusercontent.com/FIWARE/tutorials.IoT-Agent/NGSI-LD/data-models/ngsi-context.jsonld",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 210,
-        "y": 240,
-        "wires": [
-            [
-                "93d670671aaa966f"
-            ]
-        ]
-    },
-    {
-        "id": "5aa250aa721338da",
-        "type": "inject",
-        "z": "c8f2025cc62d5c75",
-        "g": "51b60370548eeedb",
-        "name": "dataModel.Device @context",
-        "props": [
-            {
-                "p": "context",
-                "v": "https://raw.githubusercontent.com/smart-data-models/dataModel.Device/master/context.jsonld",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 240,
-        "y": 260,
+        "y": 200,
         "wires": [
             [
                 "93d670671aaa966f"
@@ -9829,7 +9813,7 @@
         "method": "POST",
         "ret": "obj",
         "paytoqs": "ignore",
-        "url": "{{{keycloak}}}/realms/dedalus/protocol/openid-connect/token",
+        "url": "{{{keycloak}}}/realms/{{realm}}/protocol/openid-connect/token",
         "tls": "",
         "persist": false,
         "proxy": "",
@@ -13981,14 +13965,14 @@
             },
             {
                 "t": "set",
-                "p": "link",
+                "p": "link-alt",
                 "pt": "flow",
                 "to": "<http://context/data-models/ngsi-context.jsonld>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\"",
                 "tot": "str"
             },
             {
                 "t": "set",
-                "p": "link-default",
+                "p": "link",
                 "pt": "flow",
                 "to": "<https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\"",
                 "tot": "str"
@@ -15366,7 +15350,7 @@
         "method": "GET",
         "ret": "obj",
         "paytoqs": "ignore",
-        "url": "http://keycloak:8080/realms/dedalus/.well-known/openid-configuration",
+        "url": "{{{keycloak}}}/realms/dedalus/.well-known/openid-configuration",
         "tls": "",
         "persist": false,
         "proxy": "",
@@ -15409,7 +15393,7 @@
         "method": "GET",
         "ret": "obj",
         "paytoqs": "ignore",
-        "url": "http://keycloak:8080/realms/dedalus/protocol/openid-connect/userinfo",
+        "url": "{{{keycloak}}}/realms/dedalus/protocol/openid-connect/userinfo",
         "tls": "",
         "persist": false,
         "proxy": "",
@@ -15464,6 +15448,11 @@
             },
             {
                 "p": "payload"
+            },
+            {
+                "p": "bearer",
+                "v": "bearer",
+                "vt": "flow"
             }
         ],
         "repeat": "",
@@ -15619,11 +15608,11 @@
         "type": "http request",
         "z": "012382d57316093c",
         "g": "c8609bec9ca8c92e",
-        "name": "GET /health",
+        "name": "GET /idm/health",
         "method": "GET",
         "ret": "obj",
         "paytoqs": "ignore",
-        "url": "http://keycloak:9000/health",
+        "url": "http://keycloak:9000/idm/health",
         "tls": "",
         "persist": false,
         "proxy": "",
@@ -15631,7 +15620,7 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 1150,
+        "x": 1160,
         "y": 360,
         "wires": [
             [
@@ -16942,7 +16931,7 @@
         "type": "change",
         "z": "012382d57316093c",
         "g": "d6241867f1b746eb",
-        "name": "engsep.duckdns.org ¹",
+        "name": "$FULL_DOMAIN ¹",
         "rules": [
             {
                 "t": "set",
@@ -16981,6 +16970,13 @@
             },
             {
                 "t": "set",
+                "p": "realm",
+                "pt": "msg",
+                "to": "REALM",
+                "tot": "env"
+            },
+            {
+                "t": "set",
                 "p": "username",
                 "pt": "msg",
                 "to": "USERNAME",
@@ -17006,7 +17002,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 200,
+        "x": 190,
         "y": 100,
         "wires": [
             [

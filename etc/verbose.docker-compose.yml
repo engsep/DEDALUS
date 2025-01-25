@@ -193,6 +193,7 @@ services:
     entrypoint: ["/bin/sh", "-c", "trap exit TERM; while :; do certbot renew --deploy-hook 'docker exec nginx nginx -s reload'; sleep 12h & wait $${!}; done"]
   # entrypoint: ["/bin/sh", "-c", "trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done"]
     healthcheck:
+    # test: test -n '$$(ls -A /etc/letsencrypt/live/)' || test '$$DRY_RUN' == 'true'
       test: ["CMD-SHELL", "find /etc/letsencrypt/live -type d -empty -exec false {} +"]
       interval: 1m30s
       timeout: 10s
