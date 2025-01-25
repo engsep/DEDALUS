@@ -417,12 +417,12 @@
             "f9a7f3c639521790",
             "b7300aa89e951a67",
             "befa0e5b4056161a",
-            "19baba2abb304f68",
-            "853358f3fa709f83",
             "068546c2eaea02e2",
             "2b877dededc78267",
             "5aa250aa721338da",
-            "795d13c28f3cc22e"
+            "795d13c28f3cc22e",
+            "19baba2abb304f68",
+            "853358f3fa709f83"
         ],
         "x": 14,
         "y": 19,
@@ -800,8 +800,7 @@
             "f672531589ffb6c2",
             "35e025d00861b5ef",
             "8d7235b0191a0bc0",
-            "18d4bf605a485341",
-            "6cc8746550d055fe"
+            "18d4bf605a485341"
         ],
         "x": 14,
         "y": 19,
@@ -938,7 +937,7 @@
         "x": 14,
         "y": 1619,
         "w": 692,
-        "h": 462
+        "h": 442
     },
     {
         "id": "6ea755444bc84d85",
@@ -2861,28 +2860,6 @@
         "l": true
     },
     {
-        "id": "6cc8746550d055fe",
-        "type": "switch",
-        "z": "87d7e0c384244738",
-        "g": "5c04dc2485ae0da2",
-        "name": "down?",
-        "property": "payload.status = \"UP\" or statusCode < 300",
-        "propertyType": "jsonata",
-        "rules": [
-            {
-                "t": "false"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 390,
-        "y": 80,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "8a6f11d8979e44b2",
         "type": "http request",
         "z": "6f835252e7b4d315",
@@ -2892,7 +2869,7 @@
         "ret": "obj",
         "paytoqs": "ignore",
         "url": "{{{keycloak}}}/realms/{{realm}}/protocol/openid-connect/token",
-        "tls": "",
+        "tls": "c4d2ba2b3eb213ce",
         "persist": false,
         "proxy": "",
         "insecureHTTPParser": false,
@@ -2921,7 +2898,7 @@
         "z": "6f835252e7b4d315",
         "g": "f246a18ed1e7d299",
         "name": "set flow.access_token",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": true,
@@ -3037,7 +3014,7 @@
         "ret": "obj",
         "paytoqs": "ignore",
         "url": "{{{orion}}}/version",
-        "tls": "",
+        "tls": "c4d2ba2b3eb213ce",
         "persist": false,
         "proxy": "",
         "insecureHTTPParser": true,
@@ -3062,7 +3039,7 @@
         "ret": "obj",
         "paytoqs": "ignore",
         "url": "{{{orion}}}/ngsi-ld/v1/entityOperations/upsert",
-        "tls": "",
+        "tls": "c4d2ba2b3eb213ce",
         "persist": false,
         "proxy": "",
         "insecureHTTPParser": true,
@@ -3245,7 +3222,7 @@
         "ret": "obj",
         "paytoqs": "query",
         "url": "{{{orion}}}/ngsi-ld/v1/entities/{{{id}}}",
-        "tls": "",
+        "tls": "c4d2ba2b3eb213ce",
         "persist": false,
         "proxy": "",
         "insecureHTTPParser": false,
@@ -3533,7 +3510,7 @@
         "ret": "obj",
         "paytoqs": "query",
         "url": "{{{orion}}}/ngsi-ld/v1/entities?idPattern=.*",
-        "tls": "",
+        "tls": "c4d2ba2b3eb213ce",
         "persist": false,
         "proxy": "",
         "insecureHTTPParser": false,
@@ -3591,7 +3568,7 @@
         "ret": "obj",
         "paytoqs": "query",
         "url": "{{{orion}}}/ngsi-ld/v1/entities?idPattern=.*",
-        "tls": "",
+        "tls": "c4d2ba2b3eb213ce",
         "persist": false,
         "proxy": "",
         "insecureHTTPParser": false,
@@ -4188,7 +4165,7 @@
         "className": "",
         "icon": "",
         "iconPosition": "left",
-        "payload": "{\"access_token\": \"fake\"}",
+        "payload": "{\"access_token\": \"aaa-fake-access-token-bbb-ccc\"}",
         "payloadType": "json",
         "topic": "topic",
         "topicType": "msg",
@@ -4882,7 +4859,7 @@
             "5de309c3c5a8540b"
         ],
         "x": 130,
-        "y": 1800,
+        "y": 1780,
         "wires": [
             [
                 "028cb2d5b172b724"
@@ -4917,7 +4894,7 @@
         "repair": false,
         "outputs": 3,
         "x": 310,
-        "y": 1800,
+        "y": 1780,
         "wires": [
             [
                 "8bd4bb53d52a2727",
@@ -4955,8 +4932,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 530,
-        "y": 1740,
+        "x": 590,
+        "y": 1720,
         "wires": [
             [
                 "379ea77702e306a5",
@@ -4984,8 +4961,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 530,
-        "y": 1800,
+        "x": 590,
+        "y": 1780,
         "wires": [
             [
                 "379ea77702e306a5",
@@ -5013,8 +4990,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 530,
-        "y": 1860,
+        "x": 590,
+        "y": 1840,
         "wires": [
             [
                 "7e02fb36df982544",
@@ -5042,8 +5019,8 @@
         "mobileBreakpoint": "sm",
         "mobileBreakpointType": "defaults",
         "action": "append",
-        "x": 530,
-        "y": 1920,
+        "x": 590,
+        "y": 1900,
         "wires": [
             []
         ]
@@ -5094,7 +5071,7 @@
         "mobileBreakpoint": "sm",
         "mobileBreakpointType": "defaults",
         "action": "append",
-        "x": 530,
+        "x": 590,
         "y": 1560,
         "wires": [
             []
@@ -5203,8 +5180,8 @@
         "styleRounded": true,
         "styleGlow": false,
         "className": "",
-        "x": 510,
-        "y": 1680,
+        "x": 610,
+        "y": 1660,
         "wires": []
     },
     {
@@ -5228,7 +5205,7 @@
         "to": "",
         "reg": false,
         "x": 310,
-        "y": 1660,
+        "y": 1700,
         "wires": [
             [
                 "87aa08aabb9a615b"
@@ -5256,7 +5233,7 @@
         "to": "",
         "reg": false,
         "x": 310,
-        "y": 1700,
+        "y": 1860,
         "wires": [
             [
                 "87aa08aabb9a615b"
@@ -5332,7 +5309,7 @@
         "pointerupPayload": "",
         "pointerupPayloadType": "str",
         "x": 150,
-        "y": 1920,
+        "y": 1900,
         "wires": [
             [
                 "489b1f13d133726c"
@@ -5574,7 +5551,7 @@
         "styleRounded": true,
         "styleGlow": false,
         "className": "",
-        "x": 510,
+        "x": 610,
         "y": 1080,
         "wires": []
     },
@@ -5606,7 +5583,7 @@
         "ret": "obj",
         "paytoqs": "ignore",
         "url": "{{{keycloak_mgt}}}/health",
-        "tls": "",
+        "tls": "c4d2ba2b3eb213ce",
         "persist": false,
         "proxy": "",
         "insecureHTTPParser": false,
@@ -5676,8 +5653,8 @@
         "color": "#717171",
         "wrapText": false,
         "className": "",
-        "x": 430,
-        "y": 2040,
+        "x": 410,
+        "y": 2020,
         "wires": []
     },
     {
@@ -5699,8 +5676,8 @@
         "color": "#717171",
         "wrapText": false,
         "className": "",
-        "x": 620,
-        "y": 2040,
+        "x": 600,
+        "y": 2020,
         "wires": []
     },
     {
@@ -5737,7 +5714,7 @@
         "onceDelay": 0.1,
         "topic": "",
         "x": 75,
-        "y": 1920,
+        "y": 1900,
         "wires": [
             [
                 "a4506531eaa02db5"
@@ -5858,13 +5835,13 @@
         "type": "change",
         "z": "6f835252e7b4d315",
         "g": "4b94c3bd411f5ca8",
-        "name": "is UP? code=2xx?",
+        "name": "status = UP?",
         "rules": [
             {
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "payload.status = \"UP\" or statusCode < 300",
+                "to": "payload.status = \"UP\"",
                 "tot": "jsonata"
             }
         ],
@@ -5873,7 +5850,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 350,
+        "x": 370,
         "y": 1080,
         "wires": [
             [
@@ -5901,7 +5878,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 330,
+        "x": 370,
         "y": 1120,
         "wires": [
             []
@@ -6064,7 +6041,7 @@
             },
             {
                 "p": "context",
-                "v": "https://${FULL_DOMAIN}:${HTTPS_PORT}/data-models/context.jsonld",
+                "v": "http://${FULL_DOMAIN}:${HTTP_PORT}/data-models/context.jsonld",
                 "vt": "env"
             },
             {
@@ -6127,7 +6104,7 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 490,
-        "y": 1980,
+        "y": 1960,
         "wires": []
     },
     {
@@ -6150,8 +6127,77 @@
         "wrapText": false,
         "className": "",
         "x": 490,
-        "y": 1980,
+        "y": 1960,
         "wires": []
+    },
+    {
+        "id": "4f899f97c791ab0b",
+        "type": "inject",
+        "z": "a14fa814.88a288",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 100,
+        "wires": [
+            [
+                "da83ce86dd3880d6"
+            ]
+        ]
+    },
+    {
+        "id": "b701ac63eea33527",
+        "type": "debug",
+        "z": "a14fa814.88a288",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 400,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "da83ce86dd3880d6",
+        "type": "http request",
+        "z": "a14fa814.88a288",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://engsep.duckdns.org/data-models/context.jsonld",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 290,
+        "y": 140,
+        "wires": [
+            [
+                "b701ac63eea33527"
+            ]
+        ]
     },
     {
         "id": "183b331947680411",
@@ -9616,8 +9662,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 260,
-        "y": 260,
+        "x": 240,
+        "y": 240,
         "wires": [
             [
                 "93d670671aaa966f"
@@ -9642,34 +9688,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 230,
-        "y": 240,
-        "wires": [
-            [
-                "93d670671aaa966f"
-            ]
-        ]
-    },
-    {
-        "id": "19baba2abb304f68",
-        "type": "inject",
-        "z": "c8f2025cc62d5c75",
-        "g": "51b60370548eeedb",
-        "name": "Core @context",
-        "props": [
-            {
-                "p": "context",
-                "v": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 140,
-        "y": 120,
+        "x": 210,
+        "y": 220,
         "wires": [
             [
                 "93d670671aaa966f"
@@ -9694,34 +9714,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 220,
-        "y": 220,
-        "wires": [
-            [
-                "93d670671aaa966f"
-            ]
-        ]
-    },
-    {
-        "id": "853358f3fa709f83",
-        "type": "inject",
-        "z": "c8f2025cc62d5c75",
-        "g": "51b60370548eeedb",
-        "name": "engsep.duckdns.org @context",
-        "props": [
-            {
-                "p": "context",
-                "v": "https://engsep.duckdns.org/data-models/context.jsonld",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 190,
-        "y": 160,
+        "x": 200,
+        "y": 200,
         "wires": [
             [
                 "93d670671aaa966f"
@@ -9747,7 +9741,59 @@
         "onceDelay": 0.1,
         "topic": "",
         "x": 160,
-        "y": 200,
+        "y": 140,
+        "wires": [
+            [
+                "93d670671aaa966f"
+            ]
+        ]
+    },
+    {
+        "id": "19baba2abb304f68",
+        "type": "inject",
+        "z": "c8f2025cc62d5c75",
+        "g": "51b60370548eeedb",
+        "name": "Core @context",
+        "props": [
+            {
+                "p": "context",
+                "v": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 140,
+        "y": 180,
+        "wires": [
+            [
+                "93d670671aaa966f"
+            ]
+        ]
+    },
+    {
+        "id": "853358f3fa709f83",
+        "type": "inject",
+        "z": "c8f2025cc62d5c75",
+        "g": "51b60370548eeedb",
+        "name": "engsep.duckdns.org @context",
+        "props": [
+            {
+                "p": "context",
+                "v": "https://engsep.duckdns.org/data-models/context.jsonld",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 190,
+        "y": 120,
         "wires": [
             [
                 "93d670671aaa966f"

@@ -1,6 +1,6 @@
 context.jsonld
 
-Downloaded from: https://raw.githubusercontent.com/smart-data-models/dataModel.Device/master/context.jsonld
+Downloaded from: https://github.com/smart-data-models/dataModel.Device/blob/master/context.jsonld
 
 Entity: DeviceMeasurement
 
