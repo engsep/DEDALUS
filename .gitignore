@@ -38,5 +38,6 @@ jspm_packages/
 
 *.backup
 *.bak
+*.gz
 .db
 .token

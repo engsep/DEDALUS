@@ -1,8 +1,12 @@
 #!/bin/bash
 
+if [ -f .env ]; then
+    export $(grep -v '^#' .env | xargs)
+fi
+
 # https://www.duckdns.org/domains (engsep@github)
-DUCKDNS_DOMAIN="engsep"
-DUCKDNS_TOKEN="c2b414eb-7d11-44c7-ad23-0547a2de4bb0"
+DUCKDNS_DOMAIN="${DUCKDNS_DOMAIN:-engsep}"
+DUCKDNS_TOKEN="${DUCKDNS_TOKEN:-c2b414eb-7d11-44c7-ad23-0547a2de4bb0}"
 
 echo "DNS: $DUCKDNS_DOMAIN.duckdns.org"
 echo "IP4: $(curl -s https://ipv4.icanhazip.com)"

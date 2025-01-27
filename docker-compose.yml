@@ -75,7 +75,8 @@ services:
       - "${NGINX_HTTP_PORT:-80}:80"
       - "${NGINX_HTTPS_PORT:-443}:443"
     environment:
-      - HTTP_X_FORWARDED_PORT=${NGINX_HTTP_PORT:-80}
+      - HTTP_PORT=${NGINX_HTTP_PORT:-80}
+      - HTTPS_PORT=${NGINX_HTTPS_PORT:-443}
       - FULL_DOMAIN=${NGINX_FULL_DOMAIN:-engsep.duckdns.org}
     volumes:
     # - ./certbot/conf/live/${NGINX_FULL_DOMAIN:-engsep.duckdns.org}:/etc/letsencrypt
@@ -112,11 +113,11 @@ services:
     restart: unless-stopped
     network_mode: host
     environment:
-      - SUBDOMAINS=${DUCKDNS_SUBDOMAIN:-engsep}
+      - SUBDOMAINS=${DUCKDNS_DOMAIN:-engsep}
       - TOKEN=${DUCKDNS_TOKEN:-c2b414eb-7d11-44c7-ad23-0547a2de4bb0}
       - UPDATE_IP=both
     healthcheck:
-      test: ["CMD-SHELL", "nslookup ${DUCKDNS_SUBDOMAIN:-engsep}.duckdns.org || exit 1"]
+      test: ["CMD-SHELL", "nslookup ${DUCKDNS_DOMAIN:-engsep}.duckdns.org || exit 1"]
 
   # Context Provider, Custom IoT Agent, Demo webapp, Flow-based development and Swagger (Node-RED)
   node-red:
