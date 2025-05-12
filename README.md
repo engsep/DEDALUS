@@ -1,4 +1,4 @@
-[![HYPERRIDE Logo](https://hyperride.eu/wp-content/uploads/2021/03/HYPERRIDE_4C_transp.png)](https://hyperride.eu)
+![HYPERRIDE Logo](https://hyperride.eu/wp-content/uploads/2021/03/HYPERRIDE_4C_transp.png)](https://hyperride.eu)
 
 # Final Open ICT Platform (draft)
 Developed and maintained by:
@@ -14,29 +14,30 @@ Developed and maintained by:
 [![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/fiware)
 <br/> [![Documentation](https://img.shields.io/readthedocs/fiware-tutorials.svg)](https://fiware-tutorials.rtfd.io)
 
-This repository contains the FIWARE stack developed, used and maintained by ENG for the HYPERRIDE EU co-funded Projects. 
-It uses the FIWARE [Wilma](https://fiware-pep-proxy.rtfd.io/) PEP Proxy combined with **Keyrock** to secure
-access to endpoints exposed by FIWARE generic enablers. Users (or other actors) must log-in and use a token to gain
-access to services. The application code created
-[here](https://github.com/FIWARE/tutorials.Securing-Access) is expanded to authenticate users throughout a
-distributed system.
+This repository contains the Open ICT Platform, used and maintained by ENG, developed in the framework of WP5 of the HYPERRIDE EU co-funded Project. 
 
-[cUrl](https://ec.haxx.se/) commands are used throughout to access the **Orion Context Broker**, **Keyrock** and **Wilma** REST APIs -
+[cUrl](https://ec.haxx.se/) commands are used throughout to access the REST APIs -
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/6b143a6b3ad8bcba69cf)
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/engsep/HYPERRIDE/tree/D5.6)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/engsep/HYPERRIDE/tree/D5.8)
 
 # System Tested
 - CPU: 16+ core
 - RAM: 32+ GB
 - HD: 20+ GB
-- Ubuntu 18+
+- Ubuntu 20+
 
 ## Windows and Mac support
 
 Windows and Mac have not been tested, but it should be supported, thanks to the adoption of the [Docker](https://www.docker.com) technology.
 Windows users may also download [cygwin](http://www.cygwin.com/) to provide a command-line functionality similar to a Linux distribution on Windows.
 Similarily, also Mac users can take advantage of emulation tools. This is the support methods suggested and derived directly from FIWARE. 
+
+# Final release notes
+
+## Powered by Keycloak
+
+The final release of the Open ICT Platform of the HYPERRIDE project uses Keycloak as IdM in replacement of Keyrock, to address D5.7 outcomes in terms of enhanced security. The new stack is depicted here: ![FIWARE stack with Keycloak](etc/d58-implementation.png)
 
 # Prerequisites
 
@@ -64,56 +65,123 @@ docker version
 
 Please ensure that you are using Docker version 20.10 or higher and Docker Compose 1.29 or higher and upgrade if necessary.
 
-# Final release notes
+# Setup
 
-## Powered by Keycloak
+## .env file
 
-The final release of the Open ICT Platform of the HYPERRIDE project uses Keycloak as IdM in replacement of Keyrock, to address D5.7 outcomes in terms of enhanced security.
-For any reference to the APIs for the usage of the ICT Platform, please refer to the guide available [here](https://github.com/engsep/HYPERRIDE).
+A strong focus in the Open ICT Platform design and development has been given to security. All credentials and sensitive information about the configuration of the stack are included in a classic `.env` file not included in the repository. A sample `.env.template` file (not directly usable) was included to help writing it from scratch with your own configuration. An encrypted `.env.enc` file was included for a default configuration as well, which needs a password. Please contact alessandro.rossi@eng.it for access requests.
 
-### Project Structure
-- **`configs/`**: Contains configuration files such as `default.conf`.
-- **`scripts/`**: Includes scripts for testing the project or automating tasks.
-  - Example scripts:
-    - **`test-curls.sh`**: Script with `curl` commands to test public and protected endpoints.
-    - **`read.sh`**: Script to read entities with a JWT token using Keycloak.
+## HTTPS and dynamic DNS
 
-## How to Start with Keycloak
+The final release of the Open ICT Platform of the HYPERRIDE project comes with an automatic HTTPS dynamic configurations, using certificates obtained by Let's Encrypt + Certbot. It uses DuckDNS service to obtain dynamically a free public domain. If you have your own public domain, please change the following parts in the followinf files:
+- **`docker-compose.yaml`**:
+```yaml
+nginx:
+  ...
+  environment:
+    - FULL_DOMAIN=mycustomdomain.com
+  ...
+certbot:
+  ...
+  entrypoint: ["/bin/sh", "-c", "trap exit TERM; while :; do certbot certonly --webroot -w /var/www/certbot/ -d mycustomdomain.com ..."]
+  ...
+```
+- **`nginx/default.conf.template`**:
+```
+server_name mycustomdomain.com;
+...
+ssl_certificate /etc/letsencrypt/live/mycustomdomain.com/fullchain.pem;
+ssl_certificate_key /etc/letsencrypt/live/mycustomdomain.com/privkey.pem;
+```
 
-### Prerequisites
-1. **Docker and Docker Compose**: Ensure Docker and Docker Compose are installed on your system.
+## Run the Open ICT Platform
 
-### Steps to Start
-1. **Start the Containers and initialization**:
+1. **Initialize the Platform**:
    ```bash
    ./init.sh
-   docker-compose up -d
+   ```
+   This will create initial certificates and cofnigurations. In case a passord is requested, please see the previous paragraph for instructions.
+
+1. **Start the Containers**:
+   Run one of the two interchangeable following commands:
+   ```bash
+   docker compose up -d
+   ```
+   or
+   ```bash
+   ./run.sh
    ```
    This will start all the required services, including Keycloak and the application components.
 
-2. **Stop the Containers**:
-   When you need to stop all services, run:
+3. **Check the running Containers**:
+   Run one of the two interchangeable following commands:
    ```bash
-   docker-compose down
+   docker ps
+   ```
+   or
+   ```bash
+   ./list.sh
+   ```
+   After 1-2 minutes at most, all the containers should be running showing `(healthy)` in the status.
+
+4. **Test the Application**:
+   Run the test scripts, which include both public and protected `curl` requests:
+   - **Public**
+   ```bash
+   ./scripts/versions.sh
+   ```
+   - **Protected**
+   ```bash
+   ./scripts/create-entity.sh
+   ./scripts/read-entity.sh
+   ./scripts/update-entity.sh
+   ./scripts/delete-entity.sh
+   ```
+   There is also an all-in-one verification tool which can be conveniently used to fire them all:
+   - **All-in-one**
+   ```bash
+   ./verify-all-tests.sh
+   ```
+   
+5. **Stop the Containers**:
+   When you need to stop all services, tun one of the interchangeable following commands:
+   ```bash
+   docker compose down
+   ```
+   or
+   ```bash
+   ./stop.sh
    ```
 
-## Testing the Application
-Run the test scripts, which include both public and protected `curl` requests:
-- **Public**
-```bash
-./scripts/versions.sh
-```
-- **Protected**
-```bash
-./scripts/create-entity.sh
-./scripts/read-entity.sh
-./scripts/update-entity.sh
-./scripts/delete-entity.sh
-```
-
 ## Additional Notes
-- **Keycloak Management**: Access the Keycloak admin console at [http://localhost:8080](http://localhost:8080) with the admin credentials provided in your `.env` file or `docker-compose.yml`.
+
+- **Visual Environment**: Access the editor at [https://localhost/editor](http://localhost/editor) and the dashboard at [https://localhost/dashboard](http://localhost/dashboard).
+- **SIEM with MITRE ATT&CK support**: Access Wazuh at [https://localhost:5601/wazuh](https://localhost:5601/wazuh) to see the security platform.
+- **Keycloak Management**: Access the Keycloak admin console at [http://localhost/idm](http://localhost/idm) with the admin credentials provided in your `.env` file or `docker-compose.yml`.
+- **Docker admininstration**: Access Portainer at [http://localhost:9000](http://localhost:9000) to start and stop Containers in a visual way, if needed. In production, the container is suggested to be removed from `docker-compose.yml`.
 - **Logs and Debugging**: Check the logs of the Docker containers for troubleshooting:
   ```bash
   docker logs <container-name>
   ```
+
+## References
+
+The Open ICT Platform is based [Orion-LD](https://github.com/FIWARE/context.Orion-LD) and fully compliant with the [FIWARE](https://fiware.org) API.
+
+Orion-LD is a Context Broker and [CEF](https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/About+us)
+[building block](https://joinup.ec.europa.eu/collection/egovernment/solution/cef-context-broker) for context data
+management, implementting both the [NGSI-LD API](https://en.wikipedia.org/wiki/NGSI-LD) and the
+[NGSIv2 API](https://fiware.github.io/specifications/OpenAPI/ngsiv2).
+
+For this reason, the Open ICT Platform fully supports **NGSI-LD**, an extended subset of [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD) for use with context management systems. The NGSI-LD Specification is regularly updated and published by ETSI: please refer to the official documentation available through [ETSI GS CIM Official document](https://cim.etsi.org/NGSI-LD/official/0--1.html).
+
+The API documentation is available also as Swagger at [https://localhost/swagger/ngsi-ld/](https://localhost/swagger/ngsi-ld/) for Orion-LD API. 
+
+For any further reference, please see [HYPERRIDE resources](https://hyperride.eu/resources/), in particular D5.6 and D5.8.
+
+## Acknowledgment and License
+
+This work has been developed by [Engineering](www.eng.it), in the framework of the [HYPERRIDE](https://hyperride.eu) 
+EU co-funded project, grant n. 957788.
+
+The Open ICT Platform is distributed without any warrancy under [MIT](LICENSE) license.
