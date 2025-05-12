@@ -84,8 +84,9 @@ For any reference to the APIs for the usage of the ICT Platform, please refer to
 1. **Docker and Docker Compose**: Ensure Docker and Docker Compose are installed on your system.
 
 ### Steps to Start
-1. **Start the Containers**:
+1. **Start the Containers and initialization**:
    ```bash
+   ./init.sh
    docker-compose up -d
    ```
    This will start all the required services, including Keycloak and the application components.
@@ -100,14 +101,14 @@ For any reference to the APIs for the usage of the ICT Platform, please refer to
 Run the test scripts, which include both public and protected `curl` requests:
 - **Public**
 ```bash
-./scripts/version.sh
-./scripts/versionOrion.sh
+./scripts/versions.sh
 ```
 - **Protected**
 ```bash
-./scripts/write.sh
-./scripts/read.sh
-./scripts/delete.sh
+./scripts/create-entity.sh
+./scripts/read-entity.sh
+./scripts/update-entity.sh
+./scripts/delete-entity.sh
 ```
 
 ## Additional Notes

@@ -5,13 +5,13 @@
     "description": "REST API to utilize the ProofOfExistence smart contract using HTTP requests.\nThis software has been tested with the following blockchains: \n- Ganache\n- Hyperledger Besu\n- Sepolia\n",
     "termsOfService": "http://swagger.io/terms/",
     "contact": {
-      "email": "lorenzo.cristofori@eng.it"
+      "email": "alessandro.rossi@eng.it"
     },
     "license": {
-      "name": "Apache 2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
     },
-    "version": "1.0.0"
+    "version": "1.5.0"
   },
   "externalDocs": {
     "description": "Find out more about Swagger",
@@ -45,7 +45,7 @@
           {
             "name": "info",
             "in": "query",
-            "description": "(Optional) Plain text to attach to the registration",
+            "description": "(Optional) Metadata attached to the notarization",
             "required": false,
             "schema": {
               "type": "string"
@@ -53,18 +53,15 @@
           }
         ],
         "requestBody": {
-          "description": "The document can be a JSON object or any text with any format (e.g., XACML)",
+          "description": "The document to be notarized (a plain text or a JSON object)",
           "content": {
             "application/json": {
               "schema": {
                 "type": "object",
                 "examples": [
                   {
-                    "id": "RULE#001",
-                    "any property you need": "any format you like",
-                    "this is": "just an example",
-                    "timestamp": 1274563890,
-                    "rule": "<Rule Effect=\"Permit\" RuleId=\"rule1\"><Condition><Apply FunctionId=\"urn:oasis:names:tc:xacml:1.0:function:string-equal\"><Apply FunctionId=\"urn:oasis:names:tc:xacml:1.0:function:string-one-and-only\"><AttributeDesignator AttributeId=\"urn:oasis:names:tc:xacml:1.0:subject:subject-id\" Category=\"urn:oasis:names:tc:xacml:1.0:subject-category:access-subject\" DataType=\"http://www.w3.org/2001/XMLSchema#string\" MustBePresent=\"true\"/></Apply><AttributeValue DataType=\"http://www.w3.org/2001/XMLSchema#string\">enershare</AttributeValue></Apply></Condition></Rule>"
+                    "hello": "world",
+                    "timestamp": 1274567890
                   }
                 ]
               }
@@ -73,7 +70,7 @@
               "schema": {
                 "type": "string",
                 "examples": [
-                  "<Policy PolicyId=\"SamplePolicy\"><Target><Subjects><AnySubject/></Subjects><Actions><AnyAction/></Actions></Target></Policy>"
+                  "Hello world!"
                 ]
               }
             }
@@ -87,7 +84,7 @@
                 "schema": {
                   "type": "number",
                   "examples": [
-                    "0x5fbaf054adffe9580870bb81b9219576ba99057a31e61c9266572a2bb433a962"
+                    "0xecd0e108a98e192af1d2c25055f4e3bed784b5c877204e73219a5203251feaab"
                   ]
                 }
               }
@@ -131,18 +128,15 @@
         "description": "Calculate the document hash and prove its existence into the blockchain",
         "operationId": "verifyDoc",
         "requestBody": {
-          "description": "The document to be proved",
+          "description": "The document to be verified (WARNING: pay attention on field order for JSON objects)",
           "content": {
             "application/json": {
               "schema": {
                 "type": "object",
                 "examples": [
                   {
-                    "id": "RULE#001",
-                    "any property you need": "any format you like",
-                    "this is": "just an example",
-                    "timestamp": 1274563890,
-                    "rule": "<Rule Effect=\"Permit\" RuleId=\"rule1\"><Condition><Apply FunctionId=\"urn:oasis:names:tc:xacml:1.0:function:string-equal\"><Apply FunctionId=\"urn:oasis:names:tc:xacml:1.0:function:string-one-and-only\"><AttributeDesignator AttributeId=\"urn:oasis:names:tc:xacml:1.0:subject:subject-id\" Category=\"urn:oasis:names:tc:xacml:1.0:subject-category:access-subject\" DataType=\"http://www.w3.org/2001/XMLSchema#string\" MustBePresent=\"true\"/></Apply><AttributeValue DataType=\"http://www.w3.org/2001/XMLSchema#string\">enershare</AttributeValue></Apply></Condition></Rule>"
+                    "hello": "world",
+                    "timestamp": 1274567890
                   }
                 ]
               }
@@ -151,7 +145,7 @@
               "schema": {
                 "type": "string",
                 "examples": [
-                  "<Policy PolicyId=\"SamplePolicy\"><Target><Subjects><AnySubject/></Subjects><Actions><AnyAction/></Actions></Target></Policy>"
+                  "Hello world!"
                 ]
               }
             }
@@ -196,7 +190,7 @@
                       "format": "uint",
                       "description": "Notarization instant (proof timestamp)",
                       "examples": [
-                        127456389
+                        1713818580
                       ]
                     }
                   }
@@ -248,7 +242,7 @@
             "format": "uint",
             "description": "Notarization instant (proof timestamp)",
             "examples": [
-              127456389
+              1713818580
             ]
           }
         }

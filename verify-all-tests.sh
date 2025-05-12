@@ -2,17 +2,27 @@
 
 # apt install jq
 
-echo "Test /orion/version"
-./etc/scripts/version.sh
-
-echo "Test /orion/ngsi-ld/ex/v1/version"
-./etc/scripts/versionOrion-LD.sh
-
-echo "Write entity"
-./etc/scripts/write.sh
-
-echo "Read entity"
-./etc/scripts/read.sh
-
-echo "Delete entity"
-./etc/scripts/delete.sh
+# echo -e "\e[33mTest connectivity\e[0m"
+./etc/scripts/versions.sh && echo -e "\e[32mOK\e[0m" || echo -e "\e[31mNO\e[0m"
+echo -e "\e[36mCreate entity\e[0m"
+./etc/scripts/create-entity.sh && echo -e "\e[32mOK\e[0m" || echo -e "\e[31mNO\e[0m"
+echo -e "\e[36mRead entity\e[0m"
+./etc/scripts/read-entity.sh && echo -e "\e[32mOK\e[0m" || echo -e "\e[31mNO\e[0m"
+echo -e "\e[36mUpdate entity\e[0m"
+./etc/scripts/update-entity.sh && echo -e "\e[32mOK\e[0m" || echo -e "\e[31mNO\e[0m"
+echo -e "\e[36mDelete entity\e[0m"
+./etc/scripts/delete-entity.sh && echo -e "\e[32mOK\e[0m" || echo -e "\e[31mNO\e[0m"
+echo -e "\e[33mDelete entity (not-found expected)\e[0m"
+./etc/scripts/delete-entity.sh && echo -e "\e[31mNO\e[0m" || echo -e "\e[32mOK\e[0m"
+echo -e "\e[33mRead entity (not-found expected)\e[0m"
+./etc/scripts/read-entity.sh && echo -e "\e[31mNO\e[0m" || echo -e "\e[32mOK\e[0m"
+echo -e "\e[36mUpdate entity\e[0m"
+./etc/scripts/update-entity.sh && echo -e "\e[32mOK\e[0m" || echo -e "\e[31mNO\e[0m"
+echo -e "\e[33mCreate entity (already-existent expected)\e[0m"
+./etc/scripts/create-entity.sh && echo -e "\e[31mNO\e[0m" || echo -e "\e[32mOK\e[0m"
+echo -e "\e[36mUpdate entity\e[0m"
+./etc/scripts/update-entity.sh && echo -e "\e[32mOK\e[0m" || echo -e "\e[31mNO\e[0m"
+echo -e "\e[36mRead entity\e[0m"
+./etc/scripts/read-entity.sh && echo -e "\e[32mOK\e[0m" || echo -e "\e[31mNO\e[0m"
+echo -e "\e[36mDelete entity\e[0m"
+./etc/scripts/delete-entity.sh && echo -e "\e[32mOK\e[0m" || echo -e "\e[31mNO\e[0m"

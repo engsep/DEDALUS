@@ -14,13 +14,15 @@
   },
   "servers": [
     {
-      "url": "/orion/ngsi-ld/v1/"
-    },
-    {
       "url": "/smartdatamodels/ngsi-ld/v1/"
     },
     {
+      "description": "needs CORS",
       "url": "https://smartdatamodels:1026/ngsi-ld/v1/"
+    },
+    {
+      "description": "needs IdM auth",
+      "url": "/orion/ngsi-ld/v1/"
     }
   ],
   "tags": [

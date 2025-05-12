@@ -36,8 +36,13 @@ jspm_packages/
 *.tgz
 .next
 
+*.save*
 *.backup
 *.bak
 *.gz
 .db
 .token
+certbot
+
+#.env
+#encrypt.sh

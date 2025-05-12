@@ -8,24 +8,18 @@ echo
 # DOCKER CONTAINERS
 echo -e "\e[36mDOCKER CONTAINER\e[0m"
 docker ps -a --format "table {{.Names}}\t{{.Image}}\t{{.RunningFor}}\t{{.Status}}\t{{.ID}}"
-
-read -n 1 key
-echo
+stty -echo && read -n 1 key && stty echo && echo # read -n 1 key && [[ -z $key ]] || echo
 
 # DOCKER NETWORKS
 echo -e "\e[32mDOCKER NETWORKS\e[0m"
 docker ps -a --format "table {{.Names}}\t{{.Ports}}\t{{.Networks}}"
-
-read -n 1 key
-echo
+stty -echo && read -n 1 key && stty echo && echo # read -n 1 key && [[ -z $key ]] || echo
 
 # DOCKER VOLUMES
 echo -e "\e[33mDOCKER VOLUMES\e[0m"
 docker ps -a --format "table {{.Names}}\t{{.Command}}\t{{.Mounts}}"
 echo
-
-read -t 10 -n 1 -p $'\e[90mShow logs? (y/n)\e[0m' choice || choice="y"
-echo
+read -t 10 -n 1 -p $'\e[90mShow logs? (y/n)\e[0m' choice || choice="y" && [[ -z $choice ]] || echo
 
 # DOCKER LOGS
-[[ "$choice" =~ [yY] ]] && echo -e "\e[34mDOCKER LOGS\e[0m" && docker compose logs -n 10 -f
+[[ "$choice" =~ [sSyY] ]] && echo -e "\e[34mDOCKER LOGS\e[0m" && docker compose logs -n 10 -f

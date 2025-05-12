@@ -5,11 +5,11 @@
     "title": "FIWARE-NGSI v2 Specification",
     "description": "Used inside the EU-cofunded DEDALUS Project - https://dedalus-horizon.eu/"
   },
-  "host": "enershare.zapto.org",
-  "basePath": "/orion",
+  "host": "",
+  "basePath": "/smartdatamodels",
   "schemes": [
-    "http",
-    "https"
+    "https",
+    "http"
   ],
   "consumes": [
     "application/json"

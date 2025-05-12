@@ -85,7 +85,7 @@ module.exports = {
     adminAuth: {                                                                
         type: "credentials",                                                    
         users: [{                                                               
-            username: "alerox",                                                 
+            username: "admin",                                                  
             password: "$2a$12$kKYon3YnMe1A13EJSyDYjeIKYxFdmPKEtD8TEdDunRG8zesp8ZGsK",
             permissions: "*"                                                    
         }]                                                                      
@@ -163,6 +163,7 @@ module.exports = {
      * Default: 5mb
      */
     //apiMaxLength: '5mb',
+    apiMaxLength: '200mb',                                                   
 
     /** The following property can be used to pass custom options to the Express.js
      * server used by Node-RED. For a full list of available options, refer

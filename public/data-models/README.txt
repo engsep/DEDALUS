@@ -1,7 +1,17 @@
+ngsi-context.jsonld
+
+Downloaded from: https://smartdatamodels.org/context.jsonld
+=================================================================================================
+alternate-context.jsonld
+json-context.jsonld
+user-context.jsonld
+
+Downloaded from: https://github.com/FIWARE/tutorials.IoT-Agent/tree/NGSI-LD/data-models
+=================================================================================================
 context.jsonld
 
 Downloaded from: https://github.com/smart-data-models/dataModel.Device/blob/master/context.jsonld
-
+-------------------------------------------------------------------------------------------------
 Entity: DeviceMeasurement
 
 Specifications: https://github.com/smart-data-models/dataModel.Device/blob/master/DeviceMeasurement/doc/spec.md
