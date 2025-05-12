@@ -14,7 +14,7 @@ Developed and maintained by:
 [![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/fiware)
 <br/> [![Documentation](https://img.shields.io/readthedocs/fiware-tutorials.svg)](https://fiware-tutorials.rtfd.io)
 
-This repository contains the FIWARE stack developed, used and maintained by ENG for the HYPERRIDE EU co-funded Projects. 
+This repository contains the Open ICT Platform, used and maintained by ENG, developed in the framework of WP5 of the HYPERRIDE EU co-funded Project. 
 
 [cUrl](https://ec.haxx.se/) commands are used throughout to access the REST APIs -
 
@@ -69,7 +69,7 @@ Please ensure that you are using Docker version 20.10 or higher and Docker Compo
 
 ## .env file
 
-A strong focus in the Open ICT Platform design and development has been given to security. All credentials and sensitive information about the configuration of the stack are included in a classic **`.env`** file not included in the repository. A sample **`.env.template`** file (not directly usable) was included to help writing it from scratch with your own configuration. An encrypted **`.env.enc`** file was included for a default configuration as well, which needs a password that may be provided on request. Please contact [alessandro.rossi@eng.it].
+A strong focus in the Open ICT Platform design and development has been given to security. All credentials and sensitive information about the configuration of the stack are included in a classic `.env` file not included in the repository. A sample `.env.template` file (not directly usable) was included to help writing it from scratch with your own configuration. An encrypted `.env.enc` file was included for a default configuration as well, which needs a password. Please contact alessandro.rossi@eng.it for access requests.
 
 ## HTTPS and dynamic DNS
 
@@ -122,7 +122,7 @@ ssl_certificate_key /etc/letsencrypt/live/mycustomdomain.com/privkey.pem;
    ```bash
    ./list.sh
    ```
-   After 1-2 minutes at most, all the containers should be running showing **`(healthy)`** in the status.
+   After 1-2 minutes at most, all the containers should be running showing `(healthy)` in the status.
 
 4. **Test the Application**:
    Run the test scripts, which include both public and protected `curl` requests:
@@ -154,8 +154,34 @@ ssl_certificate_key /etc/letsencrypt/live/mycustomdomain.com/privkey.pem;
    ```
 
 ## Additional Notes
-- **Keycloak Management**: Access the Keycloak admin console at [http://localhost:8080](http://localhost:8080) with the admin credentials provided in your `.env` file or `docker-compose.yml`.
+
+- **Visual Environment**: Access the editor at [https://localhost/editor](http://localhost/editor) and the dashboard at [https://localhost/dashboard](http://localhost/dashboard).
+- **SIEM with MITRE ATT&CK support**: Access Wazuh at [https://localhost:5601/wazuh](https://localhost:5601/wazuh) to see the security platform.
+- **Keycloak Management**: Access the Keycloak admin console at [http://localhost/idm](http://localhost/idm) with the admin credentials provided in your `.env` file or `docker-compose.yml`.
+- **Docker admininstration**: Access Portainer at [http://localhost:9000](http://localhost:9000) to start and stop Containers in a visual way, if needed. In production, the container is suggested to be removed from `docker-compose.yml`.
 - **Logs and Debugging**: Check the logs of the Docker containers for troubleshooting:
   ```bash
   docker logs <container-name>
   ```
+
+## References
+
+The Open ICT Platform is based [Orion-LD](https://github.com/FIWARE/context.Orion-LD) and fully compliant with the [FIWARE](https://fiware.org) API.
+
+Orion-LD is a Context Broker and [CEF](https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/About+us)
+[building block](https://joinup.ec.europa.eu/collection/egovernment/solution/cef-context-broker) for context data
+management, implementting both the [NGSI-LD API](https://en.wikipedia.org/wiki/NGSI-LD) and the
+[NGSIv2 API](https://fiware.github.io/specifications/OpenAPI/ngsiv2).
+
+For this reason, the Open ICT Platform fully supports **NGSI-LD**, an extended subset of [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD) for use with context management systems. The NGSI-LD Specification is regularly updated and published by ETSI: please refer to the official documentation available through [ETSI GS CIM Official document](https://cim.etsi.org/NGSI-LD/official/0--1.html).
+
+The API documentation is available also as Swagger at [https://localhost/swagger/ngsi-ld/](https://localhost/swagger/ngsi-ld/) for Orion-LD API. 
+
+For any further reference, please see [HYPERRIDE resources](https://hyperride.eu/resources/), in particular D5.6 and D5.8.
+
+## Acknowledgment and License
+
+This work has been developed by [Engineering](www.eng.it), in the framework of the [HYPERRIDE](https://hyperride.eu) 
+EU co-funded project, grant n. 957788.
+
+The Open ICT Platform is distributed without any warrancy under [MIT](LICENSE) license.
