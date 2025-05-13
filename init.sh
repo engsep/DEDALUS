@@ -48,6 +48,7 @@ CERTS_DIR="./wazuh/config/wazuh_indexer_ssl_certs"
 
 # Path to the docker-compose file used for certificate generation
 CERTS_COMPOSE="./wazuh/certs-compose.yml"
+ENV_FILE="./.env"
 
 # Check if certificates directory exists
 if [ ! -d "$CERTS_DIR" ]; then
@@ -64,7 +65,7 @@ if [ ! -f "$CERTS_DIR/root-ca.pem" ]; then
   echo "[INIT] Certificates not found. Generate Wazuh certificates..."
 
   # Run the 'generator' service defined in the specified docker-compose file
-  if docker compose -f "$CERTS_COMPOSE" run --rm generator; then
+  if docker compose --env-file "$ENV_FILE" -f "$CERTS_COMPOSE" run --rm generator; then
     echo "[INIT] Certificates generated successfully!"
 
     # Set full permissions (read/write/execute for all) to ensure other services/containers can access them

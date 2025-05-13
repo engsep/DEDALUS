@@ -8,4 +8,4 @@ services:
       - ./config/wazuh_indexer_ssl_certs/:/certificates/
       - ./config/certs.yml:/config/certs.yml
     environment:
-      - HTTP_PROXY=engsep.duckdns.org
+      - HTTP_PROXY=${NGINX_FULL_DOMAIN}
