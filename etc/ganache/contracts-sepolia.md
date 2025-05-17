@@ -5,6 +5,9 @@ ___
 **PoE (v0 notarize+checkDocument)** 
 [0xE1989a90127A449Bd22176299104cf6d2cb5Ba86](https://sepolia.etherscan.io/address/0xe1989a90127a449bd22176299104cf6d2cb5ba86#code)
 
+**PoE (v5)** 
+[0xa4fede92DD5c7290720f8e5f154780C4ba093fE0](https://sepolia.etherscan.io/address/0xa4fede92DD5c7290720f8e5f154780C4ba093fE0#code)
+
 **PoE (v9)** 
 [0xd2b4be223d92788706284f7f097fa883eef64977](https://sepolia.etherscan.io/address/0xd2b4be223d92788706284f7f097fa883eef64977#code)
 
