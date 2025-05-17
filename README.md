@@ -1,6 +1,6 @@
 ![HYPERRIDE Logo](https://hyperride.eu/wp-content/uploads/2021/03/HYPERRIDE_4C_transp.png)](https://hyperride.eu)
 
-# Final Open ICT Platform (draft)
+# Final Open ICT Platform
 Developed and maintained by:
 
 [![ENG Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Engineering_logo.png/200px-Engineering_logo.png)](https://www.eng.it).
@@ -14,9 +14,9 @@ Developed and maintained by:
 [![Support badge](https://img.shields.io/badge/tag-fiware-orange.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/fiware)
 <br/> [![Documentation](https://img.shields.io/readthedocs/fiware-tutorials.svg)](https://fiware-tutorials.rtfd.io)
 
-This repository contains the Open ICT Platform, used and maintained by ENG, developed in the framework of WP5 of the HYPERRIDE EU co-funded Project. 
+This repository, maintained by ENG, contains the Open ICT Platform developed in the WP5 of the HYPERRIDE EU co-funded Project.
 
-[cUrl](https://ec.haxx.se/) commands are used throughout to access the REST APIs -
+[cUrl](https://ec.haxx.se/) commands are used throughout to access the REST APIs.
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/6b143a6b3ad8bcba69cf)
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/engsep/HYPERRIDE/tree/D5.8)
@@ -37,7 +37,8 @@ Similarily, also Mac users can take advantage of emulation tools. This is the su
 
 ## Powered by Keycloak
 
-The final release of the Open ICT Platform of the HYPERRIDE project uses Keycloak as IdM in replacement of Keyrock, to address D5.7 outcomes in terms of enhanced security. The new stack is depicted here: ![FIWARE stack with Keycloak](etc/d58-implementation.png)
+The final release of the Open ICT Platform of the HYPERRIDE project uses Keycloak as IdM in replacement of Keyrock, to address D5.7 outcomes in terms of enhanced security.
+The new stack is depicted in the following figure. ![FIWARE stack with Keycloak](etc/d58-implementation.png)
 
 # Prerequisites
 

@@ -58,9 +58,21 @@
                     "pretty": true,
                     "json-view": true
                 }
+            },
+            "sidebar": {
+                "order": [
+                    "info",
+                    "help",
+                    "debug",
+                    "dashboard-2.0",
+                    "config",
+                    "context",
+                    "dashboard"
+                ]
             }
         },
         "menu-deploymenu-item-node": true,
-        "menu-deploymenu-item-full": false
+        "menu-deploymenu-item-full": false,
+        "menu-menu-item-sidebar": true
     }
 }

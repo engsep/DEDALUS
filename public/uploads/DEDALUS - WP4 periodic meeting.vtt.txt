@@ -1,0 +1,5424 @@
+WEBVTT
+
+3fd0a140-b612-43db-a114-eae4e857172b/820-0
+00:00:12.678 --> 00:00:16.789
+<v Vasilis Michalakopoulos>It's different service, different,
+differently to be presented in the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/820-1
+00:00:16.789 --> 00:00:17.318
+<v Vasilis Michalakopoulos>workshop.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/829-0
+00:00:17.638 --> 00:00:20.918
+<v Vasilis Michalakopoulos>But yeah, we put no in both our services.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/816-0
+00:00:17.898 --> 00:00:18.098
+<v Alessandro Rossi>Mm hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/837-0
+00:00:20.918 --> 00:00:24.198
+<v Vasilis Michalakopoulos>There are little services in that 4.
+3 from the UA.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/836-0
+00:00:24.038 --> 00:00:24.238
+<v Alessandro Rossi>Mm hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/839-0
+00:00:26.518 --> 00:00:27.038
+<v Alessandro Rossi>Hey, Shana.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/842-0
+00:00:27.808 --> 00:00:29.768
+<v Vasilis Michalakopoulos>But I don't think.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/847-0
+00:00:30.998 --> 00:00:33.918
+<v Vasilis Michalakopoulos>It was meant for us anyway.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/849-0
+00:00:33.478 --> 00:00:35.678
+<v Alessandro Rossi>Hey Cortana, are you sorry?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/858-0
+00:00:35.328 --> 00:00:37.768
+<v Vasilis Michalakopoulos>I'm just asking if I got something wrong
+if.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/865-0
+00:00:40.498 --> 00:00:43.658
+<v Alessandro Rossi>No, no, no, no, no.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/872-0
+00:00:43.218 --> 00:00:46.378
+<v Vasilis Michalakopoulos>If we should present them somehow.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/883-0
+00:00:46.378 --> 00:00:50.938
+<v Vasilis Michalakopoulos>But I thought this was for the for the
+big pilot applications.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/891-0
+00:00:53.598 --> 00:00:54.798
+<v Alessandro Rossi>Yeah. Thank you, Vasilis.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/899-0
+00:00:55.758 --> 00:00:58.398
+<v Alessandro Rossi>Thank you so much for this feedback.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/931-0
+00:00:58.478 --> 00:01:04.022
+<v Alessandro Rossi>Actually there is no reason but the fact
+that I just follow it,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/931-1
+00:01:04.022 --> 00:01:10.606
+<v Alessandro Rossi>the one that I found that you you have
+followed with Marilena and and Luca,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/931-2
+00:01:10.606 --> 00:01:15.198
+<v Alessandro Rossi>this is actually the first really the
+first meeting.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/941-0
+00:01:16.888 --> 00:01:21.648
+<v Alessandro Rossi>Periodic periodic meeting that we have so
+we can absolutely.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/943-0
+00:01:23.408 --> 00:01:23.648
+<v Alessandro Rossi>Arrange.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/983-0
+00:01:24.398 --> 00:01:28.283
+<v Alessandro Rossi>Also,
+the template of this presentation as you</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/983-1
+00:01:28.283 --> 00:01:35.144
+<v Alessandro Rossi>mentioned and thank you for this feedback
+series because it was actually my really</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/983-2
+00:01:35.144 --> 00:01:41.758
+<v Alessandro Rossi>my my feeling completing the the the
+slides and asking you to to to contribute.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/998-0
+00:01:41.758 --> 00:01:48.451
+<v Alessandro Rossi>I feel I felt that the vision subdivision
+in pilots also for other tasks like the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/998-1
+00:01:48.451 --> 00:01:49.758
+<v Alessandro Rossi>1st and the 2nd.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1005-0
+00:01:50.488 --> 00:01:52.968
+<v Alessandro Rossi>Could have been the the 1st in particular.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1009-0
+00:01:53.798 --> 00:01:55.158
+<v Alessandro Rossi>Could have been better.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1020-0
+00:01:55.198 --> 00:02:00.910
+<v Alessandro Rossi>So next time I will follow,
+I will follow your suggestion vasilisen I</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1020-1
+00:02:00.910 --> 00:02:01.318
+<v Alessandro Rossi>will.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1025-0
+00:02:02.808 --> 00:02:04.088
+<v Alessandro Rossi>Give a template with.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1035-0
+00:02:05.928 --> 00:02:09.688
+<v Alessandro Rossi>The different tasks divided in pilots
+also for the other tasks.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1040-0
+00:02:11.568 --> 00:02:11.648
+<v Alessandro Rossi>So.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1039-0
+00:02:11.948 --> 00:02:12.748
+<v Vasilis Michalakopoulos>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1044-0
+00:02:12.748 --> 00:02:13.548
+<v Vasilis Michalakopoulos>Thank you. Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1046-0
+00:02:13.638 --> 00:02:14.318
+<v Alessandro Rossi>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1048-0
+00:02:14.318 --> 00:02:15.558
+<v Alessandro Rossi>Thank you. Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1057-0
+00:02:16.278 --> 00:02:21.878
+<v Alessandro Rossi>So I think that I can start sharing my
+screen.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1066-0
+00:02:23.318 --> 00:02:27.518
+<v Alessandro Rossi>And in particular, I think it's better to.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1069-0
+00:02:29.008 --> 00:02:29.888
+<v Alessandro Rossi>Show this one.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1077-0
+00:02:31.568 --> 00:02:35.168
+<v Alessandro Rossi>OK, as you see here we have the.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1082-0
+00:02:36.968 --> 00:02:38.488
+<v Alessandro Rossi>Presentation of today.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1084-0
+00:02:42.568 --> 00:02:43.248
+<v Alessandro Rossi>And.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1087-0
+00:02:46.188 --> 00:02:47.188
+<v Alessandro Rossi>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1090-0
+00:02:47.548 --> 00:02:50.148
+<v Alessandro Rossi>So we can start with.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1092-0
+00:02:52.008 --> 00:02:52.208
+<v Alessandro Rossi>These.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1098-0
+00:02:55.498 --> 00:02:57.898
+<v Alessandro Rossi>So basically one month.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1140-0
+00:02:59.408 --> 00:03:07.576
+<v Alessandro Rossi>Passed from the general meeting and the
+agenda of today's just a few updates from</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1140-1
+00:03:07.576 --> 00:03:15.446
+<v Alessandro Rossi>my side at level of what package I will
+show you in particular the a new a new</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1140-2
+00:03:15.446 --> 00:03:20.128
+<v Alessandro Rossi>sheet,
+a new in sheet in the service file and.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1152-0
+00:03:21.648 --> 00:03:26.048
+<v Alessandro Rossi>The D 403 table of content that I want
+you to propose.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1196-0
+00:03:26.868 --> 00:03:32.794
+<v Alessandro Rossi>And the new release plan that was
+mentioned during the GA and during last</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1196-1
+00:03:32.794 --> 00:03:36.718
+<v Alessandro Rossi>meeting,
+but now we should finalize it if if you</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1196-2
+00:03:36.718 --> 00:03:43.124
+<v Alessandro Rossi>are OK with this and then of course I
+will pass you the room for the task level</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1196-3
+00:03:43.124 --> 00:03:46.488
+<v Alessandro Rossi>updates and next steps and recaps. So bas.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1209-0
+00:03:46.628 --> 00:03:50.704
+<v Alessandro Rossi>From last minute,
+the actions that we had that was really,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1209-1
+00:03:50.704 --> 00:03:51.948
+<v Alessandro Rossi>really high level.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1222-0
+00:03:52.768 --> 00:03:57.168
+<v Alessandro Rossi>Just to complete the the service file
+that was shared initially by Luga.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1236-0
+00:03:57.688 --> 00:04:00.928
+<v Alessandro Rossi>And then by me reiterated that the the GA.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1253-0
+00:04:01.168 --> 00:04:07.259
+<v Alessandro Rossi>So thank you so much for all the people
+who contributed the please contribute if</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1253-1
+00:04:07.259 --> 00:04:08.688
+<v Alessandro Rossi>you didn't already.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1266-0
+00:04:08.728 --> 00:04:13.194
+<v Alessandro Rossi>And of course,
+follow these this activity and also the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1266-1
+00:04:13.194 --> 00:04:16.848
+<v Alessandro Rossi>plants that you have at task level for
+sure.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1274-0
+00:04:18.448 --> 00:04:20.768
+<v Alessandro Rossi>Just another another information.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1278-0
+00:04:20.768 --> 00:04:22.928
+<v Alessandro Rossi>I don't know if Johnny says has.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1288-0
+00:04:24.808 --> 00:04:27.448
+<v Alessandro Rossi>Has joined the meeting but I want to
+thank him.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1302-0
+00:04:27.838 --> 00:04:34.458
+<v Alessandro Rossi>And reach out before the contribution
+that they provide me for the slides for</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1302-1
+00:04:34.458 --> 00:04:34.798
+<v Alessandro Rossi>the.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1316-0
+00:04:36.248 --> 00:04:41.608
+<v Alessandro Rossi>The workshop in which Diego has presented
+the AEI based scenario.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1321-0
+00:04:43.648 --> 00:04:45.008
+<v Alessandro Rossi>Was intended to have one.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1324-0
+00:04:45.008 --> 00:04:45.608
+<v Alessandro Rossi>We have two.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1331-0
+00:04:45.608 --> 00:04:47.648
+<v Alessandro Rossi>So thank you so much for your effort.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1335-0
+00:04:48.448 --> 00:04:50.488
+<v Alessandro Rossi>I don't have to. I don't.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1354-0
+00:04:50.488 --> 00:04:54.672
+<v Alessandro Rossi>I have the possibility to talk to Diego,
+but he was really,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1354-1
+00:04:54.672 --> 00:04:58.648
+<v Alessandro Rossi>really happy with the contribution that
+you provided so.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1357-0
+00:04:58.878 --> 00:04:59.838
+<v Alessandro Rossi>Thank you so much again.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1361-0
+00:05:01.368 --> 00:05:03.248
+<v Alessandro Rossi>So as a first.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1372-0
+00:05:05.648 --> 00:05:07.808
+<v Alessandro Rossi>First,
+measure the there is a summary now that.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1397-0
+00:05:09.688 --> 00:05:17.444
+<v Alessandro Rossi>I prepared the for the service,
+develop pilots excel file for who didn't</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1397-1
+00:05:17.444 --> 00:05:23.608
+<v Alessandro Rossi>know this file is.
+I can show you in in this in this way.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1401-0
+00:05:25.528 --> 00:05:26.848
+<v Alessandro Rossi>This file includes.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1403-0
+00:05:28.448 --> 00:05:28.608
+<v Alessandro Rossi>Different.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1407-0
+00:05:28.798 --> 00:05:30.358
+<v Alessandro Rossi>And user here.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1415-0
+00:05:32.488 --> 00:05:33.568
+<v Alessandro Rossi>You have the Austrian pilot.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1453-0
+00:05:34.568 --> 00:05:42.045
+<v Alessandro Rossi>I asking everybody to follow this this
+procedure to find your in column C your</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1453-1
+00:05:42.045 --> 00:05:49.712
+<v Alessandro Rossi>company and and complete please the role
+in particular column G for the expected</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1453-2
+00:05:49.712 --> 00:05:56.528
+<v Alessandro Rossi>deployment date of the different
+subservice let's say service in which.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1458-0
+00:05:57.568 --> 00:05:59.368
+<v Alessandro Rossi>This division was done by Luca.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1492-0
+00:05:59.758 --> 00:06:05.838
+<v Alessandro Rossi>And they just to follow it, that is, I,
+I I read about this, this division.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1492-1
+00:06:05.838 --> 00:06:12.318
+<v Alessandro Rossi>So you find for every task and for every
+for every or better for every pilot you</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1492-2
+00:06:12.318 --> 00:06:17.598
+<v Alessandro Rossi>have the different tasks,
+the different services better that have</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1492-3
+00:06:17.598 --> 00:06:18.878
+<v Alessandro Rossi>to be completed.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1512-0
+00:06:20.328 --> 00:06:26.507
+<v Alessandro Rossi>In this in this way we can have for
+example here an expected data for the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1512-1
+00:06:26.507 --> 00:06:29.848
+<v Alessandro Rossi>Najin application in the Austrian pilot.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1527-0
+00:06:30.198 --> 00:06:35.656
+<v Alessandro Rossi>Which is at 95%,
+so perfectly in line with almost almost</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1527-1
+00:06:35.656 --> 00:06:36.518
+<v Alessandro Rossi>finished.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1538-0
+00:06:38.168 --> 00:06:42.888
+<v Alessandro Rossi>This all this data which are for each for
+each pilot.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1551-0
+00:06:44.768 --> 00:06:48.918
+<v Alessandro Rossi>Included,
+then the recording this summary which</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1551-1
+00:06:48.918 --> 00:06:50.648
+<v Alessandro Rossi>gives you any major.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1572-0
+00:06:52.328 --> 00:06:58.920
+<v Alessandro Rossi>A picture of of the situation and so we
+can have in this moment this 0% are not</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1572-1
+00:06:58.920 --> 00:07:00.568
+<v Alessandro Rossi>real 00 percent but.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1590-0
+00:07:00.998 --> 00:07:07.336
+<v Alessandro Rossi>Just or incomplete or something that have
+to be discussed because it's not.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1590-1
+00:07:07.336 --> 00:07:08.838
+<v Alessandro Rossi>It's not clear to.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1630-0
+00:07:10.928 --> 00:07:17.214
+<v Alessandro Rossi>To put the percentage or something like
+this, it's a good indication it's a.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1630-1
+00:07:17.214 --> 00:07:23.174
+<v Alessandro Rossi>It's a good indication of of the
+advancement and the presence of issues,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1630-2
+00:07:23.174 --> 00:07:26.848
+<v Alessandro Rossi>let's say because if you have also 20%
+here.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1633-0
+00:07:28.608 --> 00:07:29.088
+<v Alessandro Rossi>In the.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1637-0
+00:07:29.088 --> 00:07:30.448
+<v Alessandro Rossi>In the task four, that one maybe.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1649-0
+00:07:30.798 --> 00:07:35.958
+<v Alessandro Rossi>We can discuss it during the the task
+level presentation.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1660-0
+00:07:35.958 --> 00:07:41.518
+<v Alessandro Rossi>So why we have not following a linear,
+let's say complexion?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1667-0
+00:07:43.088 --> 00:07:45.208
+<v Alessandro Rossi>Percentage and that's it.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1694-0
+00:07:45.208 --> 00:07:52.472
+<v Alessandro Rossi>So this was just to to let you know that
+there is this, this summary,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1694-1
+00:07:52.472 --> 00:08:00.568
+<v Alessandro Rossi>which is actually there is a a lot of a
+lot of files in the WP4 here the WP4.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1739-0
+00:08:03.048 --> 00:08:07.892
+<v Alessandro Rossi>Team teams or better SharePoint folder,
+so a lot of them can be used.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1739-1
+00:08:07.892 --> 00:08:13.013
+<v Alessandro Rossi>For example the data requirements.
+If you needed to exchange information.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1739-2
+00:08:13.013 --> 00:08:18.481
+<v Alessandro Rossi>But the most important file for me from
+my point of view is this one to to see</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1739-3
+00:08:18.481 --> 00:08:20.488
+<v Alessandro Rossi>how the the work is is doing.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1748-0
+00:08:20.488 --> 00:08:22.888
+<v Alessandro Rossi>So please please go to this file.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1758-0
+00:08:23.088 --> 00:08:28.728
+<v Alessandro Rossi>Find your company's in column C and try
+to to to complete these.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1766-0
+00:08:29.408 --> 00:08:31.888
+<v Alessandro Rossi>These rows for who who didn't already.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1771-0
+00:08:34.358 --> 00:08:36.278
+<v Alessandro Rossi>OK, OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1775-0
+00:08:36.278 --> 00:08:37.278
+<v Alessandro Rossi>Yes there is.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1777-0
+00:08:37.278 --> 00:08:39.278
+<v Alessandro Rossi>Erika. Hi, Erik.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1781-0
+00:08:43.878 --> 00:08:44.678
+<v Alessandro Rossi>That's it.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1783-0
+00:08:44.048 --> 00:08:45.928
+<v Henrik Lund St&#230;rmose>Hi sorry sorry for being late.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1789-0
+00:08:46.618 --> 00:08:47.378
+<v Alessandro Rossi>Hi. Hi, Erik.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1824-0
+00:08:47.378 --> 00:08:53.680
+<v Alessandro Rossi>Sorry sorry also from my side because I I
+felt that there are some issues in</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1824-1
+00:08:53.680 --> 00:09:00.146
+<v Alessandro Rossi>finding the the way to participate the
+next time I will be more precise in the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1824-2
+00:09:00.146 --> 00:09:01.538
+<v Alessandro Rossi>text of the mail.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1836-0
+00:09:01.618 --> 00:09:04.596
+<v Alessandro Rossi>Click here to to participate to next
+meeting,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1836-1
+00:09:04.596 --> 00:09:07.898
+<v Alessandro Rossi>because apparently there is no
+participate button.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1849-0
+00:09:07.938 --> 00:09:14.298
+<v Alessandro Rossi>I don't know why in the in the in the in
+the invitation. So thank you Eric.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1841-0
+00:09:09.618 --> 00:09:09.738
+<v Henrik Lund St&#230;rmose>Hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1853-0
+00:09:15.088 --> 00:09:15.968
+<v Alessandro Rossi>I was just mentioning.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1871-0
+00:09:16.198 --> 00:09:23.624
+<v Alessandro Rossi>Think that there is this file in the in
+the SharePoint in the SharePoint folder</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1871-1
+00:09:23.624 --> 00:09:26.038
+<v Alessandro Rossi>which I would like to ask.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1880-0
+00:09:27.808 --> 00:09:30.888
+<v Alessandro Rossi>To to complete to,
+to the people who didn't.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1885-0
+00:09:33.088 --> 00:09:36.368
+<v Alessandro Rossi>But no, it's something that.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1901-0
+00:09:38.048 --> 00:09:41.988
+<v Alessandro Rossi>For example, in,
+in the case of new grid you can go to</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1901-1
+00:09:41.988 --> 00:09:44.568
+<v Alessandro Rossi>Denmark and find your services here.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1927-0
+00:09:45.238 --> 00:09:50.782
+<v Alessandro Rossi>And try to put the expected date and
+percentage of completion is just to have</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1903-0
+00:09:45.448 --> 00:09:45.648
+<v Henrik Lund St&#230;rmose>Mm hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1927-1
+00:09:50.782 --> 00:09:54.478
+<v Alessandro Rossi>a big picture of the advancement of the
+things, OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1929-0
+00:09:54.938 --> 00:09:55.498
+<v Henrik Lund St&#230;rmose>Yes.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1932-0
+00:09:55.928 --> 00:09:56.568
+<v Alessandro Rossi>Thank you so much.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1941-0
+00:09:56.568 --> 00:10:00.867
+<v Alessandro Rossi>Thank you so much.
+So we can move on with the next next</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1941-1
+00:10:00.867 --> 00:10:01.328
+<v Alessandro Rossi>point.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1949-0
+00:10:04.408 --> 00:10:07.768
+<v Alessandro Rossi>Next point is the deliverable for the
+three.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1961-0
+00:10:09.568 --> 00:10:14.787
+<v Alessandro Rossi>I just it's not final.
+The the talk about is more or less the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1961-1
+00:10:14.787 --> 00:10:15.208
+<v Alessandro Rossi>same.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1981-0
+00:10:15.438 --> 00:10:21.401
+<v Alessandro Rossi>That we have done for task 4.
+1 sorry deliverable for .</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1981-1
+00:10:21.401 --> 00:10:23.638
+<v Alessandro Rossi>1 and deliver for .2.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/1989-0
+00:10:23.638 --> 00:10:28.638
+<v Alessandro Rossi>So the structure is almost the same,
+the only different is the this one.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2005-0
+00:10:28.638 --> 00:10:34.563
+<v Alessandro Rossi>Maybe I can show you in Word which is
+better for for this.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2005-1
+00:10:34.563 --> 00:10:38.078
+<v Alessandro Rossi>The real difference is is this one.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2007-0
+00:10:39.538 --> 00:10:40.378
+<v Alessandro Rossi>Instead of.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2013-0
+00:10:42.198 --> 00:10:44.998
+<v Alessandro Rossi>No, maybe maybe this is not completely.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2036-0
+00:10:47.918 --> 00:10:52.318
+<v Alessandro Rossi>OK,
+instead of outlook for future future</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2036-1
+00:10:52.318 --> 00:10:58.542
+<v Alessandro Rossi>future release,
+something more associated to test results</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2036-2
+00:10:58.542 --> 00:11:01.118
+<v Alessandro Rossi>and possible evolutions.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2044-0
+00:11:01.198 --> 00:11:04.158
+<v Alessandro Rossi>The visualization here is is not perfect.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2048-0
+00:11:04.238 --> 00:11:07.398
+<v Alessandro Rossi>This should be striked out like maybe.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2056-0
+00:11:08.188 --> 00:11:12.268
+<v Alessandro Rossi>Going directly to page 19,
+it doesn't go OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2082-0
+00:11:14.598 --> 00:11:20.534
+<v Alessandro Rossi>So the the Sasha basically the same of of
+all the other and instead of these this</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2082-1
+00:11:20.534 --> 00:11:24.878
+<v Alessandro Rossi>paragraph we have test the results and
+possible evolutions.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2097-0
+00:11:26.558 --> 00:11:31.878
+<v Alessandro Rossi>I don't know if you have some comments
+about the structure of of the.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2111-0
+00:11:33.518 --> 00:11:37.870
+<v Alessandro Rossi>Of the deliverable,
+but I think it's more or less what you</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2111-1
+00:11:37.870 --> 00:11:39.198
+<v Alessandro Rossi>you should expect.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2155-0
+00:11:39.788 --> 00:11:47.325
+<v Alessandro Rossi>So same structure of D4 dot one, D 4.
+1 and D 4.2 but with the last next step,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2155-1
+00:11:47.325 --> 00:11:54.672
+<v Alessandro Rossi>let's say paragraph just a little bit
+modified to include early test results</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2155-2
+00:11:54.672 --> 00:12:01.828
+<v Alessandro Rossi>and possible evolution if you want of of
+your software, what do you think?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2165-0
+00:12:01.828 --> 00:12:05.028
+<v Alessandro Rossi>About do you have any early comments on
+this?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2168-0
+00:12:05.028 --> 00:12:06.708
+<v Alessandro Rossi>And then of course, I will give you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2173-0
+00:12:07.478 --> 00:12:09.318
+<v Alessandro Rossi>Some days to to provide your feedback.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2175-0
+00:12:09.708 --> 00:12:10.548
+<v Alessandro Rossi>Of course.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2179-0
+00:12:16.548 --> 00:12:18.628
+<v Henrik Lund St&#230;rmose>Maybe one comment from.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2183-0
+00:12:20.318 --> 00:12:21.038
+<v Henrik Lund St&#230;rmose>From from me?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2186-0
+00:12:22.468 --> 00:12:22.828
+<v Alessandro Rossi>Yes, please.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2226-0
+00:12:23.838 --> 00:12:32.359
+<v Henrik Lund St&#230;rmose>If if you look into the 4.2 deliverable,
+our structure is marginally different,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2226-1
+00:12:32.359 --> 00:12:40.774
+<v Henrik Lund St&#230;rmose>but it's not 100% compliant with what the
+other work packs or other technology</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2226-2
+00:12:40.774 --> 00:12:42.798
+<v Henrik Lund St&#230;rmose>enablers have done.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2262-0
+00:12:45.768 --> 00:12:51.262
+<v Henrik Lund St&#230;rmose>I can spend some time in changing that,
+but but I think maybe is a it's it's it's</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2262-1
+00:12:51.262 --> 00:12:56.555
+<v Henrik Lund St&#230;rmose>a little bit waste of time because it's
+much easier for me if I just can reuse</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2262-2
+00:12:56.555 --> 00:12:59.168
+<v Henrik Lund St&#230;rmose>the structure that I've done up to now.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2267-0
+00:12:59.888 --> 00:13:03.248
+<v Henrik Lund St&#230;rmose>But, but we don't have to debate it here.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2273-0
+00:13:04.798 --> 00:13:07.318
+<v Henrik Lund St&#230;rmose>But but I think but but but.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2277-0
+00:13:09.158 --> 00:13:09.998
+<v Henrik Lund St&#230;rmose>I I just think that.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2292-0
+00:13:11.798 --> 00:13:15.478
+<v Henrik Lund St&#230;rmose>That the emphasis should be put on the
+content, not the structure.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2317-0
+00:13:15.478 --> 00:13:20.509
+<v Henrik Lund St&#230;rmose>I think it's fair enough that you you
+define a structure and I'll also try to</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2317-1
+00:13:20.509 --> 00:13:23.798
+<v Henrik Lund St&#230;rmose>follow it,
+but with with some smaller modification</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2317-2
+00:13:23.798 --> 00:13:25.798
+<v Henrik Lund St&#230;rmose>based on what we did last time.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2320-0
+00:13:28.398 --> 00:13:28.998
+<v Alessandro Rossi>What Eric?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2324-0
+00:13:29.278 --> 00:13:31.518
+<v Alessandro Rossi>So it's perfectly fine.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2337-0
+00:13:32.998 --> 00:13:38.718
+<v Alessandro Rossi>In the if you want you can provide also
+just for your your task.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2349-0
+00:13:40.598 --> 00:13:45.878
+<v Alessandro Rossi>A different or just a comment.
+Let's say if if not a different structure.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2351-0
+00:13:46.768 --> 00:13:46.888
+<v Henrik Lund St&#230;rmose>Hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2369-0
+00:13:47.758 --> 00:13:51.644
+<v Alessandro Rossi>The idea is yes,
+to collect your feedbacks this this</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2369-1
+00:13:51.644 --> 00:13:55.678
+<v Alessandro Rossi>amount and then start with the with this
+release plan.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2396-0
+00:13:55.948 --> 00:14:01.984
+<v Alessandro Rossi>So it's perfectly aligned with my
+expectation to receive to receive or as</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2396-1
+00:14:01.984 --> 00:14:05.737
+<v Alessandro Rossi>you say that a new structure,
+just a comment,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2396-2
+00:14:05.737 --> 00:14:08.348
+<v Alessandro Rossi>as you said on on this side, so.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2416-0
+00:14:08.938 --> 00:14:11.688
+<v Henrik Lund St&#230;rmose>OK, I'll, I'll, I'll.
+I'll see what I can do.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2406-0
+00:14:09.798 --> 00:14:10.118
+<v Alessandro Rossi>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2416-1
+00:14:11.688 --> 00:14:14.978
+<v Henrik Lund St&#230;rmose>So of course I will try to follow as much
+as possible.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2419-0
+00:14:15.398 --> 00:14:15.998
+<v Alessandro Rossi>OK, OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2423-0
+00:14:15.998 --> 00:14:17.118
+<v Alessandro Rossi>Yeah, of course.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2460-0
+00:14:17.118 --> 00:14:22.379
+<v Alessandro Rossi>I completely agree with you.
+The content is important that that must</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2460-1
+00:14:22.379 --> 00:14:28.631
+<v Alessandro Rossi>be the well planned and the the structure
+of the the table of contents is just to</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2460-2
+00:14:28.631 --> 00:14:31.758
+<v Alessandro Rossi>have an idea of what have to be expected.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2464-0
+00:14:31.758 --> 00:14:35.078
+<v Alessandro Rossi>Yes. Any other comments from? Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2461-0
+00:14:33.318 --> 00:14:33.718
+<v Henrik Lund St&#230;rmose>Great.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2468-0
+00:14:35.078 --> 00:14:36.198
+<v Alessandro Rossi>Thank you, Eric.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2476-0
+00:14:36.558 --> 00:14:38.958
+<v Alessandro Rossi>Any other comments from the other task
+leaders?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2478-0
+00:14:38.958 --> 00:14:40.358
+<v Alessandro Rossi>Also, task participants.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2508-0
+00:14:43.538 --> 00:14:47.588
+<v Alessandro Rossi>OK, OK.
+So you will find that this this link of</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2508-1
+00:14:47.588 --> 00:14:53.833
+<v Alessandro Rossi>course I will provide an e-mail,
+maybe a classical e-mail because I think</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2508-2
+00:14:53.833 --> 00:14:57.378
+<v Alessandro Rossi>that using using teams is a little tricky.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2512-0
+00:14:58.138 --> 00:15:01.338
+<v Alessandro Rossi>Classical e-mail with this this link and.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2517-0
+00:15:03.758 --> 00:15:05.718
+<v Alessandro Rossi>A request for for these.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2524-0
+00:15:08.558 --> 00:15:12.638
+<v Alessandro Rossi>OK, I have always to change the view. OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2526-0
+00:15:12.638 --> 00:15:14.198
+<v Alessandro Rossi>So this is the.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2533-0
+00:15:14.388 --> 00:15:18.148
+<v Alessandro Rossi>Release plan that I briefly briefly.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2561-0
+00:15:19.678 --> 00:15:25.972
+<v Alessandro Rossi>Briefly anticipated the last meeting and
+Indiana. Now I put some, some,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2561-1
+00:15:25.972 --> 00:15:30.518
+<v Alessandro Rossi>some precise data just to to try to
+follow it, but.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2578-0
+00:15:32.918 --> 00:15:39.978
+<v Alessandro Rossi>The official start of the of the of the
+of the deliverable as you may be remind</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2578-1
+00:15:39.978 --> 00:15:41.038
+<v Alessandro Rossi>from yen is.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2586-0
+00:15:42.638 --> 00:15:44.798
+<v Alessandro Rossi>The 22 of July in the.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2609-0
+00:15:46.508 --> 00:15:49.656
+<v Alessandro Rossi>In in D4, in D 1.2,
+which is the quality plan,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2609-1
+00:15:49.656 --> 00:15:54.948
+<v Alessandro Rossi>it's a little tricky to work in August to
+tell you the truth, and also for me.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2616-0
+00:15:54.948 --> 00:15:58.348
+<v Alessandro Rossi>So I think that we have to anticipate the
+scenes.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2639-0
+00:15:58.668 --> 00:16:03.144
+<v Alessandro Rossi>It's not a good idea to postpone the
+release,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2639-1
+00:16:03.144 --> 00:16:09.859
+<v Alessandro Rossi>at least of the documental part of the
+deliverable for the software.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2639-2
+00:16:09.859 --> 00:16:11.708
+<v Alessandro Rossi>We can take the 31.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2646-0
+00:16:12.478 --> 00:16:14.318
+<v Alessandro Rossi>Of September as the milestone.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2690-0
+00:16:15.468 --> 00:16:20.937
+<v Alessandro Rossi>So it's important not to go over also not
+impacting the critical part of the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2690-1
+00:16:20.937 --> 00:16:26.833
+<v Alessandro Rossi>project, but if in some some cases it is,
+it is in this sense if it doesn't impact</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2690-2
+00:16:26.833 --> 00:16:32.232
+<v Alessandro Rossi>with the critical part of the of the
+project for some specific developments</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2690-3
+00:16:32.232 --> 00:16:32.588
+<v Alessandro Rossi>just.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2696-0
+00:16:34.838 --> 00:16:37.438
+<v Alessandro Rossi>Put it into account that.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2709-0
+00:16:39.118 --> 00:16:43.198
+<v Alessandro Rossi>The Documental part must be released in
+the portal.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2714-0
+00:16:44.998 --> 00:16:46.118
+<v Alessandro Rossi>In in in should be.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2721-0
+00:16:46.428 --> 00:16:51.348
+<v Alessandro Rossi>At least in time, so to avoid any kind of.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2731-0
+00:16:52.958 --> 00:16:56.758
+<v Alessandro Rossi>Of comments from from the from the PO of
+course.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2757-0
+00:16:56.758 --> 00:17:02.285
+<v Alessandro Rossi>If we need, we will go over. But please,
+just keep in mind that these 31 of</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2757-1
+00:17:02.285 --> 00:17:07.158
+<v Alessandro Rossi>September for the DOCUMENTAL partners
+should be strictly strictly.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2766-0
+00:17:09.198 --> 00:17:10.158
+<v Alessandro Rossi>Observed and fulfilled.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2769-0
+00:17:11.918 --> 00:17:16.158
+<v Alessandro Rossi>So we have just one one, one option.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2804-0
+00:17:16.548 --> 00:17:20.037
+<v Alessandro Rossi>And if we want to do these just
+anticipated work,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2804-1
+00:17:20.037 --> 00:17:24.014
+<v Alessandro Rossi>anticipate the the the documentation of
+of the software,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2804-2
+00:17:24.014 --> 00:17:28.899
+<v Alessandro Rossi>even if it is not not completed,
+which is absolutely possible in this</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2804-3
+00:17:28.899 --> 00:17:29.388
+<v Alessandro Rossi>moment.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2830-0
+00:17:29.628 --> 00:17:34.031
+<v Alessandro Rossi>So I will circulate you with a couple of
+months in anticipation.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2830-1
+00:17:34.031 --> 00:17:38.096
+<v Alessandro Rossi>The table of content,
+we can consolidate it and then we can</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2830-2
+00:17:38.096 --> 00:17:40.468
+<v Alessandro Rossi>have a first round of contribution.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2837-0
+00:17:41.598 --> 00:17:43.798
+<v Alessandro Rossi>The middle of of June.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2840-0
+00:17:43.838 --> 00:17:45.358
+<v Alessandro Rossi>So in one month now.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2847-0
+00:17:45.988 --> 00:17:47.348
+<v Alessandro Rossi>It's just a possibility.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2864-0
+00:17:47.788 --> 00:17:53.311
+<v Alessandro Rossi>It's not mandatory because in some cases
+there are even no early results.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2864-1
+00:17:53.311 --> 00:17:56.148
+<v Alessandro Rossi>In this case. Maybe it is a good idea.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2902-0
+00:17:57.838 --> 00:18:03.000
+<v Alessandro Rossi>At the end of this first round,
+just to put a plan of contributions.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2902-1
+00:18:03.000 --> 00:18:06.965
+<v Alessandro Rossi>So just say OK,
+my first contribution can arrive not</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2902-2
+00:18:06.965 --> 00:18:12.651
+<v Alessandro Rossi>before August or something like this,
+and but just to keep in mind that the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2902-3
+00:18:12.651 --> 00:18:16.318
+<v Alessandro Rossi>second round of contribution,
+so middle of July.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2912-0
+00:18:17.108 --> 00:18:21.788
+<v Alessandro Rossi>Here I personally expected the bulk of
+the contents ready.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2956-0
+00:18:23.198 --> 00:18:27.918
+<v Alessandro Rossi>Again,
+not in 90% of the cases will not be the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2956-1
+00:18:27.918 --> 00:18:36.454
+<v Alessandro Rossi>final software, but for the documentation,
+please think about it in advance and just</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2956-2
+00:18:36.454 --> 00:18:42.178
+<v Alessandro Rossi>try to have for the mid of of July if not
+100% complete,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2956-3
+00:18:42.178 --> 00:18:46.798
+<v Alessandro Rossi>but most of the contents already for for
+the.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2959-0
+00:18:46.798 --> 00:18:47.118
+<v Alessandro Rossi>Final round.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2979-0
+00:18:47.508 --> 00:18:54.127
+<v Alessandro Rossi>Which should be at the end of of August
+to have the possibility of respecting the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2979-1
+00:18:54.127 --> 00:18:56.388
+<v Alessandro Rossi>rest of the other race plan.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/2994-0
+00:18:58.158 --> 00:19:02.118
+<v Alessandro Rossi>It goes without saying,
+this is an attempt. OK, we have.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3028-0
+00:19:02.118 --> 00:19:06.271
+<v Alessandro Rossi>We should try to be compliant with these
+release plan.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3028-1
+00:19:06.271 --> 00:19:12.085
+<v Alessandro Rossi>Then of course I will ask you in a moment
+feedbacks and comments about this.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3028-2
+00:19:12.085 --> 00:19:18.278
+<v Alessandro Rossi>If we don't have the possibility or case
+by case or for for the for the variable.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3054-0
+00:19:18.588 --> 00:19:23.656
+<v Alessandro Rossi>We will arrange some some major stations
+in the in the RAM,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3054-1
+00:19:23.656 --> 00:19:30.245
+<v Alessandro Rossi>so please let me know if you have any
+comment in in this for for this release</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3054-2
+00:19:30.245 --> 00:19:30.668
+<v Alessandro Rossi>plan.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3057-0
+00:19:30.668 --> 00:19:31.548
+<v Alessandro Rossi>Do you agree?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3065-0
+00:19:31.548 --> 00:19:35.148
+<v Alessandro Rossi>You think it's too much challenging,
+which is your feeling.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3068-0
+00:19:42.298 --> 00:19:42.858
+<v Alessandro Rossi>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3076-0
+00:19:42.938 --> 00:19:44.538
+<v Alessandro Rossi>I suppose that you are.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3089-0
+00:19:43.478 --> 00:19:47.447
+<v Vasilis Michalakopoulos>Maybe, maybe, maybe.
+We will have the the first,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3083-0
+00:19:44.538 --> 00:19:45.378
+<v Alessandro Rossi>Yeah. Please, please.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3089-1
+00:19:47.447 --> 00:19:49.878
+<v Vasilis Michalakopoulos>the first major input in July.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3096-0
+00:19:50.788 --> 00:19:51.988
+<v Alessandro Rossi>Of course, of course.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3098-0
+00:19:51.598 --> 00:19:52.198
+<v Vasilis Michalakopoulos>Yeah.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3100-0
+00:19:51.988 --> 00:19:53.388
+<v Alessandro Rossi>Of course, of course.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3105-0
+00:19:53.388 --> 00:19:55.308
+<v Alessandro Rossi>Of course I completely.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3106-0
+00:19:55.308 --> 00:19:56.628
+<v Alessandro Rossi>I completely agree.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3130-0
+00:19:56.628 --> 00:20:02.438
+<v Alessandro Rossi>I completely think that the June will be
+will be just for who has already finished</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3130-1
+00:20:02.438 --> 00:20:05.868
+<v Alessandro Rossi>or for some services that have already
+finished.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3132-0
+00:20:05.578 --> 00:20:07.098
+<v Vasilis Michalakopoulos>Yeah, yeah, something small, yes.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3135-0
+00:20:07.718 --> 00:20:09.078
+<v Alessandro Rossi>Just does this, yeah.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3143-0
+00:20:11.478 --> 00:20:12.718
+<v Alessandro Rossi>OK, next steps.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3162-0
+00:20:13.598 --> 00:20:16.959
+<v Alessandro Rossi>Yes,
+I I already talked with you about the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3162-1
+00:20:16.959 --> 00:20:23.056
+<v Alessandro Rossi>service file that was prepared by Luca
+and completely accepted by me and just</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3162-2
+00:20:23.056 --> 00:20:25.558
+<v Alessandro Rossi>completed with the summary view.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3178-0
+00:20:26.858 --> 00:20:31.644
+<v Alessandro Rossi>I think, yeah,
+I had this animation because I was quite</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3178-1
+00:20:31.644 --> 00:20:33.098
+<v Alessandro Rossi>sure that it was.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3206-0
+00:20:33.578 --> 00:20:39.883
+<v Alessandro Rossi>This is the real the real deadline that
+we should have for for the contributions</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3206-1
+00:20:39.883 --> 00:20:45.643
+<v Alessandro Rossi>in, at least in this first attempt,
+for the for the release of the of the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3206-2
+00:20:45.643 --> 00:20:46.578
+<v Alessandro Rossi>revable. OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3213-0
+00:20:46.688 --> 00:20:51.088
+<v Alessandro Rossi>Now I will leave you the floor for every
+task.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3221-0
+00:20:51.088 --> 00:20:53.728
+<v Alessandro Rossi>So the first one is a task for that one.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3225-0
+00:20:53.728 --> 00:20:56.328
+<v Alessandro Rossi>So Lorenzo, the floor is yours.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3227-0
+00:20:56.328 --> 00:20:56.808
+<v Alessandro Rossi>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3234-0
+00:21:05.618 --> 00:21:07.738
+<v Alessandro Rossi>We don't hear you, Lorenzo.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3242-0
+00:21:19.758 --> 00:21:22.198
+<v Alessandro Rossi>Alright, so your voice is very low,
+very low.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3246-0
+00:21:25.318 --> 00:21:26.758
+<v Alessandro Rossi>Maybe you have OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3250-0
+00:21:27.118 --> 00:21:27.998
+<v Andrea Sabatino>The mute mute.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3253-0
+00:21:28.498 --> 00:21:29.698
+<v Lorenzo Cristofori>OK. Can can you hear me?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3257-0
+00:21:30.148 --> 00:21:30.628
+<v Alessandro Rossi>Yes.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3258-0
+00:21:30.218 --> 00:21:31.578
+<v Lorenzo Cristofori>Can you hear me now?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3261-0
+00:21:32.268 --> 00:21:32.428
+<v Henrik Lund St&#230;rmose>Yeah.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3262-0
+00:21:33.938 --> 00:21:34.458
+<v Lorenzo Cristofori>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3272-0
+00:21:34.738 --> 00:21:38.378
+<v Lorenzo Cristofori>Sorry,
+I had a problem with my microphones. So.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3271-0
+00:21:38.038 --> 00:21:38.678
+<v Alessandro Rossi>No problem.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3289-0
+00:21:40.418 --> 00:21:46.672
+<v Lorenzo Cristofori>So regarding the task 4.1,
+in this period we have focused on</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3289-1
+00:21:46.672 --> 00:21:47.698
+<v Lorenzo Cristofori>basically.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3299-0
+00:21:49.778 --> 00:21:57.738
+<v Lorenzo Cristofori>With the Italian pilot and yeah,
+basically because of the.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3319-0
+00:21:59.608 --> 00:22:03.790
+<v Lorenzo Cristofori>The workshop that we'll be handing 10th
+of June,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3319-1
+00:22:03.790 --> 00:22:10.276
+<v Lorenzo Cristofori>so we need to to have the first version
+of the digital twin and the console</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3319-2
+00:22:10.276 --> 00:22:13.008
+<v Lorenzo Cristofori>service ready for for that data.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3327-0
+00:22:14.458 --> 00:22:17.378
+<v Lorenzo Cristofori>So we we have together with the with.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3331-0
+00:22:19.378 --> 00:22:21.018
+<v Lorenzo Cristofori>Pm we have.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3342-0
+00:22:23.338 --> 00:22:29.338
+<v Lorenzo Cristofori>We are integrating the comfort service in
+the with the digital twin.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3355-0
+00:22:30.088 --> 00:22:38.408
+<v Lorenzo Cristofori>And also we are in contact with N2A in
+order to integrate also the energy data.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3358-0
+00:22:40.218 --> 00:22:41.018
+<v Lorenzo Cristofori>In the.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3366-0
+00:22:41.178 --> 00:22:44.658
+<v Lorenzo Cristofori>In the digital twin and also in the
+comfort service.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3373-0
+00:22:47.458 --> 00:22:51.538
+<v Lorenzo Cristofori>For the for the optimization part.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3379-0
+00:22:53.338 --> 00:22:55.538
+<v Lorenzo Cristofori>Regarding the Danish pilot.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3389-0
+00:22:57.498 --> 00:23:01.258
+<v Lorenzo Cristofori>We yeah,
+now we need to provide us the mapping.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3391-0
+00:23:02.168 --> 00:23:02.688
+<v Lorenzo Cristofori>For the.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3397-0
+00:23:04.618 --> 00:23:07.738
+<v Lorenzo Cristofori>The mapping in order to show the.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3421-0
+00:23:09.698 --> 00:23:17.559
+<v Lorenzo Cristofori>The sensors data within the 3D model,
+so we have an Audi mapping from sensors</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3421-1
+00:23:17.559 --> 00:23:19.978
+<v Lorenzo Cristofori>room building and so on.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3423-0
+00:23:19.978 --> 00:23:22.218
+<v Lorenzo Cristofori>We are waiting.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3438-0
+00:23:23.938 --> 00:23:27.337
+<v Lorenzo Cristofori>At this time,
+to integrate the interior and then to</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3438-1
+00:23:27.337 --> 00:23:29.298
+<v Lorenzo Cristofori>finalize the the digital twin.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3440-0
+00:23:29.448 --> 00:23:29.568
+<v Lorenzo Cristofori>No.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3452-0
+00:23:30.808 --> 00:23:33.208
+<v Lorenzo Cristofori>Regarded the Greek pilot.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3458-0
+00:23:34.088 --> 00:23:38.608
+<v Lorenzo Cristofori>We have done some preliminary study on
+how to.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3463-0
+00:23:40.218 --> 00:23:42.898
+<v Lorenzo Cristofori>Visualize data using clustering.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3467-0
+00:23:43.648 --> 00:23:44.648
+<v Lorenzo Cristofori>Airplane mode.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3469-0
+00:23:44.648 --> 00:23:47.208
+<v Lorenzo Cristofori>So we need.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3511-0
+00:23:49.378 --> 00:23:57.362
+<v Lorenzo Cristofori>To to to have some calls with Iran in
+order to agree on on how to how to</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3511-1
+00:23:57.362 --> 00:24:05.675
+<v Lorenzo Cristofori>visualize the this data and how to to do
+the clustering if it is necessary.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3511-2
+00:24:05.675 --> 00:24:08.738
+<v Lorenzo Cristofori>And yeah for the next steps.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3518-0
+00:24:08.738 --> 00:24:13.338
+<v Lorenzo Cristofori>So this is one for the Greek pilot for
+the Italian.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3527-0
+00:24:13.488 --> 00:24:15.608
+<v Lorenzo Cristofori>And we need to finalize the integration.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3531-0
+00:24:15.688 --> 00:24:18.008
+<v Lorenzo Cristofori>We are working on this in these days.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3542-0
+00:24:18.008 --> 00:24:25.248
+<v Lorenzo Cristofori>We think that in a few days we we should
+have all the the work done.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3544-0
+00:24:26.738 --> 00:24:27.058
+<v Lorenzo Cristofori>And so.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3560-0
+00:24:28.618 --> 00:24:32.378
+<v Lorenzo Cristofori>We need also to deploy the the digital
+twin and the services on the pilot site.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3572-0
+00:24:34.218 --> 00:24:40.418
+<v Lorenzo Cristofori>In order to participate to the workshop
+in the 10 of July of June.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3595-0
+00:24:41.328 --> 00:24:44.922
+<v Lorenzo Cristofori>For the Danish pilot,
+we need to integrate the interoperability</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3595-1
+00:24:44.922 --> 00:24:49.248
+<v Lorenzo Cristofori>layer and to to analyze the digital twin
+and also the the simulation engine.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3598-0
+00:24:50.818 --> 00:24:51.298
+<v Lorenzo Cristofori>We don't have.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3608-0
+00:24:52.978 --> 00:24:59.258
+<v Lorenzo Cristofori>Issues I I I have wrote some. Yeah some.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3612-0
+00:25:02.508 --> 00:25:04.348
+<v Lorenzo Cristofori>Stuff just to.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3629-0
+00:25:06.538 --> 00:25:11.328
+<v Lorenzo Cristofori>To give you an overview on the of the
+situation for the Italian Empire.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3629-1
+00:25:11.328 --> 00:25:13.458
+<v Lorenzo Cristofori>So we are waiting for data from.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3631-0
+00:25:15.738 --> 00:25:16.018
+<v Lorenzo Cristofori>That.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3633-0
+00:25:17.778 --> 00:25:18.098
+<v Lorenzo Cristofori>From.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3640-0
+00:25:20.658 --> 00:25:22.258
+<v Lorenzo Cristofori>We had that call over there with.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3663-0
+00:25:24.018 --> 00:25:29.281
+<v Lorenzo Cristofori>Johnny San Vasilis and thanks also to to
+Johnny and Vasilis in order to integrate</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3663-1
+00:25:29.281 --> 00:25:31.978
+<v Lorenzo Cristofori>the this data. So within that in the next.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3670-0
+00:25:32.568 --> 00:25:35.888
+<v Lorenzo Cristofori>Days, weeks.
+So we we can integrate also this data.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3673-0
+00:25:37.378 --> 00:25:38.818
+<v Lorenzo Cristofori>Yeah, and.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3677-0
+00:25:40.538 --> 00:25:41.818
+<v Lorenzo Cristofori>For the Greek pilot.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3688-0
+00:25:43.858 --> 00:25:47.498
+<v Lorenzo Cristofori>We need to to speed up.
+Just just to say this is.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3694-0
+00:25:49.378 --> 00:25:49.698
+<v Lorenzo Cristofori>We need to.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3712-0
+00:25:49.698 --> 00:25:54.758
+<v Lorenzo Cristofori>We have a lot of work to to to do,
+so we need to to speed up the the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3712-1
+00:25:54.758 --> 00:25:57.618
+<v Lorenzo Cristofori>development of the of the digital twin.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3727-0
+00:25:59.458 --> 00:26:02.356
+<v Lorenzo Cristofori>Yeah,
+I think that it's all from a side and I</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3727-1
+00:26:02.356 --> 00:26:04.498
+<v Lorenzo Cristofori>don't know if there are questions.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3730-0
+00:26:08.088 --> 00:26:10.128
+<v Lorenzo Cristofori>The absence something.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3735-0
+00:26:11.528 --> 00:26:12.168
+<v Lorenzo Cristofori>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3741-0
+00:26:13.388 --> 00:26:15.188
+<v Panos Skaloumpakas>Lorezo can I ask something?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3743-0
+00:26:15.308 --> 00:26:16.028
+<v Panos Skaloumpakas>Bonus from ntua.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3744-0
+00:26:16.778 --> 00:26:17.218
+<v Lorenzo Cristofori>Yeah, yeah.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3756-0
+00:26:18.138 --> 00:26:22.218
+<v Panos Skaloumpakas>What is the energy data that you are
+expecting from from us?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3762-0
+00:26:22.578 --> 00:26:24.378
+<v Panos Skaloumpakas>Is it about the predictions?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3765-0
+00:26:23.388 --> 00:26:24.988
+<v Vasilis Michalakopoulos>It's not exactly parallel.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3769-0
+00:26:24.988 --> 00:26:26.268
+<v Vasilis Michalakopoulos>It's it's not.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3773-0
+00:26:26.508 --> 00:26:28.508
+<v Vasilis Michalakopoulos>It's not exactly in its data, it's.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3781-0
+00:26:30.018 --> 00:26:30.938
+<v Vasilis Michalakopoulos>It's a service.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3782-0
+00:26:31.018 --> 00:26:32.338
+<v Vasilis Michalakopoulos>The flexibility services.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3815-0
+00:26:32.338 --> 00:26:35.879
+<v Vasilis Michalakopoulos>It's like the comfort service needs
+flexibility data,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3815-1
+00:26:35.879 --> 00:26:41.060
+<v Vasilis Michalakopoulos>so we need to provide the flexibility
+function in order for data to go through</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3815-2
+00:26:41.060 --> 00:26:45.586
+<v Vasilis Michalakopoulos>the flexibility function and provide
+results to the comfort service,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3815-3
+00:26:45.586 --> 00:26:46.898
+<v Vasilis Michalakopoulos>something like that.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3817-0
+00:26:50.498 --> 00:26:51.058
+<v Lorenzo Cristofori>Yeah, it's up to.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3831-0
+00:26:51.968 --> 00:26:54.568
+<v Panos Skaloumpakas>OK.
+And I think we are in contact with</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3831-1
+00:26:54.568 --> 00:26:55.568
+<v Panos Skaloumpakas>Richard, right?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3829-0
+00:26:55.138 --> 00:26:55.738
+<v Lorenzo Cristofori>Yeah, yeah.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3833-0
+00:26:55.688 --> 00:26:57.768
+<v Panos Skaloumpakas>So we can provide this.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3836-0
+00:26:58.968 --> 00:26:59.848
+<v Panos Skaloumpakas>Very soon, I guess.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3842-0
+00:27:04.688 --> 00:27:06.648
+<v Alessandro Rossi>Any other questions for Lorenzo?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3845-0
+00:27:10.048 --> 00:27:10.448
+<v Alessandro Rossi>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3850-0
+00:27:10.448 --> 00:27:14.088
+<v Alessandro Rossi>Otherwise I just give you the.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3874-0
+00:27:16.218 --> 00:27:24.082
+<v Alessandro Rossi>Like a an answer to from the task 3.33.
+2 the interoperability layer for the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3874-1
+00:27:24.082 --> 00:27:26.738
+<v Alessandro Rossi>Danish pilot is 99% ready.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3896-0
+00:27:26.818 --> 00:27:34.952
+<v Alessandro Rossi>The only thing is just to provide a
+instruction to for the for the deployment</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3896-1
+00:27:34.952 --> 00:27:41.418
+<v Alessandro Rossi>and finalize some screens for for the
+provisioning of of the.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3900-0
+00:27:42.728 --> 00:27:43.808
+<v Alessandro Rossi>Of the sensors, but.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3938-0
+00:27:45.578 --> 00:27:53.709
+<v Alessandro Rossi>These service was completed on Friday and
+so now we we are in the in the release in</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3938-1
+00:27:53.709 --> 00:27:59.517
+<v Alessandro Rossi>the release phase.
+This is of course also for for Eric this</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3938-2
+00:27:59.517 --> 00:28:07.261
+<v Alessandro Rossi>this comment because if you are still in
+the idea of providing software on your</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3938-3
+00:28:07.261 --> 00:28:09.778
+<v Alessandro Rossi>side, we are almost ready.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3940-0
+00:28:09.778 --> 00:28:10.018
+<v Alessandro Rossi>To.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3945-0
+00:28:11.298 --> 00:28:13.098
+<v Alessandro Rossi>To provide to provide the software.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3948-0
+00:28:13.808 --> 00:28:14.928
+<v Alessandro Rossi>For for your pilot.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3950-0
+00:28:15.808 --> 00:28:16.328
+<v Henrik Lund St&#230;rmose>Yep.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3995-0
+00:28:16.578 --> 00:28:21.944
+<v Alessandro Rossi>So if if this is your,
+your final decision also also for for</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3995-1
+00:28:21.944 --> 00:28:28.629
+<v Alessandro Rossi>continuing in the next two days we can we
+can share this information how to</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3995-2
+00:28:28.629 --> 00:28:35.315
+<v Alessandro Rossi>download and run the at least the
+interoperability layer and then of course</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/3995-3
+00:28:35.315 --> 00:28:38.218
+<v Alessandro Rossi>also the the the task for .1 out.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4000-0
+00:28:39.018 --> 00:28:41.458
+<v Alessandro Rossi>Maybe the second part of May.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4003-0
+00:28:42.578 --> 00:28:43.578
+<v Alessandro Rossi>But in any case.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4025-0
+00:28:43.968 --> 00:28:48.383
+<v Alessandro Rossi>So we can start with these.
+This first deployment of the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4025-1
+00:28:48.383 --> 00:28:53.651
+<v Alessandro Rossi>interoperability, see which,
+if there are some some issues you know</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4037-0
+00:28:53.608 --> 00:29:00.356
+<v Henrik Lund St&#230;rmose>Yep, but but, but prior to that,
+I need a kind of what is it that you</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4025-2
+00:28:53.651 --> 00:28:54.968
+<v Alessandro Rossi>and step by step.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4037-1
+00:29:00.356 --> 00:29:01.128
+<v Henrik Lund St&#230;rmose>require?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4048-0
+00:29:01.128 --> 00:29:04.608
+<v Henrik Lund St&#230;rmose>Is it a virtual machine with access to
+blah blah blah?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4058-0
+00:29:04.608 --> 00:29:07.368
+<v Henrik Lund St&#230;rmose>It it's it's just so.
+So I know what to prepare.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4069-0
+00:29:07.368 --> 00:29:09.808
+<v Henrik Lund St&#230;rmose>I will prepare it,
+but I just need to know what.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4097-0
+00:29:09.928 --> 00:29:14.338
+<v Henrik Lund St&#230;rmose>So if if you can provide that prior to,
+how do we install it,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4071-0
+00:29:10.358 --> 00:29:10.758
+<v Alessandro Rossi>Yes.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4097-1
+00:29:14.338 --> 00:29:20.243
+<v Henrik Lund St&#230;rmose>then I can prepare what what you require
+provide maybe a VPN access to that so you</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4086-0
+00:29:15.428 --> 00:29:15.828
+<v Alessandro Rossi>Yes.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4097-2
+00:29:20.243 --> 00:29:20.528
+<v Henrik Lund St&#230;rmose>can.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4099-0
+00:29:21.298 --> 00:29:22.138
+<v Henrik Lund St&#230;rmose>Access that as well.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4105-0
+00:29:23.178 --> 00:29:23.938
+<v Alessandro Rossi>Yeah, of course.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4114-0
+00:29:23.938 --> 00:29:31.778
+<v Alessandro Rossi>Of course it's the 1% missing of this 99%.
+Yeah, thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4119-0
+00:29:31.898 --> 00:29:32.298
+<v Alessandro Rossi>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4120-0
+00:29:32.298 --> 00:29:32.898
+<v Alessandro Rossi>Thank you, Erika.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4130-0
+00:29:32.978 --> 00:29:35.142
+<v Alessandro Rossi>Yes,
+the documentation has to be to be</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4123-0
+00:29:33.398 --> 00:29:33.918
+<v Henrik Lund St&#230;rmose>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4130-1
+00:29:35.142 --> 00:29:35.698
+<v Alessandro Rossi>finalized.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4135-0
+00:29:35.698 --> 00:29:38.258
+<v Alessandro Rossi>Thank you so much Eric. So.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4134-0
+00:29:37.438 --> 00:29:38.078
+<v Henrik Lund St&#230;rmose>You're welcome.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4143-0
+00:29:39.698 --> 00:29:40.938
+<v Alessandro Rossi>If nothing else is for.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4155-0
+00:29:40.938 --> 00:29:44.578
+<v Alessandro Rossi>So basically there are no no open issues
+in this task.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4157-0
+00:29:44.938 --> 00:29:46.338
+<v Alessandro Rossi>Lorenzo, thank you so much.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4166-0
+00:29:48.208 --> 00:29:48.648
+<v Lorenzo Cristofori>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4163-0
+00:29:48.378 --> 00:29:48.938
+<v Alessandro Rossi>Just continue.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4174-0
+00:29:48.938 --> 00:29:52.138
+<v Alessandro Rossi>Just keep on with these with this task
+which is going smoothly.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4192-0
+00:29:53.128 --> 00:29:57.528
+<v Alessandro Rossi>Maybe for the Greek pilot,
+if we need some something,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4192-1
+00:29:57.528 --> 00:29:59.728
+<v Alessandro Rossi>just let me know if we can.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4203-0
+00:30:01.218 --> 00:30:06.218
+<v Alessandro Rossi>Some some way speed up if if it's it's
+needed OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4205-0
+00:30:07.118 --> 00:30:07.278
+<v Lorenzo Cristofori>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4208-0
+00:30:07.278 --> 00:30:08.158
+<v Lorenzo Cristofori>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4209-0
+00:30:08.768 --> 00:30:09.368
+<v Alessandro Rossi>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4210-0
+00:30:09.368 --> 00:30:09.888
+<v Alessandro Rossi>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4218-0
+00:30:11.378 --> 00:30:13.218
+<v Alessandro Rossi>So alright, we can go.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4228-0
+00:30:14.178 --> 00:30:20.258
+<v Alessandro Rossi>Maybe these slides is OK for with task 4.
+2.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4245-0
+00:30:21.668 --> 00:30:26.376
+<v Lorenzo Cristofori>Yeah. No,
+I don't know if there are someone from</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4234-0
+00:30:21.938 --> 00:30:22.458
+<v Alessandro Rossi>Richard.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4245-1
+00:30:26.376 --> 00:30:30.028
+<v Lorenzo Cristofori>the University of Krugnobogga for the.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4247-0
+00:30:29.908 --> 00:30:30.548
+<v Alessandro Rossi>Oh really?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4256-0
+00:30:29.998 --> 00:30:32.798
+<v Cristina Bianca Pop>Hello I am here Christina.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4257-0
+00:30:32.018 --> 00:30:33.018
+<v Alessandro Rossi>Oh, sorry, sorry, sorry, sorry.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4255-0
+00:30:32.498 --> 00:30:32.898
+<v Lorenzo Cristofori>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4259-0
+00:30:32.898 --> 00:30:33.858
+<v Lorenzo Cristofori>Sorry because.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4272-0
+00:30:34.888 --> 00:30:38.968
+<v Cristina Bianca Pop>OK,
+so I can say a few words about our work.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4302-0
+00:30:39.328 --> 00:30:44.422
+<v Cristina Bianca Pop>So as mentioned,
+50% of the digital twin is done and we</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4302-1
+00:30:44.422 --> 00:30:51.335
+<v Cristina Bianca Pop>are currently working at the last
+dashboards and at refining the algorithms</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4302-2
+00:30:51.335 --> 00:30:56.248
+<v Cristina Bianca Pop>as established, it will be done by August,
+September.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4326-0
+00:30:57.278 --> 00:31:00.958
+<v Cristina Bianca Pop>Also,
+the deployment of the digital twin will</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4326-1
+00:31:00.958 --> 00:31:06.878
+<v Cristina Bianca Pop>be done in the last trial of the Romanian
+pilot in October and it will be</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4326-2
+00:31:06.878 --> 00:31:08.398
+<v Cristina Bianca Pop>integrated in DE 5.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4331-0
+00:31:09.848 --> 00:31:10.808
+<v Cristina Bianca Pop>So this is from our side.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4334-0
+00:31:12.078 --> 00:31:12.838
+<v Alessandro Rossi>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4339-0
+00:31:12.838 --> 00:31:13.718
+<v Alessandro Rossi>Thank you, Christina.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4357-0
+00:31:13.878 --> 00:31:21.318
+<v Alessandro Rossi>Sorry also for I was just thinking it was
+the template of of the task.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4341-0
+00:31:14.158 --> 00:31:14.998
+<v Cristina Bianca Pop>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4344-0
+00:31:15.438 --> 00:31:16.158
+<v Cristina Bianca Pop>No problem.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4362-0
+00:31:21.318 --> 00:31:23.278
+<v Alessandro Rossi>Instead, it was yours, your spot.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4374-0
+00:31:23.718 --> 00:31:26.358
+<v Alessandro Rossi>One question, Christina,
+you mentioned the.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4371-0
+00:31:24.098 --> 00:31:26.058
+<v Cristina Bianca Pop>OK. Yes.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4404-0
+00:31:26.358 --> 00:31:31.897
+<v Alessandro Rossi>Yeah. You mentioned at the September,
+October even for for the release of the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4404-1
+00:31:31.897 --> 00:31:35.519
+<v Alessandro Rossi>software.
+As I mentioned that the beginning of the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4404-2
+00:31:35.519 --> 00:31:40.278
+<v Alessandro Rossi>presentation is not a problem from my
+side from what is concerned.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4445-0
+00:31:40.398 --> 00:31:44.242
+<v Alessandro Rossi>To me,
+if the software is completed after the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4445-1
+00:31:44.242 --> 00:31:50.427
+<v Alessandro Rossi>end of the task, my question is,
+will it be a problem for you to document</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4445-2
+00:31:50.427 --> 00:31:56.695
+<v Alessandro Rossi>the your software in July to respect the
+RIS plan of the paper part of the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4445-3
+00:31:56.695 --> 00:32:00.958
+<v Alessandro Rossi>documental part of the of the deliverable,
+or you?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4465-0
+00:32:00.958 --> 00:32:06.100
+<v Alessandro Rossi>Can see or right now that it could be
+challenging for you to provide the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4465-1
+00:32:06.100 --> 00:32:10.398
+<v Alessandro Rossi>contribution of the documental part again
+only the document.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4476-0
+00:32:10.478 --> 00:32:14.958
+<v Alessandro Rossi>Part of the 4.3,
+which is your perspective in this sense.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4495-0
+00:32:15.268 --> 00:32:22.351
+<v Cristina Bianca Pop>Oh, so I think that we will,
+we will be able to to provide the part of</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4495-1
+00:32:22.351 --> 00:32:23.948
+<v Cristina Bianca Pop>the deliverable.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4497-0
+00:32:23.948 --> 00:32:25.868
+<v Cristina Bianca Pop>So it will be no problem.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4517-0
+00:32:27.328 --> 00:32:32.958
+<v Cristina Bianca Pop>So probably more refinement and other
+minor things will be addressed afterwards,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4517-1
+00:32:32.958 --> 00:32:35.808
+<v Cristina Bianca Pop>but for the deliverable it will be ready.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4523-0
+00:32:38.038 --> 00:32:39.638
+<v Alessandro Rossi>Papa Christina, thank you so much.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4549-0
+00:32:39.678 --> 00:32:44.336
+<v Cristina Bianca Pop>And sorry your if I understood correctly
+you said something about documenting the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4531-0
+00:32:41.168 --> 00:32:41.408
+<v Alessandro Rossi>Yeah.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4549-1
+00:32:44.336 --> 00:32:48.598
+<v Cristina Bianca Pop>code you refer to this part from the
+deliverable. Or is it something else?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4576-0
+00:32:49.368 --> 00:32:55.575
+<v Alessandro Rossi>Yeah, yeah, yeah. No, no,
+just the was my question was just for the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4576-1
+00:32:55.575 --> 00:33:00.048
+<v Alessandro Rossi>deliverable part for the the ward. OK,
+the ward.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4580-0
+00:32:58.948 --> 00:33:01.868
+<v Cristina Bianca Pop>OK, OK. OK. It's clear now. OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4594-0
+00:33:01.718 --> 00:33:08.529
+<v Alessandro Rossi>Yes, for the software, for the software.
+If it is not impacting any other tasks or</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4594-1
+00:33:08.529 --> 00:33:09.678
+<v Alessandro Rossi>work packages.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4609-0
+00:33:11.168 --> 00:33:14.456
+<v Alessandro Rossi>In my experience,
+there is no problem in releasing the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4609-1
+00:33:14.456 --> 00:33:17.088
+<v Alessandro Rossi>software with a little with a little
+delay.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4630-0
+00:33:17.288 --> 00:33:24.935
+<v Alessandro Rossi>Also, our PO is is really strict on this,
+but if the deliverable is provided in</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4630-1
+00:33:24.935 --> 00:33:30.288
+<v Alessandro Rossi>time then for the software we can have
+some refinement.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4640-0
+00:33:31.078 --> 00:33:35.158
+<v Alessandro Rossi>Until I think the review button,
+just pick it.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4645-0
+00:33:36.808 --> 00:33:38.328
+<v Alessandro Rossi>As a as a not.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4679-0
+00:33:41.128 --> 00:33:44.626
+<v Alessandro Rossi>Something, sure,
+but I I could expect that,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4679-1
+00:33:44.626 --> 00:33:49.793
+<v Alessandro Rossi>as in many other cases,
+we can go on if it's not impacting other</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4679-2
+00:33:49.793 --> 00:33:53.848
+<v Alessandro Rossi>the work of other partners with the
+software part.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4680-0
+00:33:52.118 --> 00:33:52.838
+<v Cristina Bianca Pop>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4683-0
+00:33:54.918 --> 00:33:55.598
+<v Alessandro Rossi>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4691-0
+00:33:55.678 --> 00:33:56.638
+<v Alessandro Rossi>Thank you again.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4686-0
+00:33:55.898 --> 00:33:56.258
+<v Cristina Bianca Pop>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4690-0
+00:33:56.258 --> 00:33:56.858
+<v Cristina Bianca Pop>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4699-0
+00:33:57.198 --> 00:34:00.558
+<v Alessandro Rossi>Thank you. Again,
+Christina and we can move on.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4709-0
+00:34:00.558 --> 00:34:06.318
+<v Alessandro Rossi>So with two if and there are no questions
+for Christina.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4715-0
+00:34:09.628 --> 00:34:10.028
+<v Alessandro Rossi>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4722-0
+00:34:10.028 --> 00:34:12.748
+<v Alessandro Rossi>So Rachel, the room is yours. Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4729-0
+00:34:12.828 --> 00:34:13.908
+<v KACULI RICHARD>Thank you, Alessandro.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4762-0
+00:34:13.908 --> 00:34:18.666
+<v KACULI RICHARD>Hi all while updates regarding the COVID
+flexibility services,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4762-1
+00:34:18.666 --> 00:34:24.859
+<v KACULI RICHARD>basically our major efforts were related
+to the comfort service for the pilot and</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4762-2
+00:34:24.859 --> 00:34:27.428
+<v KACULI RICHARD>integration with the digital twin.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4784-0
+00:34:28.148 --> 00:34:31.011
+<v KACULI RICHARD>In fact,
+for that we the call with NTA to</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4784-1
+00:34:31.011 --> 00:34:34.080
+<v KACULI RICHARD>understand how they comfort the
+flexibility,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4784-2
+00:34:34.080 --> 00:34:38.308
+<v KACULI RICHARD>the energy flexibility data could be
+integrated in two hours.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4793-0
+00:34:39.128 --> 00:34:42.448
+<v KACULI RICHARD>And in fact,
+the soft development is around 90%.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4805-0
+00:34:43.478 --> 00:34:49.558
+<v KACULI RICHARD>But we we hope that if in the
+finalization of that.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4813-0
+00:34:51.168 --> 00:34:55.128
+<v KACULI RICHARD>We we schedule the deployment date.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4837-0
+00:34:56.518 --> 00:35:01.533
+<v KACULI RICHARD>We did not scare the department date,
+but we hope that before the end of June,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4837-1
+00:35:01.533 --> 00:35:06.358
+<v KACULI RICHARD>we will have the digital twin and the
+comfort flexibility service deployed.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4850-0
+00:35:08.518 --> 00:35:11.858
+<v KACULI RICHARD>Dan,
+we will participate to a technical</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4850-1
+00:35:11.858 --> 00:35:16.118
+<v KACULI RICHARD>workshop for technicians hosted by Israel
+for the.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4899-0
+00:35:17.448 --> 00:35:21.952
+<v KACULI RICHARD>And as a next step,
+and I think that this is an important</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4899-1
+00:35:21.952 --> 00:35:25.602
+<v KACULI RICHARD>issue,
+we will schedule a call with Neogrid to</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4899-2
+00:35:25.602 --> 00:35:29.019
+<v KACULI RICHARD>understand the situation regarding the
+TSV,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4899-3
+00:35:29.019 --> 00:35:32.747
+<v KACULI RICHARD>because right now we are designing the
+comfort,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4899-4
+00:35:32.747 --> 00:35:38.728
+<v KACULI RICHARD>flexibility service for the Danish pilot
+and at this moment we are not rece.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4902-0
+00:35:38.928 --> 00:35:39.408
+<v KACULI RICHARD>Any TSV?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4908-0
+00:35:41.478 --> 00:35:42.398
+<v KACULI RICHARD>I don't know, Eric.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4914-0
+00:35:42.398 --> 00:35:46.678
+<v KACULI RICHARD>Maybe we can add also in the call, Thomas.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4923-0
+00:35:46.758 --> 00:35:51.958
+<v KACULI RICHARD>Just understand what is the situation
+about the the pilot.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4947-0
+00:35:52.338 --> 00:35:55.829
+<v Henrik Lund St&#230;rmose>Yeah,
+I I do not have that information because</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4947-1
+00:35:55.829 --> 00:35:59.098
+<v Henrik Lund St&#230;rmose>that is handled by by Thomas from
+Felspool.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4954-0
+00:35:59.298 --> 00:36:02.978
+<v Henrik Lund St&#230;rmose>So so we definitely need him on board
+here.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4959-0
+00:36:03.838 --> 00:36:05.238
+<v KACULI RICHARD>Yeah, exactly.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4964-0
+00:36:04.448 --> 00:36:05.528
+<v Henrik Lund St&#230;rmose>In order to to.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4962-0
+00:36:05.238 --> 00:36:05.718
+<v KACULI RICHARD>I will. I will.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4984-0
+00:36:06.478 --> 00:36:09.154
+<v KACULI RICHARD>Yeah,
+I will send you an e-mail just to</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4984-1
+00:36:09.154 --> 00:36:14.038
+<v KACULI RICHARD>schedule a meeting also with him and just
+understand how we can proceed.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4976-0
+00:36:10.518 --> 00:36:11.078
+<v Henrik Lund St&#230;rmose>Yep, mm hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4986-0
+00:36:14.238 --> 00:36:14.678
+<v Henrik Lund St&#230;rmose>Yeah.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/4989-0
+00:36:15.238 --> 00:36:16.998
+<v KACULI RICHARD>Thank you and.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5016-0
+00:36:18.488 --> 00:36:24.157
+<v KACULI RICHARD>Regarding the Greek and Spanish pilot,
+we are still waiting updates regarding</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5016-1
+00:36:24.157 --> 00:36:28.954
+<v KACULI RICHARD>the installation of devices,
+so we are still in standby regarding</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5016-2
+00:36:28.954 --> 00:36:30.408
+<v KACULI RICHARD>those two pilots so.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5028-0
+00:36:32.288 --> 00:36:36.128
+<v KACULI RICHARD>That basically the longer view of what
+we've done in these weeks.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5033-0
+00:36:44.568 --> 00:36:45.928
+<v KACULI RICHARD>Questions I don't know.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5035-0
+00:36:53.348 --> 00:36:53.548
+<v Alessandro Rossi>Oh.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5039-0
+00:36:59.498 --> 00:36:59.978
+<v Alessandro Rossi>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5073-0
+00:37:00.018 --> 00:37:05.255
+<v Alessandro Rossi>So basically we have just the 11 issue
+here, Richard,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5073-1
+00:37:05.255 --> 00:37:12.820
+<v Alessandro Rossi>the availability of TSUBU data and the
+other the other parts are updates from</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5073-2
+00:37:12.820 --> 00:37:18.058
+<v Alessandro Rossi>from Greece and from the Greek and the
+Spanish pilot.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5087-0
+00:37:19.768 --> 00:37:24.488
+<v Alessandro Rossi>But do you think there are any other
+issues or issues here or?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5091-0
+00:37:26.368 --> 00:37:26.808
+<v Alessandro Rossi>We can.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5094-0
+00:37:26.418 --> 00:37:27.458
+<v KACULI RICHARD>At this moment, no.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5131-0
+00:37:27.658 --> 00:37:31.409
+<v KACULI RICHARD>Because right now we focused basically on
+the comfort,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5131-1
+00:37:31.409 --> 00:37:36.594
+<v KACULI RICHARD>flexibility service for Italian pilot and
+there we had everything. In fact,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5110-0
+00:37:33.988 --> 00:37:34.188
+<v Alessandro Rossi>Mm hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5131-2
+00:37:36.594 --> 00:37:41.369
+<v KACULI RICHARD>thanks to Gloria and Sylvia,
+they provided every every data basically</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5131-3
+00:37:41.369 --> 00:37:45.258
+<v KACULI RICHARD>the TSB because others were accessed
+accessible by APIs.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5148-0
+00:37:47.088 --> 00:37:52.554
+<v KACULI RICHARD>So we didn't have any problems with that,
+but for the Danish pilot,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5148-1
+00:37:52.554 --> 00:37:55.288
+<v KACULI RICHARD>we have to proceed in another way.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5156-0
+00:37:55.678 --> 00:37:59.758
+<v KACULI RICHARD>Because we have different,
+that is a different pilot.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5164-0
+00:38:01.368 --> 00:38:03.288
+<v KACULI RICHARD>Refer to Italian one.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5183-0
+00:38:03.288 --> 00:38:10.190
+<v KACULI RICHARD>So we have to understand better what we
+need and the TSV is a key parameter.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5183-1
+00:38:10.190 --> 00:38:13.328
+<v KACULI RICHARD>If we don't have that is a problem.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5185-0
+00:38:14.478 --> 00:38:14.678
+<v Alessandro Rossi>Mm hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5201-0
+00:38:16.138 --> 00:38:21.308
+<v KACULI RICHARD>So regarding the weekend and Spanish
+pilot, we are still waiting for any kind,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5201-1
+00:38:21.308 --> 00:38:22.618
+<v KACULI RICHARD>any type of data so.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5210-0
+00:38:23.878 --> 00:38:28.318
+<v KACULI RICHARD>Regarding those two pilot who we are
+standby.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5225-0
+00:38:29.788 --> 00:38:33.308
+<v Alvaro>Yeah, in that in, sorry,
+this is Alberta from the Spanish pilot.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5217-0
+00:38:30.228 --> 00:38:30.708
+<v KACULI RICHARD>Yeah.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5247-0
+00:38:33.348 --> 00:38:36.303
+<v Alvaro>In this case,
+as we were commenting in some of the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5247-1
+00:38:36.303 --> 00:38:40.708
+<v Alvaro>meetings in Wordpack at 5:00 about the
+pilot, that the issue here was that.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5242-0
+00:38:38.158 --> 00:38:38.718
+<v KACULI RICHARD>Yeah.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5271-0
+00:38:42.168 --> 00:38:46.422
+<v Alvaro>Initially we thought that the
+installation of the devices would be more</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5271-1
+00:38:46.422 --> 00:38:49.968
+<v Alvaro>simple for the end user so that they
+could make themselves.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5272-0
+00:38:50.488 --> 00:38:52.048
+<v Alvaro>Finally, it was not.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5293-0
+00:38:52.048 --> 00:38:56.013
+<v Alvaro>And we have had several issues related
+connectivity with why with Phineas person</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5293-1
+00:38:56.013 --> 00:38:59.048
+<v Alvaro>so on with devices and we have to devote
+people specifically.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5300-0
+00:38:59.838 --> 00:39:03.478
+<v Alvaro>Call my home to make each of the of the
+installations.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5346-0
+00:39:04.968 --> 00:39:09.796
+<v Alvaro>And this is the issue that we have had
+that the work that we were expecting that</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5346-1
+00:39:09.796 --> 00:39:14.207
+<v Alvaro>users could be doing themselves,
+it's something that we have to the vote,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5346-2
+00:39:14.207 --> 00:39:19.214
+<v Alvaro>some efforts that we didn't expect and we
+we could not like allocate them in the in</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5346-3
+00:39:19.214 --> 00:39:20.168
+<v Alvaro>the calendar in.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5364-0
+00:39:20.928 --> 00:39:24.780
+<v Alvaro>In an aggregated way.
+So we have to to make it step by step and</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5364-1
+00:39:24.780 --> 00:39:27.128
+<v Alvaro>it's giving us more time than expected.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5368-0
+00:39:27.128 --> 00:39:28.888
+<v Alvaro>So that's why that we don't have that yet.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5370-0
+00:39:29.918 --> 00:39:31.118
+<v Alvaro>Then OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5378-0
+00:39:31.118 --> 00:39:32.198
+<v Alvaro>So this is the issue.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5411-0
+00:39:32.198 --> 00:39:37.478
+<v Alvaro>I think that either in also we were
+cooperating with with the Greek pilot as</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5411-1
+00:39:37.478 --> 00:39:43.238
+<v Alvaro>well with in order to put them everything
+ready regarding communications and so on.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5443-0
+00:39:43.238 --> 00:39:48.027
+<v Alvaro>I mean this part is something that we we
+were we work already and I think in this</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5443-1
+00:39:48.027 --> 00:39:52.641
+<v Alvaro>regard that this from the Spanish side we
+have it ready but we have this small</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5443-2
+00:39:52.641 --> 00:39:56.438
+<v Alvaro>limitation that we have to go home by
+home to make it ourselves.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5446-0
+00:40:01.658 --> 00:40:01.778
+<v Henrik Lund St&#230;rmose>Hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5453-0
+00:40:01.778 --> 00:40:04.298
+<v KACULI RICHARD>Thank you, Alvaro, just for curiosity.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5474-0
+00:40:06.088 --> 00:40:11.390
+<v KACULI RICHARD>Do you have on, let's say,
+a deadline where you think that all the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5474-1
+00:40:11.390 --> 00:40:13.448
+<v KACULI RICHARD>devices will be stoled or?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5476-0
+00:40:15.128 --> 00:40:15.848
+<v KACULI RICHARD>You don't know.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5512-0
+00:40:16.408 --> 00:40:21.397
+<v Alvaro>We are working in the in the framework of
+having all done here in the month of May</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5512-1
+00:40:21.397 --> 00:40:25.966
+<v Alvaro>that we have had somebody to go in the
+afternoons to make it so this is our</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5512-2
+00:40:25.966 --> 00:40:26.688
+<v Alvaro>expectation.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5516-0
+00:40:26.688 --> 00:40:28.448
+<v Alvaro>So let's see if we are able to manage.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5519-0
+00:40:29.188 --> 00:40:30.028
+<v KACULI RICHARD>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5521-0
+00:40:30.108 --> 00:40:31.028
+<v KACULI RICHARD>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5541-0
+00:40:36.068 --> 00:40:41.316
+<v Panos Skaloumpakas>Also, I wanted to ask Richard,
+who are you in contact with for the Greek</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5541-1
+00:40:41.316 --> 00:40:41.748
+<v Panos Skaloumpakas>pilot?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5546-0
+00:40:42.028 --> 00:40:44.648
+<v Panos Skaloumpakas>Is it the hero side or the domx side?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5550-0
+00:40:45.308 --> 00:40:47.028
+<v KACULI RICHARD>Here on here on.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5553-0
+00:40:48.148 --> 00:40:48.628
+<v Panos Skaloumpakas>So.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5576-0
+00:40:58.078 --> 00:40:58.638
+<v Athanasios Papakonstantinou>Here.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5585-0
+00:40:58.908 --> 00:41:01.996
+<v KACULI RICHARD>The last meeting,
+the last call I talked to him.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5585-1
+00:41:01.996 --> 00:41:03.068
+<v KACULI RICHARD>So I don't think.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5586-0
+00:41:02.238 --> 00:41:02.678
+<v Athanasios Papakonstantinou>Yeah.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5592-0
+00:41:04.558 --> 00:41:06.078
+<v Athanasios Papakonstantinou>Yeah, we're still waiting. We had.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5602-0
+00:41:06.078 --> 00:41:08.838
+<v Athanasios Papakonstantinou>We had we had any knows.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5631-0
+00:41:09.198 --> 00:41:16.338
+<v Athanasios Papakonstantinou>We had the exchanging mail with arcelik
+that their A/C units are cleared for</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5631-1
+00:41:16.338 --> 00:41:20.882
+<v Athanasios Papakonstantinou>shipment,
+which is a progress from what we had a</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5631-2
+00:41:20.882 --> 00:41:25.798
+<v Athanasios Papakonstantinou>few months ago,
+but we're still waiting so they had.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5642-0
+00:41:25.798 --> 00:41:27.491
+<v Athanasios Papakonstantinou>They have to be shipped.
+They have to be arrived.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5642-1
+00:41:27.491 --> 00:41:29.118
+<v Athanasios Papakonstantinou>They have to be installed.
+We have to make the.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5645-0
+00:41:30.198 --> 00:41:31.038
+<v Athanasios Papakonstantinou>The data connection.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5658-0
+00:41:31.708 --> 00:41:36.536
+<v Athanasios Papakonstantinou>So yeah,
+we still have some progress on some road</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5658-1
+00:41:36.536 --> 00:41:38.468
+<v Athanasios Papakonstantinou>ahead on this issue.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5665-0
+00:41:39.998 --> 00:41:42.158
+<v Athanasios Papakonstantinou>And all the the as I mentioned before.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5667-0
+00:41:43.798 --> 00:41:43.998
+<v Athanasios Papakonstantinou>Regarding.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5684-0
+00:41:45.718 --> 00:41:50.851
+<v Athanasios Papakonstantinou>The the smart plugs the the gateways
+provide some information on temperature</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5684-1
+00:41:50.851 --> 00:41:51.718
+<v Athanasios Papakonstantinou>and humidity.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5690-0
+00:41:54.158 --> 00:41:56.118
+<v Athanasios Papakonstantinou>But also we also need to.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5692-0
+00:41:59.078 --> 00:41:59.878
+<v Athanasios Papakonstantinou>To deploy them.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5696-0
+00:42:02.618 --> 00:42:03.698
+<v Panos Skaloumpakas>OK, OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5715-0
+00:42:03.698 --> 00:42:06.079
+<v Panos Skaloumpakas>So yeah,
+I was thinking that is the service</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5715-1
+00:42:06.079 --> 00:42:08.298
+<v Panos Skaloumpakas>related to the A/C swords as the gateway.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5728-0
+00:42:08.298 --> 00:42:11.551
+<v Panos Skaloumpakas>So like,
+can we proceed with the deployment of the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5728-1
+00:42:11.551 --> 00:42:13.338
+<v Panos Skaloumpakas>gateways to to provide some?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5737-0
+00:42:13.088 --> 00:42:15.968
+<v Athanasios Papakonstantinou>What pilots did deployment of the
+gateways without their conditions?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5746-0
+00:42:15.968 --> 00:42:19.168
+<v Athanasios Papakonstantinou>We have to see,
+I mean we we don't have this information.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5764-0
+00:42:19.168 --> 00:42:24.340
+<v Athanasios Papakonstantinou>Probably the the same users,
+those who will get the A/C units will get</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5764-1
+00:42:24.340 --> 00:42:25.288
+<v Athanasios Papakonstantinou>the gateways.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5774-0
+00:42:26.878 --> 00:42:31.718
+<v Athanasios Papakonstantinou>So without the gateways,
+the ACI mean these two come together.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5811-0
+00:42:35.188 --> 00:42:38.865
+<v Athanasios Papakonstantinou>What we are doing now,
+as it was mentioned from Alvaro before,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5811-1
+00:42:38.865 --> 00:42:43.534
+<v Athanasios Papakonstantinou>is that we are trying to to build the
+database for to get the readings from the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5811-2
+00:42:43.534 --> 00:42:46.628
+<v Athanasios Papakonstantinou>gateways that we already have here and we
+are using.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5820-0
+00:42:46.668 --> 00:42:49.894
+<v Athanasios Papakonstantinou>We have some gateways that we're using
+for trialing,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5820-1
+00:42:49.894 --> 00:42:52.268
+<v Athanasios Papakonstantinou>so we have established connection with.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5831-0
+00:42:53.798 --> 00:42:57.238
+<v Athanasios Papakonstantinou>With them and we are we can collect data.
+That's it.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5855-0
+00:42:58.918 --> 00:43:01.780
+<v Athanasios Papakonstantinou>So when the,
+at least when the machines when the air</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5855-1
+00:43:01.780 --> 00:43:05.831
+<v Athanasios Papakonstantinou>conditioning arrive and we start
+deploying all the information the the the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5855-2
+00:43:05.831 --> 00:43:06.318
+<v Athanasios Papakonstantinou>hardware.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5858-0
+00:43:06.828 --> 00:43:07.428
+<v Athanasios Papakonstantinou>We can.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5861-0
+00:43:07.828 --> 00:43:08.388
+<v Athanasios Papakonstantinou>We can do it.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5864-0
+00:43:08.388 --> 00:43:09.428
+<v Athanasios Papakonstantinou>We can stop.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5871-0
+00:43:09.428 --> 00:43:13.108
+<v Athanasios Papakonstantinou>You know, we can catch up faster,
+but that's all. All we can do.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5875-0
+00:43:17.548 --> 00:43:18.268
+<v Panos Skaloumpakas>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5894-0
+00:43:18.388 --> 00:43:23.028
+<v Panos Skaloumpakas>So if I understand correctly like you
+need to do both at the same time,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5894-1
+00:43:23.028 --> 00:43:26.508
+<v Panos Skaloumpakas>like the deployment of the gateways and
+also the ACS.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5916-0
+00:43:26.488 --> 00:43:29.499
+<v Athanasios Papakonstantinou>Yes,
+otherwise the the users get get bored.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5916-1
+00:43:29.499 --> 00:43:35.248
+<v Athanasios Papakonstantinou>They that once they receive the A/C unit
+they you have we have leverage as a pilot.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5948-0
+00:43:35.248 --> 00:43:39.353
+<v Athanasios Papakonstantinou>So that's when you start pushing them to
+do stuff.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5948-1
+00:43:39.353 --> 00:43:43.216
+<v Athanasios Papakonstantinou>If you give them a box and you say to
+them, OK,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5948-2
+00:43:43.216 --> 00:43:48.368
+<v Athanasios Papakonstantinou>you install it and then I mean it's
+they're not going to react.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5953-0
+00:43:48.368 --> 00:43:51.088
+<v Athanasios Papakonstantinou>But if we do it on a let's say.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5974-0
+00:43:51.878 --> 00:43:55.943
+<v Athanasios Papakonstantinou>The kit you that's you got now two kids
+and we have the the the person who's</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5974-1
+00:43:55.943 --> 00:43:57.158
+<v Athanasios Papakonstantinou>doing the installation.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5980-0
+00:43:58.868 --> 00:44:02.308
+<v Athanasios Papakonstantinou>A bit. We think it's gonna work better.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5983-0
+00:44:05.438 --> 00:44:05.598
+<v Panos Skaloumpakas>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5986-0
+00:44:05.488 --> 00:44:06.128
+<v Athanasios Papakonstantinou>We hope.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/5989-0
+00:44:06.128 --> 00:44:07.488
+<v Athanasios Papakonstantinou>Actually, it's gonna work better.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6003-0
+00:44:09.548 --> 00:44:14.817
+<v Panos Skaloumpakas>OK, but OK,
+I just wanted to remind like both you and</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6003-1
+00:44:14.817 --> 00:44:15.988
+<v Panos Skaloumpakas>Alvaro that.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6011-0
+00:44:17.518 --> 00:44:20.318
+<v Panos Skaloumpakas>The deadline for this deliverable is
+supposed to be like.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6023-0
+00:44:21.958 --> 00:44:25.434
+<v Panos Skaloumpakas>July.
+So like we don't have another deliverable</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6023-1
+00:44:25.434 --> 00:44:27.318
+<v Panos Skaloumpakas>for all packets for right.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6032-0
+00:44:28.628 --> 00:44:32.068
+<v Athanasios Papakonstantinou>What can you do if the if the boxes are
+in Spain?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6038-0
+00:44:34.518 --> 00:44:37.118
+<v Athanasios Papakonstantinou>Or not and or in any.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6040-0
+00:44:38.918 --> 00:44:39.558
+<v Athanasios Papakonstantinou>Hunger depot.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6043-0
+00:44:41.628 --> 00:44:43.028
+<v Panos Skaloumpakas>OK, but yeah.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6062-0
+00:44:46.628 --> 00:44:51.331
+<v Panos Skaloumpakas>Let's try to to like react very fast,
+like when when you receive the air</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6062-1
+00:44:51.331 --> 00:44:53.908
+<v Panos Skaloumpakas>conditions or like Alvaro when you have.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6075-0
+00:44:55.438 --> 00:44:59.278
+<v Panos Skaloumpakas>Finally installed the gateways and the
+smart plugs.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6080-0
+00:45:00.038 --> 00:45:03.038
+<v Panos Skaloumpakas>Start collecting data and serve with
+univpm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6088-0
+00:45:04.548 --> 00:45:06.828
+<v Panos Skaloumpakas>Unique ducked, like very fast for this.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6093-0
+00:45:05.068 --> 00:45:09.508
+<v Athanasios Papakonstantinou>Alvar can I ask something now that I have
+you here?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6098-0
+00:45:10.418 --> 00:45:10.898
+<v Alvaro>Yeah.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6111-0
+00:45:11.338 --> 00:45:17.074
+<v Athanasios Papakonstantinou>Have you installed any of the gateways
+and and the smart plugs at at at at the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6111-1
+00:45:17.074 --> 00:45:18.018
+<v Athanasios Papakonstantinou>lab at least?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6122-0
+00:45:19.108 --> 00:45:19.948
+<v Alvaro>Yeah, the lab.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6123-0
+00:45:19.948 --> 00:45:21.428
+<v Alvaro>We we've done it.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6139-0
+00:45:20.858 --> 00:45:23.951
+<v Athanasios Papakonstantinou>OK.
+Did you notice that the disconnection</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6127-0
+00:45:21.948 --> 00:45:22.988
+<v Alvaro>We have even.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6139-1
+00:45:23.951 --> 00:45:26.898
+<v Athanasios Papakonstantinou>like a month ago or something like that?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6185-0
+00:45:27.778 --> 00:45:32.184
+<v Athanasios Papakonstantinou>Because we have also installed in two
+homes and IA month ago everything got</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6185-1
+00:45:32.184 --> 00:45:36.475
+<v Athanasios Papakonstantinou>disconnected and we had to reinstall
+every everything from the beginning,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6185-2
+00:45:36.475 --> 00:45:40.998
+<v Athanasios Papakonstantinou>not just because usually the plugs and
+the desynchronize from the gateway but</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6185-3
+00:45:40.998 --> 00:45:44.478
+<v Athanasios Papakonstantinou>this time they just we had to do
+everything from the begin.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6192-0
+00:45:45.298 --> 00:45:46.698
+<v Athanasios Papakonstantinou>And I asked when I asked.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6194-0
+00:45:47.838 --> 00:45:48.038
+<v Athanasios Papakonstantinou>Mehmet.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6199-0
+00:45:49.598 --> 00:45:50.598
+<v Athanasios Papakonstantinou>He mentioned that they have.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6201-0
+00:45:50.598 --> 00:45:51.198
+<v Athanasios Papakonstantinou>They did not.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6217-0
+00:45:51.468 --> 00:45:54.642
+<v Athanasios Papakonstantinou>To something,
+but he couldn't actually also verify that</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6217-1
+00:45:54.642 --> 00:45:57.760
+<v Athanasios Papakonstantinou>something, you know,
+something happened on their side,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6217-2
+00:45:57.760 --> 00:46:00.028
+<v Athanasios Papakonstantinou>like cloud reset or something like that.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6227-0
+00:46:01.148 --> 00:46:05.308
+<v Athanasios Papakonstantinou>Have you noticed anything or it was just
+my case, I guess.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6219-0
+00:46:01.658 --> 00:46:01.858
+<v Alvaro>Mm hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6250-0
+00:46:05.678 --> 00:46:08.552
+<v Alvaro>Yeah. Wait,
+maybe we can even discuss it if you want.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6250-1
+00:46:08.552 --> 00:46:10.948
+<v Alvaro>Apart,
+we can have a separate call for this,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6250-2
+00:46:10.948 --> 00:46:12.918
+<v Alvaro>Marcus, on the, it's now in the call.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6293-0
+00:46:12.918 --> 00:46:18.417
+<v Alvaro>I mean, my experience as far as I know,
+we didn't have that issues related to</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6293-1
+00:46:18.417 --> 00:46:22.225
+<v Alvaro>these connections,
+but would we have experienced some</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6293-2
+00:46:22.225 --> 00:46:27.584
+<v Alvaro>several difficulties with some cost
+specific companies of it for connecting</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6293-3
+00:46:27.584 --> 00:46:32.238
+<v Alvaro>the devices but not specifically for this
+connection and in fact?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6302-0
+00:46:32.998 --> 00:46:35.158
+<v Alvaro>If I'm not wrong,
+we have some of the devices.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6315-0
+00:46:35.548 --> 00:46:40.748
+<v Alvaro>Is installed and running so,
+but Mark is more aware of The Daily</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6315-1
+00:46:40.748 --> 00:46:42.108
+<v Alvaro>Progress of this.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6344-0
+00:46:42.508 --> 00:46:47.342
+<v Alvaro>But it is not something that we have
+experienced anyway. If this is the case,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6344-1
+00:46:47.342 --> 00:46:52.177
+<v Alvaro>maybe we can have just a a chat between
+you and us and in order to see what's</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6344-2
+00:46:52.177 --> 00:46:55.772
+<v Alvaro>going on in your case.
+So if to see if we can support you</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6344-3
+00:46:55.772 --> 00:46:56.268
+<v Alvaro>somehow.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6372-0
+00:46:57.108 --> 00:47:01.512
+<v Athanasios Papakonstantinou>Oh, I just reinstalled everything,
+but I was wondering if but what I was not</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6370-0
+00:46:59.488 --> 00:47:01.968
+<v Alvaro>Yeah. No, I mean our experience was that.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6372-1
+00:47:01.512 --> 00:47:02.828
+<v Athanasios Papakonstantinou>happy about that. Yeah.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6381-0
+00:47:02.048 --> 00:47:05.036
+<v Alvaro>Yeah. No,
+we didn't have the experience of losing</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6381-1
+00:47:05.036 --> 00:47:07.128
+<v Alvaro>and have to reconfigure everything.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6387-0
+00:47:07.938 --> 00:47:09.578
+<v Athanasios Papakonstantinou>OK. OK, good. Thanks a lot.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6388-0
+00:47:08.918 --> 00:47:09.838
+<v Alvaro>We didn't have that.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6401-0
+00:47:10.348 --> 00:47:13.628
+<v Marc Girona_CIMNE>If you have, if you can send me flow,
+it's Mark.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6418-0
+00:47:14.588 --> 00:47:18.130
+<v Marc Girona_CIMNE>If you can send me the period where you
+have the losses,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6418-1
+00:47:18.130 --> 00:47:21.548
+<v Marc Girona_CIMNE>I can check if I have the same losses
+because I might.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6422-0
+00:47:23.308 --> 00:47:23.868
+<v Marc Girona_CIMNE>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6425-0
+00:47:23.838 --> 00:47:24.798
+<v Athanasios Papakonstantinou>Oh, that's good one, mark.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6438-0
+00:47:24.798 --> 00:47:27.838
+<v Athanasios Papakonstantinou>I'll try to figure this out because now I
+have to go through the logs OK again.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6436-0
+00:47:25.928 --> 00:47:26.528
+<v Marc Girona_CIMNE>Yeah.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6441-0
+00:47:27.838 --> 00:47:28.478
+<v Athanasios Papakonstantinou>Good, good.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6442-0
+00:47:28.238 --> 00:47:28.398
+<v Marc Girona_CIMNE>I do.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6458-0
+00:47:29.798 --> 00:47:34.516
+<v Marc Girona_CIMNE>Try to send me what happens when I will
+try to recreate the scenario or check if</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6458-1
+00:47:34.516 --> 00:47:35.798
+<v Marc Girona_CIMNE>it happens same to me.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6460-0
+00:47:38.838 --> 00:47:40.158
+<v Marc Girona_CIMNE>That would be nice.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6463-0
+00:47:40.648 --> 00:47:41.968
+<v Athanasios Papakonstantinou>Good, good will. I'll do that.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6465-0
+00:47:43.118 --> 00:47:43.638
+<v Marc Girona_CIMNE>Thanks.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6474-0
+00:47:48.628 --> 00:47:51.988
+<v Panos Skaloumpakas>So I have another question to do you
+expect?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6484-0
+00:47:53.478 --> 00:47:56.696
+<v Panos Skaloumpakas>Like honestly,
+like subjective data from from these two</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6484-1
+00:47:56.696 --> 00:47:57.558
+<v Panos Skaloumpakas>pilots because.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6510-0
+00:47:59.358 --> 00:48:02.874
+<v Panos Skaloumpakas>Looking taking into consideration of the
+timelines,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6510-1
+00:48:02.874 --> 00:48:07.878
+<v Panos Skaloumpakas>I don't think it is possible to actually
+yeah, like to share questioners.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6499-0
+00:48:04.288 --> 00:48:04.928
+<v KACULI RICHARD>Honestly.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6506-0
+00:48:06.438 --> 00:48:06.678
+<v KACULI RICHARD>No.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6535-0
+00:48:07.918 --> 00:48:13.252
+<v Panos Skaloumpakas>So maybe if you could try like to
+demonstrate this service in a like you</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6535-1
+00:48:13.252 --> 00:48:19.098
+<v Panos Skaloumpakas>know like a different kind of version,
+maybe with the less functionalities than</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6535-2
+00:48:19.098 --> 00:48:20.998
+<v Panos Skaloumpakas>the other two pilot sites.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6556-0
+00:48:21.798 --> 00:48:26.807
+<v Panos Skaloumpakas>Because I don't think the timelines allow
+us to to serve a questioner and receive</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6541-0
+00:48:22.148 --> 00:48:22.548
+<v KACULI RICHARD>What?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6556-1
+00:48:26.807 --> 00:48:28.518
+<v Panos Skaloumpakas>feedback from the residents.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6569-0
+00:48:29.298 --> 00:48:34.458
+<v KACULI RICHARD>To provide conver flexibility action
+Panos we can proceed by using.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6570-0
+00:48:34.098 --> 00:48:34.978
+<v Panos Skaloumpakas>Just the data.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6577-0
+00:48:35.838 --> 00:48:36.478
+<v KACULI RICHARD>Yeah, adjusted data.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6611-0
+00:48:36.478 --> 00:48:41.473
+<v KACULI RICHARD>So based on environmental data,
+but I don't if it is, it is possible,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6585-0
+00:48:37.258 --> 00:48:39.178
+<v Panos Skaloumpakas>OK, OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6611-1
+00:48:41.473 --> 00:48:46.897
+<v KACULI RICHARD>but in the if I'm not wrong in the
+proposal is written that it it should be</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6611-2
+00:48:46.897 --> 00:48:49.038
+<v KACULI RICHARD>done by using subjective data.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6616-0
+00:48:49.438 --> 00:48:51.278
+<v KACULI RICHARD>So I don't know if it's a problem.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6619-0
+00:48:51.438 --> 00:48:52.678
+<v KACULI RICHARD>I have just to ask.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6643-0
+00:48:53.098 --> 00:48:57.171
+<v Panos Skaloumpakas>I feel like if we can demonstrate this to
+the other 2 pilots,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6643-1
+00:48:57.171 --> 00:49:02.426
+<v Panos Skaloumpakas>then because I also think that the Greek
+and Spanish Pilot act as a multipliers</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6643-2
+00:49:02.426 --> 00:49:03.018
+<v Panos Skaloumpakas>for this.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6648-0
+00:49:03.378 --> 00:49:05.378
+<v Panos Skaloumpakas>So I don't think it will be a problem.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6651-0
+00:49:06.458 --> 00:49:07.098
+<v KACULI RICHARD>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6655-0
+00:49:07.458 --> 00:49:08.978
+<v KACULI RICHARD>Maybe I.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6664-0
+00:49:08.238 --> 00:49:11.198
+<v Panos Skaloumpakas>I mean we,
+we we we don't have the time actually.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6659-0
+00:49:10.278 --> 00:49:10.478
+<v KACULI RICHARD>1st.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6681-0
+00:49:11.198 --> 00:49:18.012
+<v Panos Skaloumpakas>So it's not like if we had the time, yes.
+OK. But like we have to be realistic,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6676-0
+00:49:15.778 --> 00:49:16.498
+<v KACULI RICHARD>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6681-1
+00:49:18.012 --> 00:49:18.438
+<v Panos Skaloumpakas>yeah.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6682-0
+00:49:18.238 --> 00:49:19.398
+<v KACULI RICHARD>I yeah, exactly so.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6685-0
+00:49:21.478 --> 00:49:21.918
+<v KACULI RICHARD>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6709-0
+00:49:21.918 --> 00:49:26.704
+<v KACULI RICHARD>Maybe we we can proceed with the Greek
+and Spanish pilot by using environmental</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6709-1
+00:49:26.704 --> 00:49:28.798
+<v KACULI RICHARD>data only, only environmental data.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6717-0
+00:49:28.048 --> 00:49:30.968
+<v Panos Skaloumpakas>Yeah, but, but,
+but first we you have to receive this.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6733-0
+00:49:30.968 --> 00:49:35.448
+<v Panos Skaloumpakas>So again,
+a reminder to to to Alvaro and Thanasis.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6731-0
+00:49:32.028 --> 00:49:35.388
+<v KACULI RICHARD>Yeah, yeah. Once we have data, we can,
+yeah.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6737-0
+00:49:35.448 --> 00:49:37.928
+<v Panos Skaloumpakas>Yeah, to to react fast like.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6762-0
+00:49:39.398 --> 00:49:43.687
+<v Panos Skaloumpakas>And and inform us when,
+when everything is ready and you are</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6762-1
+00:49:43.687 --> 00:49:47.063
+<v Panos Skaloumpakas>start collecting data from the arcelik
+devices,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6762-2
+00:49:47.063 --> 00:49:50.158
+<v Panos Skaloumpakas>then share it with with the other
+partners.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6764-0
+00:49:58.378 --> 00:49:58.778
+<v Alessandro Rossi>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6769-0
+00:49:58.778 --> 00:49:59.618
+<v Alessandro Rossi>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6776-0
+00:49:59.618 --> 00:50:06.858
+<v Alessandro Rossi>Thank you for reaching also all the other
+Danasios also.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6790-0
+00:50:08.758 --> 00:50:14.718
+<v Alessandro Rossi>Thank you so much for this. This view of,
+of course, of salvaro mark.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6810-0
+00:50:16.558 --> 00:50:19.858
+<v Alessandro Rossi>So if we don't have any other thing in
+task 4,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6810-1
+00:50:19.858 --> 00:50:23.158
+<v Alessandro Rossi>the two we can move on with task 4,
+the three.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6825-0
+00:50:24.838 --> 00:50:29.693
+<v Alessandro Rossi>So, Janice, please,
+I apologize for for for the mess in the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6825-1
+00:50:29.693 --> 00:50:31.798
+<v Alessandro Rossi>communication of the link.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6838-0
+00:50:32.508 --> 00:50:38.708
+<v Alessandro Rossi>I already told everybody that next time I
+will pick the the link.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6855-0
+00:50:40.198 --> 00:50:44.737
+<v Alessandro Rossi>Just make it more explicit,
+since apparently there is no participate</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6855-1
+00:50:44.737 --> 00:50:45.198
+<v Alessandro Rossi>button.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6856-0
+00:50:46.078 --> 00:50:47.078
+<v Alessandro Rossi>Thank you, Janice.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6858-0
+00:50:47.078 --> 00:50:48.518
+<v Alessandro Rossi>The wrong is yours.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6861-0
+00:50:51.458 --> 00:50:51.978
+<v Giannis Kazdaridis>Good morning.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6864-0
+00:50:51.978 --> 00:50:53.418
+<v Giannis Kazdaridis>This is another call.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6870-0
+00:50:55.108 --> 00:50:56.188
+<v Giannis Kazdaridis>With a company.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6872-0
+00:50:56.188 --> 00:50:57.388
+<v Giannis Kazdaridis>That's why I skipped the call.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6900-0
+00:50:58.918 --> 00:51:03.850
+<v Giannis Kazdaridis>I can stay for 5 minutes and or we can
+organize just me and you. Alessandra.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6900-1
+00:51:03.850 --> 00:51:07.758
+<v Giannis Kazdaridis>I can give you some details on what's
+going on in this task.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6906-0
+00:51:07.868 --> 00:51:10.948
+<v Giannis Kazdaridis>I don't want us to discuss later today or
+even tomorrow.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6908-0
+00:51:07.948 --> 00:51:08.468
+<v Alessandro Rossi>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6915-0
+00:51:12.338 --> 00:51:13.338
+<v Alessandro Rossi>OK. OK. OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6923-0
+00:51:13.378 --> 00:51:17.298
+<v Alessandro Rossi>We can have a call if you need next.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6935-0
+00:51:17.778 --> 00:51:20.857
+<v Alessandro Rossi>Yeah,
+tomorrow is is fine for me if you if you</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6935-1
+00:51:20.857 --> 00:51:21.578
+<v Alessandro Rossi>want, yeah.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6942-0
+00:51:21.018 --> 00:51:24.138
+<v Giannis Kazdaridis>Super sorry for sorry for being unable to
+join the call.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6949-0
+00:51:25.588 --> 00:51:26.788
+<v Alessandro Rossi>Oh, no problem, no problem.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6964-0
+00:51:27.028 --> 00:51:30.096
+<v Alessandro Rossi>It's.
+I don't know if you want just to</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6964-1
+00:51:30.096 --> 00:51:34.108
+<v Alessandro Rossi>summarize some open issues that you want
+to share.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6966-0
+00:51:35.678 --> 00:51:35.838
+<v Alessandro Rossi>With.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6982-0
+00:51:37.518 --> 00:51:40.254
+<v Alessandro Rossi>During this call,
+or just to move for tomorrow,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6982-1
+00:51:40.254 --> 00:51:42.478
+<v Alessandro Rossi>I will provide you a link or something.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6997-0
+00:51:43.548 --> 00:51:47.633
+<v Giannis Kazdaridis>I will prefer to do that tomorrow and
+have to discuss with all the partners to</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/6997-1
+00:51:47.633 --> 00:51:48.668
+<v Giannis Kazdaridis>see the progress so.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7013-0
+00:51:50.468 --> 00:51:53.228
+<v Giannis Kazdaridis>I have discussed with all the part five
+or six partners.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7014-0
+00:51:53.228 --> 00:51:54.668
+<v Giannis Kazdaridis>It's not.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7019-0
+00:51:54.708 --> 00:51:56.748
+<v Giannis Kazdaridis>Not something I can do, just incidence.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7030-0
+00:51:58.428 --> 00:52:00.428
+<v Giannis Kazdaridis>So I would prefer to talk tomorrow, OK?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7024-0
+00:51:58.478 --> 00:51:58.998
+<v Alessandro Rossi>Market.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7032-0
+00:52:00.428 --> 00:52:01.268
+<v Giannis Kazdaridis>Sorry for that again.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7040-0
+00:52:02.228 --> 00:52:03.788
+<v Alessandro Rossi>No problem, no problem, Janice.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7044-0
+00:52:04.948 --> 00:52:07.748
+<v Alessandro Rossi>I don't know I can.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7053-0
+00:52:08.028 --> 00:52:11.788
+<v Alessandro Rossi>I can provide this link for everybody or
+just for you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7072-0
+00:52:13.318 --> 00:52:17.554
+<v Alessandro Rossi>But it's just just a matter of deciding
+the the time.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7072-1
+00:52:17.554 --> 00:52:21.478
+<v Alessandro Rossi>Maybe in the afternoon is better tomorrow
+for me.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7074-0
+00:52:21.978 --> 00:52:22.418
+<v Giannis Kazdaridis>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7077-0
+00:52:23.498 --> 00:52:26.058
+<v Alessandro Rossi>So just let me see.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7084-0
+00:52:26.608 --> 00:52:30.808
+<v Giannis Kazdaridis>Let's start offline to to see who can
+start in in, in teams.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7096-0
+00:52:32.208 --> 00:52:34.008
+<v Alessandro Rossi>OK. OK. OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7091-0
+00:52:33.308 --> 00:52:33.668
+<v Giannis Kazdaridis>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7102-0
+00:52:34.408 --> 00:52:34.888
+<v Alessandro Rossi>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7103-0
+00:52:34.888 --> 00:52:35.768
+<v Alessandro Rossi>Thank you, Dennis.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7104-0
+00:52:35.188 --> 00:52:36.708
+<v Giannis Kazdaridis>So again, have a nice day. Bye.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7106-0
+00:52:37.168 --> 00:52:37.888
+<v Alessandro Rossi>No problem.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7110-0
+00:52:37.928 --> 00:52:39.048
+<v Alessandro Rossi>Bye. Bye Janice.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7109-0
+00:52:38.968 --> 00:52:39.248
+<v Giannis Kazdaridis>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7123-0
+00:52:40.678 --> 00:52:46.838
+<v Alessandro Rossi>So I will extend the the invitation to
+everybody in the in.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7134-0
+00:52:48.838 --> 00:52:51.758
+<v Alessandro Rossi>This in this team's group, of course.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7147-0
+00:52:51.758 --> 00:52:59.041
+<v Alessandro Rossi>Please feel free to to join if tomorrow
+maybe tomorrow. I'm free from 11:30,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7147-1
+00:52:59.041 --> 00:52:59.798
+<v Alessandro Rossi>no 1112.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7155-0
+00:53:00.628 --> 00:53:05.788
+<v Alessandro Rossi>12 because there is the technical board
+meeting.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7159-0
+00:53:07.198 --> 00:53:08.398
+<v Alessandro Rossi>This 12:00 so.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7170-0
+00:53:08.948 --> 00:53:12.428
+<v Alessandro Rossi>Maybe. Maybe in the afternoon. Yeah,
+in the afternoon is better.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7176-0
+00:53:12.428 --> 00:53:17.908
+<v Alessandro Rossi>I don't know if anybody of you will be
+available from.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7186-0
+00:53:19.958 --> 00:53:23.798
+<v Alessandro Rossi>It will be maybe, maybe two or three.
+Kartik cannot join.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7191-0
+00:53:25.518 --> 00:53:26.878
+<v Alessandro Rossi>Over over 15 so.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7199-0
+00:53:28.998 --> 00:53:29.798
+<v Alessandro Rossi>Maybe. Maybe we can.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7210-0
+00:53:29.798 --> 00:53:34.908
+<v Alessandro Rossi>We can share this this invitation to
+everybody to finalize this task for the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7210-1
+00:53:34.908 --> 00:53:35.638
+<v Alessandro Rossi>three-part.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7212-0
+00:53:37.638 --> 00:53:38.518
+<v Alessandro Rossi>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7220-0
+00:53:40.468 --> 00:53:43.388
+<v Alessandro Rossi>So we can move on with task 4.4 now.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7223-0
+00:53:46.498 --> 00:53:47.018
+<v Alessandro Rossi>Is.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7228-0
+00:53:49.668 --> 00:53:50.468
+<v Andrija Goranović>Andrea I'm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7233-0
+00:53:51.028 --> 00:53:52.028
+<v Alessandro Rossi>Yeah, yeah, I'm doing.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7245-0
+00:53:52.028 --> 00:53:56.348
+<v Alessandro Rossi>I was trying to find if you were
+connected. So thank you so much, Andrea.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7244-0
+00:53:56.788 --> 00:53:56.908
+<v Andrija Goranović>Yep.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7252-0
+00:53:57.868 --> 00:54:00.268
+<v Andrija Goranović>We're so I'm regarding the task field for.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7281-0
+00:54:02.198 --> 00:54:06.429
+<v Andrija Goranović>Consensus and has deployed their first
+version of TC settlement,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7281-1
+00:54:06.429 --> 00:54:10.464
+<v Andrija Goranović>and now they're looking at the
+provisioning and scheduling of</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7281-2
+00:54:10.464 --> 00:54:12.678
+<v Andrija Goranović>flexibilities from our power side.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7308-0
+00:54:12.678 --> 00:54:17.095
+<v Andrija Goranović>So we have the energy database API
+available and but we still have.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7308-1
+00:54:17.095 --> 00:54:22.358
+<v Andrija Goranović>There are some problems with the data
+regarding hierarchical energy communities.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7322-0
+00:54:22.358 --> 00:54:26.121
+<v Andrija Goranović>That means that at Green Point we have
+like these two floors each.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7322-1
+00:54:26.121 --> 00:54:27.638
+<v Andrija Goranović>Each is 1 energy community.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7342-0
+00:54:28.308 --> 00:54:32.862
+<v Andrija Goranović>And then both that another energy
+community there we have some database or</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7342-1
+00:54:32.862 --> 00:54:34.988
+<v Andrija Goranović>data issues that we are not fixing.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7354-0
+00:54:36.558 --> 00:54:41.558
+<v Andrija Goranović>And we are focusing then on the energy
+Community manager or management platform.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7357-0
+00:54:42.378 --> 00:54:42.618
+<v Alessandro Rossi>Yes.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7364-0
+00:54:43.198 --> 00:54:45.558
+<v Andrija Goranović>Kartik is now looking at the integration
+of.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7392-0
+00:54:47.558 --> 00:54:52.859
+<v Andrija Goranović>Of our API with their service and team
+looking at optimization algorithm to</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7377-0
+00:54:51.618 --> 00:54:52.058
+<v Alessandro Rossi>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7392-1
+00:54:52.859 --> 00:54:58.370
+<v Andrija Goranović>improve that and to establish the API
+connections and then test the algorithms</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7392-2
+00:54:58.370 --> 00:54:58.998
+<v Andrija Goranović>in their.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7397-0
+00:54:59.588 --> 00:55:00.628
+<v Andrija Goranović>Typhoon environment.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7404-0
+00:55:00.988 --> 00:55:04.548
+<v Andrija Goranović>So we have around 80% software completed.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7411-0
+00:55:05.108 --> 00:55:08.308
+<v Andrija Goranović>Soft soft development completed.
+I expect that this will be.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7420-0
+00:55:09.878 --> 00:55:11.358
+<v Andrija Goranović>Released until end of May. Or should be.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7426-0
+00:55:11.358 --> 00:55:13.598
+<v Andrija Goranović>I don't see there are any problems, yeah.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7424-0
+00:55:11.398 --> 00:55:11.758
+<v Alessandro Rossi>One moment.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7432-0
+00:55:14.328 --> 00:55:17.848
+<v Alessandro Rossi>No, thank you so much, Andrea.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7435-0
+00:55:18.608 --> 00:55:21.008
+<v Alessandro Rossi>Any question for Andrew?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7442-0
+00:55:25.648 --> 00:55:29.408
+<v Alessandro Rossi>OK, so I think could be a good idea.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7455-0
+00:55:31.198 --> 00:55:36.678
+<v Alessandro Rossi>Yes, and thank you so much for the for,
+for, for your updates, no specific.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7477-0
+00:55:38.918 --> 00:55:44.793
+<v Alessandro Rossi>Actions I think it could be a good idea
+to just have one one word about the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7477-1
+00:55:44.793 --> 00:55:49.278
+<v Alessandro Rossi>workshops end of May is the workshop that
+you mention it.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7483-0
+00:55:51.678 --> 00:55:52.918
+<v Alessandro Rossi>And this will be so.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7485-0
+00:55:53.278 --> 00:55:54.798
+<v Alessandro Rossi>Is it already arranged?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7487-0
+00:55:55.228 --> 00:55:56.108
+<v Alessandro Rossi>Because there was.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7517-0
+00:55:57.758 --> 00:56:01.585
+<v Alessandro Rossi>In particular,
+during the the meeting that we had in</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7517-1
+00:56:01.585 --> 00:56:06.206
+<v Alessandro Rossi>Friday where for WP5 there were some
+questions from from Panos,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7517-2
+00:56:06.206 --> 00:56:08.878
+<v Alessandro Rossi>not specifically for you Andrea, but.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7516-0
+00:56:09.368 --> 00:56:09.488
+<v Andrija Goranović>Hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7538-0
+00:56:10.678 --> 00:56:17.780
+<v Alessandro Rossi>I just want to to ask Panos if he has
+some some questions for for the for the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7538-1
+00:56:17.780 --> 00:56:19.238
+<v Alessandro Rossi>workshops today.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7543-0
+00:56:24.678 --> 00:56:26.758
+<v Panos Skaloumpakas>Yes. Hello, Alessandro.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7545-0
+00:56:27.088 --> 00:56:27.288
+<v Alessandro Rossi>Hi.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7556-0
+00:56:29.788 --> 00:56:33.628
+<v Panos Skaloumpakas>Actually I wanted to ask about the
+workshops.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7563-0
+00:56:35.838 --> 00:56:38.438
+<v Panos Skaloumpakas>Including the presentation of the digital
+twin.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7565-0
+00:56:39.588 --> 00:56:39.788
+<v Alessandro Rossi>Mm hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7575-0
+00:56:40.238 --> 00:56:44.958
+<v Panos Skaloumpakas>And as far as I understand,
+this would make sense.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7596-0
+00:56:47.158 --> 00:56:51.216
+<v Panos Skaloumpakas>For the Italian pilot and the Dan's pilot
+in this carried version,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7596-1
+00:56:51.216 --> 00:56:55.638
+<v Panos Skaloumpakas>because for the Greek pilot is still in
+in the very preliminary version.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7600-0
+00:56:55.638 --> 00:56:57.358
+<v Panos Skaloumpakas>So I don't think we have time.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7620-0
+00:56:58.478 --> 00:57:02.810
+<v Athanasios Papakonstantinou>I know for the Greek pilot,
+the digital twin is for the aggregate or</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7602-0
+00:56:58.668 --> 00:56:58.868
+<v Alessandro Rossi>Mm hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7606-0
+00:57:00.068 --> 00:57:00.148
+<v Panos Skaloumpakas>Ah.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7620-1
+00:57:02.810 --> 00:57:03.878
+<v Athanasios Papakonstantinou>not for the user.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7634-0
+00:57:03.878 --> 00:57:07.438
+<v Athanasios Papakonstantinou>So it's not in the scope of the workshops
+to present it.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7633-0
+00:57:04.638 --> 00:57:06.558
+<v Panos Skaloumpakas>Yes, exactly for the professionals.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7650-0
+00:57:08.158 --> 00:57:11.902
+<v Panos Skaloumpakas>It's it's in the scope of the
+professional workshop,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7650-1
+00:57:11.902 --> 00:57:13.598
+<v Panos Skaloumpakas>not the residential one.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7651-0
+00:57:13.978 --> 00:57:15.018
+<v Athanasios Papakonstantinou>OK. Yes.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7669-0
+00:57:16.938 --> 00:57:21.819
+<v Panos Skaloumpakas>So I feel like because it's in the scope
+for the professionals workshops we we</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7669-1
+00:57:21.819 --> 00:57:25.218
+<v Panos Skaloumpakas>could be more flexible because this will
+be presented.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7678-0
+00:57:26.718 --> 00:57:28.758
+<v Panos Skaloumpakas>Between between us, between us.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7688-0
+00:57:28.758 --> 00:57:34.318
+<v Panos Skaloumpakas>Maybe involve some external stakeholders
+that are energy experts or so.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7711-0
+00:57:36.078 --> 00:57:42.984
+<v Panos Skaloumpakas>So I don't know Alessandro or or have you
+come in contact with the pilot,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7711-1
+00:57:42.984 --> 00:57:46.438
+<v Panos Skaloumpakas>the Italian pilot or the Greek pilot?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7717-0
+00:57:47.378 --> 00:57:49.938
+<v Panos Skaloumpakas>About when to schedule this?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7731-0
+00:57:51.668 --> 00:57:55.646
+<v Panos Skaloumpakas>For the Italian pilot,
+I think it's it's already scheduled right</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7724-0
+00:57:51.878 --> 00:57:52.438
+<v Alessandro Rossi>What?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7731-1
+00:57:55.646 --> 00:57:56.748
+<v Panos Skaloumpakas>beginning of June.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7736-0
+00:57:57.398 --> 00:57:58.358
+<v Gloria Corazza>Yes, on the 10th.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7737-0
+00:57:57.658 --> 00:57:58.938
+<v KACULI RICHARD>Yeah, 10th of June.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7779-0
+00:57:59.958 --> 00:58:05.447
+<v Gloria Corazza>Yes. On the 10th of June,
+we are going to do both of the Technical</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7779-1
+00:58:05.447 --> 00:58:09.954
+<v Gloria Corazza>workshop first,
+the one with the technical part of our</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7779-2
+00:58:09.954 --> 00:58:15.198
+<v Gloria Corazza>institute and then in the afternoon with
+residents on the 10th.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7776-0
+00:58:14.578 --> 00:58:14.698
+<v Panos Skaloumpakas>Hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7780-0
+00:58:15.828 --> 00:58:16.948
+<v Panos Skaloumpakas>Perfect. Perfect.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7800-0
+00:58:19.928 --> 00:58:24.689
+<v Panos Skaloumpakas>And now I I think we should start
+planning the ones for for at least the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7800-1
+00:58:24.689 --> 00:58:27.168
+<v Panos Skaloumpakas>Danish pilot or maybe the Greek pilot.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7829-0
+00:58:31.548 --> 00:58:34.748
+<v Alessandro Rossi>Just to be sure, Panos.
+Because as far as I know,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7808-0
+00:58:33.598 --> 00:58:34.158
+<v Panos Skaloumpakas>Yes.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7829-1
+00:58:34.748 --> 00:58:39.612
+<v Alessandro Rossi>but please correct me if I'm wrong the
+the worshipping for the Danish pilot</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7829-2
+00:58:39.612 --> 00:58:42.748
+<v Alessandro Rossi>should have been already done in some
+month ago.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7841-0
+00:58:42.748 --> 00:58:47.041
+<v Alessandro Rossi>But do you think there will be a
+redirection of these for just for the</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7841-1
+00:58:47.041 --> 00:58:47.828
+<v Alessandro Rossi>digital twin?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7865-0
+00:58:49.628 --> 00:58:55.814
+<v Panos Skaloumpakas>Maybe not including the residents,
+but more so the the staff from Neogrid</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7850-0
+00:58:52.118 --> 00:58:52.318
+<v Alessandro Rossi>Mm hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7865-1
+00:58:55.814 --> 00:58:59.828
+<v Panos Skaloumpakas>and also the Technical department from
+Filesbo.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7866-0
+00:59:02.428 --> 00:59:03.068
+<v Alessandro Rossi>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7871-0
+00:59:06.458 --> 00:59:07.338
+<v Alessandro Rossi>I don't know.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7879-0
+00:59:07.338 --> 00:59:11.858
+<v Alessandro Rossi>I don't know if it was it was in the plan
+or.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7887-0
+00:59:13.358 --> 00:59:16.158
+<v Alessandro Rossi>Already already planned at the Havika.
+Do you have any?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7892-0
+00:59:18.118 --> 00:59:20.278
+<v Alessandro Rossi>Any any information about?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7895-0
+00:59:21.928 --> 00:59:21.968
+<v Henrik Lund St&#230;rmose>I.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7905-0
+00:59:21.968 --> 00:59:25.008
+<v Henrik Lund St&#230;rmose>I don't think it's in the plan to have
+another workshop.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7912-0
+00:59:25.968 --> 00:59:29.688
+<v Henrik Lund St&#230;rmose>I think we had this technical workshop
+back in.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7914-0
+00:59:30.088 --> 00:59:31.688
+<v Henrik Lund St&#230;rmose>Was it January or February?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7926-0
+00:59:33.668 --> 00:59:38.868
+<v Henrik Lund St&#230;rmose>Will represent this of the tenants and
+also the technical people from.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7939-0
+00:59:42.978 --> 00:59:48.418
+<v Henrik Lund St&#230;rmose>So so to my knowledge there has not been
+anything more planned relation to that.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7941-0
+00:59:49.038 --> 00:59:49.238
+<v Alessandro Rossi>Mm hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7951-0
+00:59:50.488 --> 00:59:56.688
+<v Henrik Lund St&#230;rmose>But but I don't remember whether we show
+some screenshot of the.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7960-0
+00:59:57.398 --> 01:00:01.878
+<v Henrik Lund St&#230;rmose>Digital twin at that workshop.
+To be honest, I I I don't remember.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7964-0
+01:00:01.878 --> 01:00:03.238
+<v Henrik Lund St&#230;rmose>I I didn't participate but.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7968-0
+01:00:07.058 --> 01:00:08.538
+<v Henrik Lund St&#230;rmose>Do do you?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7974-0
+01:00:09.978 --> 01:00:13.058
+<v Henrik Lund St&#230;rmose>Remember Richard, whether we we did that?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7983-0
+01:00:19.358 --> 01:00:20.358
+<v Alessandro Rossi>No, I mean either.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7994-0
+01:00:20.358 --> 01:00:26.000
+<v Alessandro Rossi>We participated,
+but is this workshop intended to be done</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/7994-1
+01:00:26.000 --> 01:00:28.238
+<v Alessandro Rossi>remotely or physically?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8006-0
+01:00:29.678 --> 01:00:32.690
+<v Alessandro Rossi>Boundless,
+which is your idea about the the workshop</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8001-0
+01:00:31.568 --> 01:00:31.808
+<v Panos Skaloumpakas>Oh.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8006-1
+01:00:32.690 --> 01:00:32.918
+<v Alessandro Rossi>for.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8018-0
+01:00:33.248 --> 01:00:37.829
+<v Panos Skaloumpakas>No,
+these workshops should be done online for</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8010-0
+01:00:34.998 --> 01:00:35.118
+<v Alessandro Rossi>The.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8018-1
+01:00:37.829 --> 01:00:38.328
+<v Panos Skaloumpakas>sure.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8020-0
+01:00:37.938 --> 01:00:39.538
+<v Alessandro Rossi>Online. OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8021-0
+01:00:39.158 --> 01:00:39.558
+<v Henrik Lund St&#230;rmose>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8027-0
+01:00:40.068 --> 01:00:41.708
+<v Panos Skaloumpakas>But I don't know.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8056-0
+01:00:41.948 --> 01:00:46.280
+<v Panos Skaloumpakas>I I don't want like to put extra work on
+anyone.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8056-1
+01:00:46.280 --> 01:00:53.264
+<v Panos Skaloumpakas>Like if you feel like showcasing your
+digital twin to the Technical Department</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8056-2
+01:00:53.264 --> 01:00:57.508
+<v Panos Skaloumpakas>of Neogrid and also the Filesboys not
+required.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8072-0
+01:00:59.278 --> 01:01:04.323
+<v Panos Skaloumpakas>Because the A joint workshop has already
+taken place, maybe we can, like,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8072-1
+01:01:04.323 --> 01:01:05.278
+<v Panos Skaloumpakas>skip this one.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8075-0
+01:01:06.638 --> 01:01:06.758
+<v Henrik Lund St&#230;rmose>Hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8087-0
+01:01:12.258 --> 01:01:12.618
+<v Alessandro Rossi>Stop.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8097-0
+01:01:12.688 --> 01:01:17.865
+<v Panos Skaloumpakas>Volume one of your service.
+Then we should we we can schedule a one</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8097-1
+01:01:17.865 --> 01:01:19.008
+<v Panos Skaloumpakas>hour call with.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8103-0
+01:01:20.498 --> 01:01:22.338
+<v Panos Skaloumpakas>With pilot site partners partners.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8107-0
+01:01:25.588 --> 01:01:26.068
+<v Panos Skaloumpakas>I don't know.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8110-0
+01:01:26.068 --> 01:01:28.148
+<v Panos Skaloumpakas>It's up to you to decide like.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8120-0
+01:01:29.538 --> 01:01:33.298
+<v Panos Skaloumpakas>Whatever you feel like is. Yeah,
+it will help if it will help you or not.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8128-0
+01:01:37.648 --> 01:01:39.768
+<v Alessandro Rossi>Then of course we can.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8170-0
+01:01:39.768 --> 01:01:46.740
+<v Alessandro Rossi>We can discuss is just to see once the
+digital twins of the Danish pilot will be</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8170-1
+01:01:46.740 --> 01:01:52.076
+<v Alessandro Rossi>ready, ready and the Italian,
+and also for the Italian pilot,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8170-2
+01:01:52.076 --> 01:01:57.757
+<v Alessandro Rossi>when they once they are ready,
+maybe we can reason about having a</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8170-3
+01:01:57.757 --> 01:02:00.168
+<v Alessandro Rossi>workshop. Maybe in June now.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8178-0
+01:02:01.658 --> 01:02:04.538
+<v Alessandro Rossi>Something like this. So wait for the.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8184-0
+01:02:05.808 --> 01:02:07.928
+<v Alessandro Rossi>The end of the development and.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8192-0
+01:02:09.898 --> 01:02:13.178
+<v Alessandro Rossi>And have a call for this possible
+workshop.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8205-0
+01:02:16.488 --> 01:02:21.968
+<v Panos Skaloumpakas>OK, I feel like we can proceed like this.
+If also Henrik has no objections.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8209-0
+01:02:23.118 --> 01:02:25.638
+<v Henrik Lund St&#230;rmose>No, I think it's fine. No objection.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8218-0
+01:02:26.788 --> 01:02:27.988
+<v Panos Skaloumpakas>Alright, alright.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8230-0
+01:02:27.218 --> 01:02:30.722
+<v Henrik Lund St&#230;rmose>But we need to include both as well
+because they need to provide the man</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8230-1
+01:02:30.722 --> 01:02:33.938
+<v Henrik Lund St&#230;rmose>hours in order to do it.
+So we should have charmers into the loop.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8232-0
+01:02:35.608 --> 01:02:36.208
+<v Panos Skaloumpakas>All right.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8234-0
+01:02:36.248 --> 01:02:37.168
+<v Panos Skaloumpakas>Yes, of course.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8236-0
+01:02:39.748 --> 01:02:40.588
+<v Panos Skaloumpakas>All right, perfect.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8245-0
+01:02:41.848 --> 01:02:44.288
+<v Panos Skaloumpakas>And I I feel like a similar case.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8242-0
+01:02:41.908 --> 01:02:42.188
+<v Alessandro Rossi>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8268-0
+01:02:46.098 --> 01:02:51.096
+<v Panos Skaloumpakas>Should be with the the grid,
+the grid pilot as well when the data is</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8256-0
+01:02:50.398 --> 01:02:50.478
+<v Alessandro Rossi>Mm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8268-1
+01:02:51.096 --> 01:02:54.283
+<v Panos Skaloumpakas>ready,
+maybe schedule a call with technical</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8268-2
+01:02:54.283 --> 01:02:57.978
+<v Panos Skaloumpakas>Department of Huron and showcase the
+digital twin.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8270-0
+01:02:59.408 --> 01:02:59.488
+<v Alessandro Rossi>Mm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8300-0
+01:03:01.688 --> 01:03:07.635
+<v Alessandro Rossi>Do you prefer one single one,
+one single workshop for all the digital</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8300-1
+01:03:07.635 --> 01:03:12.479
+<v Alessandro Rossi>twins, or one 2-3 different workshops?
+Remote workshops,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8300-2
+01:03:12.479 --> 01:03:15.368
+<v Alessandro Rossi>in this case for the digital twin?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8317-0
+01:03:18.858 --> 01:03:24.658
+<v Panos Skaloumpakas>We can book like at 2 hours like to do
+this like on the same days like I don't.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8313-0
+01:03:24.118 --> 01:03:24.318
+<v Alessandro Rossi>Mm hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8320-0
+01:03:24.658 --> 01:03:27.138
+<v Panos Skaloumpakas>Whichever is more feasible I guess.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8322-0
+01:03:27.768 --> 01:03:28.368
+<v Alessandro Rossi>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8323-0
+01:03:28.618 --> 01:03:29.058
+<v Panos Skaloumpakas>For everyone.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8325-0
+01:03:30.298 --> 01:03:30.698
+<v Alessandro Rossi>Mm hmm mm hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8342-0
+01:03:31.468 --> 01:03:35.148
+<v Panos Skaloumpakas>I mean, in the case of the Italian pilot,
+it will be an in person workshop.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8343-0
+01:03:35.148 --> 01:03:37.148
+<v Panos Skaloumpakas>So yeah, of course.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8360-0
+01:03:38.978 --> 01:03:42.472
+<v Panos Skaloumpakas>But yeah,
+for for the donors and the Greek pilot.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8360-1
+01:03:42.472 --> 01:03:45.408
+<v Panos Skaloumpakas>Yeah,
+whichever fit fit fits our schedule</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8360-2
+01:03:45.408 --> 01:03:45.898
+<v Panos Skaloumpakas>better.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8365-0
+01:03:49.768 --> 01:03:52.408
+<v Alessandro Rossi>OK, OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8372-0
+01:03:52.408 --> 01:03:54.128
+<v Alessandro Rossi>So let's see, in the next week.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8389-0
+01:03:54.128 --> 01:04:00.075
+<v Alessandro Rossi>So once there are some consolidated
+versions, how to how to proceed?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8389-1
+01:04:00.075 --> 01:04:04.213
+<v Alessandro Rossi>And of course,
+we'll be in contact for for this</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8389-2
+01:04:04.213 --> 01:04:05.248
+<v Alessandro Rossi>arrangement.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8392-0
+01:04:06.208 --> 01:04:06.848
+<v Alessandro Rossi>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8395-0
+01:04:06.848 --> 01:04:07.648
+<v Alessandro Rossi>Thank you banos.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8397-0
+01:04:07.648 --> 01:04:08.608
+<v Alessandro Rossi>Thank you so much.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8401-0
+01:04:10.778 --> 01:04:13.098
+<v Alessandro Rossi>And so.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8399-0
+01:04:11.118 --> 01:04:11.878
+<v Panos Skaloumpakas>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8413-0
+01:04:14.738 --> 01:04:17.218
+<v Alessandro Rossi>Eric at the floor is your support task
+for the five.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8416-0
+01:04:17.858 --> 01:04:19.458
+<v Henrik Lund St&#230;rmose>Yes, thank you very much.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8419-0
+01:04:20.898 --> 01:04:21.058
+<v Alessandro Rossi>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8431-0
+01:04:21.058 --> 01:04:23.590
+<v Henrik Lund St&#230;rmose>Well,
+that didn't put in that much information,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8424-0
+01:04:22.188 --> 01:04:22.308
+<v Alessandro Rossi>Hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8431-1
+01:04:23.590 --> 01:04:26.018
+<v Henrik Lund St&#230;rmose>but please go back then I'll just update
+you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8433-0
+01:04:27.428 --> 01:04:27.628
+<v Alessandro Rossi>Mm hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8442-0
+01:04:28.258 --> 01:04:31.098
+<v Henrik Lund St&#230;rmose>With respect to to the development of the
+software.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8481-0
+01:04:32.778 --> 01:04:36.928
+<v Henrik Lund St&#230;rmose>The basic controllers have been done and
+are in tests so so.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8481-1
+01:04:36.928 --> 01:04:42.506
+<v Henrik Lund St&#230;rmose>So the control of heat in buildings via
+central control and apartment temperature</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8481-2
+01:04:42.506 --> 01:04:47.541
+<v Henrik Lund St&#230;rmose>feedback that has been done some time ago
+and the same one with the smart</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8481-3
+01:04:47.541 --> 01:04:48.698
+<v Henrik Lund St&#230;rmose>thermostat valve.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8504-0
+01:04:49.088 --> 01:04:54.742
+<v Henrik Lund St&#230;rmose>Feedback is also done and we are of
+course doing minor adjustments to it and</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8504-1
+01:04:54.742 --> 01:04:58.928
+<v Henrik Lund St&#230;rmose>and and and testing,
+but it is running in in production.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8509-0
+01:05:02.208 --> 01:05:04.408
+<v Henrik Lund St&#230;rmose>What we are working on now is.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8530-0
+01:05:05.898 --> 01:05:09.815
+<v Henrik Lund St&#230;rmose>The part where the flexibility forecast
+from the apartments,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8530-1
+01:05:09.815 --> 01:05:14.439
+<v Henrik Lund St&#230;rmose>so we can estimate the flexibility
+forecast and also provide a schedule</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8530-2
+01:05:14.439 --> 01:05:15.018
+<v Henrik Lund St&#230;rmose>where we.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8539-0
+01:05:17.058 --> 01:05:20.778
+<v Henrik Lund St&#230;rmose>Where we are changing the the actual
+setpoints within each apartment.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8545-0
+01:05:22.928 --> 01:05:26.048
+<v Henrik Lund St&#230;rmose>So so that is in development now.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8550-0
+01:05:27.538 --> 01:05:29.058
+<v Henrik Lund St&#230;rmose>The input for that has been.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8597-0
+01:05:30.858 --> 01:05:36.646
+<v Henrik Lund St&#230;rmose>The the tenant feedback via the slider
+which were presented at the Technical</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8597-1
+01:05:36.646 --> 01:05:42.511
+<v Henrik Lund St&#230;rmose>Workshop to to the tenants and which also
+have been presented with respect to</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8597-2
+01:05:42.511 --> 01:05:48.675
+<v Henrik Lund St&#230;rmose>onboarding the the tenants which has been
+going on for the last couple of months,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8597-3
+01:05:48.675 --> 01:05:49.578
+<v Henrik Lund St&#230;rmose>I would say.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8599-0
+01:05:51.458 --> 01:05:51.858
+<v Henrik Lund St&#230;rmose>Is.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8629-0
+01:05:52.368 --> 01:05:58.179
+<v Henrik Lund St&#230;rmose>Is working around and onboarding each and
+every apartment so so we have the input</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8629-1
+01:05:58.179 --> 01:06:03.919
+<v Henrik Lund St&#230;rmose>we require with respect to doing the the
+the fertile development and and that is</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8629-2
+01:06:03.919 --> 01:06:05.408
+<v Henrik Lund St&#230;rmose>what we we are doing.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8638-0
+01:06:06.848 --> 01:06:10.740
+<v Henrik Lund St&#230;rmose>With respect to the the workshop,
+whether we have done that,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8638-1
+01:06:10.740 --> 01:06:12.208
+<v Henrik Lund St&#230;rmose>that has been reported.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8645-0
+01:06:13.778 --> 01:06:15.938
+<v Henrik Lund St&#230;rmose>And regarding missing data or the issues.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8647-0
+01:06:17.498 --> 01:06:17.818
+<v Henrik Lund St&#230;rmose>There are none.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8666-0
+01:06:18.928 --> 01:06:22.083
+<v Henrik Lund St&#230;rmose>I would say with respect to onboarding
+the apartment,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8666-1
+01:06:22.083 --> 01:06:24.888
+<v Henrik Lund St&#230;rmose>it has been going much better than
+anticipated.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8674-0
+01:06:24.888 --> 01:06:29.088
+<v Henrik Lund St&#230;rmose>I think they the hit rate is above 60%.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8680-0
+01:06:30.618 --> 01:06:31.218
+<v Henrik Lund St&#230;rmose>Of the tenants.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8682-0
+01:06:31.218 --> 01:06:33.378
+<v Henrik Lund St&#230;rmose>So that is actually pretty OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8684-0
+01:06:36.138 --> 01:06:36.338
+<v Alessandro Rossi>Mm hmm.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8711-0
+01:06:37.048 --> 01:06:42.373
+<v Henrik Lund St&#230;rmose>Yep, I think think that is that is for me.
+And then of course we have been doing and</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8691-0
+01:06:38.498 --> 01:06:38.898
+<v Alessandro Rossi>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8711-1
+01:06:42.373 --> 01:06:46.008
+<v Henrik Lund St&#230;rmose>also will be doing having interfaces to
+the digital twin.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8725-0
+01:06:46.008 --> 01:06:49.131
+<v Henrik Lund St&#230;rmose>Yeah, it's tough 4.
+1 with respect to get this up and running,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8725-1
+01:06:49.131 --> 01:06:50.768
+<v Henrik Lund St&#230;rmose>but I don't report that here, so.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8728-0
+01:06:51.398 --> 01:06:52.438
+<v Alessandro Rossi>Not a problem, no problem.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8729-0
+01:06:52.958 --> 01:06:53.558
+<v Alessandro Rossi>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8732-0
+01:06:53.558 --> 01:06:53.878
+<v Alessandro Rossi>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8735-0
+01:06:53.878 --> 01:06:55.438
+<v Alessandro Rossi>Very clear, Harry Kim.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8738-0
+01:06:55.518 --> 01:06:56.198
+<v Alessandro Rossi>I think so.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8740-0
+01:06:56.198 --> 01:06:57.518
+<v Alessandro Rossi>There are no, basically.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8750-0
+01:06:58.978 --> 01:07:02.098
+<v Alessandro Rossi>Open issues or big issues also in your
+side so.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8749-0
+01:07:02.848 --> 01:07:03.008
+<v Henrik Lund St&#230;rmose>Nope.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8757-0
+01:07:03.778 --> 01:07:05.938
+<v Alessandro Rossi>Thank you so much for also also for this.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8766-0
+01:07:07.938 --> 01:07:11.018
+<v Alessandro Rossi>If there is any question for Eric.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8769-0
+01:07:15.248 --> 01:07:15.408
+<v Alessandro Rossi>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8771-0
+01:07:15.408 --> 01:07:16.968
+<v Alessandro Rossi>Apparently not so.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8810-0
+01:07:19.538 --> 01:07:25.068
+<v Alessandro Rossi>I think that we have we have completed
+all the points.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8810-1
+01:07:25.068 --> 01:07:32.610
+<v Alessandro Rossi>So just expect an e-mail from from me
+this afternoon for an invitation for</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8810-2
+01:07:32.610 --> 01:07:37.538
+<v Alessandro Rossi>tomorrow at or 2:00 or 3:00 in in the
+afternoon.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8815-0
+01:07:38.578 --> 01:07:39.378
+<v Alessandro Rossi>Of course.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8824-0
+01:07:39.378 --> 01:07:44.678
+<v Alessandro Rossi>Forgive me if you cannot,
+but it's something that we have to to</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8824-1
+01:07:44.678 --> 01:07:45.258
+<v Alessandro Rossi>change.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8842-0
+01:07:45.688 --> 01:07:49.157
+<v Alessandro Rossi>Of course.
+I'm I'm speaking about the the task for</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8842-1
+01:07:49.157 --> 01:07:52.968
+<v Alessandro Rossi>the three session which could not have
+been done today.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8878-0
+01:07:54.418 --> 01:08:01.516
+<v Alessandro Rossi>So please feel free to to participate and
+if if not then you are interested in.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8878-1
+01:08:01.516 --> 01:08:07.994
+<v Alessandro Rossi>I will try to of course have a a
+recording also also tomorrow and and to</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8878-2
+01:08:07.994 --> 01:08:09.858
+<v Alessandro Rossi>provide you feedback.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8887-0
+01:08:09.858 --> 01:08:15.449
+<v Alessandro Rossi>So for for this task also,
+but so again the invitation will be done</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8887-1
+01:08:15.449 --> 01:08:15.778
+<v Alessandro Rossi>for.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8892-0
+01:08:16.128 --> 01:08:18.288
+<v Alessandro Rossi>For all for all the participants today.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8903-0
+01:08:20.418 --> 01:08:25.218
+<v Alessandro Rossi>I don't know if you have any other
+questions, issues or something like this.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8906-0
+01:08:28.488 --> 01:08:29.768
+<v Alessandro Rossi>Any other comments?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8945-0
+01:08:33.488 --> 01:08:39.893
+<v Panos Skaloumpakas>Maybe a closing remark from Wordpackets 5
+perspective is we are getting closer to</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8914-0
+01:08:35.938 --> 01:08:36.058
+<v Alessandro Rossi>Mm H.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8945-1
+01:08:39.893 --> 01:08:45.829
+<v Panos Skaloumpakas>the final release of all the software
+software developments and we are also</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8945-2
+01:08:45.829 --> 01:08:50.048
+<v Panos Skaloumpakas>getting closer to the deployment of all
+the services.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8966-0
+01:08:51.898 --> 01:08:56.858
+<v Panos Skaloumpakas>So I feel like it's we are at the point
+of the project that we need to start</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8966-1
+01:08:56.858 --> 01:09:00.338
+<v Panos Skaloumpakas>measuring the impact of data loss in the
+pilot sites.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8975-0
+01:09:01.048 --> 01:09:04.008
+<v Panos Skaloumpakas>And this will be measured through our KP
+is.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8982-0
+01:09:04.848 --> 01:09:08.008
+<v Panos Skaloumpakas>So please everyone, keep that in mind.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8989-0
+01:09:09.498 --> 01:09:12.938
+<v Panos Skaloumpakas>And yeah, that's all I had to say. Yeah,
+thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8993-0
+01:09:13.928 --> 01:09:15.528
+<v Henrik Lund St&#230;rmose>Just, just maybe a comment.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/8995-0
+01:09:17.098 --> 01:09:17.178
+<v Henrik Lund St&#230;rmose>I.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9025-0
+01:09:17.178 --> 01:09:22.014
+<v Henrik Lund St&#230;rmose>I guess we at least we are going to
+continue development for the rest of of</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9005-0
+01:09:19.608 --> 01:09:19.768
+<v Alessandro Rossi>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9025-1
+01:09:22.014 --> 01:09:26.978
+<v Henrik Lund St&#230;rmose>the project life cycle and also doing
+adjustments so so so that will develop.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9032-0
+01:09:27.688 --> 01:09:31.168
+<v Henrik Lund St&#230;rmose>Throughout the project,
+I hope that is that's OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9039-0
+01:09:35.098 --> 01:09:36.018
+<v Alessandro Rossi>Yeah, I agree.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9047-0
+01:09:36.018 --> 01:09:39.763
+<v Alessandro Rossi>I agree with Erica,
+but I completely agree also with panels</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9047-1
+01:09:39.763 --> 01:09:40.138
+<v Alessandro Rossi>which.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9090-0
+01:09:42.378 --> 01:09:49.096
+<v Alessandro Rossi>It's it's absolutely something that we we
+can take into account the possibility of</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9090-1
+01:09:49.096 --> 01:09:54.681
+<v Alessandro Rossi>continuing our software development or
+better refinement, let's say,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9090-2
+01:09:54.681 --> 01:10:00.185
+<v Alessandro Rossi>also also in the with the rest of the
+period of the of the project.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9090-3
+01:10:00.185 --> 01:10:02.938
+<v Alessandro Rossi>But for sure some activities have.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9136-0
+01:10:03.328 --> 01:10:08.247
+<v Alessandro Rossi>To be to be taken into account,
+as Panos said. For example,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9136-1
+01:10:08.247 --> 01:10:14.642
+<v Alessandro Rossi>the impact for example the D43 the the
+the lines are strict and we have to to</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9136-2
+01:10:14.642 --> 01:10:19.234
+<v Alessandro Rossi>think about how to report about about
+these activities.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9136-3
+01:10:19.234 --> 01:10:23.498
+<v Alessandro Rossi>But for sure the software can be refined
+until the.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9144-0
+01:10:23.498 --> 01:10:24.248
+<v Alessandro Rossi>Very end of the project.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9153-0
+01:10:24.248 --> 01:10:28.848
+<v Alessandro Rossi>I'm completely sure that it will be the
+case also. Also with this project.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9160-0
+01:10:29.538 --> 01:10:32.698
+<v Alessandro Rossi>So both your comments are completely.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9173-0
+01:10:33.128 --> 01:10:37.528
+<v Alessandro Rossi>Completely appropriating my my opinion,
+so thank you, Panos.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9179-0
+01:10:37.568 --> 01:10:41.048
+<v Alessandro Rossi>Thank you, Eric,
+for all these last comments.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9191-0
+01:10:42.538 --> 01:10:47.578
+<v Alessandro Rossi>And yeah,
+for tomorrow I just have to to ask.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9210-0
+01:10:47.778 --> 01:10:52.025
+<v Alessandro Rossi>Yeah.
+Maybe we will also talk about how to</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9210-1
+01:10:52.025 --> 01:10:57.458
+<v Alessandro Rossi>proceed with the the service DN service G
+in in Italy.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9214-0
+01:10:57.458 --> 01:10:58.898
+<v Alessandro Rossi>So maybe we can.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9218-0
+01:10:59.138 --> 01:11:01.338
+<v Alessandro Rossi>We can move forward to tomorrow.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9222-0
+01:11:03.018 --> 01:11:04.218
+<v Alessandro Rossi>This this discussion.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9234-0
+01:11:04.528 --> 01:11:10.208
+<v Alessandro Rossi>Zoi, will you be able to join tomorrow,
+2:00 or 3:00?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9237-0
+01:11:10.208 --> 01:11:11.728
+<v Alessandro Rossi>Which is better for you?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9244-0
+01:11:14.008 --> 01:11:15.808
+<v Zoi Mylona>Both works for me.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9251-0
+01:11:15.878 --> 01:11:19.758
+<v Zoi Mylona>Yeah, I if I can check now my calendar.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9261-0
+01:11:19.758 --> 01:11:25.598
+<v Zoi Mylona>Yes, I think both 3 is better for me,
+but both times are OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9265-0
+01:11:26.618 --> 01:11:27.498
+<v Alessandro Rossi>Perfect. Perfect.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9269-0
+01:11:27.498 --> 01:11:28.018
+<v Alessandro Rossi>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9273-0
+01:11:28.018 --> 01:11:28.618
+<v Alessandro Rossi>Thank you, zoi.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9279-0
+01:11:30.178 --> 01:11:32.258
+<v Alessandro Rossi>And of course, of course atanasios.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9283-0
+01:11:32.258 --> 01:11:33.458
+<v Alessandro Rossi>Is it OK for you?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9285-0
+01:11:33.458 --> 01:11:35.018
+<v Alessandro Rossi>Also for tomorrow.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9297-0
+01:11:39.518 --> 01:11:41.768
+<v Zoi Mylona>We have the same schedule, so I think yes.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9308-0
+01:11:40.058 --> 01:11:43.098
+<v Athanasios Papakonstantinou>Yes, yes, yes. We have the same schedule.
+So it's fine, yeah.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9302-0
+01:11:41.498 --> 01:11:41.898
+<v Alessandro Rossi>Perfect.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9314-0
+01:11:43.518 --> 01:11:45.238
+<v Alessandro Rossi>Perfect. Perfect. Perfect. OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9318-0
+01:11:45.838 --> 01:11:46.838
+<v Alessandro Rossi>Yeah, of course.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9328-0
+01:11:46.838 --> 01:11:51.438
+<v Alessandro Rossi>This is for all all the participants in
+task 4 the three.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9341-0
+01:11:53.208 --> 01:11:57.260
+<v Alessandro Rossi>Is we cannot arrange a doodle.
+It's too close.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9341-1
+01:11:57.260 --> 01:11:59.848
+<v Alessandro Rossi>But I think that we can state.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9348-0
+01:12:02.928 --> 01:12:03.328
+<v Alessandro Rossi>I I will.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9349-0
+01:12:03.328 --> 01:12:04.008
+<v Alessandro Rossi>I will find.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9354-0
+01:12:04.008 --> 01:12:06.168
+<v Alessandro Rossi>I will find a way to.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9378-0
+01:12:08.008 --> 01:12:12.930
+<v Alessandro Rossi>To see if it's better 14 or 13,
+but I have to check I have to check,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9378-1
+01:12:12.930 --> 01:12:16.568
+<v Alessandro Rossi>but I think 3:00 could be could be also
+OK for me.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9395-0
+01:12:18.148 --> 01:12:22.041
+<v Alessandro Rossi>Maybe it's not the problem,
+it's a problem for Cardiff,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9395-1
+01:12:22.041 --> 01:12:25.588
+<v Alessandro Rossi>but apparently there is nobody from
+Cardiff today.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9400-0
+01:12:26.518 --> 01:12:27.278
+<v Blanca Viviana Mart&#237;nez Carvajal>Yes.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9416-0
+01:12:27.558 --> 01:12:31.838
+<v Alessandro Rossi>OK, biancab OK. This is. Yeah. Sorry,
+sorry, blank.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9413-0
+01:12:29.208 --> 01:12:30.248
+<v Blanca Viviana Mart&#237;nez Carvajal>Hi, this is Viviana from Cardiff.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9432-0
+01:12:32.038 --> 01:12:38.918
+<v Alessandro Rossi>So will you be able to join tomorrow or
+do you think it's a little tricky for you?</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9443-0
+01:12:37.988 --> 01:12:43.988
+<v Blanca Viviana Mart&#237;nez Carvajal>Past three is not is not possible for us
+before 3:00 PM we can manage to attend.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9439-0
+01:12:41.108 --> 01:12:41.788
+<v Alessandro Rossi>OK, OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9446-0
+01:12:45.068 --> 01:12:45.428
+<v Alessandro Rossi>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9448-0
+01:12:45.428 --> 01:12:46.628
+<v Alessandro Rossi>So let's try.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9458-0
+01:12:48.968 --> 01:12:53.088
+<v Alessandro Rossi>To at 2:00 I will. I will. So I will.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9477-0
+01:12:54.768 --> 01:13:02.288
+<v Alessandro Rossi>Send an invitation for 2:00 and then you
+will be able to to join. If if you think.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9494-0
+01:13:04.248 --> 01:13:07.698
+<v Alessandro Rossi>Thank you to everybody.
+If there is no other,</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9494-1
+01:13:07.698 --> 01:13:12.048
+<v Alessandro Rossi>no other last minute questions,
+we can close the meeting.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9505-0
+01:13:13.768 --> 01:13:17.208
+<v Alessandro Rossi>She's perfectly in time with the
+specified duration.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9511-0
+01:13:20.668 --> 01:13:21.908
+<v Panos Skaloumpakas>Thank you very much alsandro.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9534-0
+01:13:22.078 --> 01:13:24.678
+<v Andrea Sabatino>Thank you very much Vasanth. Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9514-0
+01:13:22.728 --> 01:13:23.168
+<v Katerina Sianni>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9536-0
+01:13:23.168 --> 01:13:23.928
+<v Katerina Sianni>Good day.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9518-0
+01:13:23.688 --> 01:13:23.848
+<v Alessandro Rossi>OK.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9542-0
+01:13:23.848 --> 01:13:25.288
+<v Andrija Goranović>Thank you. Bye bye.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9528-0
+01:13:23.878 --> 01:13:24.558
+<v Henrik Lund St&#230;rmose>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9531-0
+01:13:24.328 --> 01:13:25.168
+<v Alessandro Rossi>Thank you guys.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9539-0
+01:13:24.558 --> 01:13:26.078
+<v Cristina Bianca Pop>Bye bye.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9554-0
+01:13:25.248 --> 01:13:25.768
+<v Zoi Mylona>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9560-0
+01:13:26.088 --> 01:13:26.768
+<v Gloria Corazza>Have a nice day.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9545-0
+01:13:26.168 --> 01:13:26.488
+<v Blanca Viviana Mart&#237;nez Carvajal>Thank you.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9558-0
+01:13:26.478 --> 01:13:26.998
+<v Henrik Lund St&#230;rmose>Bye bye.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9562-0
+01:13:26.728 --> 01:13:27.808
+<v Andrea Sabatino>Bye bye.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9563-0
+01:13:27.128 --> 01:13:27.808
+<v Lorenzo Cristofori>Bye. Thank you. Bye.</v>
+
+3fd0a140-b612-43db-a114-eae4e857172b/9567-0
+01:13:27.608 --> 01:13:28.888
+<v Alessandro Rossi>Bye bye bye bye.</v>
