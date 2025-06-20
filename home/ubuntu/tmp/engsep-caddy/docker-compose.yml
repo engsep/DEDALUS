@@ -1,0 +1,54 @@
+services:
+  caddy:
+    image: caddy:latest
+    container_name: caddy
+    cap_add:
+      - NET_ADMIN
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+      - "9443:9443"
+    volumes:
+    # - ./ontology/index.html:/usr/share/caddy/index.html \
+      - ./conf:/etc/caddy
+      - ./site:/srv
+      - caddy_data:/data
+      - caddy_config:/config
+    environment:
+      - "TZ=Europe/Rome"
+    restart: unless-stopped
+
+  # curl -s "https://cloudflare-dns.com/dns-query?name=engsep.duckdns.org&type=AAAA" -H "accept: application/dns-json"
+  duckdns:
+    image: lscr.io/linuxserver/duckdns:latest # ghcr.io/linuxserver/duckdns
+    container_name: duckdns-engsep-github
+    network_mode: host #optional
+    environment:
+    # - PUID=1000 #optional
+    # - PGID=1000 #optional
+      - TZ=Europe/Rome #optional
+      - SUBDOMAINS=engsep                          # Update engsep.duckdns.org with this machine IPs
+      - TOKEN=c2b414eb-7d11-44c7-ad23-0547a2de4bb0 # https://www.duckdns.org/domains (engsep@github)
+      - UPDATE_IP=both #optional (default: ipv4)
+    # - LOG_FILE=false #optional
+    # volumes:
+    #   - ./config:/config #optional
+    restart: unless-stopped
+
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: portainer
+    ports:
+      - "8000:8000"
+    # - "9000:9000" # http://engsep.duckdns.org:9000/#!/home
+    # - "9443:9443" # https://engsep.duckdns.org:9443/#!/home (self-certificate)
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - portainer_data:/data # admin|123
+    restart: unless-stopped
+
+volumes:
+  caddy_data:
+  caddy_config:
+  portainer_data:

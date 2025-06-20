@@ -1,0 +1,433 @@
+# version: "3.9"
+services:
+  # Orion v2 Context Broker
+  orion:
+    image: fiware/orion:latest # 3.8.0
+  # hostname: orion
+    container_name: cb-orion
+    depends_on:
+      mongo-db:
+        condition: service_healthy
+  # restart: on-failure # for Docker Compose
+  # deploy:             # for Docker Swarm
+  #   mode: replicated
+  #   replicas: 3
+  #   restart_policy:
+  #     condition: on-failure
+  # networks:
+  #   - default
+    expose:
+      - "1026"       # orion:1026
+    ports:                       
+      - "10260:1026" # (for testing) localhost:10260
+    command: -dbhost mongo-db -db orion -logLevel DEBUG
+  # healthcheck:
+  #   interval: 15s
+
+  # Orion-LD Context Broker
+  orion-ld:
+    image: fiware/orion-ld:latest # 1.1.2
+  # hostname: orion-ld
+    container_name: cb-orion-ld
+    depends_on:
+      mongo-db:
+        condition: service_healthy
+  # restart: on-failure # for Docker Compose
+  # deploy:             # for Docker Swarm
+  #   mode: replicated
+  #   replicas: 3
+  #   restart_policy:
+  #     condition: on-failure
+  # networks:
+  #   - default
+    expose:
+      - "1026"       # orion-ld:1026
+    ports:                          
+      - "10270:1026" # (for testing) localhost:10270
+    command: -dbhost mongo-db -db orionld -logLevel DEBUG
+    healthcheck:
+      test: curl --fail -s http://localhost:1026/ngsi-ld/ex/v1/version || exit 1
+  #   interval: 5s
+
+  # Keyrock IdM
+  keyrock:
+    image: fiware/idm:latest # 8.3.2-distroless
+  # hostname: keyrock
+    container_name: idm-keyrock
+    depends_on:
+      mysql-db:
+        condition: service_healthy
+  # restart: on-failure # for Docker Compose
+  # deploy:             # for Docker Swarm
+  #   mode: replicated
+  #   replicas: 3
+  #   restart_policy:
+  #     condition: on-failure
+  # networks:
+  #   - default
+  # expose:
+  #   - "3005"      # keyrock:3005
+    ports:
+      - "3005:3005" # localhost:3005
+    environment:
+      - DEBUG=idm:*
+      - IDM_DB_HOST=mysql-db
+      - IDM_DB_PASS=secret
+      - IDM_DB_USER=root
+      - IDM_HOST=http://localhost:3005
+      - IDM_PORT=3005
+      - IDM_HTTPS_ENABLED=false
+      - IDM_HTTPS_PORT=3443
+      - IDM_ADMIN_USER=alice
+      - IDM_ADMIN_EMAIL=alice-the-admin@test.com
+      - IDM_ADMIN_PASS=test
+      - IDM_CSP_FORM_ACTION=*
+  # healthcheck:
+  #   interval: 5s
+
+  # Wilma PEP Proxy for Orion (v2)
+  orion-proxy:
+    image: fiware/pep-proxy:latest # 8.3.0-distroless
+  # hostname: orion-proxy
+    container_name: pep-proxy-orion
+    depends_on:
+      keyrock:
+        condition: service_started
+    restart: on-failure # for Docker Compose
+  # deploy:             # for Docker Swarm
+  #   mode: replicated
+  #   replicas: 3
+  #   restart_policy:
+  #     condition: on-failure
+  # networks:
+  #   - default
+  # expose:
+  #   - "1027"      # orion-proxy:1027
+    ports:
+      - "1026:1027" # localhost:1026
+    environment:
+      - DEBUG=pep-proxy:*
+      - PEP_PROXY_DEBUG=true
+      - PEP_PROXY_APP_HOST=orion
+      - PEP_PROXY_APP_PORT=1026
+      - PEP_PROXY_PORT=1027
+      - PEP_PROXY_IDM_HOST=keyrock
+      - PEP_PROXY_HTTPS_ENABLED=false
+      - PEP_PROXY_AUTH_ENABLED=false
+      - PEP_PROXY_IDM_SSL_ENABLED=false
+      - PEP_PROXY_IDM_PORT=3005
+      - PEP_PROXY_APP_ID=tutorial-dckr-site-0000-xpresswebapp
+      - PEP_PROXY_USERNAME=pep_proxy_00000000-0000-0000-0000-000000000000
+      - PEP_PASSWORD=test
+      - PEP_PROXY_PDP=idm
+      - PEP_PROXY_MAGIC_KEY=1234
+      - PEP_PROXY_PUBLIC_PATHS=/version
+  # healthcheck:
+  #   interval: 50s
+
+  # Wilma PEP Proxy for Orion-LD
+  orion-ld-proxy:
+    image: fiware/pep-proxy:latest # 8.3.0-distroless
+  # hostname: orion-ld-proxy
+    container_name: pep-proxy-orion-ld
+    depends_on:
+      keyrock:
+        condition: service_started
+    restart: on-failure # for Docker Compose
+  # deploy:             # for Docker Swarm
+  #   mode: replicated
+  #   replicas: 3
+  #   restart_policy:
+  #     condition: on-failure
+  # networks:
+  #   - default
+  # expose:
+  #   - "1027"      # orion-proxy-ld:1027
+    ports:
+      - "1027:1027" # localhost:1027
+    environment:
+      - DEBUG=pep-proxy:*
+      - PEP_PROXY_DEBUG=true
+      - PEP_PROXY_APP_HOST=orion-ld
+      - PEP_PROXY_APP_PORT=1026
+      - PEP_PROXY_PORT=1027
+      - PEP_PROXY_IDM_HOST=keyrock
+      - PEP_PROXY_HTTPS_ENABLED=false
+      - PEP_PROXY_AUTH_ENABLED=false
+      - PEP_PROXY_IDM_SSL_ENABLED=false
+      - PEP_PROXY_IDM_PORT=3005
+      - PEP_PROXY_APP_ID=tutorial-dckr-site-0000-xpresswebapp
+      - PEP_PROXY_USERNAME=pep_proxy_00000000-0000-0000-0000-000000000000
+      - PEP_PASSWORD=test
+      - PEP_PROXY_PDP=idm
+      - PEP_PROXY_MAGIC_KEY=1234
+      - PEP_PROXY_PUBLIC_PATHS=/version
+  # healthcheck:
+  #   interval: 50s
+
+# # Apache Server for NGSI-LD @context files
+# # *** NOT USED: Node-RED already provides a "public" static folder ***
+# ld-context:
+#   image: httpd:alpine
+# # hostname: ld-context
+# # container_name: http-server
+# # restart: on-failure # for Docker Compose
+# # deploy:             # for Docker Swarm
+# #   restart_policy:
+# #     condition: on-failure
+# # networks:
+# #   - default
+# # expose:
+# #   - 80    # http://ld-context
+#   ports:
+#     - 80:80 # http://localhost
+#   volumes:
+#     - ../public:/usr/local/apache2/htdocs/
+#   healthcheck:
+#     test: curl -f http://localhost || exit 1
+# #   interval: 15s
+
+
+  # Databases
+
+  # Mongo DB (Orion)
+  mongo-db:
+    image: mongo:5 # 5.0.14
+  # hostname: mongo-db
+    container_name: db-mongo
+  # restart: on-failure # for Docker Compose
+  # deploy:             # for Docker Swarm
+  #   restart_policy:
+  #     condition: on-failure
+  # networks:
+  #   - default
+    expose:
+      - "27017"       # mongo-db:27017
+  # ports:
+  #   - "27017:27017" # localhost:27017
+    command: --nojournal
+    volumes:
+      - mongo-db:/data/db
+      - mongo-db-config:/data/configdb
+      - ./mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+    healthcheck:
+  #   test: |
+  #     mongo --quiet localhost/test --eval 'quit(db.runCommand({ ping: 1 }).ok ? 0 : 2)' && exit 0 || exit 1
+  #   interval: 5s
+      test: echo 'db.runCommand({serverStatus:1}).ok' | mongosh localhost:27017/test --quiet
+  #   interval: 10s
+  #   timeout: 10s
+  #   start_period: 10s
+  #   retries: 5
+
+  # Mongo DB front-end
+  mongo-express:
+    image: mongo-express:latest # 1.0.0-alpha
+  # hostname: mongo-express
+    container_name: fe-mongo
+    depends_on:
+      mongo-db:
+        condition: service_healthy
+  # restart: on-failure # for Docker Compose
+  # deploy:             # for Docker Swarm
+  #   restart_policy:
+  #     condition: on-failure
+  # networks:
+  #   - default
+    expose:
+      - "8081"      # mongo-express:8081
+  # ports:
+  #   - "8081:8081" # localhost:8081
+    environment:
+      - ME_CONFIG_MONGODB_SERVER=mongo-db
+  # healthcheck:
+  #   test: wget --quiet --tries=3 --spider http://localhost:8081 || exit 1
+  #   timeout: 10s
+  #   retries: 30
+
+  # docker run -it --rm --net=fiware_default --name fe-mongo -p 80:8081 -e ME_CONFIG_MONGODB_SERVER=mongo-db mongo-express
+  # docker run -it --rm --net=fiware_default --name ngrok-mongo -e NGROK_AUTHTOKEN=2L2kdrNlcTBcxDERiOxTW3kyEaV_3siN3rWauYmt4KLGHrHZg ngrok/ngrok:latest http 8081
+
+  # MySQL DB (Keyrock)
+  mysql-db:
+    image: mysql:latest # 8.0.32
+  # hostname: mysql-db
+    container_name: db-mysql
+  # restart: on-failure # for Docker Compose
+  # deploy:             # for Docker Swarm
+  #   restart_policy:
+  #     condition: on-failure
+  # networks:
+  #   - default
+    expose:
+      - "3306"      # mysql-db:3306
+  # ports:
+  #   - "3306:3306" # localhost:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret
+      - MYSQL_ROOT_HOST=%
+    volumes:
+      - mysql-db:/var/lib/mysql
+      - ./mysql:/docker-entrypoint-initdb.d/:ro
+    healthcheck:
+      test: mysqladmin ping -h localhost -uroot -psecret
+  #   interval: 5s
+  #   timeout: 5s
+  #   start_period: 10s
+  #   retries: 20
+
+  # docker exec db-mysql /usr/bin/mysqldump --databases -u root --password=secret idm > backup.sql
+  # cat backup.sql | docker exec -i db-mysql /usr/bin/mysql -u root --password=secret idm
+
+  # MySQL DB front-end
+  adminer:
+    image: adminer:latest # 4.8.1
+  # hostname: adminer
+    container_name: fe-mysql
+    depends_on:
+      mysql-db:
+        condition: service_healthy
+  # restart: on-failure # for Docker Compose
+  # deploy:             # for Docker Swarm
+  #   restart_policy:
+  #     condition: on-failure
+  # networks:
+  #   - default
+    expose:
+      - "8080"      # adminer:8080
+  # ports:
+  #   - "8080:8080" # localhost:8080
+    environment:
+  #   - ADMINER_DEFAULT_DB_DRIVER=mysql
+  #   - ADMINER_DEFAULT_DB_HOST=mysql-db
+  #   - ADMINER_DEFAULT_DB_NAME=root
+  #   - ADMINER_DEFAULT_DB_PASSWORD=secret
+      - ADMINER_DESIGN=pokorny # mvt # pepa-linha # rmsoft_blue
+  #   - ADMINER_PLUGINS=see https://www.adminer.org/en/plugins/
+  # healthcheck: TBD
+
+  # docker run -it --rm --network fiware_default --name fe-mysql -p 80:8080 adminer
+  # docker run -it --rm --network fiware_default --name ngrok-mysql -e NGROK_AUTHTOKEN=2L2kdrNlcTBcxDERiOxTW3kyEaV_3siN3rWauYmt4KLGHrHZg ngrok/ngrok:latest http 8080
+
+
+  # Other services
+
+  # Blockchain (Ganache)
+  ganache:
+    image: trufflesuite/ganache:latest # v7.7.3
+  # hostname: ganache
+    container_name: bc-ganache
+  # restart: on-failure # for Docker Compose
+  # deploy:             # for Docker Swarm
+  #   restart_policy:
+  #     condition: on-failure
+  # networks:
+  #   - default
+  # expose:
+  #   - "7545"      # ganache:7545
+    ports:
+      - "8545:7545" # localhost:8545
+    command: --database.dbPath /db --server.host 0.0.0.0  --server.port 7545 --wallet.mnemonic "visit carpet logic blame furnace confirm rebel deliver medal mean illness error"
+    volumes:
+      - ./ganache/.db:/db
+  #   - ganache-db:/db
+    healthcheck:
+      test: |
+        node -e 'data = JSON.stringify({jsonrpc:"2.0",method:"eth_blockNumber",params:[],id:1}); require("http").request({hostname:"localhost", port: 7545, method:"POST", headers: {"Content-Type": "application/json", "Content-Length": data.length }}, resp => resp.on("data", chunk => process.exit(0)).on("error", err => process.exit(1))).write(data)' && exit 0 || exit 1
+  #   test: curl -f -X POST --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}' http://localhost:7545 && exit 0 || exit 1
+  #   interval: 5s
+  #   timeout: 5s
+  #   retries: 5
+
+  # Blockchain front-end (Lite Explorer)
+  lite-explorer:
+    image: alethio/ethereum-lite-explorer:latest # v1.0.0-beta.10
+  # hostname: lite-explorer
+    container_name: fe-ganache
+    depends_on:
+      ganache:
+        condition: service_healthy
+  # restart: on-failure # for Docker Compose
+  # deploy:             # for Docker Swarm
+  #   restart_policy:
+  #     condition: on-failure
+  # networks:
+  #   - default
+  # expose:
+  #   - "80"        # lite-explorer:80
+    ports:
+      - "8082:80"   # localhost:8082
+    environment:
+      - APP_NODE_URL=http://ganache:7545
+  # healthcheck: TBD
+
+  # docker run -it --rm --network fiware_default --name fe-ganache -p 80:80 -e APP_NODE_URL="http://ganache:7545" alethio/ethereum-lite-explorer
+  # docker run -it --rm --name fe-ganache -p 80:80 -e APP_NODE_URL="http://localhost:8545" alethio/ethereum-lite-explorer
+
+# # MQTT Broker (MosQuiTTo)
+# mosquitto:
+#   image: eclipse-mosquitto:latest # 2.0.15
+# # hostname: mosquitto
+#   container_name: mqtt-broker
+# # restart: on-failure # for Docker Compose
+# # deploy:             # for Docker Swarm
+# #   restart_policy:
+# #     condition: on-failure
+# # networks:
+# #   - default
+# # expose:
+# #   - "1883"      # mosquitto:8883
+# #   - "9001"      # mosquitto:9001
+#   ports:
+#     - "1883:1883" # localhost:1883
+#     - "9001:9001" # localhost:9001
+#   command: mosquitto -c /mosquitto-no-auth.conf
+# # volumes:
+# #   - ./mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf
+#   healthcheck:
+#     test: mosquitto_sub -t '$$SYS/#' -C 1 | grep -v Error || exit 1
+# #   test: timeout 5 mosquitto_sub -t '$$SYS/#' -C 1 | grep -v Error || exit 1
+# #   interval: 10s
+# #   timeout: 10s
+# #   retries: 6
+
+  # docker exec -it mosquitto mosquitto_sub -h mosquitto -t "/#"
+  # docker exec -it mosquitto mosquitto_pub -h mosquitto -m "Hello world!" -t "/test"
+
+  # Node-RED for flow-programming automation
+  node-red:
+    build: ./node-red
+    image: fiware/node-red
+  # hostname: node-red
+    container_name: node-red
+  # expose:
+  #   - "1880"      # node-red:1880
+    ports:
+      - "8880:1880" # localhost:8880
+    environment:
+      - ETHEREUM_ADDRESS
+      - ETHEREUM_PRIVATE_KEY
+      - TZ=Europe/Amsterdam
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./node-red/data:/data
+  # volumes:
+  #   - node-red-data:/data
+
+
+# Volumes
+volumes:
+# ganache-db: ~
+  mysql-db: ~
+  mongo-db: ~
+  mongo-db-config: ~
+  node-red-data: ~
+
+
+# Networks (with MTU patch for Vicenza2 VM)
+networks:
+  default:
+    driver: bridge
+    driver_opts:
+      com.docker.network.driver.mtu: 1450

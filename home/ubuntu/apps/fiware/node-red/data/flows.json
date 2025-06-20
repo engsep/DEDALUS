@@ -1,0 +1,1159 @@
+[
+    {
+        "id": "dcc62634f40f199b",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b4799249b6347148",
+        "type": "ngrokauth",
+        "name": ""
+    },
+    {
+        "id": "1e15f62f82f992f8",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e7e41d01db77082e",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "51def6da5af481ac",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "1e15f62f82f992f8",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3ed3003da454f6e0",
+        "type": "ngrok",
+        "z": "dcc62634f40f199b",
+        "buttonState": true,
+        "port": "8081",
+        "portType": "num",
+        "host": "mongo-express",
+        "hostType": "str",
+        "creds": "b4799249b6347148",
+        "region": "",
+        "regionType": "eu",
+        "proto": "http",
+        "bind_tls": "both",
+        "bind_tlsType": "both",
+        "subdomain": "",
+        "subdomainType": "none",
+        "auth": "",
+        "authType": "none",
+        "hostHeader": "",
+        "hostHeaderType": "none",
+        "name": "mongo-express:8081",
+        "inputtype": "port",
+        "inputs": 1,
+        "x": 500,
+        "y": 100,
+        "wires": [
+            [
+                "9e23df214e9fc86a",
+                "0e7537603b7a008e"
+            ]
+        ]
+    },
+    {
+        "id": "139d7039051e6bfa",
+        "type": "ui_text",
+        "z": "dcc62634f40f199b",
+        "group": "51def6da5af481ac",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "name": "Link",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "link",
+        "x": 930,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "32f8ca11b1147c39",
+        "type": "ui_button",
+        "z": "dcc62634f40f199b",
+        "name": "on",
+        "group": "51def6da5af481ac",
+        "order": 3,
+        "width": 1,
+        "height": 1,
+        "passthru": true,
+        "label": "",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "fa-play",
+        "payload": "on",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 100,
+        "wires": [
+            [
+                "61e5ab38a0b2768f",
+                "3ed3003da454f6e0"
+            ]
+        ]
+    },
+    {
+        "id": "1883145c9e67adf7",
+        "type": "ui_button",
+        "z": "dcc62634f40f199b",
+        "name": "off",
+        "group": "51def6da5af481ac",
+        "order": 4,
+        "width": 1,
+        "height": 1,
+        "passthru": true,
+        "label": "",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "fa-stop",
+        "payload": "off",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 160,
+        "wires": [
+            [
+                "3957704b27d8a53d",
+                "3ed3003da454f6e0"
+            ]
+        ]
+    },
+    {
+        "id": "61e5ab38a0b2768f",
+        "type": "trigger",
+        "z": "dcc62634f40f199b",
+        "name": "",
+        "op1": "",
+        "op2": "off",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "1",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "hr",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 110,
+        "y": 160,
+        "wires": [
+            [
+                "1883145c9e67adf7"
+            ]
+        ]
+    },
+    {
+        "id": "9e23df214e9fc86a",
+        "type": "template",
+        "z": "dcc62634f40f199b",
+        "name": "link",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<a href=\"{{payload}}\">{{payload}}</a>",
+        "output": "str",
+        "x": 930,
+        "y": 100,
+        "wires": [
+            [
+                "139d7039051e6bfa"
+            ]
+        ]
+    },
+    {
+        "id": "3957704b27d8a53d",
+        "type": "change",
+        "z": "dcc62634f40f199b",
+        "name": "Disconnected",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Disconnected",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "qr",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 160,
+        "wires": [
+            [
+                "c31371792690c0c6",
+                "a297cce6310b5d7e"
+            ]
+        ]
+    },
+    {
+        "id": "c31371792690c0c6",
+        "type": "delay",
+        "z": "dcc62634f40f199b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 750,
+        "y": 160,
+        "wires": [
+            [
+                "139d7039051e6bfa"
+            ]
+        ]
+    },
+    {
+        "id": "a297cce6310b5d7e",
+        "type": "ui_template",
+        "z": "dcc62634f40f199b",
+        "group": "51def6da5af481ac",
+        "name": "QR",
+        "order": 6,
+        "width": 1,
+        "height": 1,
+        "format": "<body>\n    <img src=\"{{msg.qr}}\">\n</body>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 930,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "58d90a1c6b4f0957",
+        "type": "ui_template",
+        "z": "dcc62634f40f199b",
+        "group": "51def6da5af481ac",
+        "name": "Mongo Express",
+        "order": 2,
+        "width": 4,
+        "height": 1,
+        "format": "<div style=\"display: flex; align-items: center;\">\n    &nbsp;&nbsp;&nbsp;<img height=\"42\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/320px-MongoDB_Logo.svg.png\"/>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 120,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c1620bc8fe30efb4",
+        "type": "ngrok",
+        "z": "dcc62634f40f199b",
+        "buttonState": true,
+        "port": "8080",
+        "portType": "num",
+        "host": "adminer",
+        "hostType": "str",
+        "creds": "b4799249b6347148",
+        "region": "",
+        "regionType": "eu",
+        "proto": "http",
+        "bind_tls": "both",
+        "bind_tlsType": "both",
+        "subdomain": "",
+        "subdomainType": "none",
+        "auth": "",
+        "authType": "none",
+        "hostHeader": "",
+        "hostHeaderType": "none",
+        "name": "adminer:8080",
+        "inputtype": "port",
+        "inputs": 1,
+        "x": 520,
+        "y": 300,
+        "wires": [
+            [
+                "9044023485915d06",
+                "30ca056f81b0debf"
+            ]
+        ]
+    },
+    {
+        "id": "3983dab42994df24",
+        "type": "ui_text",
+        "z": "dcc62634f40f199b",
+        "group": "51def6da5af481ac",
+        "order": 10,
+        "width": "5",
+        "height": 1,
+        "name": "Link",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "link",
+        "x": 930,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "9a69f0970d5df146",
+        "type": "ui_button",
+        "z": "dcc62634f40f199b",
+        "name": "on",
+        "group": "51def6da5af481ac",
+        "order": 8,
+        "width": 1,
+        "height": 1,
+        "passthru": true,
+        "label": "",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "fa-play",
+        "payload": "on",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 300,
+        "wires": [
+            [
+                "d36f9284fbcbf9be",
+                "c1620bc8fe30efb4"
+            ]
+        ]
+    },
+    {
+        "id": "8660e9ee9192ec33",
+        "type": "ui_button",
+        "z": "dcc62634f40f199b",
+        "name": "off",
+        "group": "51def6da5af481ac",
+        "order": 9,
+        "width": 1,
+        "height": 1,
+        "passthru": true,
+        "label": "",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "fa-stop",
+        "payload": "off",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 360,
+        "wires": [
+            [
+                "f4b08476ff8f5d7b",
+                "c1620bc8fe30efb4"
+            ]
+        ]
+    },
+    {
+        "id": "d36f9284fbcbf9be",
+        "type": "trigger",
+        "z": "dcc62634f40f199b",
+        "name": "",
+        "op1": "",
+        "op2": "off",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "1",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "hr",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 110,
+        "y": 360,
+        "wires": [
+            [
+                "8660e9ee9192ec33"
+            ]
+        ]
+    },
+    {
+        "id": "9044023485915d06",
+        "type": "template",
+        "z": "dcc62634f40f199b",
+        "name": "link",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<a href=\"{{payload}}\">{{payload}}</a>",
+        "output": "str",
+        "x": 930,
+        "y": 300,
+        "wires": [
+            [
+                "3983dab42994df24"
+            ]
+        ]
+    },
+    {
+        "id": "f4b08476ff8f5d7b",
+        "type": "change",
+        "z": "dcc62634f40f199b",
+        "name": "Disconnected",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "<font color=\"red\">Disconnected</font>",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "qr",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 360,
+        "wires": [
+            [
+                "67356fa398337c13",
+                "1db7e5e112bb0069"
+            ]
+        ]
+    },
+    {
+        "id": "67356fa398337c13",
+        "type": "delay",
+        "z": "dcc62634f40f199b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 750,
+        "y": 360,
+        "wires": [
+            [
+                "3983dab42994df24"
+            ]
+        ]
+    },
+    {
+        "id": "1db7e5e112bb0069",
+        "type": "ui_template",
+        "z": "dcc62634f40f199b",
+        "group": "51def6da5af481ac",
+        "name": "QR",
+        "order": 11,
+        "width": 1,
+        "height": 1,
+        "format": "<body>\n    <img src=\"{{msg.qr}}\">\n</body>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 930,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f0356858e5058f40",
+        "type": "ui_template",
+        "z": "dcc62634f40f199b",
+        "group": "51def6da5af481ac",
+        "name": "Adminer",
+        "order": 7,
+        "width": "4",
+        "height": 1,
+        "format": "<div style=\"display: flex; align-items: center;\">\n    &nbsp;&nbsp;&nbsp;<img height=\"42\" src=\"data:image/png;base64,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\"/>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 100,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "712bbc74186cf31b",
+        "type": "ngrok",
+        "z": "dcc62634f40f199b",
+        "d": true,
+        "buttonState": true,
+        "port": "7396",
+        "portType": "num",
+        "host": "",
+        "hostType": "localhost",
+        "creds": "b4799249b6347148",
+        "region": "",
+        "regionType": "eu",
+        "proto": "http",
+        "bind_tls": "both",
+        "bind_tlsType": "both",
+        "subdomain": "",
+        "subdomainType": "none",
+        "auth": "",
+        "authType": "none",
+        "hostHeader": "",
+        "hostHeaderType": "none",
+        "name": "localhost:7396",
+        "inputtype": "port",
+        "inputs": 1,
+        "x": 520,
+        "y": 500,
+        "wires": [
+            [
+                "5ffcd71df1a98442",
+                "a14e04fa6af91931"
+            ]
+        ]
+    },
+    {
+        "id": "c5a932010cadf9b3",
+        "type": "ui_text",
+        "z": "dcc62634f40f199b",
+        "d": true,
+        "group": "51def6da5af481ac",
+        "order": 16,
+        "width": "5",
+        "height": 1,
+        "name": "Link",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "link",
+        "x": 930,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "5ffcd71df1a98442",
+        "type": "template",
+        "z": "dcc62634f40f199b",
+        "d": true,
+        "name": "link",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<a href=\"{{payload}}\">{{payload}}</a>",
+        "output": "str",
+        "x": 930,
+        "y": 500,
+        "wires": [
+            [
+                "c5a932010cadf9b3"
+            ]
+        ]
+    },
+    {
+        "id": "51618651cd3bf813",
+        "type": "change",
+        "z": "dcc62634f40f199b",
+        "d": true,
+        "name": "Disconnected",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "<font color=\"red\">Disconnected</font>",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "qr",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 560,
+        "wires": [
+            [
+                "6f150b481c92d302",
+                "2cd43a7aefbcf554"
+            ]
+        ]
+    },
+    {
+        "id": "6f150b481c92d302",
+        "type": "delay",
+        "z": "dcc62634f40f199b",
+        "d": true,
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 750,
+        "y": 560,
+        "wires": [
+            [
+                "c5a932010cadf9b3"
+            ]
+        ]
+    },
+    {
+        "id": "2cd43a7aefbcf554",
+        "type": "ui_template",
+        "z": "dcc62634f40f199b",
+        "d": true,
+        "group": "51def6da5af481ac",
+        "name": "QR",
+        "order": 15,
+        "width": 1,
+        "height": 1,
+        "format": "<body>\n    <img src=\"{{msg.qr}}\">\n</body>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 930,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d2445aa91d7af175",
+        "type": "ui_button",
+        "z": "dcc62634f40f199b",
+        "d": true,
+        "name": "on",
+        "group": "51def6da5af481ac",
+        "order": 13,
+        "width": 1,
+        "height": 1,
+        "passthru": true,
+        "label": "",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "fa-play",
+        "payload": "on",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 500,
+        "wires": [
+            [
+                "ef0a383712aca286",
+                "712bbc74186cf31b"
+            ]
+        ]
+    },
+    {
+        "id": "4180237fdd403c28",
+        "type": "ui_button",
+        "z": "dcc62634f40f199b",
+        "d": true,
+        "name": "off",
+        "group": "51def6da5af481ac",
+        "order": 14,
+        "width": 1,
+        "height": 1,
+        "passthru": true,
+        "label": "",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "fa-stop",
+        "payload": "off",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 560,
+        "wires": [
+            [
+                "51618651cd3bf813",
+                "712bbc74186cf31b"
+            ]
+        ]
+    },
+    {
+        "id": "ef0a383712aca286",
+        "type": "trigger",
+        "z": "dcc62634f40f199b",
+        "d": true,
+        "name": "",
+        "op1": "",
+        "op2": "off",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "1",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "hr",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 110,
+        "y": 560,
+        "wires": [
+            [
+                "4180237fdd403c28"
+            ]
+        ]
+    },
+    {
+        "id": "99caba87eca546b4",
+        "type": "ui_text",
+        "z": "dcc62634f40f199b",
+        "d": true,
+        "group": "51def6da5af481ac",
+        "order": 12,
+        "width": "4",
+        "height": 1,
+        "name": "",
+        "label": "   Default",
+        "format": "",
+        "layout": "row-left",
+        "className": "",
+        "x": 100,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "26a37ecfc4e40c88",
+        "type": "jimp-image",
+        "z": "dcc62634f40f199b",
+        "name": "",
+        "data": "qr",
+        "dataType": "msg",
+        "ret": "b64",
+        "parameter1": "",
+        "parameter1Type": "msg",
+        "parameter2": "",
+        "parameter2Type": "msg",
+        "parameter3": "",
+        "parameter3Type": "msg",
+        "parameter4": "",
+        "parameter4Type": "msg",
+        "parameter5": "",
+        "parameter5Type": "msg",
+        "parameter6": "",
+        "parameter6Type": "msg",
+        "parameter7": "",
+        "parameter7Type": "msg",
+        "parameter8": "",
+        "parameter8Type": "msg",
+        "sendProperty": "qr",
+        "sendPropertyType": "msg",
+        "parameterCount": 0,
+        "jimpFunction": "none",
+        "selectedJimpFunction": {
+            "name": "none",
+            "fn": "none",
+            "description": "Just loads the image.",
+            "parameters": []
+        },
+        "x": 770,
+        "y": 40,
+        "wires": [
+            [
+                "a297cce6310b5d7e"
+            ]
+        ]
+    },
+    {
+        "id": "0e7537603b7a008e",
+        "type": "Barcode Generator",
+        "z": "dcc62634f40f199b",
+        "name": "",
+        "data": "payload",
+        "dataType": "msg",
+        "barcode": "qrcode",
+        "barcodeType": "barcode",
+        "options": "",
+        "optionsType": "ui",
+        "sendProperty": "qr",
+        "props": [
+            {
+                "p": "rotate",
+                "v": "N",
+                "vt": "str"
+            },
+            {
+                "p": "includetext",
+                "v": "true",
+                "vt": "bool"
+            },
+            {
+                "p": "textxalign",
+                "v": "center",
+                "vt": "str"
+            }
+        ],
+        "x": 650,
+        "y": 40,
+        "wires": [
+            [
+                "26a37ecfc4e40c88"
+            ]
+        ]
+    },
+    {
+        "id": "957f548b6f052892",
+        "type": "ui_template",
+        "z": "dcc62634f40f199b",
+        "group": "51def6da5af481ac",
+        "name": "CSS",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    .link {\n        font-size:11px;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 90,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b28b2e4bc9a452fe",
+        "type": "jimp-image",
+        "z": "dcc62634f40f199b",
+        "name": "",
+        "data": "qr",
+        "dataType": "msg",
+        "ret": "b64",
+        "parameter1": "",
+        "parameter1Type": "msg",
+        "parameter2": "",
+        "parameter2Type": "msg",
+        "parameter3": "",
+        "parameter3Type": "msg",
+        "parameter4": "",
+        "parameter4Type": "msg",
+        "parameter5": "",
+        "parameter5Type": "msg",
+        "parameter6": "",
+        "parameter6Type": "msg",
+        "parameter7": "",
+        "parameter7Type": "msg",
+        "parameter8": "",
+        "parameter8Type": "msg",
+        "sendProperty": "qr",
+        "sendPropertyType": "msg",
+        "parameterCount": 0,
+        "jimpFunction": "none",
+        "selectedJimpFunction": {
+            "name": "none",
+            "fn": "none",
+            "description": "Just loads the image.",
+            "parameters": []
+        },
+        "x": 770,
+        "y": 240,
+        "wires": [
+            [
+                "1db7e5e112bb0069"
+            ]
+        ]
+    },
+    {
+        "id": "30ca056f81b0debf",
+        "type": "Barcode Generator",
+        "z": "dcc62634f40f199b",
+        "name": "",
+        "data": "payload",
+        "dataType": "msg",
+        "barcode": "qrcode",
+        "barcodeType": "barcode",
+        "options": "",
+        "optionsType": "ui",
+        "sendProperty": "qr",
+        "props": [
+            {
+                "p": "rotate",
+                "v": "N",
+                "vt": "str"
+            },
+            {
+                "p": "includetext",
+                "v": "true",
+                "vt": "bool"
+            },
+            {
+                "p": "textxalign",
+                "v": "center",
+                "vt": "str"
+            }
+        ],
+        "x": 650,
+        "y": 240,
+        "wires": [
+            [
+                "b28b2e4bc9a452fe"
+            ]
+        ]
+    },
+    {
+        "id": "ac61e6a9e522bf5b",
+        "type": "jimp-image",
+        "z": "dcc62634f40f199b",
+        "d": true,
+        "name": "",
+        "data": "qr",
+        "dataType": "msg",
+        "ret": "b64",
+        "parameter1": "",
+        "parameter1Type": "msg",
+        "parameter2": "",
+        "parameter2Type": "msg",
+        "parameter3": "",
+        "parameter3Type": "msg",
+        "parameter4": "",
+        "parameter4Type": "msg",
+        "parameter5": "",
+        "parameter5Type": "msg",
+        "parameter6": "",
+        "parameter6Type": "msg",
+        "parameter7": "",
+        "parameter7Type": "msg",
+        "parameter8": "",
+        "parameter8Type": "msg",
+        "sendProperty": "qr",
+        "sendPropertyType": "msg",
+        "parameterCount": 0,
+        "jimpFunction": "none",
+        "selectedJimpFunction": {
+            "name": "none",
+            "fn": "none",
+            "description": "Just loads the image.",
+            "parameters": []
+        },
+        "x": 770,
+        "y": 440,
+        "wires": [
+            [
+                "2cd43a7aefbcf554"
+            ]
+        ]
+    },
+    {
+        "id": "a14e04fa6af91931",
+        "type": "Barcode Generator",
+        "z": "dcc62634f40f199b",
+        "d": true,
+        "name": "",
+        "data": "payload",
+        "dataType": "msg",
+        "barcode": "qrcode",
+        "barcodeType": "barcode",
+        "options": "",
+        "optionsType": "ui",
+        "sendProperty": "qr",
+        "props": [
+            {
+                "p": "rotate",
+                "v": "N",
+                "vt": "str"
+            },
+            {
+                "p": "includetext",
+                "v": "true",
+                "vt": "bool"
+            },
+            {
+                "p": "textxalign",
+                "v": "center",
+                "vt": "str"
+            }
+        ],
+        "x": 650,
+        "y": 440,
+        "wires": [
+            [
+                "ac61e6a9e522bf5b"
+            ]
+        ]
+    }
+]

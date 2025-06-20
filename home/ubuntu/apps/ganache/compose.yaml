@@ -1,0 +1,33 @@
+services:
+  # Blockchain (Ganache)
+  ganache:
+    image: trufflesuite/ganache:latest # v7.7.3
+    container_name: ganache
+    restart: on-failure # for Docker Compose
+    deploy:             # for Docker Stack
+      restart_policy:
+        condition: on-failure
+    ports:
+      - "7545:7545" # localhost:7545
+    command: --database.dbPath /db --server.host 0.0.0.0  --server.port 7545 --wallet.mnemonic "visit carpet logic blame furnace confirm rebel deliver medal mean illness error"
+    volumes:
+      - ./ganache/.db:/db
+    healthcheck:
+      test: |
+        node -e 'data = JSON.stringify({jsonrpc:"2.0",method:"eth_blockNumber",params:[],id:1}); require("http").request({hostname:"localhost", port: 7545, method:"POST", headers: {"Content-Type": "application/json", "Content-Length": data.length }}, resp => resp.on("data", chunk => process.exit(0)).on("error", err => process.exit(1))).write(data)' && exit 0 || exit 1
+
+  # Front-end (Lite Explorer)
+  lite-explorer:
+    image: alethio/ethereum-lite-explorer:latest # v1.0.0-beta.10
+    container_name: lite-explorer
+    depends_on:
+      ganache:
+        condition: service_healthy
+    restart: on-failure # for Docker Compose
+    deploy:             # for Docker Stack
+      restart_policy:
+        condition: on-failure
+    ports:
+       - "8083:80"   # localhost:27000
+    environment:
+      - APP_NODE_URL=http://ganache:7545

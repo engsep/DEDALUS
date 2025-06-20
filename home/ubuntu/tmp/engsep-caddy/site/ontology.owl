@@ -1,0 +1,4222 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#"
+     xml:base="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:schema="http://schema.org/">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://schema.org/domainIncludes -->
+
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/domainIncludes"/>
+    
+
+
+    <!-- http://schema.org/rangeIncludes -->
+
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/rangeIncludes"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#cardinality -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#cardinality"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#qualifiedCardinality -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#qualifiedCardinality"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#duration -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#duration"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://ontology.tno.nl/interconnect/user#belongsToUser -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.tno.nl/interconnect/user#belongsToUser">
+        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#preference"/>
+        <rdfs:range rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
+        <rdfs:comment xml:lang="en">The relationship between the preference and the user.</rdfs:comment>
+        <rdfs:label xml:lang="en">belongs to user</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.tno.nl/interconnect/user#concernsDevice -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.tno.nl/interconnect/user#concernsDevice">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#preference"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:comment xml:lang="en">The relationship between ic-user:Preference and Saref:Device.</rdfs:comment>
+        <rdfs:label xml:lang="en">concerns device</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.tno.nl/interconnect/user#hasActivity -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.tno.nl/interconnect/user#hasActivity">
+        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#preference"/>
+        <rdfs:range rdf:resource="http://ontology.tno.nl/interconnect/user#Activity"/>
+        <rdfs:comment xml:lang="en">A relationship between the user preference and the activity</rdfs:comment>
+        <rdfs:label xml:lang="en">has activity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.tno.nl/interconnect/user#hasLocation -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.tno.nl/interconnect/user#hasLocation">
+        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#preference"/>
+        <rdfs:comment xml:lang="en">The relationship between preference and  one among ic-tplg:TopologicalLocation, geo:SpatialThing and s4bldg:BuildingSpace.</rdfs:comment>
+        <rdfs:label xml:lang="en">has location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.tno.nl/interconnect/user#hasPreference -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.tno.nl/interconnect/user#hasPreference">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:range rdf:resource="http://ontology.tno.nl/interconnect/user#preference"/>
+        <rdfs:comment xml:lang="en">A relationship between the device and the user preference</rdfs:comment>
+        <rdfs:label xml:lang="en">has preference</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.tno.nl/interconnect/user#hasUserProfile -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.tno.nl/interconnect/user#hasUserProfile">
+        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
+        <rdfs:range rdf:resource="http://ontology.tno.nl/interconnect/user#UserProfile"/>
+        <rdfs:comment xml:lang="en">A relationship between the user and the user profile</rdfs:comment>
+        <rdfs:label xml:lang="en">has user profile</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.tno.nl/interconnect/user#includesInterest -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.tno.nl/interconnect/user#includesInterest"/>
+    
+
+
+    <!-- http://ontology.tno.nl/interconnect/user#includesPreference -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.tno.nl/interconnect/user#includesPreference">
+        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#UserProfile"/>
+        <rdfs:range rdf:resource="http://ontology.tno.nl/interconnect/user#preference"/>
+        <rdfs:comment xml:lang="en">A relationship between the user profile and the user preference</rdfs:comment>
+        <rdfs:label xml:lang="en">Includes preferences</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.tno.nl/interconnect/user#includesProperty -->
+
+
+    <owl:ObjectProperty rdf:about="http://ontology.tno.nl/interconnect/user#includesProperty">
+        <rdfs:domain rdf:resource="http://ontology.tno.nl/interconnect/user#preference"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:comment xml:lang="en">A relationship between user preference and saref property</rdfs:comment>
+        <rdfs:label xml:lang="en">includes property</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#consumeEnergyFrom -->
+
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#consumeEnergyFrom">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Consumer"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Producer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#containsSpace -->
+
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#containsSpace">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://bigg-project.eu/ontology#Zone"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Space"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#containsZone -->
+
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#containsZone">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Space"/>
+        <rdfs:range rdf:resource="http://bigg-project.eu/ontology#Zone"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#storeDataIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#storeDataIn">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:range rdf:resource="http://bigg-project.eu/ontology#TimeSeriesList"/>
+        <rdfs:comment xml:lang="es">Esta relación representa dónde se almacenan los datos monitorizados de una cierta propiedad.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Relantionship that describes where a property monitored data is stored</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#acceptBeforeInterval -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#acceptBeforeInterval">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:label>acceptBeforeInterval</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#acceptBeforeTime -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#acceptBeforeTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:label>acceptBeforeTime</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#actsUpon -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#actsUpon">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Command"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#State"/>
+        <rdfs:comment xml:lang="en">A relationship between a command and a state</rdfs:comment>
+        <rdfs:label xml:lang="en">acts upon</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#assignmentBeforeInterval -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#assignmentBeforeInterval">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:label>assignmentBeforeInterval</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#assignmentBeforeTime -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#assignmentBeforeTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:label>assignmentBeforeTime</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#belongsToSchedule -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#belongsToSchedule">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Slice"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Schedule"/>
+        <rdfs:label>belongsToSchedule</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#consistsOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#consistsOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Schedule"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Slice"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#controlsProperty -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#controlsProperty">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:comment xml:lang="en">A relationship specifying the property that can be controlled by a certain device</rdfs:comment>
+        <rdfs:label xml:lang="en">controls property</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#creationInterval -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#creationInterval">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#UnitsOfMeasurements"/>
+        <rdfs:label>creationInterval</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#creationTime -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#creationTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#UnitsOfMeasurements"/>
+        <rdfs:label>creationTime</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#definesSecurityScheme -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#definesSecurityScheme">
+        <rdfs:comment>A Thing may define abstract security schemes, used to configure the secure access of (a set of) affordance(s).</rdfs:comment>
+        <rdfs:label>definesSecurityScheme</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#endAfterInterval -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#endAfterInterval">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:label>endAfterInterval</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#endAfterTime -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#endAfterTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:label>endAfterTime</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#endBeforeInterval -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#endBeforeInterval">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:label>endBeforeInterval</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#endBeforeTime -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#endBeforeTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:label>endBeforeTime</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasApartment -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasApartment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/dco#hasSpace"/>
+        <owl:inverseOf rdf:resource="https://w3id.org/dco#isApartmentOF"/>
+        <rdfs:label>hasApartment</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasBuilding -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasBuilding">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Building"/>
+        <rdfs:label>hasBuilding</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasCancellationSchema -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasCancellationSchema">
+        <schema:domainIncludes rdf:resource="https://w3id.org/dco#EventAffordance"/>
+        <rdfs:comment xml:lang="en">Defines any data that needs to be passed to cancel a subscription, e.g., a specific message to remove a Webhook</rdfs:comment>
+        <rdfs:label>hasCancellationSchema</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasCommand -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasCommand">
+        <owl:inverseOf rdf:resource="https://w3id.org/dco#isCommandOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Function"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Command"/>
+        <rdfs:comment xml:lang="en">A relationship between a function and a command</rdfs:comment>
+        <rdfs:label xml:lang="en">has command</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasConfigurationInstance -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasConfigurationInstance">
+        <schema:domainIncludes rdf:resource="https://www.w3.org/2019/wot/security#SecurityScheme"/>
+        <rdfs:comment>Instantiation, as used here, is a form of non-symmetric equivalence between a scheme and a configuration: whatever statement on the scheme is also true of the configuration but not vice-versa.</rdfs:comment>
+        <rdfs:label>hasConfigurationInstance</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasConsumer -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasConsumer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Producer"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:label>hasConsumer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasCurrentStorage -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasCurrentStorage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Storage"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#UnitsOfMeasurements"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasDevice -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasDevice">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="https://w3id.org/dco#isLocatedAt"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Space"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:label>hasDevice</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasFlexOffer -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasFlexOffer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Schedule"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:label>hasFlexOffer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasFlexOfferState -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasFlexOfferState">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#FlexOfferState"/>
+        <rdfs:label>hasFlexOfferState</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasFunction -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasFunction">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Function"/>
+        <rdfs:comment xml:lang="en">A relationship identifying the function of a device</rdfs:comment>
+        <rdfs:label xml:lang="en">has function</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasInputSchema -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasInputSchema">
+        <schema:domainIncludes rdf:resource="https://w3id.org/dco#ActionAffordance"/>
+        <rdfs:comment xml:lang="en">Used to define the input data schema of the action.</rdfs:comment>
+        <rdfs:label>hasInputSchema</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasLink -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasLink">
+        <schema:rangeIncludes rdf:resource="https://www.w3.org/2019/wot/hypermedia#Link"/>
+        <rdfs:comment xml:lang="en">Provides Web links to arbitrary resources that relate to the specified Thing Description.</rdfs:comment>
+        <rdfs:label>hasLink</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasMeasurement -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasMeasurement">
+        <owl:inverseOf rdf:resource="https://w3id.org/dco#isMeasurementOf"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement"/>
+        <rdfs:comment xml:lang="en">A relationship between a feature of interest and a measurement about it</rdfs:comment>
+        <rdfs:label xml:lang="en">has measurement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasNetFlow -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasNetFlow">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Hub"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#UnitsOfMeasurements"/>
+        <rdfs:label>hasNetFlow</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasNotificationResponseSchema -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasNotificationResponseSchema">
+        <schema:domainIncludes rdf:resource="https://w3id.org/dco#EventAffordance"/>
+        <rdfs:comment xml:lang="en">Defines the data schema of the Event response messages sent be the consumer in a response to a data message.</rdfs:comment>
+        <rdfs:label>hasNotificationResponseSchema</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasNotificationSchema -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasNotificationSchema">
+        <schema:domainIncludes rdf:resource="https://w3id.org/dco#EventAffordance"/>
+        <rdfs:comment xml:lang="en">Defines the data schema of the Event instance messages pushed by the Thing.</rdfs:comment>
+        <rdfs:label>hasNotificationSchema</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasOutputSchema -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasOutputSchema">
+        <schema:domainIncludes rdf:resource="https://w3id.org/dco#ActionAffordance"/>
+        <rdfs:comment xml:lang="en">Used to define the output data schema of the action.</rdfs:comment>
+        <rdfs:label>hasOutputSchema</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasPartnerDispatcher -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasPartnerDispatcher">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Hub"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:label>hasPartnerDispatcher</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasProducer -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasProducer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Consumer"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:label>hasProducer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasProfile -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasProfile">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Profile"/>
+        <rdfs:comment xml:lang="en">A relationship associating a profile to a certain device</rdfs:comment>
+        <rdfs:label xml:lang="en">has profile</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasProperty -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasProperty">
+        <owl:inverseOf rdf:resource="https://w3id.org/dco#isPropertyOf"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:comment xml:lang="en">A relationship between a feature of interest and a property of that feature</rdfs:comment>
+        <rdfs:label xml:lang="en">has property</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasRelay -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasRelay">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#HVACDevice"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Relay"/>
+        <rdfs:label>hasRelay</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasRoom -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasRoom">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/dco#hasSpace"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasSchedule -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasSchedule">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Schedule"/>
+        <rdfs:label>hasSchedule</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasSecurityConfiguration -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasSecurityConfiguration">
+        <schema:domainIncludes rdf:resource="https://www.w3.org/2019/wot/hypermedia#Form"/>
+        <rdfs:comment xml:lang="en">A security configuration is a a security scheme applied to a (set of) affordance(s).</rdfs:comment>
+        <rdfs:label>hasSecurityConfiguration</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasSpace -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasSpace">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Space"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Space"/>
+        <rdfs:label>hasSpace</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasSpaceUnit -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasSpaceUnit">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Space"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#UnitsOfMeasurements"/>
+        <rdfs:label>hasSpaceUnit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasStairway -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasStairway">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/dco#hasSpace"/>
+        <rdfs:label>hasStairway</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasState -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasState">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#State"/>
+        <rdfs:comment xml:lang="en">A relationship identifying the type of state of a device</rdfs:comment>
+        <rdfs:label xml:lang="en">has state</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasStorey -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasStorey">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/dco#hasSpace"/>
+        <rdfs:label>hasStorey</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasSubMeter -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasSubMeter">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>hasSubMeter</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasSubscriptionSchema -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasSubscriptionSchema">
+        <schema:domainIncludes rdf:resource="https://w3id.org/dco#EventAffordance"/>
+        <rdfs:comment xml:lang="en">Defines data that needs to be passed upon subscription, e.g., filters or message format for setting up Webhooks.</rdfs:comment>
+        <rdfs:label>hasSubscriptionSchema</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasThermostat -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasThermostat">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#HVACDevice"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Thermostat"/>
+        <rdfs:label>hasThermostat</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasThresholdMeasurement -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasThresholdMeasurement">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#EventFunction"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement"/>
+        <rdfs:comment xml:lang="en">A relationship associated with an event function to notify that a certain threshold measurement has been exceeded</rdfs:comment>
+        <rdfs:label xml:lang="en">has threshold measurement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasTime -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasTime">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:range rdf:resource="https://saref.etsi.org/saref4ener/StartTime"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Time"/>
+        <rdfs:comment xml:lang="en">A relationship to associate time information to an entity</rdfs:comment>
+        <rdfs:label xml:lang="en">has time</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasTotalCapacity -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasTotalCapacity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Storage"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#UnitsOfMeasurements"/>
+        <rdfs:label>hasTotalCapacity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasTotalCostConstraint -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasTotalCostConstraint">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Price"/>
+        <rdfs:label>hasTotalCostConstraint</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasTypicalConsumption -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#hasTypicalConsumption">
+        <rdfs:comment xml:lang="en">A relationship identifying the typical (energy or power) consumption of a device</rdfs:comment>
+        <rdfs:label xml:lang="en">has typical consumption</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#includesService -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#includesService">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Service"/>
+        <rdfs:label>includesService</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isAbout -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#isAbout">
+        <rdfs:comment xml:lang="en">A relationship identifying what an entity, such as a profile, is about</rdfs:comment>
+        <rdfs:label xml:lang="en">isAbout</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isApartmentOF -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#isApartmentOF">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Apartment"/>
+        <rdfs:label>is apartment of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isCommandOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#isCommandOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Command"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Function"/>
+        <rdfs:comment xml:lang="en">A relationship between a command and a function.</rdfs:comment>
+        <rdfs:label xml:lang="en">is command of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isConsumedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#isConsumedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Consumer"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:label>isConsumedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isControlledByDevice -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#isControlledByDevice">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:comment xml:lang="en">A relationship specifying the devices that can control a certain property</rdfs:comment>
+        <rdfs:label xml:lang="en">is controlled by device</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isEventOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#isEventOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>is event of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isFloorOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#isFloorOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Building"/>
+        <rdfs:label>is floor of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isHubOfDevice -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#isHubOfDevice">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Hub"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:label>isHubOfDevice</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isLocatedAt -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#isLocatedAt">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Space"/>
+        <rdfs:label>isLocatedAt</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isMeasuredByDevice -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#isMeasuredByDevice">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:comment xml:lang="en">A relationship specifying the devices that can measure a certain property</rdfs:comment>
+        <rdfs:label xml:lang="en">is measured by device</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isMeasuredIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#isMeasuredIn">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#UnitsOfMeasurements"/>
+        <rdfs:comment xml:lang="en">A relationship identifying the unit of measure used for a certain entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">is measured in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isMeasurementOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#isMeasurementOf">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement"/>
+        <rdfs:comment xml:lang="en">A relationship between a measurement and the feature of interest whose quality was measured</rdfs:comment>
+        <rdfs:label xml:lang="en">isMeasurementOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isOfferedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#isOfferedBy">
+        <owl:inverseOf rdf:resource="https://w3id.org/dco#offers"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Service"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:comment xml:lang="en">A relationship between a service and a device that offers the service</rdfs:comment>
+        <rdfs:label xml:lang="en">is offered by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isProducedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#isProducedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Producer"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:label>isProducedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isPropertyOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#isPropertyOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:comment xml:lang="en">A relationship between a property and the feature of interest it belongs to</rdfs:comment>
+        <rdfs:label xml:lang="en">is property of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isStoredIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#isStoredIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Storage"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:label>isStoredIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isUsedFor -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#isUsedFor">
+        <rdfs:comment xml:lang="en">A relationship specifying the commodity for which a device is used for</rdfs:comment>
+        <rdfs:label xml:lang="en">is used for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#locationID -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#locationID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Location"/>
+        <rdfs:label>locationID</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#makesMeasurement -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#makesMeasurement">
+        <owl:inverseOf rdf:resource="https://w3id.org/dco#measurementMadeBy"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement"/>
+        <rdfs:comment xml:lang="en">A relation between a device and the measurements it makes. Such measurement will link together the value of the measurement, its unit of measure and the property to which it relates.</rdfs:comment>
+        <rdfs:label xml:lang="en">makes measurement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#measurementMadeBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#measurementMadeBy">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:comment xml:lang="en">A relation between a measurement and the device that made it.</rdfs:comment>
+        <rdfs:label xml:lang="en">measurement made by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#measuresProperty -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#measuresProperty">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:comment xml:lang="en">A relationship specifying the property that can be measured by a certain device</rdfs:comment>
+        <rdfs:label xml:lang="en">measures property</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#observes -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#observes">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:label>observes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#offeredByID -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#offeredByID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:range rdf:resource="http://ontology.tno.nl/interconnect/user#User"/>
+        <rdfs:label>offeredByID</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#offers -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#offers">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Service"/>
+        <rdfs:comment xml:lang="en">A relationship between a device and a service</rdfs:comment>
+        <rdfs:label xml:lang="en">offers</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#relatesToMeasurement -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#relatesToMeasurement">
+        <owl:inverseOf rdf:resource="https://w3id.org/dco#relatesToProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement"/>
+        <rdfs:comment xml:lang="en">A relationship between a property and the measurements it relates to</rdfs:comment>
+        <rdfs:label xml:lang="en">relates to measurement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#relatesToProperty -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#relatesToProperty">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:comment xml:lang="en">A relationship between a measurement and the property it relates to</rdfs:comment>
+        <rdfs:label xml:lang="en">relates to property</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#represents -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#represents">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Service"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Function"/>
+        <rdfs:comment xml:lang="en">A relationship between a service and a function.</rdfs:comment>
+        <rdfs:label xml:lang="en">represents</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#startAfterInterval -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#startAfterInterval">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:label>startAfterInterval</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#startAfterTime -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#startAfterTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:label>startAfterTime</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#startBeforeInterval -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#startBeforeInterval">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:label>startBeforeInterval</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#startBeforeTime -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#startBeforeTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:label>startBeforeTime</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#startTime -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#startTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Schedule"/>
+        <rdfs:range rdf:resource="https://w3id.org/dco#Time"/>
+        <rdfs:label>startTime</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#tariffConstraintStartTime -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#tariffConstraintStartTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:range rdf:resource="https://saref.etsi.org/saref4ener/StartTime"/>
+        <rdfs:label>tariffConstraintStartTime</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dco#totalEnergyConstraint -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dco#totalEnergyConstraint">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:range rdf:resource="https://saref.etsi.org/saref4ener/EnergyMax"/>
+        <rdfs:range rdf:resource="https://saref.etsi.org/saref4ener/EnergyMin"/>
+        <rdfs:label>totalEnergyConstraint</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://bigg-project.eu/ontology#timeSeriesEnd -->
+
+
+    <owl:DatatypeProperty rdf:about="http://bigg-project.eu/ontology#timeSeriesEnd">
+        <rdfs:domain rdf:resource="http://bigg-project.eu/ontology#TimeSeriesList"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:label>time series end</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://bigg-project.eu/ontology#timeSeriesFrequency -->
+
+
+    <owl:DatatypeProperty rdf:about="http://bigg-project.eu/ontology#timeSeriesFrequency">
+        <rdfs:domain rdf:resource="http://bigg-project.eu/ontology#TimeSeriesList"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+        <rdfs:label>time series frequency</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://bigg-project.eu/ontology#timeSeriesIsCumulative -->
+
+
+    <owl:DatatypeProperty rdf:about="http://bigg-project.eu/ontology#timeSeriesIsCumulative">
+        <rdfs:domain rdf:resource="http://bigg-project.eu/ontology#TimeSeriesList"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>time series is cumulative</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://bigg-project.eu/ontology#timeSeriesIsOnChange -->
+
+
+    <owl:DatatypeProperty rdf:about="http://bigg-project.eu/ontology#timeSeriesIsOnChange">
+        <rdfs:domain rdf:resource="http://bigg-project.eu/ontology#TimeSeriesList"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>time series is on change</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://bigg-project.eu/ontology#timeSeriesIsRegular -->
+
+
+    <owl:DatatypeProperty rdf:about="http://bigg-project.eu/ontology#timeSeriesIsRegular">
+        <rdfs:domain rdf:resource="http://bigg-project.eu/ontology#TimeSeriesList"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>time series is regular</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://bigg-project.eu/ontology#timeSeriesStart -->
+
+
+    <owl:DatatypeProperty rdf:about="http://bigg-project.eu/ontology#timeSeriesStart">
+        <rdfs:domain rdf:resource="http://bigg-project.eu/ontology#TimeSeriesList"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:label>time series start</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://bigg-project.eu/ontology#timeSeriesTimeAggregationFunction -->
+
+
+    <owl:DatatypeProperty rdf:about="http://bigg-project.eu/ontology#timeSeriesTimeAggregationFunction">
+        <rdfs:domain rdf:resource="http://bigg-project.eu/ontology#TimeSeriesList"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>time series time aggregation function</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#DataPointStorageSystem -->
+
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#DataPointStorageSystem">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://bigg-project.eu/ontology#TimeSeriesList"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="es">Esta relación da como lugar el string del TimeSeries, el cual será el índice para así acceder a la base de datos y buscar el valor deseado de los dispositivos de monitorización.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This relation works pointing out the String value of a TimeSeriesList. That string will be used like an index for searching the values in a database.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#aggregatedFO -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#aggregatedFO">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>aggregatedFO</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#assignment -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#assignment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:label>assignment</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#brandName -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#brandName"/>
+    
+
+
+    <!-- https://w3id.org/dco#correct -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#correct">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>correct</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#dependencyEnergyConstraintList -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#dependencyEnergyConstraintList">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>dependencyEnergyConstraintList</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#description -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#description">
+        <schema:domainIncludes rdf:resource="https://www.w3.org/2019/wot/json-schema#DataSchema"/>
+        <schema:domainIncludes rdf:resource="https://www.w3.org/2019/wot/security#SecurityScheme"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/Text"/>
+        <rdfs:comment>description of the TD element (Thing, interaction affordance, security scheme or data schema)</rdfs:comment>
+        <rdfs:label>description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#descriptionInLanguage -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#descriptionInLanguage">
+        <schema:domainIncludes rdf:resource="https://www.w3.org/2019/wot/json-schema#DataSchema"/>
+        <schema:domainIncludes rdf:resource="https://www.w3.org/2019/wot/security#SecurityScheme"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/Text"/>
+        <rdfs:comment>description of the TD element (Thing, interaction affordance, security scheme or data schema) with language tag. By convention, a language tag must be added to the object of &apos;descriptionInLanguage&apos; triples. Otherwise, use &apos;description&apos;.</rdfs:comment>
+        <rdfs:label>descriptionInLanguage</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#deviceCode -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#deviceCode"/>
+    
+
+
+    <!-- https://w3id.org/dco#deviceMaximumDisabledTime -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#deviceMaximumDisabledTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:label>deviceMaximumDisabledTime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#deviceMaximumPower -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#deviceMaximumPower">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:label>deviceMaximumPower</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#deviceMinimumEnabledTime -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#deviceMinimumEnabledTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:label>deviceMinimumEnabledTime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#deviceName -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#deviceName"/>
+    
+
+
+    <!-- https://w3id.org/dco#hardwareRevision -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#hardwareRevision"/>
+    
+
+
+    <!-- https://w3id.org/dco#hasAddress -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#hasAddress">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Building"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>hasAddress</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasCity -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#hasCity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Building"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>hasCity</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasConstructionYear -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#hasConstructionYear">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Space"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>hasConstructionYear</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasEnvelopeType -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#hasEnvelopeType">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Space"/>
+        <rdfs:label>hasEnvelopeType</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasID -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#hasID">
+        <rdfs:label>hasID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasManufacturer -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#hasManufacturer">
+        <rdfs:comment xml:lang="en">A relationship identifying the manufacturer of an entity (e.g., device). The value is expected to be a string or a string with language tag.</rdfs:comment>
+        <rdfs:label xml:lang="en">has manufacturer</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasModel -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#hasModel"/>
+    
+
+
+    <!-- https://w3id.org/dco#hasName -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#hasName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Building"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>hasName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasNumberOfInhabitants -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#hasNumberOfInhabitants">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Building"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>hasNumberOfInhabitants</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasRenovationDate -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#hasRenovationDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Space"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>hasRenovationDate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasRenovationYear -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#hasRenovationYear">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Space"/>
+        <rdfs:label>hasRenovationYear</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasThermalCapacity -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#hasThermalCapacity">
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Space"/>
+        <rdfs:label>hasThermalCapacity</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasTimestamp -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#hasTimestamp">
+        <rdfs:comment xml:lang="en">A relationship stating the timestamp of an entity (e.g. a measurement).</rdfs:comment>
+        <rdfs:label xml:lang="en">has timestamp</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasTotalSpace -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#hasTotalSpace">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Space"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:label>hasTotalSpace</rdfs:label>
+        <skos:definition>This defines the total surface of a dCO:Space measured in square meter</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasValue -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#hasValue">
+        <rdfs:comment xml:lang="en">A relationship defining the value of a certain property, e.g., energy or power. Note that, even if numeric values are expected to enable reasoning, measurement values could use other datatypes.</rdfs:comment>
+        <rdfs:label xml:lang="en">has value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#hasZipCode -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#hasZipCode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Building"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>hasZipCode</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isAggregated -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#isAggregated">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>isAggregated</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isIdempotent -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#isIdempotent">
+        <schema:rangeIncludes rdf:resource="http://schema.org/Boolean"/>
+        <rdfs:comment xml:lang="en">Indicates whether the action is idempotent (=true) or not. Informs whether the action can be called repeatedly with the same result, if present, based on the same input.</rdfs:comment>
+        <rdfs:label>isIdempotent</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isObservable -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#isObservable">
+        <schema:rangeIncludes rdf:resource="http://schema.org/Boolean"/>
+        <rdfs:comment xml:lang="en">A hint that indicates whether Servients hosting the Thing and Intermediaries should provide a Protocol Binding that supports the &lt;code&gt;observeproperty&lt;/code&gt; and &lt;code&gt;unobserveproperty&lt;/code&gt; operations for this Property.</rdfs:comment>
+        <rdfs:label>isObservable</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#isSafe -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#isSafe">
+        <schema:rangeIncludes rdf:resource="http://schema.org/Boolean"/>
+        <rdfs:comment xml:lang="en">Signals if the action is safe (=true) or not. Used to signal if there is no internal state (cf. resource state) is changed when invoking an Action. In that case responses can be cached as example.</rdfs:comment>
+        <rdfs:label>isSafe</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#manufacturerDescription -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#manufacturerDescription"/>
+    
+
+
+    <!-- https://w3id.org/dco#manufacturerLabel -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#manufacturerLabel"/>
+    
+
+
+    <!-- https://w3id.org/dco#manufacturerNodeIdentification -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#manufacturerNodeIdentification"/>
+    
+
+
+    <!-- https://w3id.org/dco#name -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#name">
+        <schema:rangeIncludes rdf:resource="http://schema.org/Text"/>
+        <rdfs:comment xml:lang="en">Indexing property to store entity names when serializing them in a JSON-LD @index container.</rdfs:comment>
+        <rdfs:label>name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#numSecondsPerInterval -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#numSecondsPerInterval">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:label>numSecondsPerInterval</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#scheduleID -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#scheduleID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>scheduleID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#serialNumber -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#serialNumber"/>
+    
+
+
+    <!-- https://w3id.org/dco#softwareRevision -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#softwareRevision"/>
+    
+
+
+    <!-- https://w3id.org/dco#stateReason -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#stateReason">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#FlexOffer"/>
+        <rdfs:label>stateReason</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#title -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#title">
+        <schema:domainIncludes rdf:resource="https://www.w3.org/2019/wot/json-schema#DataSchema"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/Text"/>
+        <rdfs:comment>title of the TD element (Thing, interaction affordance or data schema)</rdfs:comment>
+        <rdfs:label>title</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#titleInLanguage -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#titleInLanguage">
+        <schema:domainIncludes rdf:resource="https://www.w3.org/2019/wot/json-schema#DataSchema"/>
+        <schema:rangeIncludes rdf:resource="http://schema.org/Text"/>
+        <rdfs:comment>title of the TD element (Thing, interaction affordance or data schema) with language tag. By convention, a language tag must be added to the object of &apos;titleInLanguage&apos; triples. Otherwise, use &apos;title&apos;.</rdfs:comment>
+        <rdfs:label>titleInLanguage</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#uncertainThreshold -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#uncertainThreshold">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>uncertainThreshold</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#updateID -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#updateID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/dco#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>updateID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/dco#vendorCode -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#vendorCode"/>
+    
+
+
+    <!-- https://w3id.org/dco#vendorName -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dco#vendorName"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://bigg-project.eu/ontology#AggregatedKPIAssessment -->
+
+
+    <owl:Class rdf:about="http://bigg-project.eu/ontology#AggregatedKPIAssessment">
+        <rdfs:subClassOf rdf:resource="http://bigg-project.eu/ontology#KPIAssessment"/>
+        <rdfs:label>Aggregated K P I Assessment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg-project.eu/ontology#Group -->
+
+
+    <owl:Class rdf:about="http://bigg-project.eu/ontology#Group">
+        <rdfs:label>Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg-project.eu/ontology#KPIAssessment -->
+
+
+    <owl:Class rdf:about="http://bigg-project.eu/ontology#KPIAssessment">
+        <rdfs:subClassOf rdf:resource="http://bigg-project.eu/ontology#TimeSeriesList"/>
+        <rdfs:label>K P I Assessment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg-project.eu/ontology#SingleKPIAssessment -->
+
+
+    <owl:Class rdf:about="http://bigg-project.eu/ontology#SingleKPIAssessment">
+        <rdfs:subClassOf rdf:resource="http://bigg-project.eu/ontology#KPIAssessment"/>
+        <rdfs:label>Single K P I Assessment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg-project.eu/ontology#TimeSeriesList -->
+
+
+    <owl:Class rdf:about="http://bigg-project.eu/ontology#TimeSeriesList">
+        <rdfs:label>Time Series List</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg-project.eu/ontology#WeatherStation -->
+
+
+    <owl:Class rdf:about="http://bigg-project.eu/ontology#WeatherStation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:label>Weather Station</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bigg-project.eu/ontology#Zone -->
+
+
+    <owl:Class rdf:about="http://bigg-project.eu/ontology#Zone">
+        <rdfs:subClassOf rdf:resource="http://bigg-project.eu/ontology#Group"/>
+        <rdfs:label>Zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.tno.nl/interconnect/topology#TopologicalLocation -->
+
+
+    <owl:Class rdf:about="http://ontology.tno.nl/interconnect/topology#TopologicalLocation"/>
+    
+
+
+    <!-- http://ontology.tno.nl/interconnect/user#Activity -->
+
+
+    <owl:Class rdf:about="http://ontology.tno.nl/interconnect/user#Activity">
+        <rdfs:comment xml:lang="en">An activity associated to the user preference</rdfs:comment>
+        <rdfs:label xml:lang="en">Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.tno.nl/interconnect/user#Interest -->
+
+
+    <owl:Class rdf:about="http://ontology.tno.nl/interconnect/user#Interest"/>
+    
+
+
+    <!-- http://ontology.tno.nl/interconnect/user#User -->
+
+
+    <owl:Class rdf:about="http://ontology.tno.nl/interconnect/user#User">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:comment xml:lang="en">A user can be, for example, a resident that lives in a building, a building manager or an agent that provides a service in a building (e.g., cleaning, maintenance, security). A user is defined as a subclass of  foaf:Agent</rdfs:comment>
+        <rdfs:label xml:lang="en">user</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.tno.nl/interconnect/user#UserProfile -->
+
+
+    <owl:Class rdf:about="http://ontology.tno.nl/interconnect/user#UserProfile">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontology.tno.nl/interconnect/user#includesInterest"/>
+                <owl:someValuesFrom rdf:resource="http://ontology.tno.nl/interconnect/user#Interest"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A user can have various profiles depending on the situation (e.g. a profile for working, one for relaxing and one for travelling)</rdfs:comment>
+        <rdfs:label xml:lang="en">User Profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.tno.nl/interconnect/user#preference -->
+
+
+    <owl:Class rdf:about="http://ontology.tno.nl/interconnect/user#preference">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontology.tno.nl/interconnect/user#hasLocation"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://ontology.tno.nl/interconnect/topology#TopologicalLocation"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+                            <rdf:Description rdf:about="https://saref.etsi.org/saref4bldg/BuildingSpace"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A user profile includes preferences that specify the user’s context in terms of time, activity and location, which can be indoor or outdoor. For example, in a “relaxing” profile with interest “books”, the preference can be “reading” (defined as ic-user:Activity) in the “living room” (defined as a saref:BuildingSpace) between 20:00 and 22:00 (defined as time:Interval). Moreover, this preference can be associated with a certain device (saref:Device) and related commands (saref:Command) to set some property in the environment surrounding the user (saref:Property).</rdfs:comment>
+        <rdfs:label xml:lang="en">Preference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Agent">
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label xml:lang="en">Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Celsius -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Celsius">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#RadiationUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Fahrenheit -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Fahrenheit">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#RadiationUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Inverter -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Inverter">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Measurement">
+        <rdfs:subClassOf rdf:resource="http://bigg-project.eu/ontology#TimeSeriesList"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#hasTimestamp"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Represents the measured value made over a property. It is also linked to the unit of measure in which the value is expressed and the timestamp of the measurement.</rdfs:comment>
+        <rdfs:label xml:lang="en">Measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Radiation -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#Radiation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#RadiationUnit -->
+
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/dedalus-technology-release/T3.3_DataModelsAndStandards/main/dedalus#RadiationUnit">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#UnitsOfMeasurements"/>
+    </owl:Class>
+    
+
+
+    <!-- https://saref.etsi.org/saref4bldg/BuildingSpace -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/saref4bldg/BuildingSpace"/>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/AdministrativeArea -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/saref4city/AdministrativeArea">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Space"/>
+        <rdfs:comment xml:lang="en">An administrative division, unit, entity, area or region, also referred to as a subnational entity, constituent unit, or country subdivision, is a portion of a country or other region delineated for the purpose of administration. (https://en.wikipedia.org/wiki/Administrative_division)</rdfs:comment>
+        <rdfs:label xml:lang="en">Administrative area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/City -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/saref4city/City">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref4city/AdministrativeArea"/>
+        <rdfs:comment xml:lang="en">A city is a large human settlement. A city is distinguished from other human settlements by its relatively great size, but also by its functions and its special symbolic status, which may be conferred by a central authority. (https://en.wikipedia.org/wiki/City)</rdfs:comment>
+        <rdfs:label xml:lang="en">City</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/Country -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/saref4city/Country">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref4city/AdministrativeArea"/>
+        <rdfs:comment xml:lang="en">A country is a region that is identified as a distinct national entity in political geography. (https://en.wikipedia.org/wiki/Country)</rdfs:comment>
+        <rdfs:label xml:lang="en">Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://saref.etsi.org/saref4ener/EnergyMax -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/saref4ener/EnergyMax">
+        <rdfs:label>EnergyMax</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://saref.etsi.org/saref4ener/EnergyMin -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/saref4ener/EnergyMin">
+        <rdfs:label>EnergyMin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://saref.etsi.org/saref4ener/PowerSequence -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/saref4ener/PowerSequence">
+        <rdfs:label>PowerSequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://saref.etsi.org/saref4ener/Slot -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/saref4ener/Slot">
+        <rdfs:label>Slot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://saref.etsi.org/saref4ener/StartTime -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/saref4ener/StartTime">
+        <rdfs:label>StartTime</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#ActualPower -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#ActualPower">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:label>Actual Power</rdfs:label>
+        <skos:definition>A property related to some measurements that are characterized by a certain value that is measured in a power unit (such as watt or kilowatt).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#ActuatingFunction -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#ActuatingFunction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Function"/>
+        <rdfs:comment xml:lang="en">A function that allows to transmit data to actuators, such as level settings (e.g., temperature) or binary switching (e.g., open/close, on/off)</rdfs:comment>
+        <rdfs:label xml:lang="en">Actuating function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Actuator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Actuator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#hasFunction"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/dco#ActuatingFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://w3id.org/dco#Relay"/>
+        <rdfs:comment xml:lang="en">A device responsible for moving or controlling a mechanism or system by performing an actuating function</rdfs:comment>
+        <rdfs:label xml:lang="en">Actuator</rdfs:label>
+        <rdfs:label>Actuator</rdfs:label>
+        <skos:definition>A device that is used by, or implements, an (Actuation) Procedure that changes the state of the world.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#AmbientHumidity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#AmbientHumidity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:label>Ambient Humidity</rdfs:label>
+        <skos:definition>Property of the environment indicating the humidity.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#AmbientTemperature -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#AmbientTemperature">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:label>Ambient temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Ampere -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Ampere">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#ElectricUnit"/>
+        <rdfs:label>Ampere</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Apartment -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Apartment">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Space"/>
+        <rdfs:label>Apartment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Appliance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Appliance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:comment xml:lang="en">An electrical/mechanical machine that accomplish some household functions, such as cleaning or cooking</rdfs:comment>
+        <rdfs:label xml:lang="en">Appliance</rdfs:label>
+        <rdfs:label>Appliance</rdfs:label>
+        <skos:definition>An electrical/mechanical machine that accomplish some household functions, such as cleaning or cooking.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#AreaUnit -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#AreaUnit">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#UnitsOfMeasurements"/>
+        <rdfs:label>Area unit</rdfs:label>
+        <skos:definition>&quot;An area unit which is equal to an area enclosed by a square with sides each 1 meter long.&quot; [NIST:NIST]</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#AssignedFlexOffer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#AssignedFlexOffer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#FlexOfferState"/>
+        <rdfs:label>AssignedFlexOffer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Bathroom -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Bathroom">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Room"/>
+        <rdfs:label>Bathroom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#BatteryLevel -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#BatteryLevel">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:label>Battery level</rdfs:label>
+        <skos:definition>The level of remaining battery (if any : in percent) for a device.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Bedroom -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Bedroom">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Room"/>
+        <rdfs:label>Bedroom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Building -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Building">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Space"/>
+        <rdfs:label>Building</rdfs:label>
+        <skos:definition>A building represents a structure that provides shelter for its occupants or contents and stands in one place. The building is also used to provide a basic element within the spatial structure hierarchy for the components of a building project (together with site, storey, and space). The basement floor of a building is floor number 0.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#BuildingModel -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#BuildingModel">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Building model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#BusinessBuilding -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#BusinessBuilding">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Building"/>
+        <rdfs:label>Business building</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#CO2Concentration -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#CO2Concentration">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:label>CO2 concentration</rdfs:label>
+        <skos:definition>A property representing the carbon dioxide concentration that can be measured in &quot;ppm&quot;.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#CanceledFlexOffer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#CanceledFlexOffer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#FlexOfferState"/>
+        <rdfs:label>CanceledFlexOffer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#CloseCommand -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#CloseCommand">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Command"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#actsUpon"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/dco#OpenCloseState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#isCommandOf"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/dco#OpenCloseFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://w3id.org/dco#OpenCommand"/>
+        <rdfs:comment xml:lang="en">A type of command</rdfs:comment>
+        <rdfs:label xml:lang="en">Close command</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#CloseState -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#CloseState">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#OpenCloseState"/>
+        <rdfs:comment xml:lang="en">The state of a device that is CLOSE</rdfs:comment>
+        <rdfs:label xml:lang="en">Close state</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Command -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Command">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#actsUpon"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/dco#State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#isCommandOf"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/dco#Function"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A directive that a device must support to perform a certain function. A command may act upon a state, but does not necessarily act upon a state. For example, the ON command acts upon the ON/OFF state, but the GET command does not act upon any state, it simply gives a directive to retrieve a certain value. We propose here a list of commands that are relevant for the purpose of SAREF, but this list can be extended.</rdfs:comment>
+        <rdfs:label xml:lang="en">Command</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Commodity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Commodity">
+        <rdfs:comment xml:lang="en">A marketable item for which there is demand, but which is supplied without qualitative differentiation across a market. SAREF refers to energy commodities such as electricity, gas, coal and oil. </rdfs:comment>
+        <rdfs:label xml:lang="en">Commodity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Consumer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Consumer">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Consumer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#ConsumerElectronics -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#ConsumerElectronics">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#HouseholdAppliance"/>
+        <rdfs:label>ConsumerElectronics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Controller -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Controller">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:label>Controller</rdfs:label>
+        <skos:definition>A controller is a device that monitors inputs and controls outputs within a building automation system. A controller may be physical (having placement within a spatial structure) or logical (a software interface or aggregated within a programmable physical controller).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#CookingAppliance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#CookingAppliance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#HouseholdAppliance"/>
+        <rdfs:label>CookingAppliance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Device -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Device">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#controlsProperty"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/dco#Property"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#hasProfile"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/dco#Profile"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#hasState"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/dco#State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#isUsedFor"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/dco#Commodity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#measuresProperty"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/dco#Property"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#offers"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/dco#Service"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#hasFunction"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/dco#Function"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#brandName"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#deviceCode"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#deviceName"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#hardwareRevision"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#hasManufacturer"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#manufacturerDescription"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#manufacturerLabel"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#manufacturerNodeIdentification"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#serialNumber"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#softwareRevision"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#vendorCode"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#vendorName"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A tangible object designed to accomplish a particular task. In order to accomplish this task, the device performs one or more functions. For example, a washing machine is designed to wash (task) and to accomplish this task it performs a start and stop function.</rdfs:comment>
+        <rdfs:label xml:lang="en">Device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#DishWasher -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#DishWasher">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#HouseholdAppliance"/>
+        <rdfs:label>DishWasher</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#DoorSwitch -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#DoorSwitch">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Switch"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#hasFunction"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/dco#OpenCloseFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#hasState"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/dco#OpenCloseState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A switch that performs the saref:OpenCloseFunction, is used for controlling a door, and can be found in the state saref:OpenCloseState. A saref:DoorSwitch is typically used to accomplish saref:Safety.</rdfs:comment>
+        <rdfs:label xml:lang="en">Door switch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Dryer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Dryer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#HouseholdAppliance"/>
+        <rdfs:label>Dryer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#EVChargingAppliance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#EVChargingAppliance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Appliance"/>
+        <rdfs:label>EV charging appliance</rdfs:label>
+        <skos:definition>Represent an electric vehicule charching appliance.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#ElectricUnit -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#ElectricUnit">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#UnitsOfMeasurements"/>
+        <rdfs:label>Electric unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Electricity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Electricity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Commodity"/>
+        <rdfs:comment xml:lang="en">A type of commodity</rdfs:comment>
+        <rdfs:label xml:lang="en">Electricity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#ElectricityConsumer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#ElectricityConsumer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Consumer"/>
+        <rdfs:label>ElectricityConsumer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#ElectricityConsumptionEnergyPropertyAffordance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#ElectricityConsumptionEnergyPropertyAffordance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:label>ElectricityConsumptionEnergyPropertyAffordance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#ElectricityConsumptionPowerPropertyAffordance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#ElectricityConsumptionPowerPropertyAffordance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:label>ElectricityConsumptionPowerPropertyAffordance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#ElectricityHub -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#ElectricityHub">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Hub"/>
+        <rdfs:label>ElectricityHub</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#ElectricityProducer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#ElectricityProducer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Producer"/>
+        <rdfs:label>ElectricityProducer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#ElectricityProductionEnergyPropertyAffordance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#ElectricityProductionEnergyPropertyAffordance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:label>ElectricityProductionEnergyPropertyAffordance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#ElectricityProductionPowerPropertyAffordance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#ElectricityProductionPowerPropertyAffordance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:label>ElectricityProductionPowerPropertyAffordance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#EnergyConsumer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#EnergyConsumer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Consumer"/>
+        <rdfs:label>EnergyConsumer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#EnergyMeter -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#EnergyMeter">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Meter"/>
+        <rdfs:label>Energy meter</rdfs:label>
+        <skos:definition>A device built to accurately detect and display energy in a form readable by machines.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#EnergyProducer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#EnergyProducer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Producer"/>
+        <rdfs:label>EnergyProducer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#EnergyPropertyAffordance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#EnergyPropertyAffordance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:comment xml:lang="en">A saref:Property related to some measurements that are characterized by a certain value measured in an energy unit (such as Kilowatt_Hour or Watt_hour). Furter specializations of the saref:Energy class can be found in the SAREF4ENER extension, where classes such as EnergyMax, EnergyMin and EnergyExpected are defined. </rdfs:comment>
+        <rdfs:label xml:lang="en">Energy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#EventFunction -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#EventFunction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Function"/>
+        <rdfs:comment xml:lang="en">A function that allows to notify about some relevant activity; e.g., that a certain threshold value has been exceeded or that some object has moved.</rdfs:comment>
+        <rdfs:label xml:lang="en">Event function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#ExecutedFlexOffer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#ExecutedFlexOffer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#FlexOfferState"/>
+        <rdfs:label>ExecutedFlexOffer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#FlexOffer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#FlexOffer">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref4ener/PowerSequence"/>
+        <rdfs:label>FlexOffer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#FlexOfferSchedule -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#FlexOfferSchedule">
+        <rdfs:label>FlexOfferSchedule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#FlexOfferState -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#FlexOfferState">
+        <rdfs:label>FlexOfferState</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Freezer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Freezer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#HouseholdAppliance"/>
+        <rdfs:label>Freezer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Fridge -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Fridge">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#HouseholdAppliance"/>
+        <rdfs:label>Fridge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Function -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Function">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#hasCommand"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/dco#Command"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The functionality necessary to accomplish the task for which a device is designed. A device can be designed to perform more than one function. Functions can be structured in categories (subclasses) that reflect different points of view, for example, considering the specific application area for which a function can be used (e.g., light, temperature, motion, heat, power, etc.), or the capability that a function can support (e.g., receive, reply, notify, etc.), and so forth. </rdfs:comment>
+        <rdfs:label xml:lang="en">Function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Gas -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Gas">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Commodity"/>
+        <rdfs:comment xml:lang="en">A type of commodity</rdfs:comment>
+        <rdfs:label xml:lang="en">Gas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#GasBoiler -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#GasBoiler">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Appliance"/>
+        <rdfs:label>Gas boiler</rdfs:label>
+        <skos:definition>Gas boilers are used to provide hot water and heating to households.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#GasBoilerActuator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#GasBoilerActuator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Actuator"/>
+        <rdfs:label>Gas boiler actuator</rdfs:label>
+        <skos:definition>Represent the actuator of the gas boiler.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#GasMeter -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#GasMeter">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Meter"/>
+        <rdfs:label>Gas meter</rdfs:label>
+        <skos:definition>A gas meter is a specialized flow meter, used to measure the volume of fuel gases such as natural gas and liquefied petroleum gas. Gas meters are used at residential, commercial, and industrial buildings that consume fuel gas supplied by a gas utility</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Gateway -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Gateway">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:label>Gateway</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#GetCommand -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#GetCommand">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Command"/>
+        <rdfs:comment xml:lang="en">A type of command</rdfs:comment>
+        <rdfs:label xml:lang="en">Get command</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#GetCurrentMeterValueCommand -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#GetCurrentMeterValueCommand">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#GetCommand"/>
+        <rdfs:comment xml:lang="en">A type of get command</rdfs:comment>
+        <rdfs:label xml:lang="en">Get current meter value command</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#GetMeterDataCommand -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#GetMeterDataCommand">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#GetCommand"/>
+        <rdfs:comment xml:lang="en">A type of get command</rdfs:comment>
+        <rdfs:label xml:lang="en">Get meter data command</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#GetMeterHistoryCommand -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#GetMeterHistoryCommand">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#GetCommand"/>
+        <rdfs:comment xml:lang="en">A type of get command</rdfs:comment>
+        <rdfs:label xml:lang="en">Get meter history command</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#GetSensingDataCommand -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#GetSensingDataCommand">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#GetCommand"/>
+        <rdfs:comment xml:lang="en">A type of get command</rdfs:comment>
+        <rdfs:label xml:lang="en">Get sensing data command</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#HVACDevice -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#HVACDevice">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:label>HVAC device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#HeatConsumer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#HeatConsumer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Consumer"/>
+        <rdfs:label>HeatConsumer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#HeatHub -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#HeatHub">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Hub"/>
+        <rdfs:label>HeatHub</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#HeatMeter -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#HeatMeter">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Meter"/>
+        <rdfs:label>Heat meter</rdfs:label>
+        <skos:definition>A heat meter is a device which measures thermal energy provided by a source or delivered to a sink, by measuring the flow rate of the heat transfer fluid and the change in its temperature (ΔT) between the outflow and return legs of the system.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#HeatProducer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#HeatProducer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Producer"/>
+        <rdfs:label>HeatProducer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#HeatPumpAppliance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#HeatPumpAppliance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Appliance"/>
+        <rdfs:label>Heat pump appliance</rdfs:label>
+        <skos:definition>A heat pump appliance is used to warm and sometimes also cool buildings by transferring thermal energy from a cooler space to a warmer space using the refrigeration cycle, being the opposite direction in which heat transfer would take place without the application of external power</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#HeatPumpRelay -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#HeatPumpRelay">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Relay"/>
+        <rdfs:label>Heat pump relay</rdfs:label>
+        <skos:definition>Represent the replay of a heat pump.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#HeatingActuator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#HeatingActuator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Actuator"/>
+        <rdfs:label>Heating actuator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Hob -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Hob">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#HouseholdAppliance"/>
+        <rdfs:label>Hob</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#HouseholdAppliance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#HouseholdAppliance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Appliance"/>
+        <rdfs:label>HouseholdAppliance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Hub -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Hub">
+        <rdfs:label>Hub</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Humidity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Humidity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:comment xml:lang="en">A saref:Property related to some measurements that are characterized by a certain value that is measured in a humidity unit</rdfs:comment>
+        <rdfs:label xml:lang="en">Humidity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#HumiditySensor -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#HumiditySensor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Sensor"/>
+        <rdfs:label>Humidity sensor</rdfs:label>
+        <skos:definition>The humidity sensor measures the concentration of water vapor in air.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#IndustrialBuilding -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#IndustrialBuilding">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Building"/>
+        <rdfs:label>Industrial building</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#IntialFlexOffer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#IntialFlexOffer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#FlexOfferState"/>
+        <rdfs:label>IntialFlexOffer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#InvalidFlexOffer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#InvalidFlexOffer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#FlexOfferState"/>
+        <rdfs:label>InvalidFlexOffer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Kitchen -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Kitchen">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Room"/>
+        <rdfs:label>Kitchen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#LevelControlFunction -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#LevelControlFunction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#ActuatingFunction"/>
+        <rdfs:comment xml:lang="en">An actuating function that allows to do level adjustments of a property in a certain range (e.g., 0%-100%), such as dimming a light in a room or setting the speed of an electric motor. </rdfs:comment>
+        <rdfs:label xml:lang="en">Level control function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Light -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Light">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#HouseholdAppliance"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:comment xml:lang="en">A saref:Property related to some measurements that are characterized by a certain value that is measured in a illuminance unit (lux)</rdfs:comment>
+        <rdfs:label xml:lang="en">Light</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#LightSwitch -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#LightSwitch">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Switch"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#controlsProperty"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/dco#Light"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#hasFunction"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/dco#OnOffFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#hasState"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/dco#OnOffState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A switch that performs the saref:OnOffFunction, controls the property saref:Light, and can be found in the state saref:OnOffState. It can offer a switch on service. A saref:LightSwitch is typically used to accomplish saref:Lighting.</rdfs:comment>
+        <rdfs:label xml:lang="en">Light switch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#LivingRoom -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#LivingRoom">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Room"/>
+        <rdfs:label>Living room</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Lobby -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Lobby">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Room"/>
+        <rdfs:label>Lobby</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Location -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Location">
+        <rdfs:label>Location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Meter -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Meter">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:comment xml:lang="en">A device built to accurately detect and display a quantity in a form readable by a human being. Further, a device of category saref:Meter that performs a saref:MeteringFunction.</rdfs:comment>
+        <rdfs:label xml:lang="en">Meter</rdfs:label>
+        <rdfs:label>Meter</rdfs:label>
+        <skos:definition>A device that measure usage or consumption of some media --- typically a form energy or power.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#MicroWave -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#MicroWave">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#HouseholdAppliance"/>
+        <rdfs:label>MicroWave</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#MultiLevelState -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#MultiLevelState">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#State"/>
+        <rdfs:comment xml:lang="en">A type of state</rdfs:comment>
+        <rdfs:label xml:lang="en">Multi level state</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#MultipleFamilyHouse -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#MultipleFamilyHouse">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Building"/>
+        <rdfs:label>Multiple family house</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#OffCommand -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#OffCommand">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Command"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#actsUpon"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/dco#OnOffState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#isCommandOf"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/dco#OnOffFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://w3id.org/dco#OnCommand"/>
+        <rdfs:comment xml:lang="en">A type of command</rdfs:comment>
+        <rdfs:label xml:lang="en">Off command</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#OffState -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#OffState">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#OnOffState"/>
+        <rdfs:comment xml:lang="en">The state of a device that is Off</rdfs:comment>
+        <rdfs:label xml:lang="en">Off state</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#OfferedFlexOffer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#OfferedFlexOffer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#FlexOfferState"/>
+        <rdfs:label>OfferedFlexOffer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#OnCommand -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#OnCommand">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Command"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#actsUpon"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/dco#OnOffState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#isCommandOf"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/dco#OnOffFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A type of command</rdfs:comment>
+        <rdfs:label xml:lang="en">On command</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#OnOffControlPropertyAffordance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#OnOffControlPropertyAffordance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:label>OnOffControlPropertyAffordance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#OnOffFunction -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#OnOffFunction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#ActuatingFunction"/>
+        <rdfs:comment xml:lang="en">An actuating function that allows to switch on and off an actuator</rdfs:comment>
+        <rdfs:label xml:lang="en">On off function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#OnOffState -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#OnOffState">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#State"/>
+        <rdfs:comment xml:lang="en">A type of state</rdfs:comment>
+        <rdfs:label xml:lang="en">On off state</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#OnState -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#OnState">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#OnOffState"/>
+        <rdfs:comment xml:lang="en">The state of a device that is On</rdfs:comment>
+        <rdfs:label xml:lang="en">On state</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#OpenCloseFunction -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#OpenCloseFunction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#ActuatingFunction"/>
+        <rdfs:comment xml:lang="en">An actuating function that allows to open and close a device</rdfs:comment>
+        <rdfs:label xml:lang="en">Open close function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#OpenClosePropertyAffordance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#OpenClosePropertyAffordance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:label>OpenClosePropertyAffordance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#OpenCloseState -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#OpenCloseState">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#State"/>
+        <rdfs:comment xml:lang="en">A type of state</rdfs:comment>
+        <rdfs:label xml:lang="en">Open close state</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#OpenCommand -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#OpenCommand">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Command"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#actsUpon"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/dco#OpenCloseState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#isCommandOf"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/dco#OpenCloseFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A type of command</rdfs:comment>
+        <rdfs:label xml:lang="en">Open command</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#OpenState -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#OpenState">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#OpenCloseState"/>
+        <rdfs:comment xml:lang="en">The state of a device that is OPEN </rdfs:comment>
+        <rdfs:label xml:lang="en">Open state</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#OutdoorTemperature -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#OutdoorTemperature">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:label>Outdoor temperature</rdfs:label>
+        <skos:definition>Repesent the temperature property oustide a building.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Oven -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Oven">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#HouseholdAppliance"/>
+        <rdfs:label>Oven</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#PartsPerMillion -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#PartsPerMillion">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#PartsPerNotationUnit"/>
+        <rdfs:label>Parts per million</rdfs:label>
+        <skos:definition>A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 1,000,000 regardless of the units of measure used as long as they are the same or 1 part in 10^[6].</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#PartsPerNotationUnit -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#PartsPerNotationUnit">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#UnitsOfMeasurements"/>
+        <rdfs:label>Parts per notation unit</rdfs:label>
+        <skos:definition>&quot;A dimensionless concentration notation which describes the amount of one substance in another. It is the ratio of the amount of the substance of interest to the amount of that substance plus the amount of the substance.&quot; [Wikipedia:Wikipedia]</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#PauseCommand -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#PauseCommand">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Command"/>
+        <rdfs:comment xml:lang="en">A type of command</rdfs:comment>
+        <rdfs:label xml:lang="en">Pause command</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Percentage -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Percentage">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#PercentageUnit"/>
+        <rdfs:label>Percentage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#PercentageUnit -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#PercentageUnit">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#UnitsOfMeasurements"/>
+        <rdfs:label>Percentage unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Power -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Power">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:comment xml:lang="en">A saref:Property related to some measurements that are characterized by a certain value that is measured in a power unit (such as watt or kilowatt).  Further specializations of the saref:Power class can be found in the SAREF4ENER extension, where classes such as PowerMax, PowerMin and PowerExpected are defined.</rdfs:comment>
+        <rdfs:label xml:lang="en">Power</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#PowerMeter -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#PowerMeter">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Meter"/>
+        <rdfs:label>Power meter</rdfs:label>
+        <skos:definition>Represent a power meter.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Price -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Price">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:comment xml:lang="en">A saref:Property crelated to some measurements that are characterized by a certain value that is measured using saref:Currency</rdfs:comment>
+        <rdfs:label xml:lang="en">Price</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Producer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Producer">
+        <rdfs:label>Producer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Profile -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Profile">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#hasTime"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/dco#Time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#isAbout"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://w3id.org/dco#Commodity"/>
+                            <rdf:Description rdf:about="https://w3id.org/dco#Property"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A specification associated to a device to collect information about a certain Property (e.g., Energy) for optimizing its usage in the home, office or building in which the device is located. This specification is about a certain Property (saref:isAbout), can be calculated over a time span (saref:hasTime) and can be associated to some costs (saref:hasPrice). An example is the Power Profile defined in the SAREF4ENER extension that can be associated to a device for optimizing the Energy efficiency in the home, office or building in which the device is located.</rdfs:comment>
+        <rdfs:label xml:lang="en">Profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Property -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Property">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#isControlledByDevice"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/dco#Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#isMeasuredByDevice"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/dco#Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A quality of a feature of interest that can be measured; an aspect of a feature of interest that is intrinsic to and cannot exist without the feature</rdfs:comment>
+        <rdfs:label xml:lang="en">Property</rdfs:label>
+        <rdfs:label>Property</rdfs:label>
+        <skos:definition>An Interaction affordance that exposes state of the Thing. This state can then be retrieved (read) and optionally updated (write). Things can also choose to make Properties observable by pushing the new state after a change.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#RejectedFlexOffer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#RejectedFlexOffer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#FlexOfferState"/>
+        <rdfs:label>RejectedFlexOffer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Relay -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Relay">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:label>Relay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#ResidentialBuilding -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#ResidentialBuilding">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Building"/>
+        <rdfs:label>Residential building</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#ReturnTemperatureSensor -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#ReturnTemperatureSensor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Sensor"/>
+        <rdfs:label>Return temperature sensor</rdfs:label>
+        <skos:definition>This sensor measures the return temperature.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Room -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Room">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Space"/>
+        <rdfs:label>Room</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Schedule -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Schedule">
+        <rdfs:label>Schedule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Sensor -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Sensor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:comment xml:lang="en">A device that detects and responds to events or changes in the physical environment such as light, motion, or temperature changes. Further, a device of category saref:Sensor that performs a saref:SensingFunction.</rdfs:comment>
+        <rdfs:label xml:lang="en">Sensor</rdfs:label>
+        <rdfs:label>Sensor</rdfs:label>
+        <skos:definition>Device, agent (including humans), or software (simulation) involved in, or implementing, a Procedure. Sensors respond to a stimulus, e.g., a change in the environment, or input data composed from the results of prior Observations, and generate a Result. Sensors can be hosted by Platforms.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Service -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Service">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#isOfferedBy"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/dco#Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#represents"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/dco#Function"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A service is a representation of a function to a network that makes the function discoverable, registerable, remotely controllable by other devices in the network. A service can represent one or more functions. A Service is offered by a device that wants (a certain set of) its function(s) to be discoverable, registerable, remotely controllable by other devices in the network. A Service must specify the device that is offering the service and the function(s) to be represented.</rdfs:comment>
+        <rdfs:label xml:lang="en">Service</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#SetAbsoluteLevelCommand -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#SetAbsoluteLevelCommand">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#SetLevelCommand"/>
+        <rdfs:comment xml:lang="en">A type of set level command</rdfs:comment>
+        <rdfs:label xml:lang="en">Set absolute level command</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#SetLevelCommand -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#SetLevelCommand">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Command"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#actsUpon"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/dco#MultiLevelState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#isCommandOf"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/dco#LevelControlFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A type of command</rdfs:comment>
+        <rdfs:label xml:lang="en">Set level command</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#SingleFamilyHouse -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#SingleFamilyHouse">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Building"/>
+        <rdfs:label>Single family house</rdfs:label>
+        <skos:definition>Represent a household of a single family.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Slice -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Slice">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref4ener/Slot"/>
+        <rdfs:label>Slice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#SmartMeter -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#SmartMeter">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Meter"/>
+        <rdfs:label>SmartMeter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#SolarPanelsAppliance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#SolarPanelsAppliance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Appliance"/>
+        <rdfs:label>Solar panels appliance</rdfs:label>
+        <skos:definition>A solar panel, or photo-voltaic (PV) module, is an assembly of photo-voltaic cells mounted in a framework for installation. Solar panels use sunlight as a source of energy and generate direct current electricity.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Space -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Space">
+        <rdfs:label>Space</rdfs:label>
+        <skos:definition>A part of the physical world or a virtual world whose 3D spatial extent is bounded actually or theoretically, and provides for certain functions within the zone it is contained in.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#SquareMeter -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#SquareMeter">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#AreaUnit"/>
+        <rdfs:label>Square meter</rdfs:label>
+        <skos:definition>&quot;An area unit which is equal to an area enclosed by a square with sides each 1 meter long.&quot; [NIST:NIST]</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#StandardFlexOffer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#StandardFlexOffer">
+        <rdfs:label>StandardFlexOffer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#StartCommand -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#StartCommand">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Command"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#actsUpon"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/dco#StartStopState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#isCommandOf"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/dco#StartStopFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://w3id.org/dco#StopCommand"/>
+        <rdfs:comment xml:lang="en">A type of command</rdfs:comment>
+        <rdfs:label xml:lang="en">Start command</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#StartState -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#StartState">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#StartStopState"/>
+        <rdfs:comment xml:lang="en">The state of a device that is STARTED</rdfs:comment>
+        <rdfs:label xml:lang="en">Start state</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#StartStopFunction -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#StartStopFunction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#ActuatingFunction"/>
+        <rdfs:comment xml:lang="en">An actuating function that allows to start and stop a device</rdfs:comment>
+        <rdfs:label xml:lang="en">Start stop function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#StartStopState -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#StartStopState">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#State"/>
+        <rdfs:comment xml:lang="en">A type of state</rdfs:comment>
+        <rdfs:label xml:lang="en">Start stop state</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#State -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#State">
+        <rdfs:comment xml:lang="en">The state in which a device can be found, e.g, ON/OFF/STANDBY, or ONLINE/OFFLINE. We propose here a list of states that are relevant for the purpose of SAREF, but this list can be extended.</rdfs:comment>
+        <rdfs:label xml:lang="en">State</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#StopCommand -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#StopCommand">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Command"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#actsUpon"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/dco#StartStopState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#isCommandOf"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/dco#StartStopFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A type of command</rdfs:comment>
+        <rdfs:label xml:lang="en">Stop command</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#StopState -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#StopState">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#StartStopState"/>
+        <rdfs:comment xml:lang="en">The state of a device that is STOPPED</rdfs:comment>
+        <rdfs:label xml:lang="en">Stop state</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Storage -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Storage">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Consumer"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Producer"/>
+        <rdfs:label>Storage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Storey -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Storey">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Space"/>
+        <rdfs:label>Storey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#SupplyTemperatureSensor -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#SupplyTemperatureSensor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Sensor"/>
+        <rdfs:label>Supply temperature sensor</rdfs:label>
+        <skos:definition>This sensor measures the supplied temperature by a directly from the heater.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Switch -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Switch">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Actuator"/>
+        <rdfs:comment xml:lang="en">A device of category saref:Actuator that performs an actuating function of type saref:OnOffFunction or saref:OpenCloseFunction</rdfs:comment>
+        <rdfs:label xml:lang="en">Switch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#TechnicalRoom -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#TechnicalRoom">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Room"/>
+        <rdfs:label>Technical room</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Temperature -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Temperature">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:comment xml:lang="en">A saref:Property related to some measurements that are characterized by a certain value that is measured in a temperature unit (degree_Celsius, degree_Fahrenheit, or degree_kelvin)</rdfs:comment>
+        <rdfs:label xml:lang="en">Temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#TemperatureSensor -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#TemperatureSensor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Sensor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/dco#measuresProperty"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/dco#Temperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A sensor that is used for the purpose of sensing a property of type saref:Temperature. A saref:TemperatureSensor is typically used to saref:accomplish saref:Comfort.</rdfs:comment>
+        <rdfs:label xml:lang="en">Temperature sensor</rdfs:label>
+        <rdfs:label>Temperature Sensor</rdfs:label>
+        <skos:definition>A sensor that is used for the purpose of sensing the temperature property.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#TemperatureSetpoint -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#TemperatureSetpoint">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:label>Temperature setpoint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Thermostat -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Thermostat">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Sensor"/>
+        <rdfs:label>Thermostat</rdfs:label>
+        <skos:definition>An automatic control device used to maintain temperature at a fixed or adjustable setpoint.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#ThermostaticValveActuator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#ThermostaticValveActuator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Actuator"/>
+        <rdfs:label>Thermostatic valve actuator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Time -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Time">
+        <rdfs:comment xml:lang="en">A class that allows to specify the time concept.</rdfs:comment>
+        <rdfs:label xml:lang="en">Time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#UnitsOfMeasurements -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#UnitsOfMeasurements">
+        <rdfs:label>Units of measurements</rdfs:label>
+        <skos:definition>A unit of measurement is a definite magnitude of a quantity, defined and adopted by convention and/or by law. It is used as a standard for measurement of the same quantity, where any other value of the quantity can be expressed as a simple multiple of the unit of measure. For example, length is a quantity; the metre is a unit of length that represents a definite predetermined length. When we say 10 metre (or 10 m), we actually mean 10 times the definite predetermined length called &quot;metre&quot;.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#ValveActuator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#ValveActuator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Actuator"/>
+        <rdfs:label>Valve actuator</rdfs:label>
+        <skos:definition>Represent the actuator of the valve.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#ValveController -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#ValveController">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Controller"/>
+        <rdfs:label>Valve controller</rdfs:label>
+        <skos:definition>Represent the controller of a valve.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Volt -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Volt">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#ElectricUnit"/>
+        <rdfs:label>Volt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Volt-ampereReactive -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Volt-ampereReactive">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#ElectricUnit"/>
+        <rdfs:label>Volt-ampere reactive</rdfs:label>
+        <skos:definition>In electric power transmission and distribution, volt-ampere reactive (var) is a unit in which reactive power is expressed in an AC electric power system.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#WashingMachine -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#WashingMachine">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#HouseholdAppliance"/>
+        <rdfs:label>WashingMachine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#Water -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#Water">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Commodity"/>
+        <rdfs:comment xml:lang="en">A type of commodity</rdfs:comment>
+        <rdfs:label xml:lang="en">Water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#WaterFlow -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#WaterFlow">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Property"/>
+        <rdfs:label>Water flow</rdfs:label>
+        <skos:definition>Water flow refers to the amount of water coming out of a hose, faucet or other pipe fixture in a certain amount of time.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#WaterFlowMeter -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#WaterFlowMeter">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Meter"/>
+        <rdfs:label>Water flow meter</rdfs:label>
+        <skos:definition>A water meter is an instrument intended to measure continuously, memorize, and display the volume of water passing through the meter.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#heater -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#heater">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#HVACDevice"/>
+        <rdfs:label>heater</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#maxTariff -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#maxTariff">
+        <rdfs:label>maxTariff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#minTariff -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#minTariff">
+        <rdfs:label>minTariff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dco#photovoltaicPanel -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dco#photovoltaicPanel">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dco#Device"/>
+        <rdfs:label>photovoltaicPanel</rdfs:label>
+    </owl:Class>
+    <rdf:Description>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

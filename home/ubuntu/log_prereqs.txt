@@ -1,0 +1,657 @@
+
+setup_prereqs.sh update_env:564 (Thu Apr  6 06:44:58 UTC 2023) Updating /home/ubuntu/eclipse-graphene/AIO/graphene_env.sh with "export AIO_ROOT=/home/ubuntu/eclipse-graphene/AIO"
+
+setup_prereqs.sh update_env:564 (Thu Apr  6 06:44:58 UTC 2023) Updating /home/ubuntu/eclipse-graphene/AIO/graphene_env.sh with "export DEPLOY_RESULT="
+
+setup_prereqs.sh update_env:564 (Thu Apr  6 06:44:58 UTC 2023) Updating /home/ubuntu/eclipse-graphene/AIO/graphene_env.sh with "export FAIL_REASON="
+
+setup_prereqs.sh update_env:564 (Thu Apr  6 06:44:58 UTC 2023) Updating /home/ubuntu/eclipse-graphene/AIO/graphene_env.sh with "export DEPLOYED_UNDER=k8s"
+
+setup_prereqs.sh update_env:564 (Thu Apr  6 06:44:58 UTC 2023) Updating /home/ubuntu/eclipse-graphene/AIO/graphene_env.sh with "export GRAPHENE_DOMAIN=analyticstoolbox.bd4nrg.eu"
+
+setup_prereqs.sh update_env:564 (Thu Apr  6 06:44:58 UTC 2023) Updating /home/ubuntu/eclipse-graphene/AIO/graphene_env.sh with "export GRAPHENE_HOST_USER=ubuntu"
+
+setup_prereqs.sh update_env:564 (Thu Apr  6 06:44:58 UTC 2023) Updating /home/ubuntu/eclipse-graphene/AIO/graphene_env.sh with "export K8S_DIST=generic"
+
+setup_prereqs.sh setup_utility_pvs:215 (Thu Apr  6 06:44:59 UTC 2023) Setup utility PVs for components that do not expect namespace or storageClass
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:44:59 UTC 2023) Attempting to delete all data in PV pv-1gi-1 with path /mnt/graphene/pv-1gi-1
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:44:59 UTC 2023) Deleted all data in PV pv-1gi-1 with path /mnt/graphene/pv-1gi-1
+persistentvolume "pv-1gi-1" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:00 UTC 2023) PV pv-1gi-1 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:00 UTC 2023) Deleting host folder /mnt/graphene/pv-1gi-1
+persistentvolume/pv-1gi-1 created
+NAME       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-1gi-1   1Gi        RWO            Recycle          Available                                   1s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:01 UTC 2023) Attempting to delete all data in PV pv-1gi-2 with path /mnt/graphene/pv-1gi-2
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:02 UTC 2023) Deleted all data in PV pv-1gi-2 with path /mnt/graphene/pv-1gi-2
+persistentvolume "pv-1gi-2" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:02 UTC 2023) PV pv-1gi-2 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:02 UTC 2023) Deleting host folder /mnt/graphene/pv-1gi-2
+persistentvolume/pv-1gi-2 created
+NAME       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-1gi-2   1Gi        RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:03 UTC 2023) Attempting to delete all data in PV pv-1gi-3 with path /mnt/graphene/pv-1gi-3
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:04 UTC 2023) Deleted all data in PV pv-1gi-3 with path /mnt/graphene/pv-1gi-3
+persistentvolume "pv-1gi-3" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:04 UTC 2023) PV pv-1gi-3 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:04 UTC 2023) Deleting host folder /mnt/graphene/pv-1gi-3
+persistentvolume/pv-1gi-3 created
+NAME       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-1gi-3   1Gi        RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:05 UTC 2023) Attempting to delete all data in PV pv-1gi-4 with path /mnt/graphene/pv-1gi-4
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:06 UTC 2023) Deleted all data in PV pv-1gi-4 with path /mnt/graphene/pv-1gi-4
+persistentvolume "pv-1gi-4" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:06 UTC 2023) PV pv-1gi-4 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:06 UTC 2023) Deleting host folder /mnt/graphene/pv-1gi-4
+persistentvolume/pv-1gi-4 created
+NAME       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-1gi-4   1Gi        RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:08 UTC 2023) Attempting to delete all data in PV pv-1gi-5 with path /mnt/graphene/pv-1gi-5
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:08 UTC 2023) Deleted all data in PV pv-1gi-5 with path /mnt/graphene/pv-1gi-5
+persistentvolume "pv-1gi-5" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:08 UTC 2023) PV pv-1gi-5 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:08 UTC 2023) Deleting host folder /mnt/graphene/pv-1gi-5
+persistentvolume/pv-1gi-5 created
+NAME       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-1gi-5   1Gi        RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:10 UTC 2023) Attempting to delete all data in PV pv-1gi-6 with path /mnt/graphene/pv-1gi-6
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:10 UTC 2023) Deleted all data in PV pv-1gi-6 with path /mnt/graphene/pv-1gi-6
+persistentvolume "pv-1gi-6" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:10 UTC 2023) PV pv-1gi-6 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:11 UTC 2023) Deleting host folder /mnt/graphene/pv-1gi-6
+persistentvolume/pv-1gi-6 created
+NAME       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-1gi-6   1Gi        RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:12 UTC 2023) Attempting to delete all data in PV pv-1gi-7 with path /mnt/graphene/pv-1gi-7
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:12 UTC 2023) Deleted all data in PV pv-1gi-7 with path /mnt/graphene/pv-1gi-7
+persistentvolume "pv-1gi-7" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:13 UTC 2023) PV pv-1gi-7 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:13 UTC 2023) Deleting host folder /mnt/graphene/pv-1gi-7
+persistentvolume/pv-1gi-7 created
+NAME       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-1gi-7   1Gi        RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:14 UTC 2023) Attempting to delete all data in PV pv-1gi-8 with path /mnt/graphene/pv-1gi-8
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:14 UTC 2023) Deleted all data in PV pv-1gi-8 with path /mnt/graphene/pv-1gi-8
+persistentvolume "pv-1gi-8" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:15 UTC 2023) PV pv-1gi-8 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:15 UTC 2023) Deleting host folder /mnt/graphene/pv-1gi-8
+persistentvolume/pv-1gi-8 created
+NAME       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-1gi-8   1Gi        RWO            Recycle          Available                                   1s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:16 UTC 2023) Attempting to delete all data in PV pv-1gi-9 with path /mnt/graphene/pv-1gi-9
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:17 UTC 2023) Deleted all data in PV pv-1gi-9 with path /mnt/graphene/pv-1gi-9
+persistentvolume "pv-1gi-9" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:17 UTC 2023) PV pv-1gi-9 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:17 UTC 2023) Deleting host folder /mnt/graphene/pv-1gi-9
+persistentvolume/pv-1gi-9 created
+NAME       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-1gi-9   1Gi        RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:18 UTC 2023) Attempting to delete all data in PV pv-1gi-10 with path /mnt/graphene/pv-1gi-10
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:19 UTC 2023) Deleted all data in PV pv-1gi-10 with path /mnt/graphene/pv-1gi-10
+persistentvolume "pv-1gi-10" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:19 UTC 2023) PV pv-1gi-10 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:19 UTC 2023) Deleting host folder /mnt/graphene/pv-1gi-10
+persistentvolume/pv-1gi-10 created
+NAME        CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-1gi-10   1Gi        RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:20 UTC 2023) Attempting to delete all data in PV pv-5gi-1 with path /mnt/graphene/pv-5gi-1
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:21 UTC 2023) Deleted all data in PV pv-5gi-1 with path /mnt/graphene/pv-5gi-1
+persistentvolume "pv-5gi-1" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:21 UTC 2023) PV pv-5gi-1 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:21 UTC 2023) Deleting host folder /mnt/graphene/pv-5gi-1
+persistentvolume/pv-5gi-1 created
+NAME       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-5gi-1   5Gi        RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:23 UTC 2023) Attempting to delete all data in PV pv-5gi-2 with path /mnt/graphene/pv-5gi-2
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:23 UTC 2023) Deleted all data in PV pv-5gi-2 with path /mnt/graphene/pv-5gi-2
+persistentvolume "pv-5gi-2" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:23 UTC 2023) PV pv-5gi-2 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:23 UTC 2023) Deleting host folder /mnt/graphene/pv-5gi-2
+persistentvolume/pv-5gi-2 created
+NAME       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-5gi-2   5Gi        RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:25 UTC 2023) Attempting to delete all data in PV pv-5gi-3 with path /mnt/graphene/pv-5gi-3
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:25 UTC 2023) Deleted all data in PV pv-5gi-3 with path /mnt/graphene/pv-5gi-3
+persistentvolume "pv-5gi-3" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:25 UTC 2023) PV pv-5gi-3 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:25 UTC 2023) Deleting host folder /mnt/graphene/pv-5gi-3
+persistentvolume/pv-5gi-3 created
+NAME       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-5gi-3   5Gi        RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:27 UTC 2023) Attempting to delete all data in PV pv-5gi-4 with path /mnt/graphene/pv-5gi-4
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:27 UTC 2023) Deleted all data in PV pv-5gi-4 with path /mnt/graphene/pv-5gi-4
+persistentvolume "pv-5gi-4" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:27 UTC 2023) PV pv-5gi-4 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:28 UTC 2023) Deleting host folder /mnt/graphene/pv-5gi-4
+persistentvolume/pv-5gi-4 created
+NAME       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-5gi-4   5Gi        RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:29 UTC 2023) Attempting to delete all data in PV pv-5gi-5 with path /mnt/graphene/pv-5gi-5
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:29 UTC 2023) Deleted all data in PV pv-5gi-5 with path /mnt/graphene/pv-5gi-5
+persistentvolume "pv-5gi-5" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:30 UTC 2023) PV pv-5gi-5 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:30 UTC 2023) Deleting host folder /mnt/graphene/pv-5gi-5
+persistentvolume/pv-5gi-5 created
+NAME       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-5gi-5   5Gi        RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:31 UTC 2023) Attempting to delete all data in PV pv-5gi-6 with path /mnt/graphene/pv-5gi-6
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:31 UTC 2023) Deleted all data in PV pv-5gi-6 with path /mnt/graphene/pv-5gi-6
+persistentvolume "pv-5gi-6" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:32 UTC 2023) PV pv-5gi-6 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:32 UTC 2023) Deleting host folder /mnt/graphene/pv-5gi-6
+persistentvolume/pv-5gi-6 created
+NAME       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-5gi-6   5Gi        RWO            Recycle          Available                                   1s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:33 UTC 2023) Attempting to delete all data in PV pv-5gi-7 with path /mnt/graphene/pv-5gi-7
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:33 UTC 2023) Deleted all data in PV pv-5gi-7 with path /mnt/graphene/pv-5gi-7
+persistentvolume "pv-5gi-7" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:34 UTC 2023) PV pv-5gi-7 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:34 UTC 2023) Deleting host folder /mnt/graphene/pv-5gi-7
+persistentvolume/pv-5gi-7 created
+NAME       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-5gi-7   5Gi        RWO            Recycle          Available                                   1s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:35 UTC 2023) Attempting to delete all data in PV pv-5gi-8 with path /mnt/graphene/pv-5gi-8
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:35 UTC 2023) Deleted all data in PV pv-5gi-8 with path /mnt/graphene/pv-5gi-8
+persistentvolume "pv-5gi-8" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:36 UTC 2023) PV pv-5gi-8 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:36 UTC 2023) Deleting host folder /mnt/graphene/pv-5gi-8
+persistentvolume/pv-5gi-8 created
+NAME       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-5gi-8   5Gi        RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:37 UTC 2023) Attempting to delete all data in PV pv-5gi-9 with path /mnt/graphene/pv-5gi-9
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:38 UTC 2023) Deleted all data in PV pv-5gi-9 with path /mnt/graphene/pv-5gi-9
+persistentvolume "pv-5gi-9" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:38 UTC 2023) PV pv-5gi-9 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:38 UTC 2023) Deleting host folder /mnt/graphene/pv-5gi-9
+persistentvolume/pv-5gi-9 created
+NAME       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-5gi-9   5Gi        RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:39 UTC 2023) Attempting to delete all data in PV pv-5gi-10 with path /mnt/graphene/pv-5gi-10
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:40 UTC 2023) Deleted all data in PV pv-5gi-10 with path /mnt/graphene/pv-5gi-10
+persistentvolume "pv-5gi-10" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:40 UTC 2023) PV pv-5gi-10 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:40 UTC 2023) Deleting host folder /mnt/graphene/pv-5gi-10
+persistentvolume/pv-5gi-10 created
+NAME        CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-5gi-10   5Gi        RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:41 UTC 2023) Attempting to delete all data in PV pv-10gi-1 with path /mnt/graphene/pv-10gi-1
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:42 UTC 2023) Deleted all data in PV pv-10gi-1 with path /mnt/graphene/pv-10gi-1
+persistentvolume "pv-10gi-1" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:42 UTC 2023) PV pv-10gi-1 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:42 UTC 2023) Deleting host folder /mnt/graphene/pv-10gi-1
+persistentvolume/pv-10gi-1 created
+NAME        CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-10gi-1   10Gi       RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:43 UTC 2023) Attempting to delete all data in PV pv-10gi-2 with path /mnt/graphene/pv-10gi-2
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:44 UTC 2023) Deleted all data in PV pv-10gi-2 with path /mnt/graphene/pv-10gi-2
+persistentvolume "pv-10gi-2" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:44 UTC 2023) PV pv-10gi-2 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:44 UTC 2023) Deleting host folder /mnt/graphene/pv-10gi-2
+persistentvolume/pv-10gi-2 created
+NAME        CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-10gi-2   10Gi       RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:45 UTC 2023) Attempting to delete all data in PV pv-10gi-3 with path /mnt/graphene/pv-10gi-3
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:46 UTC 2023) Deleted all data in PV pv-10gi-3 with path /mnt/graphene/pv-10gi-3
+persistentvolume "pv-10gi-3" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:46 UTC 2023) PV pv-10gi-3 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:46 UTC 2023) Deleting host folder /mnt/graphene/pv-10gi-3
+persistentvolume/pv-10gi-3 created
+NAME        CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-10gi-3   10Gi       RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:48 UTC 2023) Attempting to delete all data in PV pv-10gi-4 with path /mnt/graphene/pv-10gi-4
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:48 UTC 2023) Deleted all data in PV pv-10gi-4 with path /mnt/graphene/pv-10gi-4
+persistentvolume "pv-10gi-4" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:48 UTC 2023) PV pv-10gi-4 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:48 UTC 2023) Deleting host folder /mnt/graphene/pv-10gi-4
+persistentvolume/pv-10gi-4 created
+NAME        CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-10gi-4   10Gi       RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:50 UTC 2023) Attempting to delete all data in PV pv-10gi-5 with path /mnt/graphene/pv-10gi-5
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:50 UTC 2023) Deleted all data in PV pv-10gi-5 with path /mnt/graphene/pv-10gi-5
+persistentvolume "pv-10gi-5" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:50 UTC 2023) PV pv-10gi-5 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:50 UTC 2023) Deleting host folder /mnt/graphene/pv-10gi-5
+persistentvolume/pv-10gi-5 created
+NAME        CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-10gi-5   10Gi       RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:52 UTC 2023) Attempting to delete all data in PV pv-10gi-6 with path /mnt/graphene/pv-10gi-6
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:52 UTC 2023) Deleted all data in PV pv-10gi-6 with path /mnt/graphene/pv-10gi-6
+persistentvolume "pv-10gi-6" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:53 UTC 2023) PV pv-10gi-6 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:53 UTC 2023) Deleting host folder /mnt/graphene/pv-10gi-6
+persistentvolume/pv-10gi-6 created
+NAME        CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-10gi-6   10Gi       RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:54 UTC 2023) Attempting to delete all data in PV pv-10gi-7 with path /mnt/graphene/pv-10gi-7
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:54 UTC 2023) Deleted all data in PV pv-10gi-7 with path /mnt/graphene/pv-10gi-7
+persistentvolume "pv-10gi-7" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:55 UTC 2023) PV pv-10gi-7 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:55 UTC 2023) Deleting host folder /mnt/graphene/pv-10gi-7
+persistentvolume/pv-10gi-7 created
+NAME        CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-10gi-7   10Gi       RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:56 UTC 2023) Attempting to delete all data in PV pv-10gi-8 with path /mnt/graphene/pv-10gi-8
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:56 UTC 2023) Deleted all data in PV pv-10gi-8 with path /mnt/graphene/pv-10gi-8
+persistentvolume "pv-10gi-8" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:57 UTC 2023) PV pv-10gi-8 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:57 UTC 2023) Deleting host folder /mnt/graphene/pv-10gi-8
+persistentvolume/pv-10gi-8 created
+NAME        CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-10gi-8   10Gi       RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:45:58 UTC 2023) Attempting to delete all data in PV pv-10gi-9 with path /mnt/graphene/pv-10gi-9
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:45:59 UTC 2023) Deleted all data in PV pv-10gi-9 with path /mnt/graphene/pv-10gi-9
+persistentvolume "pv-10gi-9" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:45:59 UTC 2023) PV pv-10gi-9 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:45:59 UTC 2023) Deleting host folder /mnt/graphene/pv-10gi-9
+persistentvolume/pv-10gi-9 created
+NAME        CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-10gi-9   10Gi       RWO            Recycle          Available                                   0s
+
+setup_pv.sh clean_pv_data:252 (Thu Apr  6 06:46:00 UTC 2023) Attempting to delete all data in PV pv-10gi-10 with path /mnt/graphene/pv-10gi-10
+
+setup_pv.sh clean_pv_data:263 (Thu Apr  6 06:46:01 UTC 2023) Deleted all data in PV pv-10gi-10 with path /mnt/graphene/pv-10gi-10
+persistentvolume "pv-10gi-10" deleted
+
+setup_pv.sh clean:94 (Thu Apr  6 06:46:01 UTC 2023) PV pv-10gi-10 deleted
+
+setup_pv.sh clean:97 (Thu Apr  6 06:46:01 UTC 2023) Deleting host folder /mnt/graphene/pv-10gi-10
+persistentvolume/pv-10gi-10 created
+NAME         CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS      CLAIM   STORAGECLASS   REASON   AGE
+pv-10gi-10   10Gi       RWO            Recycle          Available                                   0s
+total 128
+drwxr-xr-x 32 ubuntu ubuntu 4096 Apr  6 06:46 .
+drwxrwxrwx  2 root   root   4096 Apr  6 06:46 pv-10gi-10
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-10gi-9
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-10gi-8
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-10gi-7
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-10gi-6
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-10gi-5
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-10gi-4
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-10gi-3
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-10gi-2
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-10gi-1
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-5gi-10
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-5gi-9
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-5gi-8
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-5gi-7
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-5gi-6
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-5gi-5
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-5gi-4
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-5gi-3
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-5gi-2
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-5gi-1
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-1gi-10
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-1gi-9
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-1gi-8
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-1gi-7
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-1gi-6
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-1gi-5
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-1gi-4
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-1gi-3
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-1gi-2
+drwxrwxrwx  2 root   root   4096 Apr  6 06:45 pv-1gi-1
+drwxr-xr-x  3 root   root   4096 Apr  3 14:41 ..
+
+setup_prereqs.sh update_env:564 (Thu Apr  6 06:46:02 UTC 2023) Updating /home/ubuntu/eclipse-graphene/AIO/graphene_env.sh with "export GRAPHENE_HOST=ubuntu-32gb-hel1-3"
+
+setup_prereqs.sh update_env:564 (Thu Apr  6 06:46:02 UTC 2023) Updating /home/ubuntu/eclipse-graphene/AIO/graphene_env.sh with "export GRAPHENE_HOST_IP=135.181.148.177"
+
+setup_prereqs.sh get_host_ip:753 (Thu Apr  6 06:46:02 UTC 2023) Determining host IP address for analyticstoolbox.bd4nrg.eu
+
+setup_prereqs.sh update_env:564 (Thu Apr  6 06:46:02 UTC 2023) Updating /home/ubuntu/eclipse-graphene/AIO/graphene_env.sh with "export GRAPHENE_DOMAIN_IP=135.181.148.177"
+
+setup_prereqs.sh setup_prereqs:58 (Thu Apr  6 06:46:02 UTC 2023) /etc/hosts customizations
+
+setup_prereqs.sh setup_prereqs:68 (Thu Apr  6 06:46:03 UTC 2023) /etc/hosts:
+# Your system has configured 'manage_etc_hosts' as True.
+# As a result, if you wish for changes to this file to persist
+# then you will need to either
+# a.) make changes to the master file in /etc/cloud/templates/hosts.debian.tmpl
+# b.) change or remove the value of 'manage_etc_hosts' in
+#     /etc/cloud/cloud.cfg or cloud-config from user-data
+#
+135.181.148.177 analyticstoolbox.bd4nrg.eu
+127.0.1.1 ubuntu-32gb-hel1-3 ubuntu-32gb-hel1-3
+#127.0.0.1 analyticstoolbox.bd4nrg.eu
+#135.181.148.177 analyticstoolbox.bd4nrg.eu
+#127.0.0.1 toolbox.bd4nrg.org
+#127.0.0.1 localhost
+
+# The following lines are desirable for IPv6 capable hosts
+::1 localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+
+setup_prereqs.sh setup_prereqs:71 (Thu Apr  6 06:46:03 UTC 2023) Basic prerequisites
+
+setup_prereqs.sh setup_prereqs:76 (Thu Apr  6 06:46:03 UTC 2023) Remove any prior reference to mariadb in /etc/apt/sources.list
+
+waiting for dpkg to be unlocked
+Hit:1 https://download.docker.com/linux/ubuntu focal InRelease
+Hit:2 https://mirror.hetzner.com/ubuntu/packages focal InRelease
+Hit:3 https://mirror.hetzner.com/ubuntu/packages focal-updates InRelease
+Hit:4 https://mirror.hetzner.com/ubuntu/packages focal-backports InRelease
+Hit:5 https://mirror.hetzner.com/ubuntu/security focal-security InRelease
+Get:6 https://packages.cloud.google.com/apt kubernetes-xenial InRelease [8993 B]
+Fetched 8993 B in 3s (3239 B/s)
+Reading package lists...
+
+waiting for dpkg to be unlocked
+Reading package lists...
+Building dependency tree...
+Reading state information...
+netcat is already the newest version (1.206-1ubuntu1).
+git is already the newest version (1:2.25.1-1ubuntu3.10).
+wget is already the newest version (1.20.3-1ubuntu2).
+jq is already the newest version (1.6-1ubuntu0.20.04.1).
+0 upgraded, 0 newly installed, 0 to remove and 21 not upgraded.
+
+setup_prereqs.sh setup_prereqs:96 (Thu Apr  6 06:50:51 UTC 2023) Setup Graphene data home at /mnt/graphene
+
+setup_prereqs.sh update_images:245 (Thu Apr  6 06:50:52 UTC 2023) Pre-pull Graphene core component images
+6.0.2: Pulling from graphene/portal-be
+Digest: sha256:ff57d11808746892b7169f0375ef8ab3d745fd996d85ed3dfe3ed530d49a598c
+Status: Image is up to date for cicd.ai4eu-dev.eu:7444/graphene/portal-be:6.0.2
+cicd.ai4eu-dev.eu:7444/graphene/portal-be:6.0.2
+6.0.2: Pulling from graphene/portal-fe
+Digest: sha256:c5d28628d8649d3f52ea325c7bb1b3aef999c1304c9bf37c3ca5d83e78c53e22
+Status: Image is up to date for cicd.ai4eu-dev.eu:7444/graphene/portal-fe:6.0.2
+cicd.ai4eu-dev.eu:7444/graphene/portal-fe:6.0.2
+3.2.0-ai4eu-v1: Pulling from ai4eu/common-dataservice
+Digest: sha256:1ac0308d5465ca01c2203d0ff75c7a6e1c2726d6f7ca213bb960f77b7ccb4143
+Status: Image is up to date for cicd.ai4eu-dev.eu:7444/ai4eu/common-dataservice:3.2.0-ai4eu-v1
+cicd.ai4eu-dev.eu:7444/ai4eu/common-dataservice:3.2.0-ai4eu-v1
+3.0.12-ai4eu: Pulling from ai4eu/ds-compositionengine
+Digest: sha256:3132cce568ec81490b27117bad9a66a9bb2b34b7be8ab1a84a60b35917416689
+Status: Image is up to date for cicd.ai4eu-dev.eu:7444/ai4eu/ds-compositionengine:3.0.12-ai4eu
+cicd.ai4eu-dev.eu:7444/ai4eu/ds-compositionengine:3.0.12-ai4eu
+3.2.3: Pulling from acumos/federation-gateway
+Digest: sha256:085d160ce62981c73a328082f9bf0f35d91c2ea03357f19ed6c0602fe217a876
+Status: Image is up to date for cicd.ai4eu-dev.eu:7444/acumos/federation-gateway:3.2.3
+cicd.ai4eu-dev.eu:7444/acumos/federation-gateway:3.2.3
+3.0.32-ai4eu: Pulling from acumos/kubernetes-client
+Digest: sha256:65199e00f238cc6c1597e8dee8c195c6b512a74c44371aabd0304bc81edcb112
+Status: Image is up to date for cicd.ai4eu-dev.eu:7444/acumos/kubernetes-client:3.0.32-ai4eu
+cicd.ai4eu-dev.eu:7444/acumos/kubernetes-client:3.0.32-ai4eu
+4.6.17-ai4eu: Pulling from ai4eu/onboarding-app
+Digest: sha256:ebc5ec121a09206b7802ef583e71947c2d0b9790d8dfa232e99c367ba44efddb
+Status: Image is up to date for cicd.ai4eu-dev.eu:7444/ai4eu/onboarding-app:4.6.17-ai4eu
+cicd.ai4eu-dev.eu:7444/ai4eu/onboarding-app:4.6.17-ai4eu
+3.15: Pulling from graphene/playground-deployer
+Digest: sha256:3d7a762db4501a83102935174dc2eabdbd7341e12b3a4bacee3da53f7ea37f84
+Status: Image is up to date for cicd.ai4eu-dev.eu:7444/graphene/playground-deployer:3.15
+cicd.ai4eu-dev.eu:7444/graphene/playground-deployer:3.15
+
+setup_prereqs.sh prepare_mariadb:266 (Thu Apr  6 06:50:57 UTC 2023) Stop any existing components for mariadb-service
+
+setup_mariadb.sh update_env:564 (Thu Apr  6 06:50:57 UTC 2023) Updating /home/ubuntu/eclipse-graphene/AIO/graphene_env.sh with "export AIO_ROOT=/home/ubuntu/eclipse-graphene/AIO"
+
+setup_mariadb.sh main:253 (Thu Apr  6 06:50:57 UTC 2023) Using prepared mariadb_env.sh for customized environment values
+export GRAPHENE_MARIADB_NAMESPACE=graphene-mariadb
+export GRAPHENE_MARIADB_DOMAIN=analyticstoolbox.bd4nrg.eu
+export GRAPHENE_MARIADB_HOST=graphene-mariadb-mariadb.graphene-mariadb.svc.cluster.local
+export GRAPHENE_MARIADB_HOST_IP=135.181.148.177
+export MARIADB_MIRROR=sfo1.mirrors.digitalocean.com
+export GRAPHENE_MARIADB_VERSION=10.2
+export GRAPHENE_MARIADB_ADMIN_HOST=135.181.148.177
+export GRAPHENE_MARIADB_ROOT_ACCESS=true
+export GRAPHENE_MARIADB_PASSWORD=626b8482-e339-4d53-9054-abf9bcd5339f
+export GRAPHENE_MARIADB_USER=graphene_opr
+export GRAPHENE_MARIADB_USER_PASSWORD=be04fd18-98f6-4a6c-b759-b458d9ba555a
+export GRAPHENE_MARIADB_DATA_PV_NAME=mariadb-data
+export GRAPHENE_MARIADB_DATA_PVC_NAME=mariadb-data
+export GRAPHENE_MARIADB_DATA_PV_SIZE=5Gi
+export GRAPHENE_MARIADB_DATA_PV_CLASSNAME=
+export GRAPHENE_MARIADB_PORT=3306
+export GRAPHENE_MARIADB_NODEPORT=
+export GRAPHENE_MARIADB_ADMINER_PORT=3080
+export GRAPHENE_MARIADB_RUNASUSER=
+
+setup_mariadb.sh mariadb_clean:81 (Thu Apr  6 06:50:57 UTC 2023) Delete all MariaDB resources
+
+setup_mariadb.sh wait_until_notfound:272 (Thu Apr  6 06:50:57 UTC 2023) Waiting until mariadb is missing from output of "kubectl get pods -n graphene-mariadb"
+
+setup_mariadb.sh update_env:564 (Thu Apr  6 06:50:58 UTC 2023) Updating /home/ubuntu/eclipse-graphene/AIO/graphene_env.sh with "export AIO_ROOT=/home/ubuntu/eclipse-graphene/AIO"
+
+setup_mariadb.sh main:253 (Thu Apr  6 06:50:58 UTC 2023) Using prepared mariadb_env.sh for customized environment values
+export GRAPHENE_MARIADB_NAMESPACE=graphene-mariadb
+export GRAPHENE_MARIADB_DOMAIN=analyticstoolbox.bd4nrg.eu
+export GRAPHENE_MARIADB_HOST=graphene-mariadb-mariadb.graphene-mariadb.svc.cluster.local
+export GRAPHENE_MARIADB_HOST_IP=135.181.148.177
+export MARIADB_MIRROR=sfo1.mirrors.digitalocean.com
+export GRAPHENE_MARIADB_VERSION=10.2
+export GRAPHENE_MARIADB_ADMIN_HOST=135.181.148.177
+export GRAPHENE_MARIADB_ROOT_ACCESS=true
+export GRAPHENE_MARIADB_PASSWORD=626b8482-e339-4d53-9054-abf9bcd5339f
+export GRAPHENE_MARIADB_USER=graphene_opr
+export GRAPHENE_MARIADB_USER_PASSWORD=be04fd18-98f6-4a6c-b759-b458d9ba555a
+export GRAPHENE_MARIADB_DATA_PV_NAME=mariadb-data
+export GRAPHENE_MARIADB_DATA_PVC_NAME=mariadb-data
+export GRAPHENE_MARIADB_DATA_PV_SIZE=5Gi
+export GRAPHENE_MARIADB_DATA_PV_CLASSNAME=
+export GRAPHENE_MARIADB_PORT=3306
+export GRAPHENE_MARIADB_NODEPORT=
+export GRAPHENE_MARIADB_ADMINER_PORT=3080
+export GRAPHENE_MARIADB_RUNASUSER=
+
+setup_mariadb_client.sh setup_mariadb_client:47 (Thu Apr  6 06:50:58 UTC 2023) Installing MariaDB client 10.2
+
+setup_mariadb_client.sh setup_mariadb_client:48 (Thu Apr  6 06:50:58 UTC 2023) Remove any prior reference to mariadb in /etc/apt/sources.list
+Reading package lists...
+Building dependency tree...
+Reading state information...
+software-properties-common is already the newest version (0.99.9.11).
+0 upgraded, 0 newly installed, 0 to remove and 21 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+mariadb-client is already the newest version (1:10.3.38-0ubuntu0.20.04.1).
+0 upgraded, 0 newly installed, 0 to remove and 21 not upgraded.
+
+setup_mariadb.sh create_namespace:90 (Thu Apr  6 06:51:05 UTC 2023) Creating namespace graphene-mariadb
+namespace/graphene-mariadb created
+NAME               STATUS   AGE
+graphene-mariadb   Active   0s
+
+setup_mariadb_client.sh setup_mariadb_client:47 (Thu Apr  6 06:51:05 UTC 2023) Installing MariaDB client 10.2
+
+setup_mariadb_client.sh setup_mariadb_client:48 (Thu Apr  6 06:51:05 UTC 2023) Remove any prior reference to mariadb in /etc/apt/sources.list
+Reading package lists...
+Building dependency tree...
+Reading state information...
+software-properties-common is already the newest version (0.99.9.11).
+0 upgraded, 0 newly installed, 0 to remove and 21 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+mariadb-client is already the newest version (1:10.3.38-0ubuntu0.20.04.1).
+0 upgraded, 0 newly installed, 0 to remove and 21 not upgraded.
+
+setup_prereqs.sh create_namespace:90 (Thu Apr  6 06:51:12 UTC 2023) Creating namespace graphene
+namespace/graphene created
+NAME       STATUS   AGE
+graphene   Active   0s
+
+setup_nexus.sh main:164 (Thu Apr  6 06:51:12 UTC 2023) Using prepared nexus_env.sh for customized environment values
+export GRAPHENE_NEXUS_NAMESPACE=graphene-nexus
+export GRAPHENE_NEXUS_DOMAIN=analyticstoolbox.bd4nrg.eu
+export GRAPHENE_NEXUS_HOST=analyticstoolbox.bd4nrg.eu
+export GRAPHENE_DOCKER_REGISTRY_HOST=analyticstoolbox.bd4nrg.eu
+export GRAPHENE_NEXUS_ADMIN_PASSWORD=admin123
+export GRAPHENE_NEXUS_ADMIN_USERNAME=admin
+export GRAPHENE_NEXUS_API_PORT=8081
+export GRAPHENE_NEXUS_GROUP=org.graphene
+export GRAPHENE_NEXUS_RO_USER=graphene_ro
+export GRAPHENE_NEXUS_RO_USER_PASSWORD=
+export GRAPHENE_NEXUS_RW_USER=graphene_rw
+export GRAPHENE_NEXUS_RW_USER_PASSWORD=
+export GRAPHENE_DOCKER_REGISTRY_USER=graphene_rw
+export GRAPHENE_DOCKER_REGISTRY_PASSWORD=
+export GRAPHENE_NEXUS_MAVEN_REPO_PATH=repository
+export GRAPHENE_NEXUS_MAVEN_REPO=graphene_model_maven
+export GRAPHENE_NEXUS_DOCKER_REPO=docker_model_maven
+export GRAPHENE_DOCKER_MODEL_PORT=8082
+export GRAPHENE_DOCKER_IMAGETAG_PREFIX=
+export GRAPHENE_NEXUS_DATA_PVC_NAME=nexus-data
+export GRAPHENE_NEXUS_DATA_PV_NAME=nexus-data
+export GRAPHENE_NEXUS_DATA_PV_SIZE=10Gi
+export GRAPHENE_NEXUS_DATA_PV_CLASSNAME=
+
+setup_nexus.sh nexus_clean:65 (Thu Apr  6 06:51:13 UTC 2023) Stop any existing k8s based components for nexus-service
+
+setup_nexus.sh stop_service:469 (Thu Apr  6 06:51:13 UTC 2023) Service not found for nexus
+
+setup_nexus.sh stop_deployment:493 (Thu Apr  6 06:51:13 UTC 2023) Deployment not found for nexus
+
+setup_nexus.sh nexus_clean:73 (Thu Apr  6 06:51:13 UTC 2023) Remove PVC for nexus-service
+
+setup_nexus.sh main:164 (Thu Apr  6 06:51:13 UTC 2023) Using prepared nexus_env.sh for customized environment values
+export GRAPHENE_NEXUS_NAMESPACE=graphene-nexus
+export GRAPHENE_NEXUS_DOMAIN=analyticstoolbox.bd4nrg.eu
+export GRAPHENE_NEXUS_HOST=analyticstoolbox.bd4nrg.eu
+export GRAPHENE_DOCKER_REGISTRY_HOST=analyticstoolbox.bd4nrg.eu
+export GRAPHENE_NEXUS_ADMIN_PASSWORD=admin123
+export GRAPHENE_NEXUS_ADMIN_USERNAME=admin
+export GRAPHENE_NEXUS_API_PORT=8081
+export GRAPHENE_NEXUS_GROUP=org.graphene
+export GRAPHENE_NEXUS_RO_USER=graphene_ro
+export GRAPHENE_NEXUS_RO_USER_PASSWORD=
+export GRAPHENE_NEXUS_RW_USER=graphene_rw
+export GRAPHENE_NEXUS_RW_USER_PASSWORD=
+export GRAPHENE_DOCKER_REGISTRY_USER=graphene_rw
+export GRAPHENE_DOCKER_REGISTRY_PASSWORD=
+export GRAPHENE_NEXUS_MAVEN_REPO_PATH=repository
+export GRAPHENE_NEXUS_MAVEN_REPO=graphene_model_maven
+export GRAPHENE_NEXUS_DOCKER_REPO=docker_model_maven
+export GRAPHENE_DOCKER_MODEL_PORT=8082
+export GRAPHENE_DOCKER_IMAGETAG_PREFIX=
+export GRAPHENE_NEXUS_DATA_PVC_NAME=nexus-data
+export GRAPHENE_NEXUS_DATA_PV_NAME=nexus-data
+export GRAPHENE_NEXUS_DATA_PV_SIZE=10Gi
+export GRAPHENE_NEXUS_DATA_PV_CLASSNAME=
+
+setup_nexus.sh create_namespace:90 (Thu Apr  6 06:51:14 UTC 2023) Creating namespace graphene-nexus
+namespace/graphene-nexus created
+NAME             STATUS   AGE
+graphene-nexus   Active   0s
+
+setup_prereqs.sh main:465 (Thu Apr  6 06:51:14 UTC 2023) Add ubuntu to the docker group
+
+setup_prereqs.sh fail:42 (Thu Apr  6 06:51:14 UTC 2023) unknown failure at main 474
